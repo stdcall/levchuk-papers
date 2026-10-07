@@ -109,8 +109,8 @@ requirement and constructs the sought set $Phi$.#ed-note[The interpolation step
   clearing denominators. The scalar roots chosen in
   Algorithm~@rem:l2008-monic-algorithm-one need not preserve this dependence in
   subsequent residual families. The argument given here does not justify that
-  additional requirement; the general termination assertion below is retained as
-  the authors’ assertion.]
+  additional requirement and therefore does not establish the general
+  termination assertion below.]
 
 #algorithm[
 

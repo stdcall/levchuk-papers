@@ -1,10 +1,14 @@
 import LevchukPapers.L1976.AdjointAdditive
 import LevchukPapers.L1990Small.Algebra
+import LevchukPapers.L1990Small.Automorphisms
+import LevchukPapers.L1990Small.F4Diagram
 import LevchukPapers.L1990Chevalley.Algebra
+import LevchukPapers.L1990Chevalley.Automorphisms
 import LevchukPapers.L1990Chevalley.RootCommutator
 import LevchukPapers.L1974.Adjoint
 import LevchukPapers.L1982.NormalBasis
 import LevchukPapers.L1983.Algebra
+import LevchukPapers.L1983.RankThree
 import LevchukPapers.L1987.Local
 import LevchukPapers.L2018.Annihilator
 import LevchukPapers.L2012.Local

@@ -15,7 +15,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Gorchakov1970FreeApproximationRu.
+  Оригинал: @bib:pub-Gorchakov1970FreeApproximationRu.
 ] <bib:pub-Gorchakov1970FreeApproximationEn>
 
 #bib-item[
@@ -37,7 +37,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1972SuzukiRu.
+  Оригинал: @bib:pub-Levchuk1972SuzukiRu.
 ] <bib:pub-Levchuk1972SuzukiEn>
 
 #bib-item[
@@ -69,7 +69,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1974UnitriangularSubgroupsRu.
+  Оригинал: @bib:pub-Levchuk1974UnitriangularSubgroupsRu.
 ] <bib:pub-Levchuk1974UnitriangularSubgroupsEn>
 
 #bib-item[
@@ -92,7 +92,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1975NilpotentAutomorphismsRu.
+  Оригинал: @bib:pub-Levchuk1975NilpotentAutomorphismsRu.
 ] <bib:pub-Levchuk1975NilpotentAutomorphismsEn>
 
 #bib-item[
@@ -114,7 +114,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1976UnitriangularIRu.
+  Оригинал: @bib:pub-Levchuk1976UnitriangularIRu.
 ] <bib:pub-Levchuk1976UnitriangularIEn>
 
 #bib-item[
@@ -136,7 +136,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1982ABAParabolicRu.
+  Оригинал: @bib:pub-Levchuk1982ABAParabolicRu.
 ] <bib:pub-Levchuk1982ABAParabolicEn>
 
 #bib-item[
@@ -159,7 +159,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1983DicksonRu.
+  Оригинал: @bib:pub-Levchuk1983DicksonRu.
 ] <bib:pub-Levchuk1983DicksonEn>
 
 #bib-item[
@@ -181,7 +181,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1983RootGeneratorsRu.
+  Оригинал: @bib:pub-Levchuk1983RootGeneratorsRu.
 ] <bib:pub-Levchuk1983RootGeneratorsEn>
 
 #bib-item[
@@ -203,7 +203,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1983UnitriangularIIRu.
+  Оригинал: @bib:pub-Levchuk1983UnitriangularIIRu.
 ] <bib:pub-Levchuk1983UnitriangularIIEn>
 
 #bib-item[
@@ -225,7 +225,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1985ReeGroupsRu.
+  Оригинал: @bib:pub-Levchuk1985ReeGroupsRu.
 ] <bib:pub-Levchuk1985ReeGroupsEn>
 
 #bib-item[
@@ -247,7 +247,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1987LocallyNilpotentRu.
+  Оригинал: @bib:pub-Levchuk1987LocallyNilpotentRu.
 ] <bib:pub-Levchuk1987LocallyNilpotentEn>
 
 #bib-item[
@@ -281,7 +281,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1990ChevalleyAutomorphismsRu.
+  Оригинал: @bib:pub-Levchuk1990ChevalleyAutomorphismsRu.
 ] <bib:pub-Levchuk1990ChevalleyAutomorphismsEn>
 
 #bib-item[
@@ -314,7 +314,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1990SmallRankAutomorphismsRu.
+  Оригинал: @bib:pub-Levchuk1990SmallRankAutomorphismsRu.
 ] <bib:pub-Levchuk1990SmallRankAutomorphismsEn>
 
 #bib-item[
@@ -347,7 +347,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1990CentralSeriesRu.
+  Оригинал: @bib:pub-Levchuk1990CentralSeriesRu.
 ] <bib:pub-Levchuk1991CentralSeriesEn>
 
 #bib-item[
@@ -358,7 +358,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk1992CommutatorStructureRu.
+  Оригинал: @bib:pub-Levchuk1992CommutatorStructureRu.
 ] <bib:pub-Levchuk1992CommutatorStructureEn>
 
 #bib-item[
@@ -380,7 +380,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Egorychev1993EnumerativeProblemsRu.
+  Оригинал: @bib:pub-Egorychev1993EnumerativeProblemsRu.
 ] <bib:pub-Egorychev1993EnumerativeProblemsEn>
 
 #bib-item[
@@ -412,7 +412,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Kolesnikov1999CongruenceSubgroupsRu.
+  Оригинал: @bib:pub-Kolesnikov1999CongruenceSubgroupsRu.
 ] <bib:pub-Kolesnikov1999CongruenceSubgroupsEn>
 
 #bib-item[
@@ -485,7 +485,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2002HypercentralSeriesRu.
+  Оригинал: @bib:pub-Levchuk2002HypercentralSeriesRu.
 ] <bib:pub-Levchuk2002HypercentralSeriesEn>
 
 #bib-item[
@@ -507,7 +507,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2002RadicalAdjointRu.
+  Оригинал: @bib:pub-Levchuk2002RadicalAdjointRu.
 ] <bib:pub-Levchuk2002RadicalAdjointEn>
 
 #bib-item[
@@ -530,7 +530,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Voitenko2002ZenkovHypothesisRu.
+  Оригинал: @bib:pub-Voitenko2002ZenkovHypothesisRu.
 ] <bib:pub-Voitenko2002ZenkovHypothesisEn>
 
 #bib-item[
@@ -552,7 +552,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2003WeakFactorizationRu.
+  Оригинал: @bib:pub-Levchuk2003WeakFactorizationRu.
 ] <bib:pub-Levchuk2003WeakFactorizationEn>
 
 #bib-item[
@@ -574,7 +574,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Zyubin2003ConjugateDensityRu.
+  Оригинал: @bib:pub-Zyubin2003ConjugateDensityRu.
 ] <bib:pub-Zyubin2003ConjugateDensityEn>
 
 #bib-item[
@@ -616,7 +616,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2006ComplementedMaximalRu.
+  Оригинал: @bib:pub-Levchuk2006ComplementedMaximalRu.
 ] <bib:pub-Levchuk2006ComplementedMaximalEn>
 
 #bib-item[
@@ -638,7 +638,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2006ProjectiveQuadraticFormsRu.
+  Оригинал: @bib:pub-Levchuk2006ProjectiveQuadraticFormsRu.
 ] <bib:pub-Levchuk2006ProjectiveQuadraticFormsEn>
 
 #bib-item[
@@ -660,7 +660,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Zenkov2007SylowNormalizersRu.
+  Оригинал: @bib:pub-Zenkov2007SylowNormalizersRu.
 ] <bib:pub-Kondratev2007SylowNormalizersEn>
 
 #bib-item[
@@ -715,7 +715,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2007NormalQuadraticFormsRu.
+  Оригинал: @bib:pub-Levchuk2007NormalQuadraticFormsRu.
 ] <bib:pub-Levchuk2008NormalQuadraticFormsEn>
 
 #bib-item[
@@ -726,7 +726,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2008UnipotentNormalStructureRu.
+  Оригинал: @bib:pub-Levchuk2008UnipotentNormalStructureRu.
 ] <bib:pub-Levchuk2008UnipotentNormalStructureEn>
 
 #bib-item[
@@ -758,7 +758,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2009ElementaryEquivalenceRu.
+  Оригинал: @bib:pub-Levchuk2009ElementaryEquivalenceRu.
 ] <bib:pub-Levchuk2009ElementaryEquivalenceEn>
 
 #bib-item[
@@ -780,7 +780,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2009FinitaryChevalleyRu.
+  Оригинал: @bib:pub-Levchuk2009FinitaryChevalleyRu.
 ] <bib:pub-Levchuk2009FinitaryChevalleyEn>
 
 #bib-item[
@@ -822,7 +822,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2008ModelTheoryRu.
+  Оригинал: @bib:pub-Levchuk2008ModelTheoryRu.
 ] <bib:pub-Levchuk2010ModelTheoryEn>
 
 #bib-item[
@@ -866,7 +866,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2012NormalStructureExtremalRu.
+  Оригинал: @bib:pub-Levchuk2012NormalStructureExtremalRu.
 ] <bib:pub-Levchuk2012NormalStructureExtremalEn>
 
 #bib-item[
@@ -932,7 +932,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Gupta2013TameWildRu.
+  Оригинал: @bib:pub-Gupta2013TameWildRu.
 ] <bib:pub-Gupta2015TameWildEn>
 
 #bib-item[
@@ -1025,7 +1025,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Levchuk2018NiltriangularEnvelopingRu.
+  Оригинал: @bib:pub-Levchuk2018NiltriangularEnvelopingRu.
 ] <bib:pub-Levchuk2018NiltriangularEnvelopingEn>
 
 #bib-item[
@@ -1100,7 +1100,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Zotov2022NonfinitaryAlgebrasRu.
+  Оригинал: @bib:pub-Zotov2022NonfinitaryAlgebrasRu.
 ] <bib:pub-Zotov2022NonfinitaryAlgebrasEn>
 
 #bib-item[
@@ -1122,7 +1122,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Русский оригинал: @bib:pub-Egorychev2023EnvelopingIdealsRu.
+  Оригинал: @bib:pub-Egorychev2023EnvelopingIdealsRu.
 ] <bib:pub-Egorychev2023EnvelopingIdealsEn>
 
 #bib-item[

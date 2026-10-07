@@ -114,8 +114,7 @@ $(u, v) != (n, 1)$, $u != v$. Доказанная лемма показывае
   кольца $K$, то $H supset P_(1 n) lr((J^2 T))$.
   #ed-note[В оригинале указана только нильпотентность $J$. Этого недостаточно:
     при $K = ZZ/(8 ZZ)$, $J = 2K$ нормальное замыкание $e_(2 1)$ имеет
-    $(2, 1)$-проекцию $T = K$, но не содержит $4e_(1 2)$. Добавлено условие
-    $2I = I$ и уточнена индукция доказательства.]
+    $(2, 1)$-проекцию $T = K$, но не содержит $4e_(1 2)$.]
 ] <lem:l2002-radical-normal-jjt>
 
 #proof[
@@ -430,9 +429,8 @@ $T = H_(n 1)$ при $Lc(H) != {(n, 1)}$ — идеал кольца $K$. Иск
 
   #source(17, printed: 435)Обозначим через $H_0$ подгруппу присоединенной
   группы, порожденную множествами из $H$, перечисленными в леммах
-  @lem:l2002-radical-normal-jjt,
-  @lem:l2002-radical-normal-primary-basic–@lem:l2002-radical-normal-diagonal-subgroup.
-  Тогда утверждение (б) следует из соотношений
-  @eq:l2002-radical-offdiagonal-commutator и включения $H supset H_0$. Лемма
-  доказана.
+  @lem:l2002-radical-normal-jjt, @lem:l2002-radical-normal-primary-basic –
+  @lem:l2002-radical-normal-diagonal-subgroup. Тогда утверждение (б) следует из
+  соотношений @eq:l2002-radical-offdiagonal-commutator и включения
+  $H supset H_0$. Лемма доказана.
 ]
