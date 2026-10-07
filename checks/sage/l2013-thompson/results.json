@@ -1,0 +1,53 @@
+{
+  "sage_version": "SageMath version 10.9, Release Date: 2026-05-04",
+  "fields": [
+    {
+      "q": 2,
+      "order": 8,
+      "fixed": 2,
+      "trace_kernel": 4,
+      "plus_kernel": 2,
+      "trace_bilinear_basis_triples": 27
+    },
+    {
+      "q": 3,
+      "order": 27,
+      "fixed": 3,
+      "trace_kernel": 9,
+      "plus_kernel": 1,
+      "trace_bilinear_basis_triples": 27
+    },
+    {
+      "q": 4,
+      "order": 64,
+      "fixed": 4,
+      "trace_kernel": 16,
+      "plus_kernel": 4,
+      "trace_bilinear_basis_triples": 216
+    },
+    {
+      "q": 5,
+      "order": 125,
+      "fixed": 5,
+      "trace_kernel": 25,
+      "plus_kernel": 1,
+      "trace_bilinear_basis_triples": 27
+    },
+    {
+      "q": 7,
+      "order": 343,
+      "fixed": 7,
+      "trace_kernel": 49,
+      "plus_kernel": 1,
+      "trace_bilinear_basis_triples": 27
+    },
+    {
+      "q": 8,
+      "order": 512,
+      "fixed": 8,
+      "trace_kernel": 64,
+      "plus_kernel": 8,
+      "trace_bilinear_basis_triples": 729
+    }
+  ]
+}

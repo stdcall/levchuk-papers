@@ -1,0 +1,102 @@
+[
+  {
+    "id": "l1974",
+    "publication": "Levchuk1974UnitriangularSubgroupsRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l1976",
+    "publication": "Levchuk1976UnitriangularIRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l1983",
+    "publication": "Levchuk1983UnitriangularIIRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l1987-rings",
+    "publication": "Levchuk1987LocallyNilpotentRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l2002-radical",
+    "publication": "Levchuk2002RadicalAdjointRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l2008-monic",
+    "publication": "Gupta2008MonicAutomorphismsEn",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l2011-local",
+    "publication": "Elisova2011LocalAutomorphismsRu",
+    "theme": "unitriangular-rings"
+  },
+  {
+    "id": "l1982-parabolic",
+    "publication": "Levchuk1982ABAParabolicRu",
+    "theme": "chevalley-automorphisms"
+  },
+  {
+    "id": "l1990-small",
+    "publication": "Levchuk1990SmallRankAutomorphismsRu",
+    "theme": "chevalley-automorphisms"
+  },
+  {
+    "id": "l1990-chevalley",
+    "publication": "Levchuk1990ChevalleyAutomorphismsRu",
+    "theme": "chevalley-automorphisms"
+  },
+  {
+    "id": "l2012-extremal-en",
+    "publication": "Levchuk2012ExtremalAbelianEn",
+    "theme": "abelian-unipotent"
+  },
+  {
+    "id": "l2012-extremal",
+    "publication": "Levchuk2012NormalStructureExtremalRu",
+    "theme": "abelian-unipotent"
+  },
+  {
+    "id": "l2013-thompson",
+    "publication": "Levchuk2013ThompsonSubgroupsEn",
+    "theme": "abelian-unipotent"
+  },
+  {
+    "id": "l2001-enumeration",
+    "publication": "Egorychev2001ChevalleyEnumerationEn",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2013-ideals",
+    "publication": "Egorychev2013NilpotentIdealEnumerationEn",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2015-exceptional",
+    "publication": "Krivokolesko2015ExceptionalIdealsRu",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2015-niltriangular",
+    "publication": "Levchuk2015NiltriangularGeneralizationsRu",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2018-enveloping",
+    "publication": "Levchuk2018NiltriangularEnvelopingRu",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2019-nonfinitary",
+    "publication": "Bekker2019NonfinitaryGeneralizationsRu",
+    "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2022-graph",
+    "publication": "Levchuk2022GraphCentralizersEn",
+    "theme": "niltriangular-ideals"
+  }
+]

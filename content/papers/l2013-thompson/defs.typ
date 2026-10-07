@@ -1,0 +1,12 @@
+#import "../../statements.typ" as common
+#let theorem(body) = common.theorem-like("Theorem", "th", none, true, body)
+#let lemma(body) = common.theorem-like("Lemma", "lem", none, true, body)
+#let corollary(body) = common.theorem-like("Corollary", "cor", none, true, body)
+#let remark(body) = common.theorem-like("Remark", "rem", none, true, body)
+#let proof(body) = common.proof(body, head: [Proof.], qed: true)
+#let Ac = math.cal("A")
+#let Lc = math.cal("L")
+#let ht = math.op("ht")
+#let End = math.op("End")
+#let C = math.op("C")
+#let varsigma = math.italic("ς")

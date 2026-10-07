@@ -1,0 +1,286 @@
+[
+  {
+    "file": "checks/lean/LevchukPapers/L1976/AdjointAdditive.lean",
+    "declarations": [
+      "Levchuk1976.adjoint_subtraction_identity",
+      "Levchuk1976.adjoint_subgroup_sub_closed"
+    ],
+    "book": "Доказательство теоремы1, аддитивность максимальной абелевой нормальной подгруппы.",
+    "limitations": "Проверен ограниченный шаг для ассоциативного кольца без единицы: присоединённая подгруппа, содержащая аннулятор и имеющая произведения в аннуляторе, замкнута по вычитанию. Нормальность, лемма4 и теорема1 целиком здесь не формализованы.",
+    "passages": [
+      "pass:l1976-adjoint-additive-closure"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Small/Algebra.lean",
+    "declarations": [
+      "Levchuk1990SmallRanks.annihilatorSixSplit",
+      "Levchuk1990SmallRanks.idempotentSplit"
+    ],
+    "book": "Лемма1, разложение аннулятора6; §1, компоненты идемпотентно-графового преобразования.",
+    "limitations": "Коммутативное кольцо с единицей, произвольная характеристика и делители нуля. Доказаны элементное равенство аннуляторов6,2,3 и ортогональное разложение по идемпотенту. Корневые группы, сохранение соотношений Шевалле и классификация автоморфизмов не формализованы.",
+    "passages": [
+      "lem:l1990-small-g2-central-series",
+      "sec:l1990-small-standard-automorphisms"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Chevalley/Algebra.lean",
+    "declarations": [
+      "Levchuk1990Chevalley.quadraticAnnihilator",
+      "Levchuk1990Chevalley.cubicDeviationAdditive"
+    ],
+    "book": "§§1, 3: аннулятор квадратичных разностей и аддитивность кубического параметра.",
+    "limitations": "Коммутативное кольцо с единицей; произвольная характеристика и делители нуля разрешены. Проверены два элементных тождества. Сохранение соотношений корневых подгрупп и классификация автоморфизмов не формализованы.",
+    "passages": [
+      "eq:l1990-chevalley-symplectic-cd-automorphism",
+      "eq:l1990-chevalley-c-root-hypercentral"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Chevalley/RootCommutator.lean",
+    "declarations": [
+      "Levchuk1990Chevalley.rootCommutatorSpan_mem_iff"
+    ],
+    "book": "Лемма 7: координатное описание коммутаторной подгруппы K(1,1)+𝒥₂(1,0).",
+    "limitations": "Произвольное коммутативное кольцо с единицей. Формализовано равенство R-подмодулей, порождённых парами (t,t²). Соответствие матричным корневым коммутаторам проверяется отдельно; весь нижний центральный ряд и классификация не формализованы.",
+    "passages": [
+      "lem:l1990-chevalley-symplectic-central-series"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1974/Adjoint.lean",
+    "declarations": [
+      "LevchukPapers1974.adjoint_assoc",
+      "LevchukPapers1974.mul_mem_of_adjoint_closed"
+    ],
+    "book": "Следствие 4.1 и присоединенное умножение: два ограниченных кольцевых шага.",
+    "limitations": "Произвольное ассоциативное кольцо без единицы. Проверены ассоциативность a∘b=a+b+ab и замкнутость аддитивной подгруппы по умножению при замкнутости по ∘. Классификация нормальных подгрупп и целая теорема 4 не формализованы.",
+    "passages": [
+      "cor:l1974-normal-subrings"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1982/NormalBasis.lean",
+    "declarations": [
+      "LevchukPapers1982.mapped_three_factor_commutator",
+      "LevchukPapers1982.commutator_product",
+      "LevchukPapers1982.quotient_fixed_tail"
+    ],
+    "book": "Теорема 1, три ограниченных групповых тождества в доказательстве.",
+    "limitations": "Произвольные группы и гомоморфизмы. Проверены раскрытие трёхфакторного коммутатора, тождество для коммутатора произведения и исчезновение фиксированного хвоста после отображения в фактор-группу. Теорема о нормальном базисе и абнормальность не формализованы.",
+    "passages": [
+      "th:l1982-parabolic-normal-basis-decomposition"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1983/Algebra.lean",
+    "declarations": [
+      "LevchukPapers1983.central_of_equal_principal_sides",
+      "LevchukPapers1983.additive_adjoint_map_preserves_product"
+    ],
+    "book": "Леммы 4 и 10: центральность идемпотента и сохранение обычного произведения.",
+    "limitations": "Первый шаг доказан для кольца с единицей, второй — для кольца без единицы. Проверены центральность идемпотента при eR=Re и сохранение умножения аддитивным отображением, сохраняющим a∘b=a+b+ab. Классификация автоморфизмов и целиком леммы 4, 10 не формализованы.",
+    "passages": [
+      "lem:l1983-peirce-decomposition",
+      "lem:l1983-preserved-rectangles"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1987/Local.lean",
+    "declarations": [
+      "LevchukPapers1987.double_lie",
+      "LevchukPapers1987.mul_preserved"
+    ],
+    "book": "Теорема 1 и § 4: двойная скобка Ли и сохранение обычного произведения.",
+    "limitations": "Ассоциативные кольца без единицы. Доказана двойная скобка при явных треугольных нулевых произведениях uβv=0, vβu=0, vu=0 и мультипликативность аддитивного отображения, сохраняющего a∘b=a+b+ab. Теоремы о классификации и произвольных бесконечных цепях не формализованы.",
+    "passages": [
+      "th:l1987-rings-normal-lie",
+      "sec:l1987-rings-automorphism-types"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2018/Annihilator.lean",
+    "declarations": [
+      "LevchukPapers2018.annihilator_perturbation_preserves_product",
+      "LevchukPapers2018.annihilator_perturbation_inverse"
+    ],
+    "book": "Лемма3 авторского варианта2018: аннуляторное возмущение.",
+    "limitations": "Произвольное кольцо без единицы и без требования ассоциативности. Проверены мультипликативность при образе ζ в двустороннем аннуляторе и ζ(xy)=0 и обратимость при ζ²=0. Структура корневых алгебр и классификация автоморфизмов не формализованы.",
+    "passages": [
+      "lem:l2018-enveloping-annihilator-automorphisms"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2012/Local.lean",
+    "declarations": [
+      "LevchukPapers2012.root_pair_coordinate",
+      "LevchukPapers2012.relative_maximum_iff_global"
+    ],
+    "book": "Формула2 и лемма4.3: два ограниченных координатных и логических шага.",
+    "limitations": "Проверены эквивалентность p=ρ−r−r′ и r+r′+p=ρ в аддитивной группе и совпадение относительного и глобального максимума при явно заданном нормальном свидетеле глобальной границы. Существование такого свидетеля и классификация групп не формализованы.",
+    "passages": [
+      "eq:l2012-extremal-beta-subgroup",
+      "lem:l2012-extremal-normal-large-order"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2002/Radical.lean",
+    "declarations": [
+      "LevchukPapers2002Radical.adjoint_associative",
+      "LevchukPapers2002Radical.two_divisions_coefficient"
+    ],
+    "book": "§3: присоединенное произведение; доказательство леммы3.1, скалярное извлечение F из t(2+t).",
+    "limitations": "Доказана ассоциативность присоединенного произведения в Ring и тождество u*s*(2+s)=z в CommRing под явными гипотезами z=2s, s=2r, u*(1+r)=1. Существование обратного и делений, полная лемма3.1 и классификация нормальных подгрупп не формализованы.",
+    "passages": [
+      "sec:l2002-radical-normal-subgroups",
+      "lem:l2002-radical-normal-elementary-closure"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2022/FixedSubalgebra.lean",
+    "declarations": [
+      "LevchukPapers2022.fixed_elements_closed_add",
+      "LevchukPapers2022.fixed_elements_closed_bracket",
+      "LevchukPapers2022.fixed_elements_closed_scalar"
+    ],
+    "book": "§2: замкнутость неподвижных элементов графового автоморфизма.",
+    "limitations": "Проверены замкнутость относительно сложения, скобки и умножения на скаляр при явно заданном сохранении этих операций отображением. Классификация центральзаторов, изоморфизмы и точные обёртывающие алгебры не формализованы.",
+    "passages": [
+      "sec:l2022-graph-centralizers"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2012/FirstCorners.lean",
+    "declarations": [
+      "LevchukPapers2012English.restricted_coordinates_injective"
+    ],
+    "book": "Лемма6.2: инъективность проекции на первые углы.",
+    "limitations": "Доказан ограниченный шаг для UT(3,K) над произвольным кольцом при явно заданной замкнутости относительно координатной формулы h⁻¹g. Общая классификация групп лиева типа не формализована.",
+    "passages": [
+      "lem:l2012-extremal-en-first-corner-order"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2001/Enumeration.lean",
+    "declarations": [
+      "LevchukPapers2001Enumeration.combined_numerator",
+      "LevchukPapers2001Enumeration.corrected_branch_numerator"
+    ],
+    "book": "§4.2, (29)–(30): P_n+xQ_n=R_n; §4.1, Lemma5: corrected square-root numerator after z=x/[2(1+x)^2].",
+    "limitations": "Polynomial identities only. CommRing R; the branch calculation explicitly assumes 2*z*(1+x)^2=x and y*(1+x)=1-x and proves a cleared identity. Existence, analytic convergence, division/cancellation and classification of ideals are not formalized.",
+    "passages": [
+      "eq:l2001-enumeration-combined-integral",
+      "eq:l2001-enumeration-polynomial-r",
+      "lem:l2001-enumeration-c-recurrence"
+    ]
+  },
+  {
+    "declarations": [
+      "LevchukPapers2015Exceptional.coordinate_full_iff",
+      "LevchukPapers2015Exceptional.last_coordinate_is_required",
+      "LevchukPapers2015Exceptional.coordinate_full_has_nonzero_vector"
+    ],
+    "book": "Определение 2: координатная полнота собственного подпространства.",
+    "limitations": "Доказаны три шага для подмножества пространства координат над типом с нулём. Перечисление подпространств, формулы числа идеалов и классификация не формализованы.",
+    "passages": [
+      "def:l2015-exceptional-proper"
+    ],
+    "file": "checks/lean/LevchukPapers/L2015/CoordinateFullness.lean"
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2013/CoupledIdeal.lean",
+    "declarations": [
+      "LevchukPapers2013.radical_mul_coupled",
+      "LevchukPapers2013.coupled_mul_radical",
+      "LevchukPapers2013.coupled_add"
+    ],
+    "book": "Контрпример к исходному утверждению Theorem1.1: связанные диагональные коэффициенты квадратично нильпотентного идеала.",
+    "limitations": "Коммутативное кольцо с единицей и ε²=0. Формально доказаны два произведения и сложение H={εaI₂+εbe₂₁}. Не формализованы D-инвариантность, конечный перебор, лестничная классификация и основная теорема.",
+    "passages": [
+      "th:l2013-ideals-diagonal-invariant-description"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2015/NiltriangularGraph.lean",
+    "declarations": [
+      "LevchukPapers2015Niltriangular.graph_has_trivial_vertical_kernel",
+      "LevchukPapers2015Niltriangular.graph_maps_are_distinct",
+      "LevchukPapers2015Niltriangular.quotient_kernel_mem_iff"
+    ],
+    "book": "Теорема 4.8: три линейно-алгебраических шага конструкции центрального факторпространства.",
+    "limitations": "Поле K и линейные пространства S, W. Доказаны тривиальность вертикального ядра графика, различимость линейных отображений по графикам и описание ядра отображения в W/N. Замкнутость по скобкам Ли, перечисление идеалов и классификация не формализованы.",
+    "passages": [
+      "th:l2015-niltriangular-lie-enumeration"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2008/Monic.lean",
+    "declarations": [
+      "LevchukPapers2008Monic.cubic_inverse_left",
+      "LevchukPapers2008Monic.cubic_inverse_right",
+      "LevchukPapers2008Monic.cubic_monic_bijective"
+    ],
+    "book": "Lemma3: конечный обратный оператор для monic автоморфизма.",
+    "limitations": "Формализован случай линейного correction operator N³=0 над произвольным полем. Связь конкретного автоморфизма свободной алгебры с фильтрацией и общий k не формализованы. Алгоритмы и классификация tame/wild не формализованы.",
+    "passages": [
+      "lem:l2008-monic-nilpotent-monic-invertible"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2013/Thompson.lean",
+    "declarations": [
+      "LevchukPapers2013Thompson.cubic_trace_annihilated_left",
+      "LevchukPapers2013Thompson.cubic_trace_annihilated_right"
+    ],
+    "book": "Лемма 13, композиции кубического следа с 1−σ.",
+    "limitations": "Любое кольцо с единицей и оператор S³=1: доказаны оба полиномиальных равенства. Ранг и дефект, равенство образа и ядра, классификация абелевых и подгрупп Томпсона не формализованы. Axioms: propext.",
+    "passages": [
+      "lem:l2013-thompson-cubic-trace"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2019/Nonfinitary.lean",
+    "declarations": [
+      "LevchukPapers2019Nonfinitary.lower_diagonal_separated",
+      "LevchukPapers2019Nonfinitary.quasi_inverse_from_all_congruences"
+    ],
+    "book": "§2, доказательство теоремы1: отделимость нижнедиагональной фильтрации и переход от всех сравнений к квазиобратному.",
+    "limitations": "Формализован только координатный шаг отделимости. Умножение бесконечных матриц, построение ряда и классификации идеалов/автоморфизмов не формализованы. Параметры ag иga суть произведения, заданные при применении, сами операции не строятся.",
+    "passages": [
+      "pass:l2019-nonfinitary-quasi-inverse-truncation",
+      "th:l2019-nonfinitary-radical"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2001/Coordinates.lean",
+    "declarations": [
+      "c_path_start_coordinates",
+      "c_right_step",
+      "c_down_step"
+    ],
+    "book": "Рисунок 2 и §3: замена координат X=n−x+y, Y=n−x−y; старт A_i и прямоугольные шаги.",
+    "limitations": "Три точных аффинных тождества над Z: A_i=(−i+1,n−i) переходит в (2n−1,2i−1), шаг вправо в (−1,−1), шаг вниз в (−1,+1). Подсчёт путей, биекция полных допустимых путей и классификация абелевых подгрупп не формализованы.",
+    "passages": [
+      "pass:l2001-enumeration-c-affine-coordinate-transform",
+      "fig:l2001-enumeration-c-coordinates"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2011/Local.lean",
+    "declarations": [
+      "LevchukPapers2011Local.conjugation_witness",
+      "LevchukPapers2011Local.square_zero_inverse",
+      "LevchukPapers2011Local.derived_functional_obstruction",
+      "LevchukPapers2011Local.idempotent_outer_sum_minor",
+      "LevchukPapers2011Local.paired_target_minor_forces_zero"
+    ],
+    "book": "Лемма 3, теорема 3 и необходимость леммы 10: сопряжение, обратность, коммутант и миноры.",
+    "limitations": "Пять общих алгебраических шагов над кольцом или коммутативным кольцом с единицей. Лиевые классификации и утверждение о порождающих в замечании 2 целиком не формализованы.",
+    "passages": [
+      "lem:l2011-local-square-zero",
+      "th:l2011-local-classical-examples",
+      "lem:l2011-local-lie-central-support"
+    ]
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "max_line_length": 80,
+  "chapter_files": "content/(?:papers/[a-z0-9-]+/[0-9]{2}-[a-z0-9-]+\\.typ|95-publications\\.typ)",
+  "cited_helpers": [
+    "bib-item"
+  ],
+  "literal_references": {
+    "content/papers/l1976/01-part.typ": {},
+    "content/papers/l1976/02-part.typ": {
+      "[@bib:l1976-Dubisch1951, § 7]": "Параграф цитируемой статьи Dubisch–Perlis1951."
+    },
+    "content/papers/l1990-small/01-part.typ": {
+      "[@bib:l1990-small-Carter1972, § 5.1 и 13.6]": "Параграфы книги Carter1972.",
+      "(1.5)": "Номер проблемы в публикации Кондратьева1986."
+    },
+    "content/papers/l1990-small/02-part.typ": {
+      "[@bib:l1990-small-Gibbs1970, § 8]": "Параграф цитируемой статьи Gibbs1970.",
+      "[@bib:l1990-small-Carter1972, § 4.4]": "Параграф книги Carter1972.",
+      "[@bib:l1990-small-Carter1972, 5.3.3(ii)]": "Утверждение книги Carter1972."
+    },
+    "content/papers/l1990-chevalley/01-part.typ": {
+      "[@bib:l1990-chevalley-Carter1972, § 5.1 и 13.6]": "Разделы цитируемой книги Картера, а не текущей статьи.",
+      "[@bib:l1990-chevalley-Kondratyev1986, проблема 1.5]": "Номер проблемы в цитируемом обзоре Кондратьева.",
+      "[@bib:l1990-chevalley-Gibbs1970, следствие 7.2]": "Номер следствия в цитируемой статье Гиббса.",
+      "[@bib:l1990-chevalley-Carter1972, § 4.4]": "Раздел цитируемой книги Картера.",
+      "предложения 4.2.2 из [@bib:l1990-chevalley-Carter1972]": "Предложение из цитируемой книги Картера."
+    },
+    "content/papers/l1990-chevalley/03-part.typ": {
+      "[@bib:l1990-chevalley-Carter1972, §5.2–5.3]": "Разделы цитируемой книги Картера в редакционном примечании."
+    },
+    "content/papers/l2012-extremal/01-body.typ": {
+      "(1.5)": "Номер проблемы в обзоре Кондратьева1986.",
+      "(1.6)": "Номер проблемы в обзоре Кондратьева1986.",
+      "[@bib:l2012-extremal-Gupta2008, § 1; @bib:l2012-extremal-Levchuk2007]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, § 3.4]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, § 4.4]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, замечание 13.3.8]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, предложение 13.6.4]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, теорема 5.3.3]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён."
+    },
+    "content/papers/l2012-extremal/02-body.typ": {},
+    "content/papers/l2012-extremal/03-body.typ": {
+      "(1.6)": "Номер проблемы в обзоре Кондратьева1986.",
+      "теорема 1.3 там же": "Теорема1.3 из Parker—Rowley1997, не текущей статьи.",
+      "[@bib:l2012-extremal-Carter1972, § 8.1]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Gupta2008, § 1]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Parker1998, теорема 1.2]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён.",
+      "[@bib:l2012-extremal-Carter1972, лемма 5.3.1]": "Номер раздела или результата внешней цитируемой публикации; авторский локатор сохранён."
+    },
+    "content/papers/l1974/01-body.typ": {
+      "((@bib:l1974-Hall1962), теорема 15.1.1)": "Теорема Шрейера в цитируемой книге Холла1962."
+    },
+    "content/papers/l1982-parabolic/01-part.typ": {
+      "[@bib:l1982-parabolic-Shemetkov1978, 17.1]": "Утверждение книги Шеметкова1978.",
+      "[@bib:l1982-parabolic-Steinberg1975, §3]": "Раздел лекций Стейнберга1975.",
+      "[@bib:l1982-parabolic-Carter1972, §7.1]": "Раздел книги Картера1972.",
+      "[@bib:l1982-parabolic-Carter1972, 7.1]": "Раздел книги Картера1972.",
+      "[@bib:l1982-parabolic-Chevalley1958, §3, (4)]": "Раздел и формула монографии Шевалле1958."
+    },
+    "content/papers/l1982-parabolic/02-part.typ": {
+      "[@bib:l1982-parabolic-Carter1972, 12.2.3, 12.3.3, 12.4.1]": "Утверждения книги Картера1972.",
+      "Лемма 13.7.1 [@bib:l1982-parabolic-Carter1972]": "Лемма книги Картера1972.",
+      "предложением 12.2.2 [@bib:l1982-parabolic-Carter1972]": "Предложение книги Картера1972.",
+      "[@bib:l1982-parabolic-Steinberg1975, §11]": "Раздел лекций Стейнберга1975.",
+      "[@bib:l1982-parabolic-Chevalley1958, §4]": "Раздел монографии Шевалле1958.",
+      "[@bib:l1982-parabolic-Stein1973, 2.11]": "Утверждение статьи Стейна1973.",
+      "[@bib:l1982-parabolic-Suzuki1977a, 2.9]": "Утверждение статьи Сузуки1977.",
+      "Предложение (6.3) (см. также (3.3), (3.4))": "Предложения главыV цитируемой книги Басса1975, с.205, а не формулы текущей статьи.",
+      "Предложение (6.3) включает это утверждение": "То же предложение главыV книги Басса1975.",
+      "утверждения §6 [@bib:l1982-parabolic-Borevich1976b]": "Раздел цитируемой статьи Боревича1976."
+    },
+    "content/papers/l1982-parabolic/03-part.typ": {
+      "[@bib:l1982-parabolic-Chevalley1958, §4, лемма 11]": "Раздел и лемма монографии Шевалле1958.",
+      "[@bib:l1982-parabolic-Carter1972, 11.1.3]": "Утверждение книги Картера1972.",
+      "[@bib:l1982-parabolic-Chevalley1958, §1]": "Раздел монографии Шевалле1958.",
+      "[@bib:l1982-parabolic-Chevalley1958, §1, лемма 5;": "Раздел и лемма монографии Шевалле1958.",
+      "[@bib:l1982-parabolic-Kargapolov1977, 16.1.2]": "Утверждение книги Каргаполова–Мерзлякова1977.",
+      "[@bib:l1982-parabolic-Suzuki1977b] — теорема 1.4": "Теорема цитируемой статьи Сузуки1977."
+    },
+    "content/papers/l1983/02-elementary.typ": {
+      "[@bib:l1983-Kargapolov1977, 16.2.3]": "Утверждение книги Каргаполова–Мерзлякова1977."
+    },
+    "content/papers/l1983/05-automorphism-structure.typ": {
+      "[@bib:l1983-Kargapolov1977, 16.4.2]": "Утверждение книги Каргаполова–Мерзлякова1977."
+    },
+    "content/papers/l1987-rings/01-body.typ": {
+      "вопрос 6.19 [@bib:l1987-rings-Kourovka1980]": "Номер вопроса в Коуровской тетради1980.",
+      "[@bib:l1987-rings-Clifford1972, § 5.2]": "Раздел книги Клиффорда–Престона1972."
+    },
+    "content/papers/l1987-rings/03-body.typ": {
+      "исправления в [@bib:l1987-rings-Kosman1982] требует также теорема 2 вместе с утверждением 1.3, б)": "Теорема и утверждение доклада Космана1982."
+    },
+    "content/papers/l2018-enveloping/01-enveloping.typ": {
+      "[@bib:l2018-enveloping-Carter1972, §~4.4]": "Раздел книги Картера1972.",
+      "[@bib:l2018-enveloping-Carter1972, Предложение~4.2.2]": "Предложение книги Картера1972."
+    },
+    "content/papers/l2018-enveloping/02-automorphisms.typ": {
+      "[@bib:l2018-enveloping-Kuzucuoglu2001, Lemma~1.1]": "Лемма цитируемой статьи Кузуджуоглу–Левчука2001, пока не включённой в сборник.",
+      "[@bib:l2018-enveloping-Carter1972, §~7.1]": "Раздел книги Картера1972."
+    },
+    "content/papers/l2002-radical/01-introduction.typ": {
+      "[@bib:l2002-radical-Kuzucuoglu2000, пример 1.1]": "Пример цитируемой статьи Кузуджуоглу–Левчука2000.",
+      "6.19 с комментарием Е.~И.~Хухро и вопрос 10.19 из": "Номера вопросов Коуровской тетради1992.",
+      "[@bib:l2002-radical-Kuzucuoglu2000, предложение 2.5]": "Предложение цитируемой статьи Кузуджуоглу–Левчука2000."
+    },
+    "content/papers/l2002-radical/02-boundaries.typ": {
+      "[@bib:l2002-radical-Kuzucuoglu2000, теорема 2.2]": "Теорема цитируемой статьи Кузуджуоглу–Левчука2000.",
+      "[@bib:l2002-radical-Kourovka1992, вопрос 10.19]": "Номер вопроса Коуровской тетради1992.",
+      "[@bib:l2002-radical-Kuzucuoglu2000, пример 1.1]": "Пример цитируемой статьи Кузуджуоглу–Левчука2000."
+    },
+    "content/papers/l2022-graph/01-preliminary.typ": {
+      "[@bib:l2022-graph-Carter1972, Sec. 4.2]": "Параграф цитируемой книги Картера1972.",
+      "Proposition 12.2.3 in [@bib:l2022-graph-Carter1972]": "Предложение цитируемой книги Картера1972."
+    },
+    "content/papers/l2022-graph/02-centralizers.typ": {
+      "[@bib:l2022-graph-Egorychev2023, Lemma 3.6]": "Лемма цитируемой статьи2023."
+    },
+    "content/papers/l2012-extremal-en/01-body.typ": {
+      "@th:l2012-extremal-en-abelian-normal and @th:l2012-extremal-en-f4-e6-maximal of the present paper and [@bib:l2012-extremal-en-Levchuk2008, Theorem 5] (for the classical types) describe all maximal abelian normal subgroups in $U$.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "generalization of A. I. Mal’tsev’s method [@bib:l2012-extremal-en-Malcev1945], E. P. Vdovin [@bib:l2012-extremal-en-Vdovin2001, Table 4] determined the orders of large abelian subgroups of $U$.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "$cal(P)$-subgroup_. Theorem @th:l2012-extremal-en-large-normal-abelian and [@bib:l2012-extremal-en-Levchuk2009, Table 2] (for the classical types) give the list of all large normal abelian subgroups in the finite groups $U$. Using the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "large abelian subgroups in $U$ which were found in [@bib:l2012-extremal-en-Vdovin2001, Table 4], cf. Remark in Section @sec:l2012-extremal-en-large-subgroups.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "When $S$ is an $overline(\" \")$-orbit in $Phi$, $S$ has type $A_1$, $A_1 times A_1$ or $A_1 times A_1 times A_1$, by Propositions 13.6.3 and 13.6.4 in [@bib:l2012-extremal-en-Carter1972]. Then $X_S^1 = x_S lr((F)) tilde.eq F^+$,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "cases, $S$ has type $B_2$ or $G_2$ (see [@bib:l2012-extremal-en-Carter1972, Proposition 13.6.4]), and $twisted(m, Phi)(K)$ is of type $twisted(2, G_2)$, $twisted(2, B_2)$ or $twisted(2, F_4)$. Then $S$ is the union of": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "$beta(K) = X_(2R)$, and $gamma(K) = X_(3R)$, which were defined in Proposition 13.6.4 (vi) and (vii) in [@bib:l2012-extremal-en-Carter1972].": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "also relations from [@bib:l2012-extremal-en-Levchuk1990, § 4 (I)] and [@bib:l2012-extremal-en-Levchuk2009, Theorem 2] for the twisted groups, we easily get": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "product of root elements $x_r lr((gamma_r))$, $r in G^+$, arranged according to a fixed order in $G$, cf. [@bib:l2012-extremal-en-Steinberg1967, Lemma 18] (we call such representation as the #source(4, printed: 101) _canonical": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "central series_ $U = U_1 supset U_2 supset dots supset U_h = 1$ in $U$, by [@bib:l2012-extremal-en-Carter1972, Theorem 5.3.3] and [@bib:l2012-extremal-en-Levchuk1990]. We shall use some property of the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "and $t(U) = 2$ in the other cases. By [@bib:l2012-extremal-en-Levchuk2002, Lemma 3], we have": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "$char K != 2, 3$. A description for an arbitrary field $K$ was completed in [@bib:l2012-extremal-en-Levchuk1990], and it solves the problem (1.5) from [@bib:l2012-extremal-en-Kondratyev1986]. The approach of": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "finite groups $U$. For the exceptional types, this problem was pointed out in A. S. Kondratiev’s survey [@bib:l2012-extremal-en-Kondratyev1986, Problem (1.6)] (for the classical types, see [@bib:l2012-extremal-en-Barry1979,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "concept of the Dynkin diagram discussed by R. Carter [@bib:l2012-extremal-en-Carter1972, § 3.4].) The nodes of this graph are all roots from $Pi$. By [@bib:l2012-extremal-en-Serre1966, V.15], it gives a _Dynkin": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "_twisting automorphism_ $theta in Aut Phi(K)$ of order $m = 2$ or 3. According to [@bib:l2012-extremal-en-Steinberg1967, § 11], $theta$ is the composition of a graph automorphism $tau$ and a non-trivial automorphism": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "As in [@bib:l2012-extremal-en-Carter1972, § 4.4], take the $K$-algebra $cal(L)_K$ with Chevalley basis ${e_r (r in Phi),dots}$. Denote by $N Phi(K)$": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "[@bib:l2012-extremal-en-Weir1955, Theorem 7]": "Теорема цитируемой внешней статьи Weir1955.",
+      "[@bib:l2012-extremal-en-Carter1972, Remark 13.3.8]": "Замечание цитируемой книги Carter1972."
+    },
+    "content/papers/l2012-extremal-en/02-body.typ": {
+      "396–397] gives some extremal subgroups with three simple corners (see also [@bib:l2012-extremal-en-Parker1997, Theorem 1.3]). By [@bib:l2012-extremal-en-Parker1998, Theorem 1.2], if $U twisted(2, D_4)(K)$ has": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "@sec:l2012-extremal-en-rank-two–@sec:l2012-extremal-en-f4-e6 and [@bib:l2012-extremal-en-Levchuk2008, Theorem 5] (for the classical types) gives also a description of extremal subgroups and hence a new solution to the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "of the subfield $K_sigma$ is non-zero (see also   [@bib:l2012-extremal-en-Parker1998, Lemma 2.3]), and hence   $K_sigma = K^(1+sigma+sigma^2)$. Since $K_sigma inter K^(1+sigma) = 2K_sigma$,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "@bib:l2012-extremal-en-Steinberg1967] and [@bib:l2012-extremal-en-Levchuk2009,   Theorem 2]) show that   $[x_r lr((u)),x_s lr((v))] = x_(r+s) lr((plus.minus eta)) mod Q(r+s)$ for": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "[@bib:l2012-extremal-en-Suleimanova2008E]. By [@bib:l2012-extremal-en-Levchuk2008, Theorems 3 and 5], for $U$ of type $D_n$ and $twisted(2, D_n)$ there exists a normal subgroup $M$ such that the height of": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "@th:l2012-extremal-en-parker-rowley and [@bib:l2012-extremal-en-Levchuk2008,   Theorem 5]). ]": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "$A subset.not 〈 X_r | r in G^+, r != p 〉$ (see also [@bib:l2012-extremal-en-Carter1972, § 8.1]). For the purpose of application to the revision of the classification of finite simple groups and etc., C. Parker": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "(see [@bib:l2012-extremal-en-Carter1972, 13.6.4 (vii)] and   [@bib:l2012-extremal-en-Steinberg1967]). The subgroups $(0,0,F)$, $(0,F,K)$,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "In [@bib:l2012-extremal-en-Carter1972, 13.6.4 (vi)], $U twisted(2, B_2)(K)$ is   represented as": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена."
+    },
+    "content/papers/l2012-extremal-en/03-body.typ": {
+      "If $p_43$ and $q_43$ are corners in $M$ then they are connected. By   [@bib:l2012-extremal-en-Levchuk2008, Theorem 5], the projections on these   corners have order 2. Thus, $M inter B$ is a maximal abelian normal subgroup": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "Further, we use the notion of a _regular ordering_ of roots, which agrees with the height function on roots [@bib:l2012-extremal-en-Carter1972, Lemma 5.3.1]. Taking into account the representation $zeta$ in Section": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "quotient, since earlier coordinates cancel in the regular ordering of     [@bib:l2012-extremal-en-Carter1972, Lemma 5.3.1 and Theorem 5.3.3].]] <lem:l2012-extremal-en-first-corner-order>": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "note that for every finite group $G$ of Lie type the authors have the proof of the following theorem. (See also [@bib:l2012-extremal-en-Levchuk2009, Theorem 4] for the classical types [@bib:l2012-extremal-en-Suleimanova2010], and the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "In this section, we consider some application to the problem (1.6) from [@bib:l2012-extremal-en-Kondratyev1986] of description of the large abelian and": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "@lem:l2012-extremal-en-first-corner-order give a simplified proof of the following statement (see [@bib:l2012-extremal-en-Vdovin2001, § 2]).": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
+      "for the classical types [@bib:l2012-extremal-en-Suleimanova2010], and the question in [@bib:l2012-extremal-en-Gupta2008, § 1].)": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена."
+    },
+    "content/papers/l2001-enumeration/01-introduction.typ": {
+      "[@bib:l2001-enumeration-Carter1972, §~4.4]": "External locator in Carter’s book.",
+      "[@bib:l2001-enumeration-Egorychev1989, theorem 2.1.2]": "External theorem in Egorychev’s book."
+    },
+    "content/papers/l2001-enumeration/02-construction.typ": {
+      "[@bib:l2001-enumeration-Carter1972, 5.1 and 13.6]": "External locators in Carter’s book.",
+      "[@bib:l2001-enumeration-Dubisch1951, §~5]": "External section in Dubisch–Perlis1951."
+    },
+    "content/papers/l2001-enumeration/05-problems.typ": {
+      "Theorem~9 [@bib:l2001-enumeration-Dubisch1951]": "External theorem in Dubisch–Perlis1951.",
+      "[@bib:l2001-enumeration-Levchuk1976], §~2": "External section in Levchuk1976.",
+      "(2.36) [@bib:l2001-enumeration-Egorychev1989]": "External formula in Egorychev’s book.",
+      "Theorem~2 [@bib:l2001-enumeration-Levchuk1976]": "External theorem in Levchuk1976.",
+      "Theorem~9 [@bib:l2001-enumeration-Levchuk1992]": "External theorem in Levchuk1992."
+    },
+    "content/papers/l2015-exceptional/01-introduction.typ": {
+      "[@bib:l2015-exceptional-Egorychev1977, теорема 2.1.2]": "Теорема в цитируемом издании книги Егорычева."
+    },
+    "content/papers/l2015-exceptional/03-enumeration.typ": {
+      "[@bib:l2015-exceptional-Egorychev1977, теорема 2.1.2]": "Теорема в цитируемом издании книги Егорычева."
+    },
+    "content/papers/l2013-ideals/01-introduction.typ": {
+      "@bib:l2013-ideals-Kourovka2007, Question~2.18": "Вопрос 2.18 цитируемой Коуровской тетради.",
+      "@bib:l2013-ideals-Egorychev1989, Theorem~2.1.2": "Теорема 2.1.2 цитируемой книги Егорычева.",
+      "@bib:l2013-ideals-Carter1972, §~4.4": "Параграф 4.4 цитируемой книги Картера."
+    },
+    "content/papers/l2013-ideals/02-ideals.typ": {
+      "@bib:l2013-ideals-Kuzucuoglu2000, Theorem~2.2": "Теорема 2.2 первичной статьи Kuzucuoğlu–Levchuk2000."
+    },
+    "content/papers/l2013-ideals/03-paths.typ": {
+      "@bib:l2013-ideals-Egorychev1989, Theorem~2.1.2": "Теорема 2.1.2 цитируемой книги Егорычева."
+    },
+    "content/papers/l2013-ideals/04-proof.typ": {
+      "@bib:l2013-ideals-Egorychev1989, Theorem~2.1.2": "Теорема 2.1.2 цитируемой книги Егорычева.",
+      "@bib:l2013-ideals-Egorychev2001, Problems~1 and~2": "Проблемы 1 и 2 внешней статьи Egorychev–Levchuk2001.",
+      "@bib:l2013-ideals-Carter1972, §~4.4": "Параграф 4.4 цитируемой книги Картера."
+    },
+    "content/papers/l2015-niltriangular/01-finitary.typ": {
+      "[@bib:l2015-niltriangular-Carter1972, § 4.4]": "Раздел книги Carter1972.",
+      "проблема 1.5 из обзора": "Проблема в обзоре Кондратьева1986."
+    },
+    "content/papers/l2015-niltriangular/02-automorphisms.typ": {
+      "[@bib:l2015-niltriangular-Carter1972, § 7.1]": "Раздел книги Carter1972."
+    },
+    "content/papers/l2015-niltriangular/04-canonical-basis.typ": {
+      "[@bib:l2015-niltriangular-Dubisch1951, § 7]": "Раздел цитируемой статьи Dubisch–Perlis1951."
+    },
+    "content/papers/l2001-enumeration/03-lattice-paths.typ": {
+      "Vol.~I, ch.~III, §~2, theorem~1, p.~85": "External locator in Feller, Vol.I. Page85/theorem1 read in the 1964 text; primary catalogue identifies the 1967 printing as stereotyped."
+    },
+    "content/papers/l2008-monic/01-introduction.typ": {
+      "3.3": "Внешняя проблема3.3 в Коуровской тетради2002."
+    },
+    "content/papers/l2008-monic/02-locally-nilpotent.typ": {
+      "(1.5)": "Внешняя проблема1.5 обзора Кондратьева1986.",
+      "(1.6)": "Внешняя проблема1.6 обзора Кондратьева1986."
+    },
+    "content/papers/l2013-thompson/01-preliminaries.typ": {
+      "(1.6)": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "Lemma 5.3.1": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "Lemma 18": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "Table 4": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор."
+    },
+    "content/papers/l2013-thompson/02-e6.typ": {
+      "Lemma 4.4": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "Table 3": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор."
+    },
+    "content/papers/l2013-thompson/03-rank-two.typ": {
+      "Theorem 2": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "Theorem 1": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор."
+    },
+    "content/papers/l2019-nonfinitary/03-ideals.typ": {
+      "[@bib:l2019-nonfinitary-Jacobson1962, § 1.3]": "Параграф книги Jacobson1962.",
+      "[@bib:l2019-nonfinitary-Jacobson1962, упражнение 1.14]": "Номер упражнения в книге Jacobson1962."
+    },
+    "content/papers/l2019-nonfinitary/04-classical.typ": {
+      "[@bib:l2019-nonfinitary-Carter1972, § 4.4]": "Раздел цитируемой книги Carter1972."
+    },
+    "content/papers/l2019-nonfinitary/05-nonfinitary.typ": {},
+    "content/papers/l2011-local/01-introduction.typ": {
+      "[@bib:l2011-local-Carter1972SimpleGroups, § 4.4]": "Точный раздел цитируемой книги Carter1972."
+    },
+    "content/papers/l2011-local/04-chevalley.typ": {
+      "[@bib:l2011-local-Carter1972SimpleGroups, § 4.4]": "Точный раздел цитируемой книги Carter1972."
+    }
+  },
+  "local_markup": {
+    "content/papers/l2022-graph/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык английской статьи и область действия переносов; локальных правил вёрстки нет."
+    },
+    "content/papers/l2012-extremal-en/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык английской статьи и область действия переносов; локальных правил вёрстки нет."
+    },
+    "content/papers/l2001-enumeration/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык английской статьи и область действия переносов; локальных правил вёрстки нет."
+    },
+    "content/papers/l2013-ideals/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык английской статьи и область действия переносов; локальных правил вёрстки нет."
+    },
+    "content/papers/l2008-monic/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий разрешенный article-style задает язык главы."
+    },
+    "content/papers/l2013-thompson/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий helper задаёт язык англоязычной статьи, а не локальную геометрию."
+    }
+  }
+}

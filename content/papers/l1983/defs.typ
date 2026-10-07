@@ -1,0 +1,7 @@
+#let Zc = math.cal("Z")
+#let Tc = math.cal("T")
+#let D = math.cal("D")
+#let Jc = math.cal("J")
+#let Gc = math.cal("G")
+#let Uc = math.cal("U")
+#let AutK = math.overline(math.op("Aut"))
