@@ -138,13 +138,13 @@ Now we consider a large abelian subgroup $A$ of $U = U twisted(2, E_6)(K)$.
   $Psi_(5,3)$, $Psi_(5,6)$, $Psi_(5,8)$, $Psi_(5,9)$ for $2K = 0$. Each of these
   sets contains the root $1242$. #ed-note[The source prints $Psi_(5,6)$ in the
     odd-characteristic list here, although Lemma @lem:l2013-thompson-f4-possible
-    lists $Psi_(5,7)$ and excludes $Psi_(5,6)$ in that case. The source index is
-    retained; the discrepancy remains unresolved.] This root is the only root in
-  $Phi^+$ of height $9$. By Lemma @lem:l2013-thompson-corner-membership, c), the
-  root $1242$ is contained in $Lc_1 lr((A))$. It is clear, that if there exists
-  an element in $A inter T(r)$ with the corner $r$, then $r in Lc_1 lr((A))$ for
-  any regular order of $Phi$. Therefore, the roots $alpha_2$ and $alpha_4$ can
-  not be corners in $A$ simultaneously. If $q = alpha_3$ then similarly
+    lists $Psi_(5,7)$ and excludes $Psi_(5,6)$ in that case. The discrepancy
+    remains unresolved.] This root is the only root in $Phi^+$ of height $9$. By
+  Lemma @lem:l2013-thompson-corner-membership, c), the root $1242$ is contained
+  in $Lc_1 lr((A))$. It is clear, that if there exists an element in
+  $A inter T(r)$ with the corner $r$, then $r in Lc_1 lr((A))$ for any regular
+  order of $Phi$. Therefore, the roots $alpha_2$ and $alpha_4$ can not be
+  corners in $A$ simultaneously. If $q = alpha_3$ then similarly
   $1242 in Lc_1 lr((A))$. Therefore, the case $p = alpha_2$, $q = alpha_3$ is
   also impossible.
 

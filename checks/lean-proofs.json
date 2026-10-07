@@ -282,5 +282,105 @@
       "th:l2011-local-classical-examples",
       "lem:l2011-local-lie-central-support"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1983/RankThree.lean",
+    "declarations": [
+      "LevchukPapers1983.RankThree.matrix_injective",
+      "LevchukPapers1983.RankThree.matrix_adj",
+      "LevchukPapers1983.RankThree.matrix_bracket",
+      "LevchukPapers1983.RankThree.adjoint_coordinate_automorphism",
+      "LevchukPapers1983.RankThree.lie_coordinate_automorphism",
+      "LevchukPapers1983.RankThree.adj_associative",
+      "LevchukPapers1983.RankThree.adj_zero",
+      "LevchukPapers1983.RankThree.adj_inverse",
+      "LevchukPapers1983.RankThree.commutator_eq_bracket",
+      "LevchukPapers1983.RankThree.cocycle_zero",
+      "LevchukPapers1983.RankThree.transform_elementary",
+      "LevchukPapers1983.RankThree.transform_preserves_adj",
+      "LevchukPapers1983.RankThree.inverse_left",
+      "LevchukPapers1983.RankThree.inverse_right",
+      "LevchukPapers1983.RankThree.transform_bijective",
+      "LevchukPapers1983.RankThree.linear_preserves_add",
+      "LevchukPapers1983.RankThree.linear_preserves_bracket",
+      "LevchukPapers1983.RankThree.linear_bijective"
+    ],
+    "book": "Статья 1983 года, §4, теорема3: явные автоморфизмы NT(3,K), присоединённая группа и кольцо Ли.",
+    "limitations": "Произвольное коммутативное кольцо с единицей, любая характеристика и делители нуля. Доказаны сохранение операций, явные двусторонние обратные, образы элементарных генераторов и инъективная реализация нижнетреугольными матрицами 3×3. Принадлежность GL₂ выражена явным обратным к детерминанту. Классификация всех автоморфизмов и разложения G₃/Λ₃ не формализованы.",
+    "passages": [
+      "th:l1983-rank-three",
+      "eq:l1983-rank-three-cocycle",
+      "eq:l1983-rank-three-adjoint-map",
+      "eq:l1983-elementary-product",
+      "eq:l1983-elementary-commutator"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Small/Automorphisms.lean",
+    "declarations": [
+      "Levchuk1990SmallAutomorphisms.group_laws",
+      "Levchuk1990SmallAutomorphisms.mixed_product",
+      "Levchuk1990SmallAutomorphisms.mixed_involutive",
+      "Levchuk1990SmallAutomorphisms.mixedAutomorphism",
+      "Levchuk1990SmallAutomorphisms.all_root_images",
+      "Levchuk1990SmallAutomorphisms.matrix_product",
+      "Levchuk1990SmallAutomorphisms.matrix_injective"
+    ],
+    "book": "§1, идемпотентно-графовый автоморфизм: случай A₂ над коммутативным кольцом с единицей.",
+    "limitations": "Доказана достаточность идемпотентно-графовой конструкции §1 в случае Φ=A₂, ρ=1 на координатной группе UT₃(K), для любого коммутативного кольца K с единицей и f²=f. Проверены групповые законы, сохранение умножения, явная обратимость, все три корневых образа и инъективная матричная реализация 3×3 с сохранением произведения. Другие системы корней, G₂ в характеристике3, μ/ψ и классификация автоморфизмов не формализованы.",
+    "passages": [
+      "sec:l1990-small-standard-automorphisms"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Chevalley/Automorphisms.lean",
+    "declarations": [
+      "Levchuk1990Chevalley.C2.normal_order",
+      "Levchuk1990Chevalley.C2.cubic_inverse_apply",
+      "Levchuk1990Chevalley.C2.matrix_inverse",
+      "Levchuk1990Chevalley.C2.cubic_commutator",
+      "Levchuk1990Chevalley.C2.matrix_symplectic",
+      "Levchuk1990Chevalley.C2.short_long_commutator",
+      "Levchuk1990Chevalley.C2.cubic_q",
+      "Levchuk1990Chevalley.C2.cubic_other_roots",
+      "Levchuk1990Chevalley.C2.matrix_mul",
+      "Levchuk1990Chevalley.C2.matrix_injective",
+      "Levchuk1990Chevalley.C2.shear_mul",
+      "Levchuk1990Chevalley.C2.cubicAutomorphism"
+    ],
+    "book": "§1, нормализованный кубический автоморфизм C₂; лемма3, знак коротко-длинного корневого коммутатора.",
+    "limitations": "Произвольное коммутативное кольцо с единицей; включены все пять функциональных гипотез статьи. Доказаны групповые законы, инъективная симплектическая матричная реализация, сохранение умножения, явные обратные, все четыре корневых образа и сохранение коммутаторов. Проверена достаточность формулы нормализованного кубического автоморфизма типа C₂. Необходимость, разложение с точностью до внутренних автоморфизмов, Cₙ при n>2 и классификация не формализованы.",
+    "passages": [
+      "eq:l1990-chevalley-cubic-c-automorphism",
+      "lem:l1990-chevalley-classical-structure-signs",
+      "lem:l1990-chevalley-classical-commutators"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1990Small/F4Diagram.lean",
+    "declarations": [
+      "Levchuk1990SmallF4Diagram.cover_enumeration",
+      "Levchuk1990SmallF4Diagram.positive_distinct",
+      "Levchuk1990SmallF4Diagram.standard_card",
+      "Levchuk1990SmallF4Diagram.standard_correspondence",
+      "Levchuk1990SmallF4Diagram.positive_images_distinct",
+      "Levchuk1990SmallF4Diagram.positive_negative_disjoint",
+      "Levchuk1990SmallF4Diagram.full_cover_card",
+      "Levchuk1990SmallF4Diagram.hasse_equals_simple_steps",
+      "Levchuk1990SmallF4Diagram.hasse_card",
+      "Levchuk1990SmallF4Diagram.omitted_is_cover",
+      "Levchuk1990SmallF4Diagram.omitted_simple_difference",
+      "Levchuk1990SmallF4Diagram.selected_card",
+      "Levchuk1990SmallF4Diagram.unique_missing",
+      "Levchuk1990SmallF4Diagram.selected_not_full",
+      "Levchuk1990SmallF4Diagram.omitted_root_string",
+      "Levchuk1990SmallF4Diagram.backward_string_complete",
+      "Levchuk1990SmallF4Diagram.omitted_vector_identification"
+    ],
+    "book": "Статья 1990 года, §4, диаграмма положительных корней F₄ на с.153; полный вариант диаграммы в статье 2012 года, с.110.",
+    "limitations": "Конечный сертификат в стандартной евклидовой модели F₄. Доказаны равенство независимой 48-корневой семьи образам 24 положительных корней и их отрицаниям, точный список 34 связей с разностью в простой корень, равенство этих связей покрытиям покомпонентного частичного порядка и единственное ребро, отсутствующее в исходном рисунке 1990 года. Корневая строка этого ребра проверена отдельно; формула структурной константы по корневой строке и общие теоремы о центральных рядах здесь не формализованы. Авторское назначение пунктира не утверждается.",
+    "passages": [
+      "pass:l1990-small-f4-root-representation"
+    ]
   }
 ]

@@ -4,6 +4,54 @@
 #import "bibliography-data.typ": publications
 #let articles = json("../articles.json")
 
+#let is-article(it) = (
+  it.level == 2 and it.has("label") and str(it.label).starts-with("ch:")
+)
+#let collection-headings() = query(heading.where(outlined: true)).filter(
+  it => it.level <= 2,
+)
+#let article-position(target) = {
+  let heads = collection-headings()
+  let own = heads.filter(is-article)
+  let parts = heads.filter(it => it.level == 1 and not it.has("label"))
+  (
+    article: own.position(it => it.location() == target.location()),
+    part: parts
+      .filter(it => (
+        it.location().page() < target.location().page()
+      ))
+      .len(),
+  )
+}
+#let running-header = context {
+  let physical-page = here().page()
+  let heads = collection-headings()
+  let beginnings = heads.filter(it => it.location().page() == physical-page)
+  let previous = heads.filter(it => it.location().page() < physical-page)
+  if beginnings.len() == 0 and previous.len() > 0 {
+    let article = previous.last()
+    if is-article(article) {
+      let position = article-position(article)
+      set text(
+        size: 8.5pt,
+        weight: "regular",
+        style: "normal",
+        fill: rgb("505050"),
+      )
+      set par(first-line-indent: 0pt, justify: false, leading: 0.35em)
+      grid(
+        columns: (auto, 1fr),
+        column-gutter: 0.7em,
+        align: top,
+        text(weight: "semibold")[#numbering("I", position.part).#(
+            position.article + 1
+          )],
+        article.body,
+      )
+    }
+  }
+}
+
 // Wrap a wide display at its existing top-level operators and separators.
 // Nested indices, arguments and fractions remain whole mathematical objects.
 #let math-sequence = [].func()
@@ -11,6 +59,67 @@
   measure(
     math.equation(block: false, math.display(body)),
   ).width
+}
+// Put terminal punctuation next to the base, below a long superscript.
+// Preserve the natural footprint for centring, reflow and the equation tag.
+#let compact-terminal-punctuation(body) = {
+  if body.func() != math-sequence or body.children.len() < 2 {
+    return body
+  }
+  let children = body.children
+  let punctuation = children.last()
+  let factor = children.at(-2)
+  if (
+    not punctuation.has("text")
+      or punctuation.text not in (".", ",", ";")
+      or factor.func() != math.attach
+      or not factor.has("t")
+      or factor.fields().at("b", default: none) != none
+  ) { return body }
+  let terminal = context {
+    let advance = display-width(factor) - display-width(factor.base)
+    math.class(
+      "normal",
+      factor + h(-advance) + punctuation + h(advance),
+    )
+  }
+  math-sequence((..children.slice(0, -2), terminal))
+}
+// A fraction's narrower denominator leaves room below its numerator.
+// Retain the limit's left edge and a thin-space clearance on its right.
+#let compact-sum-before-fraction(body) = {
+  if body.func() != math-sequence { return body }
+  let children = body
+    .children
+    .enumerate()
+    .map(((index, child)) => {
+      if (
+        child.func() != math.attach
+          or not child.has("b")
+          or not child.base.has("text")
+          or child.base.text != "∑"
+      ) { return child }
+      let following = body
+        .children
+        .slice(index + 1)
+        .filter(
+          it => it.func() != [ ].func(),
+        )
+      if following.len() == 0 or following.first().func() != math.frac {
+        return child
+      }
+      let fraction = following.first()
+      context {
+        let numerator = measure(math.equation(math.text(fraction.num))).width
+        let denominator = measure(math.equation(math.text(
+          fraction.denom,
+        ))).width
+        let inset = (numerator - denominator) / 2
+        let reduction = calc.max(0pt, inset - text.size / 6)
+        child + h(-reduction)
+      }
+    })
+  math-sequence(children)
 }
 #let case-lines(body) = {
   if body.func() != math-sequence { return (body,) }
@@ -157,6 +266,7 @@
     height: 250mm,
     margin: (x: 20mm, top: 21mm, bottom: 21mm),
     numbering: "1",
+    header: running-header,
     footer: context if page.numbering != none {
       align(center, text(size: 10pt, counter(page).display(page.numbering)))
     },
@@ -175,6 +285,7 @@
     first-line-indent: 1.25em,
   )
   set enum(numbering: "1)")
+  show table: it => block(width: 100%, breakable: false, align(center, it))
   show regex("т\\. е\\."): [т.~е.]
   show regex("т\\. д\\."): [т.~д.]
   show regex("т\\. п\\."): [т.~п.]
@@ -195,14 +306,14 @@
     let target = it.element
     let name = if target.has("label") { str(target.label) } else { "" }
     let article-index = articles.position(item => "ch:" + item.id == name)
-    let parts = query(heading.where(level: 1, outlined: true)).filter(
-      item => not item.has("label"),
+    let parts = collection-headings().filter(
+      item => item.level == 1 and not item.has("label"),
     )
     let part-index = parts.position(item => (
       item.location() == target.location()
     ))
     let prefix = if article-index != none {
-      [#(article-index + 1).]
+      [#(article-position(target).article + 1).]
     } else if part-index != none {
       [#numbering("I", part-index + 1).]
     } else { none }
@@ -216,6 +327,25 @@
   show heading: it => {
     set par(first-line-indent: 0pt, justify: false)
     set text(size: if it.level <= 2 { 16pt } else { 12pt })
+    context {
+      let prefix = if is-article(it) {
+        str(article-position(it).article + 1) + "."
+      } else if it.level == 1 and not it.has("label") and it.outlined {
+        let parts = collection-headings().filter(h => (
+          h.level == 1 and not h.has("label")
+        ))
+        let index = parts.position(h => h.location() == it.location())
+        numbering("I", index + 1) + "."
+      } else { none }
+      if prefix != none {
+        metadata((
+          kind: "outline-prefix",
+          prefix: prefix,
+          level: it.level,
+          page: it.location().page(),
+        ))
+      }
+    }
     if it.numbering != none {
       restart-counters(it.level)
       [#metadata((
@@ -241,7 +371,15 @@
   show: formula-rules
   show math.equation.where(block: true): it => layout(size => {
     if it.has("label") and str(it.label).starts-with("eq:") {
-      numbered-display(it, width: size.width, reflow: reflow-display)
+      let body = if str(it.label) == "eq:l2015-exceptional-count" {
+        compact-terminal-punctuation(compact-sum-before-fraction(it.body))
+      } else { it.body }
+      numbered-display(
+        it,
+        body: body,
+        width: size.width,
+        reflow: reflow-display,
+      )
     } else {
       let body = reflow-display(it.body, size.width)
       if body == it.body { it } else {

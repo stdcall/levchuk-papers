@@ -35,8 +35,9 @@
   let difference = b.zip(a).map(pair => pair.at(0) - pair.at(1))
   // The diagram selects 33 of the 34 root-poset covers. The excluded
   // pair is q₂₀ = p₂,₋₁ -> q₂,₋₁ = p₂,₋₂, with coefficients 0110 -> 0120.
-  // Retaining that selection does not assert that the full poset lacks
-  // this cover; dashed edges are the two outgoing covers of 0120.
+  // This records the printed selection, not the completed rendering below.
+  // The renderer adds the remaining cover, also shown by the authors in
+  // 2012; all three covers incident to 0120 are dashed.
   (
     difference.all(value => value >= 0)
       and difference.sum() == 1
@@ -44,59 +45,130 @@
   )
 }
 
-#let f4-roots() = canvas(length: 1mm, {
-  import draw: *
-  assert(positive-roots.len() == 24)
-  let coefficients = positive-roots.map(root => root.at(0))
-  assert(coefficients.dedup().len() == 24)
-  assert(
-    coefficients.map(a => coefficients.filter(b => follows(a, b)).len()).sum()
-      == 33,
-  )
-  let horizontal-step = 32
-  let vertical-step = 14
-  set-style(
-    stroke: 0.5pt,
-    content: (
-      padding: 1.2,
-      wrap: text.with(top-edge: "bounds", bottom-edge: "bounds"),
-    ),
-  )
-  for (index, root) in positive-roots.enumerate() {
-    let degree = height(root.at(0))
+
+#let covers(a, b) = {
+  let d = b.zip(a).map(p => p.at(0) - p.at(1))
+  d.all(v => v >= 0) and d.sum() == 1
+}
+// Barycentric layers; a single-parent branch continues outward.
+// Expand compressed layers uniformly to maintain one unit separation.
+#let root-layout() = {
+  let positions = (:)
+  for degree in range(1, 12) {
     let level = positive-roots
-      .filter(other => height(other.at(0)) == degree)
-      .sorted(key: other => projection(other.at(0)))
-    let rank = level.position(other => other.at(0) == root.at(0))
-    let x = horizontal-step * (rank - (level.len() - 1) / 2)
-    let y = -vertical-step * (degree - 1)
-    let name = "root-" + str(index)
-    content((x, y), root.at(1), name: name)
-    if degree > 2 {
-      let left-side = rank == 0 and level.len() > 1
+      .filter(r => height(r.at(0)) == degree)
+      .sorted(key: r => projection(r.at(0)))
+    let xs = level
+      .enumerate()
+      .map(((rank, r)) => {
+        if degree == 1 { return 2 * rank - 3 }
+        let parents = positive-roots.filter(p => covers(p.at(0), r.at(0)))
+        let x = (
+          parents.map(p => positions.at(p.at(0).map(str).join())).sum()
+            / parents.len()
+        )
+        if parents.len() == 1 {
+          let children = positive-roots.filter(c => covers(
+            parents.first().at(0),
+            c.at(0),
+          ))
+          if children.len() > 1 {
+            x += (if x < 0 { -1 } else if x > 0 { 1 } else { 0 })
+          }
+        }
+        x
+      })
+    if xs.len() > 1 {
+      let gaps = range(1, xs.len()).map(i => xs.at(i) - xs.at(i - 1))
+      if calc.min(..gaps) < 1 {
+        let center = xs.sum() / xs.len()
+        xs = range(xs.len()).map(i => center + i - (xs.len() - 1) / 2)
+      }
+    }
+    for (r, x) in level.zip(xs) { positions.insert(r.at(0).map(str).join(), x) }
+  }
+  positions
+}
+// Both renderings use the authors’ 2012 auxiliary coefficient labels.
+// Both renderings draw the complete 34-cover positive-root poset.
+#let root-canvas(legend: false) = canvas(length: 1mm, {
+  import draw: *
+  let positions = root-layout()
+  let step = 18
+  let horizontal-step = 20
+  set-style(stroke: 0.5pt, content: (
+    padding: 0.8,
+    wrap: text.with(size: 10.5pt, top-edge: "bounds", bottom-edge: "bounds"),
+  ))
+  for (i, r) in positive-roots.enumerate() {
+    let degree = height(r.at(0))
+    let x = positions.at(r.at(0).map(str).join())
+    let name = "root-" + str(i)
+    let stacked = r.at(0) == (1, 1, 1, 1)
+    let label = if stacked {
+      align(center, {
+        set par(leading: 0pt)
+        [#r.at(1) \
+          #text(size: 8.5pt)[(#r.at(0).map(str).join())]]
+      })
+    } else { r.at(1) }
+    content((horizontal-step * x, -step * (degree - 1)), label, name: name)
+    let has-coeff = (
+      degree > 2 and r.at(0) != (0, 1, 2, 0)
+        or r.at(0) in ((1, 1, 0, 0), (0, 0, 1, 1))
+    )
+    if has-coeff and not stacked {
+      let level = positive-roots
+        .filter(s => height(s.at(0)) == degree)
+        .sorted(key: s => projection(s.at(0)))
+      let rank = level.position(s => s.at(0) == r.at(0))
+      let left = rank == 0 and level.len() > 1
       content(
-        name + if left-side { ".west" } else { ".east" },
-        text(size: 9pt)[(#root.at(0).map(str).join())],
-        anchor: if left-side { "east" } else { "west" },
+        name
+          + if left {
+            ".west"
+          } else { ".east" },
+        text(size: 8.5pt)[(#r.at(0).map(str).join())],
+        anchor: if left {
+          "east"
+        } else { "west" },
+        name: "coeff-" + str(i),
       )
     }
   }
   for (i, a) in positive-roots.enumerate() {
     for (j, b) in positive-roots.enumerate() {
-      if follows(a.at(0), b.at(0)) {
-        let stroke = if a.at(0) == (0, 1, 2, 0) {
-          (dash: "dashed", thickness: 0.5pt)
-        } else { 0.5pt }
+      if (
+        covers(a.at(0), b.at(0))
+      ) {
         line(
           "root-" + str(i) + ".south",
           "root-" + str(j) + ".north",
-          stroke: stroke,
+          stroke: if a.at(0) == (0, 1, 2, 0)
+            or a.at(0) == (0, 1, 1, 0) and b.at(0) == (0, 1, 2, 0) {
+            (dash: "dashed", thickness: 0.5pt)
+          } else { 0.5pt },
         )
       }
     }
   }
-  content((horizontal-step, -8.5 * vertical-step), align(center)[
-    $overline(p)_(i j) = q_(i j), quad overline(q)_(i j) = p_(i j)$ \
-    $(1 <= |j| < i <= 4)$
-  ])
+  if legend {
+    // Anchor above and beside the rightmost coefficient
+    // in the last two-vertex lower layer.
+    let layer = positive-roots
+      .filter(r => height(r.at(0)) == 7)
+      .sorted(key: r => positions.at(r.at(0).map(str).join()))
+    let root = layer.last()
+    let index = positive-roots.position(r => r.at(0) == root.at(0))
+    content(
+      (rel: (14, step / 3), to: "coeff-" + str(index) + ".east"),
+      align(center)[
+        $overline(p)_(i j) = q_(i j), quad overline(q)_(i j) = p_(i j)$ \
+        $(1 <= |j| < i <= 4)$
+      ],
+      anchor: "west",
+    )
+  }
 })
+
+#let f4-roots() = root-canvas(legend: true)

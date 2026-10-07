@@ -29,7 +29,8 @@ import time
 
 import pymupdf
 from pypdf import PdfReader, PdfWriter
-from pypdf.generic import ArrayObject, FloatObject, NameObject, NullObject
+from pypdf.generic import (ArrayObject, FloatObject, NameObject, NullObject,
+                          TextStringObject)
 from check_links import check_hint_links, check_links, set_link_descriptions
 from check_whitespace import check_whitespace
 from lint_typst import (lint, input_hashes, evaluate, tool_versions,
@@ -180,11 +181,16 @@ def accessibility_signature(reader):
             'font_program_sha256': sorted(embedded)}
 
 
-def normalize_outline_destinations(writer, original, *, left=None):
+def normalize_outline_destinations(writer, original, *, left=None, prefixes=()):
     """Keep heading heights and inherited zoom in every nested bookmark."""
     count = 0
+    titles = {(p['level'], p['page']): p['prefix'] for p in prefixes}
+    assert len(titles) == len(prefixes), 'Repeated outline prefix target'
+    used = set()
+    pages = {page.indirect_reference.idnum: index + 1
+             for index, page in enumerate(original.pages)}
 
-    def walk(ref):
+    def walk(ref, level=1):
         nonlocal count
         while ref:
             node = ref.get_object()
@@ -205,13 +211,20 @@ def normalize_outline_destinations(writer, original, *, left=None):
             x = NullObject() if left is None else FloatObject(left)
             holder[NameObject(key)] = ArrayObject([
                 dest[0], NameObject('/XYZ'), x, dest[3], NullObject()])
+            target = (level, pages[dest[0].idnum])
+            if target in titles:
+                assert target not in used, 'Repeated outline prefix application'
+                node[NameObject('/Title')] = TextStringObject(
+                    titles[target] + ' ' + str(node['/Title']))
+                used.add(target)
             count += 1
             if node.get('/First'):
-                walk(node['/First'])
+                walk(node['/First'], level + 1)
             ref = node.get('/Next')
 
     if '/Outlines' in writer.root_object:
         walk(writer.root_object['/Outlines'].get('/First'))
+    assert used == titles.keys(), 'Outline prefix has no matching bookmark'
     return count
 
 
@@ -254,7 +267,8 @@ def page_label_problems(labels):
     return problems
 
 
-def normalize_outlines(raw, output, *, label, book=True, references=()):
+def normalize_outlines(raw, output, *, label, book=True, references=(),
+                       prefixes=()):
     """Write `output` from Typst's `raw` PDF: zoom-preserving bookmarks,
     link descriptions; everything else checked unchanged. `label` names the
     PDF in the font check's errors."""
@@ -266,7 +280,8 @@ def normalize_outlines(raw, output, *, label, book=True, references=()):
     set_link_descriptions(writer, references)
     preserved = accessibility_signature(original)
     left = settings()['pdf_navigation']['outline_left']
-    count = normalize_outline_destinations(writer, original, left=left)
+    count = normalize_outline_destinations(writer, original, left=left,
+                                           prefixes=prefixes)
     assert '/OpenAction' not in writer.root_object
     tmp = Path(output).with_suffix('.tmp.pdf')
     writer.write(tmp)
@@ -396,7 +411,9 @@ def build(force=False, thorough=False, exported=None, notes=True):
                          + ', '.join(t['target'] for t in unresolved['targets']))
     staged = cache/f'book{variant}-checked.pdf'
     report = normalize_outlines(raw, staged, label=output.name,
-                                references=references)
+                                references=references,
+                                prefixes=[x for x in metadata
+                                          if x.get('kind') == 'outline-prefix'])
     links = check_links(staged, references)
     # A problem's head leads to its hint and the hint's number back.
     links['hint_links'] = check_hint_links(
