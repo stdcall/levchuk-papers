@@ -131,7 +131,7 @@
     show "〉": symbol("⟩")
     show "≥": sym.gt.eq.slant
     show "≤": sym.lt.eq.slant
-    show regex("[\u{0391}-\u{03A9}]"): math.italic
+    show regex("[\u{0391}-\u{03A9}]"): math.upright
     it
   }
   show math.mat: math.display
