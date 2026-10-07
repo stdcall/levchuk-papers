@@ -40,32 +40,40 @@
   (..initial, range(5).map(_ => $dot$), final)
 }
 
-#let classical-matrix(kind) = canvas(length: 1mm, {
+#let classical-matrix(kind, layer: "all") = canvas(length: 1mm, {
   import draw: *
   let rows = matrix-rows(kind)
   let column-step = 14
   let row-step = 9
+  let margin = column-step * 0.65
+  let apex = row-step * 0.7
   let bottom = -(rows.len() - 1) * row-step
   let half-width = (rows.last().len() - 1) * column-step / 2
   set-style(stroke: 0.6pt, content: (padding: 0.4))
-  for (i, row) in rows.enumerate() {
-    for (j, cell) in row.enumerate() {
-      let x = (j - (row.len() - 1) / 2) * column-step
-      content((x, -i * row-step), cell)
+  let matrix = {
+    for (i, row) in rows.enumerate() {
+      for (j, cell) in row.enumerate() {
+        let x = (j - (row.len() - 1) / 2) * column-step
+        content((x, -i * row-step), cell)
+      }
     }
+    line((-2, apex), (-half-width - margin, bottom), stroke: 0.6pt)
+    line((2, apex), (half-width + margin, bottom), stroke: 0.6pt)
   }
-  let margin = column-step * 0.65
-  let apex = row-step * 0.7
-  line((-2, apex), (-half-width - margin, bottom), stroke: 0.6pt)
-  line((2, apex), (half-width + margin, bottom), stroke: 0.6pt)
-  content(
+  if layer == "caption" { hide(matrix, bounds: true) } else { matrix }
+  let caption = content(
     (half-width + 2.2 * margin, bottom / 2),
     if kind == "B" { $Phi = B_n,$ } else { $Phi = C_n.$ },
     anchor: "west",
   )
+  if layer == "matrix" { hide(caption) } else { caption }
 })
 
 #let classical-matrices() = {
-  align(center, classical-matrix("B"))
-  align(center, classical-matrix("C"))
+  for kind in ("B", "C") {
+    block(width: 100%)[
+      #place(top + center, classical-matrix(kind, layer: "caption"))
+      #align(center, classical-matrix(kind, layer: "matrix"))
+    ]
+  }
 }
