@@ -28,9 +28,13 @@
 #import "papers/l1992-chevalley/defs.typ" as l1992-chevalley
 #import "papers/l2008-normal/defs.typ" as l2008-normal
 #import "papers/l2009-model/defs.typ" as l2009-model
+#import "papers/l1975-automorphisms/defs.typ" as l1975-automorphisms
+#import "papers/l2009-finitary/defs.typ" as l2009-finitary
 
 #let articles = json("../articles.json")
 #let scopes = (
+  l1975-automorphisms: dictionary(l1975-automorphisms),
+  l2009-finitary: dictionary(l2009-finitary),
   l1992-chevalley: dictionary(l1992-chevalley),
   l2008-normal: dictionary(l2008-normal),
   l2009-model: dictionary(l2009-model),

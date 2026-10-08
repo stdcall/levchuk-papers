@@ -71,6 +71,7 @@ large abelian subgroups of the remaining groups $U$
 ([@bib:l2013-thompson-Levchuk2007, @bib:l2013-thompson-Gupta2008])._
 
 See the exceptions in [@bib:l2013-thompson-Levchuk2009,
+Proposition~@prop:l2009-finitary-g2-exception;
 @bib:l2013-thompson-Suleimanova2010] and [@bib:l2013-thompson-Suleimanova2012].
 In [@bib:l2013-thompson-Levchuk2012Extremal] the authors proved
 

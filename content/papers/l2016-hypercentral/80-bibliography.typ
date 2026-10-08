@@ -31,8 +31,9 @@
   "Videla1988",
 )] <bib:l2016-hypercentral-Videla1988>
 #bib-item[#bib-description(
-  "Levchuk1975",
-)] <bib:l2016-hypercentral-Levchuk1975>
+    "Levchuk1975",
+  ) В сборнике: с.
+  @ch:l1975-automorphisms.] <bib:l2016-hypercentral-Levchuk1975>
 #bib-item[#bib-description("Rose1978")] <bib:l2016-hypercentral-Rose1978>
 #bib-item[#bib-description(
   "Wheeler1980",

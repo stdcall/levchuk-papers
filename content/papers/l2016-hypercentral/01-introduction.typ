@@ -27,7 +27,8 @@ $A_(n-1)$ она изоморфна алгебре Ли, ассоциирова�
 Соответствие Мальцева на кольца $NT(n, K)$ над любым ассоциативным (не
 обязательно коммутативным) кольцом $K$ с единицей перенес Видела
 [@bib:l2016-hypercentral-Videla1988], пользуясь описанием автоморфизмов из
-[@bib:l2016-hypercentral-Levchuk1975] (случаи полей $K$ см. Роуз
+[@bib:l2016-hypercentral-Levchuk1975,
+теорема~@th:l1975-automorphisms-ring-decomposition] (случаи полей $K$ см. Роуз
 [@bib:l2016-hypercentral-Rose1978] и Велер
 [@bib:l2016-hypercentral-Wheeler1980]); усиление теоремы Видела см.
 [@bib:l2016-hypercentral-Minakova2008]. Взаимосвязанное описание в

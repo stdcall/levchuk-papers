@@ -15,6 +15,7 @@
 #part-title[
   Унитреугольные группы и ассоциированные кольца]
 #include "papers/l1974/00-main.typ"
+#include "papers/l1975-automorphisms/00-main.typ"
 #include "papers/l1976/00-main.typ"
 #include "papers/l1983/00-main.typ"
 #include "papers/l1987-rings/00-main.typ"
@@ -32,6 +33,7 @@
 #include "papers/l1990-small/00-main.typ"
 #include "papers/l1990-chevalley/00-main.typ"
 #include "papers/l1992-chevalley/00-main.typ"
+#include "papers/l2009-finitary/00-main.typ"
 #include "papers/l2016-hypercentral/00-main.typ"
 
 #part-title[

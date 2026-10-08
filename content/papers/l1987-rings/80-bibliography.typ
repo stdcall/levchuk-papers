@@ -3,7 +3,8 @@
 
 #heading(level: 3, numbering: none)[Список цитированной литературы]
 
-#bib-item[#bib-description("Levchuk1975")] <bib:l1987-rings-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") В сборнике: с.
+  @ch:l1975-automorphisms.] <bib:l1987-rings-Levchuk1975>
 #bib-item[#bib-description("Levchuk1976")
   В сборнике: с. @ch:l1976.
 ] <bib:l1987-rings-Levchuk1976>

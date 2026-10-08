@@ -45,8 +45,8 @@
 #bib-item[#bib-description("Levchuk2008") В сборнике: с.
   @ch:l2008-normal.] <bib:l2012-extremal-en-Levchuk2008>
 #bib-item[#bib-description(
-  "Levchuk2009",
-)] <bib:l2012-extremal-en-Levchuk2009>
+    "Levchuk2009",
+  ) Original: @ch:l2009-finitary.] <bib:l2012-extremal-en-Levchuk2009>
 #bib-item[#bib-description(
   "Malcev1945",
 )] <bib:l2012-extremal-en-Malcev1945>

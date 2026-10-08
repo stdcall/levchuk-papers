@@ -13,7 +13,8 @@
   "Spitznagel1969",
 )] <bib:l1990-chevalley-Spitznagel1969>
 #bib-item[#bib-description("Hurley1973")] <bib:l1990-chevalley-Hurley1973>
-#bib-item[#bib-description("Levchuk1975")] <bib:l1990-chevalley-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") В сборнике: с.
+  @ch:l1975-automorphisms.] <bib:l1990-chevalley-Levchuk1975>
 #bib-item[#bib-description("Levchuk1983")
   В сборнике: с. @ch:l1983.
 ] <bib:l1990-chevalley-Levchuk1983>

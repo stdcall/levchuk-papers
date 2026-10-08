@@ -28,8 +28,8 @@
 #bib-item[#bib-description("Kourovka1980")] <bib:l1992-chevalley-Kourovka1980>
 #source(16, printed: 242)
 #bib-item[#bib-description(
-  "Levchuk1975",
-)] <bib:l1992-chevalley-Levchuk1975>
+    "Levchuk1975",
+  ) Original: @ch:l1975-automorphisms.] <bib:l1992-chevalley-Levchuk1975>
 #bib-item[#bib-description("LevchukConnections1976")
   In this collection: I, p.~@ch:l1976, Theorems
   @th:l1976-normal-lie-correspondence and @th:l1976-lie-ideals; II,

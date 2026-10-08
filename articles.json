@@ -5,6 +5,11 @@
     "theme": "unitriangular-rings"
   },
   {
+    "id": "l1975-automorphisms",
+    "publication": "Levchuk1975NilpotentAutomorphismsRu",
+    "theme": "unitriangular-rings"
+  },
+  {
     "id": "l1976",
     "publication": "Levchuk1976UnitriangularIRu",
     "theme": "unitriangular-rings"
@@ -72,6 +77,11 @@
   {
     "id": "l1992-chevalley",
     "publication": "Levchuk1992ChevalleyUnipotentEn",
+    "theme": "chevalley-automorphisms"
+  },
+  {
+    "id": "l2009-finitary",
+    "publication": "Levchuk2009FinitaryChevalleyRu",
     "theme": "chevalley-automorphisms"
   },
   {

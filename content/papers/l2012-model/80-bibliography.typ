@@ -21,7 +21,8 @@
 )] <bib:l2012-model-ChangKeisler1977>
 #bib-item[#bib-description("Hodges1993")] <bib:l2012-model-Hodges1993>
 #bib-item[#bib-description("Rose1978")] <bib:l2012-model-Rose1978>
-#bib-item[#bib-description("Levchuk1975")] <bib:l2012-model-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") В сборнике: с.
+  @ch:l1975-automorphisms.] <bib:l2012-model-Levchuk1975>
 #bib-item[#bib-description("Videla1988")] <bib:l2012-model-Videla1988>
 #bib-item[#bib-description("Wheeler1980")] <bib:l2012-model-Wheeler1980>
 #bib-item[#bib-description("Levchuk1983") В сборнике:

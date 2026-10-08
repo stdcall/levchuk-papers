@@ -9,8 +9,10 @@
 [@bib:l1990-chevalley-Carter1972, § 5.1 и 13.6]) обозначаем через $U G(K)$. Её
 автоморфизмы (наряду с коммутаторным строением) изучены, когда $K$ — поле
 характеристики $!= 2,3$, в [@bib:l1990-chevalley-Gibbs1970] или когда $G = A_n$,
-в [@bib:l1990-chevalley-Levchuk1975; @bib:l1990-chevalley-Levchuk1983]. В статье
-автоморфизмы описаны (теоремы @th:l1990-chevalley-high-rank-automorphisms и
+в [@bib:l1990-chevalley-Levchuk1975,
+теорема~@th:l1975-automorphisms-decomposition;
+@bib:l1990-chevalley-Levchuk1983]. В статье автоморфизмы описаны (теоремы
+@th:l1990-chevalley-high-rank-automorphisms и
 @th:l1990-chevalley-c-symplectic-automorphisms) при некоторых ограничениях на
 кольцо $K$, зависящих от типа $G$, в частности, когда $K$ — произвольное поле;
 выпадающие из рассмотрений группы $U G(K)$ малых рангов $G$ исследованы в

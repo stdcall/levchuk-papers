@@ -5,7 +5,8 @@
 #source(4, printed: 188)
 #bib-item[#bib-description("Malcev1960")] <bib:l2009-model-Malcev1960>
 #bib-item[#bib-description("Videla1988")] <bib:l2009-model-Videla1988>
-#bib-item[#bib-description("Levchuk1975")] <bib:l2009-model-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") Original:
+  @ch:l1975-automorphisms.] <bib:l2009-model-Levchuk1975>
 #bib-item[#bib-description("Levchuk1983")
   In this collection: p.~@ch:l1983; Theorems @th:l1983-main-automorphisms,
   @th:l1983-rank-four, and @th:l1983-rank-three.

@@ -438,7 +438,7 @@ $
   or $r+s$ is not of the first type. Then the basic relations of the twisted
   group $U$ (cf. [@bib:l2012-extremal-en-Carter1972,
   @bib:l2012-extremal-en-Steinberg1967] and [@bib:l2012-extremal-en-Levchuk2009,
-  Theorem 2]) show that
+  Theorem~@th:l2009-finitary-defining-relations]) show that
   $[x_r lr((u)),x_s lr((v))] = x_(r+s) lr((plus.minus eta)) mod Q(r+s)$ for
   $eta = u v$, $overline(u)v$, $u overline(v)$ or $overline(u)overline(v)$, and
   hence $r+s$ is a corner of the commutator $[x_r lr((F)),x_s lr((V))]$.

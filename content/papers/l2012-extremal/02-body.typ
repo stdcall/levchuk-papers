@@ -43,7 +43,8 @@ $N Phi(K)$ определяем, полагая $cal(F)(pi(H)) = pi(cal(F)(H))$.
 $e_r ast e_s = c_(r s) e_(r+s)$. В силу коммутаторной формулы Шевалле
 $[X_r, X_s] = x_(r+s) lr((c_(r s) K)) mod Q(r+s)$. Используя соотношения из
 [@bib:l2012-extremal-Levchuk1990, § @sec:l1990-small-f4-automorphisms (I)] и
-[@bib:l2012-extremal-Levchuk2009, теорема 2], приходим к следующей лемме.
+[@bib:l2012-extremal-Levchuk2009,
+теорема~@th:l2009-finitary-defining-relations], приходим к следующей лемме.
 
 #lemma[Пусть $U = U G(K)$ и $r, s, r+s in G^+$. Тогда
   $[X_r, X_s] = X_(r+s) mod Q(r+s)$ или $G = Phi$, $c_(r s) K = p(Phi)! K = 0$ и
