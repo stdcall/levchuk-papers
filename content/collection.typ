@@ -1,7 +1,7 @@
 #import "main-defs.typ": current-work, editorial-note-counter
 #import "numbering.typ": family-counter, family-depth, section-examples
 #import "numbering.typ": article-depths, article-groups, article-prefixes
-#import "numbering.typ": zero-section-numbering
+#import "numbering.typ": introduction-section-numbering, zero-section-numbering
 #import "bibliography-data.typ": publications
 #import "bibliography-style.typ": bib-authors, rich-bib-text
 
@@ -16,10 +16,16 @@
   body
 }
 
-// An explicitly numbered introductory section precedes the article's § 1.
-#let article-introduction(body) = {
-  heading(level: 3, numbering: zero-section-numbering, body)
-  context counter(heading).update((..counter(heading).get().slice(0, 2), 0))
+// The introduction has no printed number; its author number remains structural.
+#let article-introduction(body, number: 0) = {
+  assert(number in (0, 1), message: "An introduction starts at section 0 or 1")
+  let style = if number == 0 { zero-section-numbering } else {
+    introduction-section-numbering
+  }
+  heading(level: 3, numbering: style, body)
+  if number == 0 {
+    context counter(heading).update((..counter(heading).get().slice(0, 2), 0))
+  }
 }
 
 #let article-begin(work, depths: (:), groups: (:), prefixes: (:)) = {

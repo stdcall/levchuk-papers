@@ -705,7 +705,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk2010ModelTheoryEn.
+  В сборнике: с. @ch:l2008-model. Перевод: @bib:pub-Levchuk2010ModelTheoryEn.
 ] <bib:pub-Levchuk2008ModelTheoryRu>
 
 #bib-item[
@@ -857,6 +857,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2012-model.
 ] <bib:pub-Levchuk2012ModelStructuralProblemsRu>
 
 #bib-item[
@@ -1049,6 +1050,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2018-malcev.
 ] <bib:pub-Zotov2018MalcevCorrespondenceRu>
 
 #bib-item[

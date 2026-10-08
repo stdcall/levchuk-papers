@@ -395,5 +395,65 @@
     "passages": [
       "prop:l2005-sylow-power-series"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2018Malcev/ACFCounterexample.lean",
+    "declarations": [
+      "LevchukPapers.L2018Malcev.elementaryEquivalent",
+      "LevchukPapers.L2018Malcev.transcendentalInB",
+      "LevchukPapers.L2018Malcev.noRingEquiv",
+      "LevchukPapers.L2018Malcev.cardinalA",
+      "LevchukPapers.L2018Malcev.cardinalRatFunc",
+      "LevchukPapers.L2018Malcev.cardinalB",
+      "LevchukPapers.L2018Malcev.equalCardinality",
+      "LevchukPapers.L2018Malcev.counterexample"
+    ],
+    "book": "Статья 2018 года, §1, с.136: равная мощность элементарно эквивалентных моделей не гарантирует изоморфизма.",
+    "limitations": "Доказан полный конкретный контрпример: алгебраические замыкания ℚ и ℚ(t) счётны, элементарно эквивалентны в языке колец, но не изоморфны как кольца. Формализация использует алгебраическую замкнутость, характеристику нуль и наличие трансцендентного элемента во втором поле. Общие классификации статьи, единственность насыщенных моделей и теоремы об ультрапроизведениях не формализованы.",
+    "passages": [
+      "pass:l2018-malcev-elementary-isomorphism"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2008Model/JordanNT5.lean",
+    "declarations": [
+      "LevchukPapers.L2008Model.matrix_add",
+      "LevchukPapers.L2008Model.matrix_mul",
+      "LevchukPapers.L2008Model.matrix_faithful",
+      "LevchukPapers.L2008Model.shear_add",
+      "LevchukPapers.L2008Model.shear_involution",
+      "LevchukPapers.L2008Model.shear_jordan",
+      "LevchukPapers.L2008Model.shear_bijective",
+      "LevchukPapers.L2008Model.matrix_jordan",
+      "LevchukPapers.L2008Model.shear_internal_ideals",
+      "LevchukPapers.L2008Model.shear_not_associative",
+      "LevchukPapers.L2008Model.shear_does_not_preserve_boundary"
+    ],
+    "book": "Статья 2008 года, лемма1.7: без граничных идеалов йорданов автоморфизм не обязан быть ассоциативным.",
+    "limitations": "Доказан конкретный контрпример над 𝔽₂ для n=5: точное вложение координат в матрицы, аддитивность, биективность, сохранение йорданова произведения и всех внутренних прямоугольников, нарушение ассоциативного произведения и граничного идеала. Общая классификация автоморфизмов и необходимость в теореме об элементарной эквивалентности не формализованы.",
+    "passages": [
+      "lem:l2008-model-ideal-preserving-associative",
+      "th:l2008-model-jordan-automorphisms"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2012Model/UnitExtensions.lean",
+    "declarations": [
+      "LevchukPapers.L2012Model.zEmbedding",
+      "LevchukPapers.L2012Model.zIdeal",
+      "LevchukPapers.L2012Model.zGenerated",
+      "LevchukPapers.L2012Model.zIndexTwo",
+      "LevchukPapers.L2012Model.dEmbedding",
+      "LevchukPapers.L2012Model.dIdeal",
+      "LevchukPapers.L2012Model.dGenerated",
+      "LevchukPapers.L2012Model.dIndexTwo",
+      "LevchukPapers.L2012Model.notRingEquiv",
+      "LevchukPapers.L2012Model.unitNotInImage"
+    ],
+    "book": "Статья2012 года, лемма4.1: минимальный индекс присоединения единицы не обеспечивает единственности расширения.",
+    "limitations": "Проверены два конкретных расширения C₂ с нулевым умножением: ℤ/4 и 𝔽₂[ε]/(ε²). Доказаны инъективные аддитивные вложения, нулевые произведения их образов, идеальность, генерация идеалом и единицей, данные для индекса2 и неизоморфность колец. Общий запрет единицы в инъективном образе ненулевого кольца с нулевым умножением даёт минимальность. Общая теорема существования унитального расширения и разложение Брюа не формализованы.",
+    "passages": [
+      "lem:l2012-model-unit-adjunction"
+    ]
   }
 ]

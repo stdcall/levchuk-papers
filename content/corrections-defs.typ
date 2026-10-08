@@ -13,8 +13,17 @@
 
 #import "papers/l2011-local/defs.typ" as l2011-local
 
+#import "papers/l2008-model/defs.typ" as l2008-model
+
+#import "papers/l2018-malcev/defs.typ" as l2018-malcev
+
+#import "papers/l2012-model/defs.typ" as l2012-model
+
 #let articles = json("../articles.json")
 #let scopes = (
+  l2012-model: dictionary(l2012-model),
+  l2018-malcev: dictionary(l2018-malcev),
+  l2008-model: dictionary(l2008-model),
   l2011-local: dictionary(l2011-local),
   l1974: dictionary(l1974),
   l1976: dictionary(l1976),

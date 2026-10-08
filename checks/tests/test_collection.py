@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 class Collection(unittest.TestCase):
     def build(self, root, extra=False, sectioned=False, grouped=False, conditions=False,
-              prefixed=False, introduction=False):
+              prefixed=False, introduction=False, introduction_number=0):
         driver = (
             '#import "content/book-style.typ": book-style\n'
             '#import "content/collection.typ": article-begin\n'
@@ -119,17 +119,23 @@ class Collection(unittest.TestCase):
                 '#show: book-style\n'
                 '#article-begin("probe-a", depths: (th: 1))\n'
                 '== Статья A <ch:probe-a>\n'
-                '#article-introduction[Introduction] <sec:probe-intro>\n'
-                '#theorem(numbered: false)[Основное утверждение.]\n'
-                '=== Первый раздел <sec:probe-first>\n'
-                '#theorem[Первое утверждение.] <th:probe-first>\n'
+                f'#article-introduction(number: {introduction_number})[Introduction] '
+                '<sec:probe-intro>\n'
+                + ('#theorem[Первое утверждение.] <th:probe-first>\n'
+                   if introduction_number == 1 else
+                   '#theorem(numbered: false)[Основное утверждение.]\n'
+                   '=== Первый раздел <sec:probe-first>\n'
+                   '#theorem[Первое утверждение.] <th:probe-first>\n')
                 + ('#theorem[Вставленное утверждение.] <th:probe-extra>\n' if extra else '')
                 + '=== Второй раздел <sec:probe-second>\n'
                 '#theorem[Второе утверждение.] <th:probe-second>\n'
                 '#article-begin("probe-b")\n'
                 '== Статья B <ch:probe-b>\n'
                 '#theorem[Третье утверждение.] <th:probe-b>\n'
-                'Разделы: @sec:probe-intro, @sec:probe-first, @sec:probe-second.\n'
+                + ('Разделы: @sec:probe-intro, @sec:probe-second.\n'
+                   if introduction_number == 1 else
+                   'Разделы: @sec:probe-intro, @sec:probe-first, @sec:probe-second.\n')
+                +
                 'Теоремы: @th:probe-first, @th:probe-second, @th:probe-b.\n')
         (root / 'sample.typ').write_text(driver)
         command = ['typst', 'compile', '--root', str(root), '--ignore-system-fonts',
@@ -223,7 +229,7 @@ class Collection(unittest.TestCase):
                                  else ['1', '1′', '2', '0'])
                 self.assertGreaterEqual(len(links), 4)
 
-    def test_numbered_introduction_preserves_later_section_counters(self):
+    def test_unnumbered_introduction_preserves_later_section_counters(self):
         with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-intro-') as tmp:
             root = Path(tmp)
             shutil.copytree(ROOT / 'content', root / 'content')
@@ -233,7 +239,8 @@ class Collection(unittest.TestCase):
             (root / 'publications.bib').write_text('')
             for extra in (False, True):
                 text, links, values = self.build(root, extra=extra, introduction=True)
-                self.assertIn('§ 0. Introduction', text)
+                self.assertIn('Introduction', text)
+                self.assertNotIn('§ 0. Introduction', text)
                 self.assertIn('§ 1. Первый раздел', text)
                 self.assertIn('Разделы: 0, 1, 2.', text)
                 self.assertIn('Теоремы: 1.1, 2.1, 1.', text)
@@ -243,6 +250,29 @@ class Collection(unittest.TestCase):
                 self.assertEqual([it['number'] for it in values
                                   if it['family'] == 'th' and it['number'] is not None], expected)
                 self.assertGreaterEqual(len(links), 6)
+
+    def test_author_section_one_introduction_keeps_statement_prefixes(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-author-intro-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            for extra in (False, True):
+                text, links, values = self.build(
+                    root, extra=extra, introduction=True, introduction_number=1)
+                self.assertIn('Introduction', text)
+                self.assertNotIn('§ 1. Introduction', text)
+                self.assertIn('§ 2. Второй раздел', text)
+                self.assertIn('Разделы: 1, 2.', text)
+                self.assertIn('Теоремы: 1.1, 2.1, 1.', text)
+                expected = [[1, 1], [2, 1], [1]]
+                if extra:
+                    expected.insert(1, [1, 2])
+                self.assertEqual([it['number'] for it in values
+                                  if it['family'] == 'th'], expected)
+                self.assertGreaterEqual(len(links), 5)
 
     def test_section_prefix_keeps_the_equation_counter_continuous(self):
         with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-prefix-') as tmp:
