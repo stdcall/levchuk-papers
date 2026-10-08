@@ -1,6 +1,8 @@
 #import "main-defs.typ": reference-rules
 #import "statements.typ": numbered-display
-#import "numbering.typ": restart-counters, zero-section-numbering
+#import "numbering.typ": (
+  introduction-section-numbering, restart-counters, zero-section-numbering,
+)
 #import "bibliography-data.typ": publications
 #let articles = json("../articles.json")
 
@@ -358,7 +360,15 @@
     block(width: 100%, above: 1.4em, below: 0.8em, sticky: true, align(
       left,
       strong[
-        #if it.numbering != none and it.level != 2 [#numbering(
+        #if (
+          it.numbering != none
+            and it.level != 2
+            and it.numbering
+              not in (
+                zero-section-numbering,
+                introduction-section-numbering,
+              )
+        ) [#numbering(
             it.numbering,
             ..counter(heading).at(it.location()),
           )

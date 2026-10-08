@@ -40,7 +40,9 @@ class Bibliography(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(result.stderr, '', result.stderr)
         doc = pymupdf.open(root / (stem + '.pdf'))
-        text = ' '.join(' '.join(page.get_text().split()) for page in doc)
+        text = ' '.join(' '.join(page.get_text().replace('\u00ad\n', '')
+                                .replace('\u00ad', '').split())
+                        for page in doc).replace('\u2011', '-')
         links = [link for page in doc for link in page.get_links()]
         return doc, text, links
 
@@ -102,6 +104,42 @@ class Bibliography(unittest.TestCase):
             self.assertIn(0, back)
             self.assertIn(1, back)
             self.assertGreaterEqual(back.count(2), 2)
+            doc.close()
+
+    def test_book_edition_and_thesis_coordinates_follow_bib_data(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-bib-fields-') as tmp:
+            root = Path(tmp)
+            self.prepare(root)
+            records = (
+                '@book{Book,\n  author={},\n  title={Сборник задач},\n'
+                '  edition={17},\n  publisher={Издательство},\n'
+                '  language={russian},\n  year={2010},\n}\n'
+                '@phdthesis{Thesis,\n  author={Автор, А.},\n  title={Диссертация},\n'
+                '  type={Дис. … канд. физ.-мат. наук},\n'
+                '  school={Институт математики},\n  address={Новосибирск},\n'
+                '  year={2003},\n  pagetotal={65},\n}\n')
+            (root / 'references.bib').write_text(records)
+            (root / 'sample.typ').write_text(
+                '#import "content/book-style.typ": book-style\n'
+                '#import "content/statements.typ": bib-item\n'
+                '#import "content/bibliography-style.typ": bib-description\n'
+                '#show: book-style\n'
+                '#bib-item[#bib-description("Book")] <bib:Book>\n'
+                '#bib-item[#bib-description("Thesis")] <bib:Thesis>\n')
+            doc, text, _ = self.compile(root, 'before')
+            self.assertIn('17-е изд. Издательство, 2010', text)
+            self.assertIn('Дис. … канд. физ.-мат. наук. '
+                          'Новосибирск: Институт математики, 2003, 65 с.', text)
+            doc.close()
+            (root / 'references.bib').write_text(
+                records.replace('edition={17}', 'edition={18}').replace(
+                    'address={Новосибирск}', 'address={Москва}').replace(
+                    'school={Институт математики}', 'school={Другой институт}'))
+            doc, text, _ = self.compile(root, 'after')
+            self.assertIn('18-е изд. Издательство, 2010', text)
+            self.assertIn('Москва: Другой институт, 2003, 65 с.', text)
+            self.assertNotIn('17-е изд.', text)
+            self.assertNotIn('Новосибирск:', text)
             doc.close()
 
 

@@ -105,23 +105,34 @@
 
 #let default-bib-template(entry) = {
   let value = "{title}. "
+  if "edition" in entry {
+    let edition = entry.edition
+    let russian = (
+      entry.at("language", default: entry.at("langid", default: ""))
+        == "russian"
+    )
+    value += if edition.match(regex("^[0-9]+$")) != none {
+      if russian { "{edition}-е изд. " } else { "Ed. {edition}. " }
+    } else { "{edition}. " }
+  }
+  if "type" in entry { value += "{type}. " }
   if "journal" in entry {
     value += "{journal}"
   } else if "booktitle" in entry {
     value += "В кн.: {booktitle}"
   }
-  if "publisher" in entry {
+  if "publisher" in entry or "school" in entry {
     if "journal" in entry or "booktitle" in entry { value += ". " }
     if "location" in entry { value += "{location}: " } else if (
       "address" in entry
     ) { value += "{address}: " }
-    value += "{publisher}"
+    value += if "publisher" in entry { "{publisher}" } else { "{school}" }
   }
   if "year" in entry { value += ", {year}" }
   if "volume" in entry { value += ", {volume}" }
   if "number" in entry { value += ", № {number}" }
   if "pages" in entry { value += ", {pages}" } else if "pagetotal" in entry {
-    value += ", {pagetotal} с."
+    value += ", {pagetotal} с"
   }
   value + "."
 }

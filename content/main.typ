@@ -45,4 +45,10 @@
 #include "papers/l2019-nonfinitary/00-main.typ"
 #include "papers/l2022-graph/00-main.typ"
 
+#part-title[
+  Теория моделей групп и колец]
+#include "papers/l2008-model/00-main.typ"
+#include "papers/l2012-model/00-main.typ"
+#include "papers/l2018-malcev/00-main.typ"
+
 #include "95-publications.typ"

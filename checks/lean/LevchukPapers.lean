@@ -26,3 +26,6 @@ import LevchukPapers.L2019.Nonfinitary
 import LevchukPapers.L2001.Coordinates
 import LevchukPapers.L2011.Local
 import LevchukPapers.L2005Sylow.PowerSeriesUnits
+import LevchukPapers.L2018Malcev.ACFCounterexample
+import LevchukPapers.L2008Model.JordanNT5
+import LevchukPapers.L2012Model.UnitExtensions

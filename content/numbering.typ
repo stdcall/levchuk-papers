@@ -4,7 +4,8 @@
 #let article-depths = state("article-numbering-depths", (:))
 #let article-groups = state("article-numbering-groups", (:))
 #let article-prefixes = state("article-numbering-prefixes", (:))
-#let zero-section-numbering(..numbers) = [§ 0.]
+#let zero-section-numbering(..numbers) = []
+#let introduction-section-numbering(..numbers) = []
 #let formula-skips = (:)
 #let formula-tags = (:)
 #let family-depth = (

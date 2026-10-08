@@ -21,7 +21,8 @@
   "Kondratev1986",
 )] <bib:l2015-niltriangular-Kondratev1986>
 #bib-item[#bib-description("Videla1990")] <bib:l2015-niltriangular-Videla1990>
-#bib-item[#bib-description("Levchuk2012")] <bib:l2015-niltriangular-Levchuk2012>
+#bib-item[#bib-description("Levchuk2012") В сборнике:
+  с.~@ch:l2012-model.] <bib:l2015-niltriangular-Levchuk2012>
 #bib-item[#bib-description("Cao2007")] <bib:l2015-niltriangular-Cao2007>
 #bib-item[#bib-description(
   "Litavrin2015",

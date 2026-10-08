@@ -103,5 +103,20 @@
     "id": "l2022-graph",
     "publication": "Levchuk2022GraphCentralizersEn",
     "theme": "niltriangular-ideals"
+  },
+  {
+    "id": "l2008-model",
+    "publication": "Levchuk2008ModelTheoryRu",
+    "theme": "model-theory"
+  },
+  {
+    "id": "l2012-model",
+    "publication": "Levchuk2012ModelStructuralProblemsRu",
+    "theme": "model-theory"
+  },
+  {
+    "id": "l2018-malcev",
+    "publication": "Zotov2018MalcevCorrespondenceRu",
+    "theme": "model-theory"
   }
 ]
