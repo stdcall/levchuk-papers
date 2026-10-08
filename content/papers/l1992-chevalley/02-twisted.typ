@@ -10,7 +10,7 @@ $A_(2n-1)$ or $A_(2n)$ gives rise to isometry $r mapsto overline(r)$ of the
 main Euclydian space, being $overline(Phi) = Phi$. By
 [@bib:l1992-chevalley-Steinberg1967, § 11, Theorem 32 and Remark] define a
 homomorphism $zeta$ of system $Phi$ onto the root system of types $F_4$,
-$B_(n-1)$, $C_n$ or $BC_n$ respectively, for which
+$B_(n-1)$, $C_n$ or $italic("BC")_n$ respectively, for which
 $zeta(r) = zeta(overline(r))$. Let us consider a function $f$ with conditions
 F1)–F3), as well as in Sect.~@sec:l1992-chevalley-normal, adding F4)
 $f(r,k) = f(overline(r),k)$. Here the unpeculiarity of pair $k,m$ in respect to
