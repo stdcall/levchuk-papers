@@ -14,8 +14,12 @@
 #bib-item[#bib-description("Rose1978")] <bib:l2018-malcev-Rose1978>
 #bib-item[#bib-description("Wheeler1980")] <bib:l2018-malcev-Wheeler1980>
 #bib-item[#bib-description("Videla1988")] <bib:l2018-malcev-Videla1988>
-#bib-item[#bib-description("Belegradek1999")] <bib:l2018-malcev-Belegradek1999>
-#bib-item[#bib-description("Levchuk2009")] <bib:l2018-malcev-Levchuk2009>
+#bib-item[#bib-description(
+  "Belegradek1999",
+)] <bib:l2018-malcev-Belegradek1999>
+#bib-item[#bib-description("Levchuk2009") Перевод: с. @ch:l2009-model; теорема
+  @th:l2009-model-elementary-equivalence.
+] <bib:l2018-malcev-Levchuk2009>
 #bib-item[#bib-description("Videla1990")] <bib:l2018-malcev-Videla1990>
 #bib-item[#bib-description("Bunina2015")] <bib:l2018-malcev-Bunina2015>
 #bib-item[#bib-description("Carter1972")] <bib:l2018-malcev-Carter1972>

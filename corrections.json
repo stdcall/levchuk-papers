@@ -4609,6 +4609,266 @@
       "corrected": "R. Dubisch",
       "reason": "The primary journal record names Roy Dubisch as the coauthor of On total nilpotent algebras, American Journal of Mathematics 73(2) (1951), 439–452, DOI 10.2307/2372186.",
       "verified_by": "Первичная запись JSTOR, DOI 10.2307/2372186: Roy Dubisch, Sam Perlis, American Journal of Mathematics 73:2 (1951), 439–452. https://www.jstor.org/stable/2372186."
+    },
+    {
+      "id": "l1992-chevalley-C001",
+      "printed_page": 239,
+      "section": "l1992-chevalley · § 6",
+      "place": "симплектический коммутатор",
+      "original": "$[x e_(i j),y e_(i j')] = 2e_(i i')$",
+      "corrected": "$[x e_(i j),y e_(i j')] = 2x y e_(i i')$",
+      "reason": "В оригинале пропущено произведение параметров. При $x=0$ коммутатор нулевой; напечатанная правая часть ненулевая в нечётной характеристике. Раскрытие матричного коммутатора даёт точно $2x y$.",
+      "verified_by": "checks/lean/LevchukPapers/L1992Chevalley/SymplecticCommutator.lean: symplectic_commutator, произвольное CommRing; предшествующая скобка Ли на с. 239."
+    },
+    {
+      "id": "l1992-chevalley-C002",
+      "printed_page": 230,
+      "section": "l1992-chevalley · § 2",
+      "place": "ссылка на свёртку системы корней",
+      "original": "By lemma 7 [7]",
+      "corrected": "By [24, § 11, Theorem 32 and Remark]",
+      "reason": "Напечатанная ссылка ведёт к заметке Холла о SI-группах. У Стейнберга теорема 32 и замечание описывают проекцию на неподвижное подпространство и ровно четыре указанных типа свёрнутых систем корней. Его лемма 7 касается другого вопроса.",
+      "verified_by": "Steinberg, Lectures on Chevalley Groups (1967), §11, Theorem32(c), pp172–173, Remark pp175–176; https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf"
+    },
+    {
+      "id": "l1992-chevalley-C003",
+      "printed_page": 242,
+      "section": "l1992-chevalley · Литература",
+      "place": "запись 26",
+      "original": "Tohoku Math. J., 29 (1976), 57–66.",
+      "corrected": "Tohoku Math. J., 28, № 1 (1976), 57–66.",
+      "reason": "Архив журнала подтверждает том 28; год 1976 и страницы оригинала верны.",
+      "verified_by": "https://www.jstage.jst.go.jp/article/tmj1949/28/1/28_1_57/_article/-char/ja; https://www.math.tohoku.ac.jp/tmj/2ndVolumeIndex.pdf"
+    },
+    {
+      "id": "l1992-chevalley-C004",
+      "printed_page": 237,
+      "section": "l1992-chevalley · § 6 и литература",
+      "place": "фамилия Dubisch",
+      "original": "R. Dubish",
+      "corrected": "R. Dubisch",
+      "reason": "Уточнено написание фамилии автора цитируемой статьи.",
+      "verified_by": "Dubisch and Perlis, On total nilpotent algebras, Amer.J.Math.73(2)(1951),439–452; DOI10.2307/2372186."
+    },
+    {
+      "id": "l1992-chevalley-C005",
+      "printed_page": 242,
+      "section": "l1992-chevalley · Литература",
+      "place": "запись 24",
+      "original": "Yales University",
+      "corrected": "Yale University",
+      "reason": "Исправлено название университета на титуле цитируемых лекций.",
+      "verified_by": "Steinberg, Lectures on Chevalley Groups (1967), title page; https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf"
+    },
+    {
+      "id": "l2008-normal-C001",
+      "printed_page": 285,
+      "section": "l2008-normal · § 2",
+      "place": "теорема 4(a)",
+      "original": "$G=G_2$ and $2K=0$ or $|K|>2$",
+      "corrected": "$G=G_2$ and $2K=0$ and $|K|>2$",
+      "reason": "Дизъюнкция включала нечётные характеристики и противоречила пункту (b). Конъюнкция подтверждена следствием 1(g) самой статьи и более подробной классификацией 2012 года.",
+      "verified_by": "Levchuk–Suleimanova, J.Algebra349(2012),98–116, Theorem4.2(c) and proof; Corollary1(g) (2008)."
+    },
+    {
+      "id": "l2008-normal-C002",
+      "printed_page": 286,
+      "section": "l2008-normal · § 2",
+      "place": "теорема 5(c), последнее семейство",
+      "original": "$+ a bar(a) lr((x+bar(x)))e_(n-1,-1)) | x in K$",
+      "corrected": "$+ a bar(a) lr((x+bar(x)))e_(n-1,-1) | x in K$",
+      "reason": "Удалена лишняя закрывающая скобка, которой не соответствует открывающая.",
+      "verified_by": "Печатная с.286, Theorem5(c), непосредственная сверка всех скобок и двух параметризованных слагаемых."
+    },
+    {
+      "id": "l2008-normal-C003",
+      "printed_page": 287,
+      "section": "l2008-normal · Литература",
+      "place": "запись 9",
+      "original": "Algebra Logika 40, 1–12 (2001)",
+      "corrected": "Алгебра и логика, 40, № 5 (2001), 523–544",
+      "reason": "Исправлены страницы и добавлен номер русского издания, указанного в исходной записи.",
+      "verified_by": "https://www.mathnet.ru/eng/al234; перевод Algebra and Logic40(5),292–305, DOI10.1023/A:1012549701336."
+    },
+    {
+      "id": "l2008-normal-C004",
+      "printed_page": 287,
+      "section": "l2008-normal · Литература",
+      "place": "запись 11",
+      "original": "J. Reiene Angew. Math.",
+      "corrected": "J. Reine Angew. Math.",
+      "reason": "Исправлена опечатка в названии журнала.",
+      "verified_by": "Parker–Rowley, Extremal subgroups in twisted Lie type groups, J.Reine Angew.Math.498(1998),135–152, DOI10.1515/crll.1998.047."
+    },
+    {
+      "id": "l2009-model-C001",
+      "printed_page": 185,
+      "section": "l2009-model · Введение",
+      "place": "правая часть элементарной эквивалентности",
+      "original": "$Lambda lr((R)) equiv (R')$",
+      "corrected": "$Lambda lr((R)) equiv Lambda lr((R'))$",
+      "reason": "Пропущен символ ассоциированного кольца Ли в правой части; далее рассматриваются два кольца Ли.",
+      "verified_by": "Определения R и R′ и Section3 той же статьи."
+    },
+    {
+      "id": "l2009-model-C002",
+      "printed_page": 185,
+      "section": "l2009-model · Введение",
+      "place": "утверждение о восстановлении ранга",
+      "original": "для ассоциативных колец с единицей K и S",
+      "corrected": "для ненулевых ассоциативных колец с единицей K и S",
+      "reason": "При $K=S=0$ кольца $NT lr((n,K))$ равны нулю для любого ранга, поэтому ранги восстановить невозможно.",
+      "verified_by": "Прямой контрпример с нулевыми кольцами; аналогичное условие в статье Левчука2008 о модельных вопросах."
+    },
+    {
+      "id": "l2009-model-C003",
+      "printed_page": 186,
+      "section": "l2009-model · § 1",
+      "place": "кольца в теоремах Херстейна",
+      "original": "primary / half-primary",
+      "corrected": "prime / semiprime",
+      "reason": "Уточнены английские переводы терминов «первичное» и «полупервичное» кольцо в контексте результатов Херстейна.",
+      "verified_by": "Herstein, Jordan homomorphisms (1956); Jordan derivations of prime rings (1957), titles and hypotheses."
+    },
+    {
+      "id": "l2009-model-C004",
+      "printed_page": 186,
+      "section": "l2009-model · § 1",
+      "place": "лемма 2, формула гиперцентров",
+      "original": "формула с p и q без явного условия существования концов цепи",
+      "corrected": "формула при наличии обоих концов; все конечные гиперцентры нулевые при отсутствии хотя бы одного конца",
+      "reason": "Без конца цепи интервалы в формуле не определены. Крайние матричные единицы выделяются только при наличии обоих концов; иначе центр и последующие конечные гиперцентры нулевые.",
+      "verified_by": "Kuzucuoglu–Levchuk, Acta Appl.Math.82(2004),63–81, Lemma2.1; проверка рекурсии на матричных единицах."
+    },
+    {
+      "id": "l2009-model-C005",
+      "printed_page": 186,
+      "section": "l2009-model · § 1",
+      "place": "ссылка после теоремы 4",
+      "original": "Special cases of Theorem 6",
+      "corrected": "Special cases of Theorem 4",
+      "reason": "Указанные частные случаи относятся к описанию дифференцирований, а не к интерпретируемости коэффициентов в теореме 6.",
+      "verified_by": "Содержание Theorems4 and6, Section1 and3 той же статьи."
+    },
+    {
+      "id": "l2009-model-C006",
+      "printed_page": 187,
+      "section": "l2009-model · § 3",
+      "place": "ссылка на теорему 5",
+      "original": "Theorem 5 from Section 3",
+      "corrected": "Theorem 5 from Section 2",
+      "reason": "Классификация йордановых изоморфизмов помещена в Section2.",
+      "verified_by": "Theorem5, Section2, printedp187."
+    },
+    {
+      "id": "l2009-model-C007",
+      "printed_page": 188,
+      "section": "l2009-model · Литература",
+      "place": "запись 3",
+      "original": "Dokl.Akad.NaukSSSR16,756–760(1975)",
+      "corrected": "Soviet Math.Dokl.16(3),756–760(1975)",
+      "reason": "Русское название журнала было соединено с томом и страницами перевода.",
+      "verified_by": "Levchuk1975AutomorphismsEn; русский оригинал: Докл. АН СССР 222(6), 1279–1282, MathNet dan39100."
+    },
+    {
+      "id": "l2009-model-C008",
+      "printed_page": 188,
+      "section": "l2009-model · Литература",
+      "place": "запись 4",
+      "original": "Sib.Mat.Zh.24,543–557(1983)",
+      "corrected": "Siberian Math.J.24(4),543–557(1983)",
+      "reason": "Русское название журнала было соединено со страницами перевода.",
+      "verified_by": "Levchuk, Connections between a unitriangular group and certain rings. II. Groups of automorphisms, Siberian Math.J.24(4)(1983),543–557; DOI10.1007/BF00969606."
+    },
+    {
+      "id": "l2009-model-C009",
+      "printed_page": 188,
+      "section": "l2009-model · Литература",
+      "place": "запись 8",
+      "original": "331–351",
+      "corrected": "331–341",
+      "reason": "Исправлена последняя страница статьи Херстейна.",
+      "verified_by": "Herstein, Jordan homomorphisms, Trans.Amer.Math.Soc.81(1956),331–341; https://www.ams.org/books/coll/037/coll037-endmatter.pdf"
+    },
+    {
+      "id": "l2009-model-C010",
+      "printed_page": 185,
+      "section": "l2009-model · Введение и § 1",
+      "place": "пропущенные предлоги",
+      "original": "automorphisms Λ(R); derivation ring R",
+      "corrected": "automorphisms of Λ(R); derivation of the ring R",
+      "reason": "Восстановлены пропущенные предлоги в английском тексте.",
+      "verified_by": "Сверка печатных с.185–186."
+    },
+    {
+      "id": "l2009-model-C011",
+      "printed_page": 187,
+      "section": "l2009-model · § 3",
+      "place": "опечатки и пропущенные слова",
+      "original": "bee; theory … hereditarily unsolvable; the Th(K)",
+      "corrected": "been; theory … is hereditarily unsolvable; the theory Th(K)",
+      "reason": "Исправлены очевидные английские опечатки и восстановлена закрывающая скобка в предложении о рекурсивном изоморфизме теорий.",
+      "verified_by": "Сверка печатной с.187."
+    },
+    {
+      "id": "l2008-normal-N001",
+      "printed_page": 285,
+      "section": "l2008-normal · § 2. Maximal Abelian normal subgroups",
+      "place": "Theorem 4(b), triality case",
+      "original": "For $G = twisted(3, D_4)$, $maximal = {U_3}$.",
+      "corrected": "The original assertion is retained with an editorial caveat: the characteristic-2 list is incomplete.",
+      "reason": "The authors' later complete rank-two classification includes additional triality families in characteristic 2 and an additional small-field case when $|K_sigma| = 2$.",
+      "verified_by": "Levchuk–Suleimanova, J.Algebra349(2012),98–116, Theorem4.2(d), p104; complete characteristic-2 families."
+    },
+    {
+      "id": "l2008-normal-N002",
+      "printed_page": 285,
+      "section": "l2008-normal · § 2. Maximal Abelian normal subgroups",
+      "place": "F4 and twisted E6 paragraph after Theorem 4; related Corollary 1(e), p. 286",
+      "original": "The listed families exhaust $maximal$, including $T(p_42) + K(p_43 + c q_43)$ for all $c in K$ in characteristic 2.",
+      "corrected": "The original families are retained with an editorial caveat identifying the invalid nonzero mixed K-line for fields of order greater than 2 and directing readers to the later complete characteristic-2 lists.",
+      "reason": "The later proof shows that a maximal Abelian normal subgroup having both corners $p_43$ and $q_43$ has corner projections of order 2. A nonzero mixed K-line has projections of order $|K|$, so the printed family is invalid for $|K| > 2$. The later classification also supplies omitted characteristic-2 twisted-E6 families and the correct largest normal Abelian lists.",
+      "verified_by": "Levchuk–Suleimanova, J.Algebra349(2012),98–116, Theorem5.1 and proof, pp111–112; Theorem6.1 and proof, pp113–115."
+    },
+    {
+      "id": "l2009-model-N001",
+      "printed_page": 187,
+      "section": "l2009-model · § 3",
+      "place": "теорема 7, необходимость",
+      "original": "Переход от идемпотентов ультрастепеней к идемпотентам исходных колец.",
+      "corrected": "Утверждение сохранено с примечанием о пробеле в доказательстве необходимости.",
+      "reason": "Изоморфные ультрастепени дают центральные идемпотенты в ультрастепенях. Их перенос в исходные кольца с совпадением полных теорий двух компонент приведённым рассуждением не обоснован; достаточность от этого шага не зависит.",
+      "verified_by": "Chang–Keisler, Model Theory (1973), Theorem6.1.15; proof of Theorem7 (2009); analogous proof of the main theorem in Levchuk (2008), Section3."
+    },
+    {
+      "id": "l1992-chevalley-C006",
+      "printed_page": 228,
+      "section": "l1992-chevalley · § 1",
+      "place": "ссылка перед теоремой 1",
+      "original": "Merzlyakov’s theorem [3]",
+      "corrected": "Merzlyakov’s theorem [21]",
+      "reason": "Ссылка 3 ведёт к статье Адо, а сформулированный здесь аналог относится к теореме Мерзлякова, изложенной в предшествующих абзацах со ссылкой 21.",
+      "verified_by": "Merzlyakov, Commutants of linear groups and carpets of ideals, Dokl.Akad.NaukSSSR155(1964),1009–1012; surrounding paragraphs of Section1 (1992)."
+    },
+    {
+      "id": "l1992-chevalley-C007",
+      "printed_page": 241,
+      "section": "References",
+      "place": "Levchuk Connections, bibliography entry15",
+      "original": "Algebra and Logic15(5),558–578; Siberian Math. J.24(4),64–80",
+      "corrected": "Algebra i Logika15(5),558–578; Sibirsk. Mat. Zh.24(4),64–80 (Russian editions)",
+      "reason": "The journal, coordinates and language must describe the same publication edition.",
+      "verified_by": "Levchuk1976UnitriangularIRu and Levchuk1983UnitriangularIIRu; MathNet al1527 and smj6738."
+    },
+    {
+      "id": "l1992-chevalley-C008",
+      "printed_page": 241,
+      "section": "References",
+      "place": "Levchuk Roots1983, bibliography entry17",
+      "original": "Algebra and Logic22(5),504–517",
+      "corrected": "Algebra i Logika22(5),504–517 (Russian edition)",
+      "reason": "The journal, coordinates and language must describe the same publication edition.",
+      "verified_by": "Levchuk1983RootGeneratorsRu, MathNet al1828; English translation Algebra and Logic22(5),362–371."
     }
   ]
 }

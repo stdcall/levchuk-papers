@@ -146,7 +146,7 @@
   backlinks: true,
 ) = {
   let entry = data.at(key)
-  let authors = bib-authors(entry.author)
+  let authors = bib-authors(entry.at("author", default: ""))
   if authors != "" {
     authors
     if authors.ends-with(".") { [ ] } else { [. ] }

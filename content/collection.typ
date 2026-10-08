@@ -18,13 +18,19 @@
 
 // The introduction has no printed number; its author number remains structural.
 #let article-introduction(body, number: 0) = {
-  assert(number in (0, 1), message: "An introduction starts at section 0 or 1")
+  assert(
+    number in (0, 1),
+    message: "An introduction starts at section 0 or 1",
+  )
   let style = if number == 0 { zero-section-numbering } else {
     introduction-section-numbering
   }
   heading(level: 3, numbering: style, body)
   if number == 0 {
-    context counter(heading).update((..counter(heading).get().slice(0, 2), 0))
+    context counter(heading).update((
+      ..counter(heading).get().slice(0, 2),
+      0,
+    ))
   }
 }
 
@@ -66,13 +72,21 @@
 }
 #let paper-citation(key, funding: none) = {
   let entry = publications.at(key)
+  let venue = if "journal" in entry {
+    entry.at("shortjournal", default: entry.journal)
+  } else {
+    entry.at("shortseries", default: entry.at(
+      "series",
+      default: entry.booktitle,
+    ))
+  }
   block(above: 0.5em, below: 1.8em, {
     set par(first-line-indent: 0pt)
     set text(size: 10pt)
     bib-authors(entry.author)
     if funding != none { footnote(funding) }
     linebreak()
-    emph(rich-bib-text(entry.at("shortjournal", default: entry.journal)))
+    emph(rich-bib-text(venue))
     [, #entry.year, #entry.volume]
     if "number" in entry { [, № #entry.number] }
     [, ]

@@ -352,6 +352,17 @@
 
 #bib-item[
   #bib-description(
+    "Levchuk1992ChevalleyUnipotentEn",
+    data: publications,
+    target: "bib:pub-Levchuk1992ChevalleyUnipotentEn",
+    related-dois: false,
+    backlinks: false,
+  )
+  В сборнике: с. @ch:l1992-chevalley.
+] <bib:pub-Levchuk1992ChevalleyUnipotentEn>
+
+#bib-item[
+  #bib-description(
     "Levchuk1992CommutatorStructureEn",
     data: publications,
     target: "bib:pub-Levchuk1992CommutatorStructureEn",
@@ -730,7 +741,8 @@
     related-dois: false,
     backlinks: false,
   )
-  Оригинал: @bib:pub-Levchuk2008UnipotentNormalStructureRu.
+  В сборнике: с. @ch:l2008-normal. Оригинал:
+  @bib:pub-Levchuk2008UnipotentNormalStructureRu.
 ] <bib:pub-Levchuk2008UnipotentNormalStructureEn>
 
 #bib-item[
@@ -762,7 +774,8 @@
     related-dois: false,
     backlinks: false,
   )
-  Оригинал: @bib:pub-Levchuk2009ElementaryEquivalenceRu.
+  В сборнике: с. @ch:l2009-model. Оригинал:
+  @bib:pub-Levchuk2009ElementaryEquivalenceRu.
 ] <bib:pub-Levchuk2009ElementaryEquivalenceEn>
 
 #bib-item[

@@ -51,12 +51,13 @@ subgroup [@bib:l2012-extremal-en-Parker1997–@bib:l2012-extremal-en-Parker2003]
 
 Theorems @th:l2012-extremal-en-rank-two-maximal,
 @th:l2012-extremal-en-abelian-normal and @th:l2012-extremal-en-f4-e6-maximal of
-the present paper and [@bib:l2012-extremal-en-Levchuk2008, Theorem 5] (for the
-classical types) describe all maximal abelian normal subgroups in $U$.
-Therefore, we have a new solution to the Parker–Rowley problem. Theorem
-@th:l2012-extremal-en-parker-rowley gives a clarification of some assertions
-from [@bib:l2012-extremal-en-Parker1997, @bib:l2012-extremal-en-Parker1998] when
-$U$ is of type $D_4$ and $twisted(2, D_4)$.
+the present paper and [@bib:l2012-extremal-en-Levchuk2008, Theorem
+@th:l2008-normal-classical-maximal] (for the classical types) describe all
+maximal abelian normal subgroups in $U$. Therefore, we have a new solution to
+the Parker–Rowley problem. Theorem @th:l2012-extremal-en-parker-rowley gives a
+clarification of some assertions from [@bib:l2012-extremal-en-Parker1997,
+@bib:l2012-extremal-en-Parker1998] when $U$ is of type $D_4$ and
+$twisted(2, D_4)$.
 
 In Section @sec:l2012-extremal-en-large-subgroups we consider an application to
 description of the large abelian and normal large abelian subgroups in the

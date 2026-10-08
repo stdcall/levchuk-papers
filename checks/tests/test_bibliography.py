@@ -11,6 +11,34 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class Bibliography(unittest.TestCase):
+    def test_proceedings_article_heading_uses_series_and_doi(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-series-') as tmp:
+            root = Path(tmp)
+            self.prepare(root)
+            (root / 'publications.bib').write_text(
+                '@incollection{Levchuk1992,\n'
+                '  author={Levchuk, V. M.},\n'
+                '  title={Chevalley groups and their unipotent subgroups},\n'
+                '  booktitle={Proceedings of the International Conference on Algebra},\n'
+                '  series={Contemporary Mathematics},\n'
+                '  shortseries={Contemp. Math.},\n'
+                '  year={1992},\n'
+                '  volume={131.1},\n'
+                '  pages={227--242},\n'
+                '  doi={10.1090/conm/131.1/1175776},\n'
+                '}\n')
+            (root / 'sample.typ').write_text(
+                '#import "content/book-style.typ": book-style\n'
+                '#import "content/collection.typ": paper-citation\n'
+                '#show: book-style\n'
+                '#paper-citation("Levchuk1992")\n')
+            document, text, links = self.compile(root, 'series')
+            self.assertIn('Contemp. Math., 1992, 131.1, 227–242.', text)
+            self.assertNotIn('Proceedings of the International Conference', text)
+            self.assertIn('https://doi.org/10.1090/conm/131.1/1175776',
+                          [link.get('uri') for link in links])
+            document.close()
+
     def prepare(self, root):
         shutil.copytree(ROOT / 'content', root / 'content')
         shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')

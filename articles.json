@@ -70,9 +70,19 @@
     "theme": "chevalley-automorphisms"
   },
   {
+    "id": "l1992-chevalley",
+    "publication": "Levchuk1992ChevalleyUnipotentEn",
+    "theme": "chevalley-automorphisms"
+  },
+  {
     "id": "l2016-hypercentral",
     "publication": "Levchuk2016HypercentralAutomorphismsRu",
     "theme": "chevalley-automorphisms"
+  },
+  {
+    "id": "l2008-normal",
+    "publication": "Levchuk2008UnipotentNormalStructureEn",
+    "theme": "abelian-unipotent"
   },
   {
     "id": "l2012-extremal-en",
@@ -132,6 +142,11 @@
   {
     "id": "l2008-model",
     "publication": "Levchuk2008ModelTheoryRu",
+    "theme": "model-theory"
+  },
+  {
+    "id": "l2009-model",
+    "publication": "Levchuk2009ElementaryEquivalenceEn",
     "theme": "model-theory"
   },
   {
