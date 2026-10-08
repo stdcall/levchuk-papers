@@ -35,3 +35,5 @@ import LevchukPapers.L2004Finitary.Peirce
 import LevchukPapers.L2016Hypercentral.Automorphisms
 import LevchukPapers.L2000Ideals.DeterminantKernel
 import LevchukPapers.L2001Automorphisms.Annihilator
+import LevchukPapers.L1992Chevalley.SymplecticCommutator
+import LevchukPapers.L2009Model.Derivations

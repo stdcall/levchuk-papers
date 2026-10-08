@@ -25,9 +25,15 @@
 #import "papers/l2000-ideals/defs.typ" as l2000-ideals
 
 #import "papers/l2001-automorphisms/defs.typ" as l2001-automorphisms
+#import "papers/l1992-chevalley/defs.typ" as l1992-chevalley
+#import "papers/l2008-normal/defs.typ" as l2008-normal
+#import "papers/l2009-model/defs.typ" as l2009-model
 
 #let articles = json("../articles.json")
 #let scopes = (
+  l1992-chevalley: dictionary(l1992-chevalley),
+  l2008-normal: dictionary(l2008-normal),
+  l2009-model: dictionary(l2009-model),
   l2001-automorphisms: dictionary(l2001-automorphisms),
   l2000-ideals: dictionary(l2000-ideals),
   l2004-finitary: dictionary(l2004-finitary),
@@ -49,7 +55,9 @@
   l2013-thompson: dictionary(l2013-thompson),
   l2019-nonfinitary: dictionary(l2019-nonfinitary),
 )
-#let correction-article(id) = articles.find(it => id.starts-with(it.id + "-"))
+#let correction-article(id) = articles.find(it => id.starts-with(
+  it.id + "-",
+))
 #let correction-markup(id, field) = {
   let article = correction-article(id)
   assert(article != none, message: "Correction does not name an article")

@@ -4,7 +4,9 @@
 
 #heading(level: 3, numbering: none)[Литература]
 
-#bib-item[#bib-description("Bourbaki1972")] <bib:l2012-extremal-Bourbaki1972>
+#bib-item[#bib-description(
+  "Bourbaki1972",
+)] <bib:l2012-extremal-Bourbaki1972>
 #bib-item[#bib-description("Vdovin2001")] <bib:l2012-extremal-Vdovin2001>
 #bib-item[#bib-description(
   "Kondratyev1986",
@@ -21,12 +23,17 @@
 #bib-item[#bib-description("Levchuk2002")
   В сборнике: с. @ch:l2002-radical.
 ] <bib:l2012-extremal-Levchuk2002>
-#bib-item[#bib-description("Levchuk2008")] <bib:l2012-extremal-Levchuk2008>
+#bib-item[#bib-description("Levchuk2008") Перевод: с.
+  @ch:l2008-normal.] <bib:l2012-extremal-Levchuk2008>
 #bib-item[#bib-description("Levchuk2009")] <bib:l2012-extremal-Levchuk2009>
 #bib-item[#bib-description("Malcev1945")] <bib:l2012-extremal-Malcev1945>
-#bib-item[#bib-description("Martynova1994")] <bib:l2012-extremal-Martynova1994>
+#bib-item[#bib-description(
+  "Martynova1994",
+)] <bib:l2012-extremal-Martynova1994>
 #bib-item[#bib-description("Serre1969")] <bib:l2012-extremal-Serre1969>
-#bib-item[#bib-description("Steinberg1975")] <bib:l2012-extremal-Steinberg1975>
+#bib-item[#bib-description(
+  "Steinberg1975",
+)] <bib:l2012-extremal-Steinberg1975>
 #bib-item[#bib-description(
   "Suleimanova2002",
 )] <bib:l2012-extremal-Suleimanova2002>
@@ -51,7 +58,9 @@
     "Kuzucuoglu2004",
   ) В сборнике: с. @ch:l2004-finitary.
 ] <bib:l2012-extremal-Kuzucuoglu2004>
-#bib-item[#bib-description("Levchuk1992")] <bib:l2012-extremal-Levchuk1992>
+#bib-item[#bib-description("Levchuk1992")
+  В сборнике: с. @ch:l1992-chevalley.
+] <bib:l2012-extremal-Levchuk1992>
 #bib-item[#bib-description("Levchuk2007")] <bib:l2012-extremal-Levchuk2007>
 #bib-item[#bib-description("Parker1997")] <bib:l2012-extremal-Parker1997>
 #bib-item[#bib-description("Parker1998")] <bib:l2012-extremal-Parker1998>

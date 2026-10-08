@@ -31,10 +31,12 @@
 #include "papers/l1982-parabolic/00-main.typ"
 #include "papers/l1990-small/00-main.typ"
 #include "papers/l1990-chevalley/00-main.typ"
+#include "papers/l1992-chevalley/00-main.typ"
 #include "papers/l2016-hypercentral/00-main.typ"
 
 #part-title[
   Абелевы подгруппы унипотентных групп]
+#include "papers/l2008-normal/00-main.typ"
 #include "papers/l2012-extremal-en/00-main.typ"
 #include "papers/l2012-extremal/00-main.typ"
 #include "papers/l2013-thompson/00-main.typ"
@@ -53,6 +55,7 @@
 #part-title[
   Теория моделей групп и колец]
 #include "papers/l2008-model/00-main.typ"
+#include "papers/l2009-model/00-main.typ"
 #include "papers/l2012-model/00-main.typ"
 #include "papers/l2018-malcev/00-main.typ"
 

@@ -567,5 +567,33 @@
       "lem:l2001-automorphisms-annihilator",
       "eq:l2001-automorphisms-annihilator-map"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1992Chevalley/SymplecticCommutator.lean",
+    "declarations": [
+      "LevchukPapers.L1992Chevalley.root_basis_products",
+      "LevchukPapers.L1992Chevalley.rootX_mul",
+      "LevchukPapers.L1992Chevalley.rootY_mul",
+      "LevchukPapers.L1992Chevalley.rootX_inverse",
+      "LevchukPapers.L1992Chevalley.rootY_inverse",
+      "LevchukPapers.L1992Chevalley.symplectic_commutator"
+    ],
+    "book": "§ 6 статьи 1992 года: симплектический корневой коммутатор.",
+    "limitations": "Матрицы 4×4 над произвольным коммутативным кольцом с единицей, включая делители нуля и характеристику 2. Доказаны произведения корневых матриц, обратные и коэффициент 2xy в коммутаторе X⁻¹Y⁻¹XY. Классификация идеалов и произвольные цепи не формализованы.",
+    "passages": [
+      "pass:l1992-chevalley-symplectic-commutators"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2009Model/Derivations.lean",
+    "declarations": [
+      "LevchukPapers.L2009Model.perturbation_add",
+      "LevchukPapers.L2009Model.derivation_iff_perturbation_multiplicative"
+    ],
+    "book": "Лемма 1 статьи 2009 года: возмущение кольцевого эндоморфизма дифференцированием.",
+    "limitations": "Произвольное ассоциативное кольцо без единицы; ζ — эндоморфизм аддитивной группы, произведение любых двух элементов его образа равно нулю. Доказаны аддитивность x↦x+ζ(x) и эквивалентность правила Лейбница его мультипликативности. Обратимость, классификация дифференцирований и теоретико-модельные утверждения не формализованы.",
+    "passages": [
+      "lem:l2009-model-square-zero-derivation"
+    ]
   }
 ]
