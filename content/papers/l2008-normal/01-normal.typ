@@ -17,7 +17,7 @@ The group $U twisted(m, Phi) lr((K))$ is the centralizer in $U Phi(K)$ of the
 “twist” automorphism $upright(sigma)$, being the composition of a graph
 automorphism $tau$ and an automorphism $sigma: t arrow overline(t)$ of the field
 $K$ satisfying the conditions $p(Phi) sigma^m = 1$ and $sigma != 1$, where
-$p(Phi) = max {(r, r)/(s, s) | r, s in Phi}$. For $p(Phi) = 1$, we have
+$p(Phi) = max {lr((r, r))/lr((s, s)) | r, s in Phi}$. For $p(Phi) = 1$, we have
 $tau(X_r) = X_(overline(r))$ for a substitution $"–"$ of order $m = 2$ or $3$ on
 the root system $Phi$ which is extendable to a homomorphism $zeta$ of the root
 lattice [@bib:l2008-normal-Carter1972]. If $m = 2$ and $Phi$ is of type
