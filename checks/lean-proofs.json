@@ -382,5 +382,18 @@
     "passages": [
       "pass:l1990-small-f4-root-representation"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2005Sylow/PowerSeriesUnits.lean",
+    "declarations": [
+      "LevchukPapers.L2005Sylow.series_isUnit_iff",
+      "LevchukPapers.L2005Sylow.indeterminate_not_isUnit",
+      "LevchukPapers.L2005Sylow.constant_one_isUnit"
+    ],
+    "book": "Предложение 1 статьи 2005 года: критерий обратимости в кольце формальных степенных рядов.",
+    "limitations": "Произвольное тело, включая некоммутативное. Доказана эквивалентность обратимости ряда ненулевому свободному коэффициенту и два частных случая. Сильная максимальность, классификация идеалов и подмодулей, а также классификация групп здесь не формализованы.",
+    "passages": [
+      "prop:l2005-sylow-power-series"
+    ]
   }
 ]

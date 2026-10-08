@@ -121,7 +121,8 @@ Thus, the following theorem is satisfied.
 By the proved theorem, the number of all coordinate ideals in the ring
 $R_n lr((K,J))$ is finite if and only if the lattice of all ideals of the
 coefficient ring is finite. Note also that the maximal ideal of an arbitrary
-local principal ideal ring is strongly maximal.
+local principal ideal ring is strongly maximal [@bib:l2013-ideals-Levchuk2005,
+Theorem @th:l2005-sylow-principal-ideals].
 
 We now find combinatorial expression of the number of all coordinate ideals in
 $R_n lr((K,J))$ when $K$ is a local ring with a principal maximal ideal $J$

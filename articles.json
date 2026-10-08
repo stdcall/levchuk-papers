@@ -25,6 +25,11 @@
     "theme": "unitriangular-rings"
   },
   {
+    "id": "l2005-sylow",
+    "publication": "Levchuk2005SylowFinitaryEn",
+    "theme": "unitriangular-rings"
+  },
+  {
     "id": "l2008-monic",
     "publication": "Gupta2008MonicAutomorphismsEn",
     "theme": "unitriangular-rings"

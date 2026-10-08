@@ -3709,6 +3709,86 @@
       "corrected": "Local derivations and local automorphisms of $B(X)$.",
       "reason": "Заглавие цитируемой статьи использует произвольное банахово пространство, обозначенное $X$.",
       "verified_by": "Первичный авторский PDF David R. Larson/Ahmed R. Sourour, DM-486-IR; издательские Crossref-метаданные DOI10.1090/pspum/051.2/1077437."
+    },
+    {
+      "id": "l2005-sylow-C001",
+      "printed_page": "228",
+      "section": "§ 2",
+      "place": "Proposition 1, proof",
+      "original": "power series with a constant term",
+      "corrected": "power series with a nonzero constant term",
+      "reason": "The zero constant term is not invertible; over a division ring invertibility is equivalent to a nonzero constant term.",
+      "verified_by": "Printed p.228; Lean theorem LevchukPapers.L2005Sylow.series_isUnit_iff proves the unit criterion for arbitrary DivisionRing coefficients, including the noncommutative case; indeterminate_not_isUnit and constant_one_isUnit give contrasting examples. Independently compiled with pinned mathlib a218e50f981942cba4fd060faff7cae680805062; only propext, Classical.choice, Quot.sound. Sage l2005_sylow.py adds bounded inverse checks; it does not prove strong maximality."
+    },
+    {
+      "id": "l2005-sylow-C002",
+      "printed_page": "229",
+      "section": "§ 2",
+      "place": "Theorem 2, proof",
+      "original": "$J T=(J K)T$",
+      "corrected": "$J T=(J R)T$",
+      "reason": "The ambient ring in this proof is $R$; $K$ is undefined in the proof. Since $J R=J$, the displayed equality is preserved.",
+      "verified_by": "Printed p.229, Theorem 2: the ambient ring is R and JR=J, hence JT=(JR)T. The full principal-ideal/domain-or-local argument was independently checked algebraically, not formally proved in Lean."
+    },
+    {
+      "id": "l2005-sylow-C003",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 12",
+      "original": "530–544",
+      "corrected": "730–744",
+      "reason": "The Russian original occupies pages 730–744.",
+      "verified_by": "Primary MathNet Levchuk publication catalogue https://www.mathnet.ru/rus/person18415 confirms the Russian original: Algebra i Logika 41:6 (2002),730–744; the English translation is400–408. The original Russian PDF endpoints were checked in the source review."
+    },
+    {
+      "id": "l2005-sylow-C004",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 14",
+      "original": "519–537",
+      "corrected": "419–437",
+      "reason": "The cited Russian edition has different page coordinates.",
+      "verified_by": "Primary MathNet article card https://www.mathnet.ru/rus/smj1300 independently read: Russian Sibirsk.Mat.Zh.43:2 (2002),419–437; English translation334–349. Russian coordinates are used."
+    },
+    {
+      "id": "l2005-sylow-C005",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 15",
+      "original": "907–918",
+      "corrected": "908–917",
+      "reason": "Russian publication coordinates disagree with the source reference.",
+      "verified_by": "Primary author institutional bibliography https://lfsibgu.ru/kafedry/its/vojtenko-tatyana-yurevna/ independently read: Ukrainian Mathematical Journal54:7 (2002),908–917. Publisher archive identifies issue54:7; its article endpoint was unavailable, so no full-text rereading is claimed."
+    },
+    {
+      "id": "l2005-sylow-C006",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 20",
+      "original": "103–115",
+      "corrected": "103–107",
+      "reason": "The article ends on page 107.",
+      "verified_by": "Primary MathNet Zenkov publication catalogue https://www.mathnet.ru/rus/person19644 independently read: Sibirsk.Mat.Zh.34:4 (1993),103–107."
+    },
+    {
+      "id": "l2005-sylow-C007",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 16",
+      "original": "Dokl. Russ. Akad. Nauk 50(3) (1995), 507–511",
+      "corrected": "Russian Academy of Sciences. Doklady Mathematics 50(3) (1995), 507–511",
+      "reason": "The reference mixes the Russian journal name and English translation coordinates.",
+      "verified_by": "Primary MathNet article card https://www.mathnet.ru/eng/dan/v339/i6/p732 independently read: English Dokl.Math.50:3 (1995),507–511; Russian original Dokl.Akad.Nauk339:6 (1994),732–735. The cited translation is Doklady Mathematics, not Mathematical Notes."
+    },
+    {
+      "id": "l2005-sylow-C008",
+      "printed_page": "232",
+      "section": "References",
+      "place": "Reference 8",
+      "original": "543–557",
+      "corrected": "64–80",
+      "reason": "The cited Sibirsk. Mat. Zh. is the Russian journal; its original article occupies pages 64–80. Pages 543–557 belong to the English translation in Siberian Mathematical Journal.",
+      "verified_by": "Printed p.232, Reference 8, independently reread as an image: Levchuk, V. M.: Connections between the unitriangular group and rings. II. Groups of automorphisms, Sibirsk. Mat. Zh. 24(4) (1983), 543–557. Primary MathNet https://www.mathnet.ru/rus/person18415, publication39, independently read: Russian24:4(1983),64–80; English translation24:4(1983),543–557."
     }
   ]
 }

@@ -239,6 +239,21 @@
     },
     "content/papers/l2011-local/04-chevalley.typ": {
       "[@bib:l2011-local-Carter1972SimpleGroups, § 4.4]": "Точный раздел цитируемой книги Carter1972."
+    },
+    "content/papers/l2005-sylow/01-finitary.typ": {
+      "[@bib:l2005-sylow-Carter1972, Sect. 4.4]": "Раздел цитируемой книги Carter1972.",
+      "[@bib:l2005-sylow-Kourovka1992, Question 12.42]": "Вопрос12.42 Коуровской тетради1992.",
+      "[@bib:l2005-sylow-Kourovka1992, Question 10.19]": "Вопрос10.19 Коуровской тетради1992."
+    },
+    "content/papers/l2005-sylow/02-strongly-maximal.typ": {
+      "[@bib:l2005-sylow-Kourovka1992, Question 10.19]": "Вопрос10.19 Коуровской тетради1992.",
+      "[@bib:l2005-sylow-Kuzucuoglu2000, Proposition 2.5]": "Предложение2.5 цитируемой статьи Kuzucuoglu–Levchuk2000.",
+      "[@bib:l2005-sylow-Kuzucuoglu2000, § 2]": "Раздел2 цитируемой статьи Kuzucuoglu–Levchuk2000."
+    },
+    "content/papers/l2005-sylow/03-intersections.typ": {
+      "Question 5.14 in the Kourovka Notebook": "Вопрос5.14 Коуровской тетради1992.",
+      "Questions 5.14, (c) and (d)": "Части(c) и(d) вопроса5.14 Коуровской тетради1992.",
+      "all Lie type groups satisfying 5.14(c)": "Гипотеза о группах, удовлетворяющих вопросу5.14(c) Коуровской тетради1992."
     }
   },
   "local_markup": {
@@ -259,6 +274,9 @@
     },
     "content/papers/l2013-thompson/00-main.typ": {
       "#show: article-style.with(language: \"en\")": "Общий helper задаёт язык англоязычной статьи, а не локальную геометрию."
+    },
+    "content/papers/l2005-sylow/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык английской статьи и область действия переносов; локальных правил вёрстки нет."
     }
   }
 }

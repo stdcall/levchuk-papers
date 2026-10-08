@@ -19,6 +19,7 @@
 #include "papers/l1983/00-main.typ"
 #include "papers/l1987-rings/00-main.typ"
 #include "papers/l2002-radical/00-main.typ"
+#include "papers/l2005-sylow/00-main.typ"
 #include "papers/l2008-monic/00-main.typ"
 #include "papers/l2011-local/00-main.typ"
 
