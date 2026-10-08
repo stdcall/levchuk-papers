@@ -26,7 +26,9 @@
 
   В системе корней $Phi$ типа $A_n$ нет корней, соседних с тремя другими, и
   $Phi(r, s)$ всегда типа $A_2$; в этом случае изоморфизмы изучены в
-  [@bib:l2018-malcev-Kuzucuoglu2004]. В оставшихся трех системах корней
+  [@bib:l2018-malcev-Kuzucuoglu2004; теорема
+  @th:l2004-finitary-finite-chain-isomorphisms при $n>3$; замечание
+  @rem:l2004-finitary-small-ranks]. В оставшихся трех системах корней
   встречается подсистема корней $Phi(r, s)$ типа $B_2$. Заметим, что в системах
   корней типа $B_n$ и $C_n$ любая подсистема корней ранга 4 имеет число
   Кокстера, не превосходящее 8. Поэтому система корней $Phi$ типа $F_4$
@@ -109,8 +111,10 @@ $N Phi(K) arrow.r N Phi(S)$. #lemma[
   $frac(N C_n lr((S)), T_(2,-2) lr((S)))$ на кольцо
   $N A_n lr((K)) tilde.eq NT(n+1, K)$. Учитывая описание $Aut NT(n, K)$
   [@bib:l2018-malcev-Levchuk1983, теоремы @th:l1983-main-automorphisms и
-  @th:l1983-rank-four] и изоморфизмов [@bib:l2018-malcev-Kuzucuoglu2004],
-  получаем утверждение леммы для типа $C_n$.
+  @th:l1983-rank-four] и изоморфизмов [@bib:l2018-malcev-Kuzucuoglu2004; теорема
+  @th:l2004-finitary-finite-chain-isomorphisms; лемма
+  @lem:l2004-finitary-ideal-preserving-isomorphism], получаем утверждение леммы
+  для типа $C_n$.
 
   В кольце Ли $N B_n lr((K)) (n>4)$ имеем $phi(T_(1 0) lr((S)))=T_(1 0) lr((K))$
   в силу замечания @rem:l2018-malcev-characteristic-ideals. Поэтому $phi$

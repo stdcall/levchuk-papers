@@ -18,9 +18,10 @@ $alpha compose beta = alpha beta + beta alpha$. Когда кольцо $R$ ра
 унитреугольной группе $UT lr((n,K))$.
 
 Для ассоциативного кольца $K$ с единицей полагаем $R=NT lr((n,K))$, аналогично
-выбираем $R'$. Приведём теорему из [@bib:l2008-model-KuzucuogluLevchuk2004] об
-изоморфизмах колец $R$ и $R'$, их присоединённых групп и ассоциированных колец
-Ли. Нам потребуется понятие идемпотентного изоморфизма.
+выбираем $R'$. Приведём теорему из [@bib:l2008-model-KuzucuogluLevchuk2004;
+@th:l2004-finitary-main[основная теорема]] об изоморфизмах колец $R$ и $R'$, их
+присоединённых групп и ассоциированных колец Ли. Нам потребуется понятие
+идемпотентного изоморфизма.
 
 Пусть $f$ — центральный идемпотент кольца $K$. Изоморфизм $theta: K^+ arrow S^+$
 аддитивных групп с условием $theta lr((1_K)) = 1_S$ называется
@@ -28,7 +29,8 @@ _$f$-изоморфизмом_ (или _идемпотентным изомор�
 индуцирует изоморфизм идеала $f K$ и антиизоморфизм идеала $(1_K-f)K$. Кольца
 $K$ и $S$ называются _идемпотентно изоморфными_, если между ними существует
 некоторый идемпотентный изоморфизм. Частным случаем основной теоремы из
-[@bib:l2008-model-KuzucuogluLevchuk2004] является следующая теорема.
+[@bib:l2008-model-KuzucuogluLevchuk2004; @th:l2004-finitary-main[основная
+  теорема]] является следующая теорема.
 
 #theorem[
   Пусть $K$ и $S$ — ассоциативные кольца с единицами, $n>2$ и $m$ — натуральные
@@ -90,7 +92,8 @@ $
   quad (alpha in R)
 $ <eq:l2008-model-jordan-idempotent-map>
 кольца $R$ на $NT lr((n,S))$. Согласно [@bib:l2008-model-Levchuk1983,
-@bib:l2008-model-KuzucuogluLevchuk2004] отображение
+@bib:l2008-model-KuzucuogluLevchuk2004;
+@eq:l2004-finitary-idempotent-isomorphism] отображение
 $
   x e_(i j) arrow (f x)^theta e_(i j) - (x-x f)^theta e_(j' i')
   quad (x in K, j<i)
@@ -149,7 +152,8 @@ $
 ] <lem:l2008-model-peirce-decompositions>
 
 Доказательство можно найти в лемме @lem:l1983-peirce-decomposition
-[@bib:l2008-model-Levchuk1983, @bib:l2008-model-KuzucuogluLevchuk2004].
+[@bib:l2008-model-Levchuk1983, @bib:l2008-model-KuzucuogluLevchuk2004; лемма
+@lem:l2004-finitary-peirce-decomposition].
 
 #source(5, printed: 163)
 #lemma[

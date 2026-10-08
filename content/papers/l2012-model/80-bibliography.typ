@@ -34,8 +34,9 @@
   ) Оригинал в сборнике:
   с.~@ch:l2008-model.] <bib:l2012-model-LevchukMinakova2010>
 #bib-item[#bib-description(
-  "KuzucuogluLevchuk2004",
-)] <bib:l2012-model-KuzucuogluLevchuk2004>
+    "KuzucuogluLevchuk2004",
+  ) В сборнике: с. @ch:l2004-finitary.
+] <bib:l2012-model-KuzucuogluLevchuk2004>
 #bib-item[#bib-description("Minakova2008")] <bib:l2012-model-Minakova2008>
 #bib-item[#bib-description("Chevalley1955")] <bib:l2012-model-Chevalley1955>
 #bib-item[#bib-description("Carter1972")] <bib:l2012-model-Carter1972>

@@ -19,7 +19,8 @@
   В сборнике: с. @ch:l1983.
 ] <bib:l2018-enveloping-Levchuk1983>
 #bib-item[#bib-description("Cao2007")] <bib:l2018-enveloping-Cao2007>
-#bib-item[#bib-description("Levchuk2016")] <bib:l2018-enveloping-Levchuk2016>
+#bib-item[#bib-description("Levchuk2016") В сборнике: с. @ch:l2016-hypercentral.
+] <bib:l2018-enveloping-Levchuk2016>
 #bib-item[#bib-description("Levchuk1976")
   В сборнике: с. @ch:l1976.
 ] <bib:l2018-enveloping-Levchuk1976>
@@ -31,8 +32,9 @@
 ] <bib:l2018-enveloping-Egorychev2001>
 #bib-item[#bib-description("Sommers2005")] <bib:l2018-enveloping-Sommers2005>
 #bib-item[#bib-description(
-  "Kuzucuoglu2001",
-)] <bib:l2018-enveloping-Kuzucuoglu2001>
+    "Kuzucuoglu2001",
+  ) В сборнике: с. @ch:l2001-automorphisms.
+] <bib:l2018-enveloping-Kuzucuoglu2001>
 #bib-item[#bib-description(
   "Athanasiadis2004",
 )] <bib:l2018-enveloping-Athanasiadis2004>

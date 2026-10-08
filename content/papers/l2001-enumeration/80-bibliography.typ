@@ -21,8 +21,9 @@
   "Hurley1969",
 )] <bib:l2001-enumeration-Hurley1969>
 #bib-item[#bib-description(
-  "Kuzucuoglu2000",
-)] <bib:l2001-enumeration-Kuzucuoglu2000>
+    "Kuzucuoglu2000",
+  ) В сборнике: с. @ch:l2000-ideals.
+] <bib:l2001-enumeration-Kuzucuoglu2000>
 #bib-item[#bib-description("Levchuk1976")
   В сборнике: с. @ch:l1976.
 ] <bib:l2001-enumeration-Levchuk1976>

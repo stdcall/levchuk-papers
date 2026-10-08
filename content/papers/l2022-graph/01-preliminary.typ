@@ -69,12 +69,12 @@ according to the proof of Proposition 12.2.3 in [@bib:l2022-graph-Carter1972].
 By [@bib:l2022-graph-Levchuk1990], the same conclusion is true for the induced
 automorphism of subalgebra $N Phi(K)$.
 
-By [@bib:l2022-graph-Levchuk2018] and [@bib:l2022-graph-Levchuk2020], an
-arbitrary (not necessarily associative) algebra $A$ is said to be an exact
-enveloping algebra for a Lie algebra $L$ if $L$ is isomorphic to the associated
-algebra $A^((-))$. Both algebras $L$ and $A$ may be defined by structure
-constants in the same basis, in contrast to the universal associative enveloping
-algebra.
+By [@bib:l2022-graph-Levchuk2018] and [@bib:l2022-graph-Levchuk2020;
+@def:l2020-nonassoc-exact-envelope[definition]], an arbitrary (not necessarily
+associative) algebra $A$ is said to be an exact enveloping algebra for a Lie
+algebra $L$ if $L$ is isomorphic to the associated algebra $A^((-))$. Both
+algebras $L$ and $A$ may be defined by structure constants in the same basis, in
+contrast to the universal associative enveloping algebra.
 
 The existence and the structure of exact enveloping algebras for the Lie
 algebras $N Phi(K)$ were considered in [@bib:l2022-graph-Levchuk2018].

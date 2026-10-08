@@ -17,8 +17,9 @@ $ Aut R=Aut G(R) inter Aut J(R)=Aut G(R) inter Aut Lambda(R). $
 [@bib:l2012-model-LevchukMinakova2009; @bib:l2012-model-LevchukMinakova2010].
 
 Схема [@bib:l2012-model-Levchuk1983] переносится в
-[@bib:l2012-model-KuzucuogluLevchuk2004] для описания изоморфизмов, в том числе
-и в случаях некоммутативных колец коэффициентов. Нам потребуется обобщение.
+[@bib:l2012-model-KuzucuogluLevchuk2004; @th:l2004-finitary-main[основная
+  теорема]] для описания изоморфизмов, в том числе и в случаях некоммутативных
+колец коэффициентов. Нам потребуется обобщение.
 
 Пусть $K$ и $S$ — ассоциативные кольца с единицами $1_K$ и $1_S$ и пусть $f$ —
 центральный идемпотент кольца $K$. Левое и правое пирсовы разложения кольца $K$
@@ -40,8 +41,9 @@ $theta(1_K)=1_S$ называется _$f$-изоморфизмом_ или _и�
 ] <th:l2012-model-idempotent-isomorphisms>
 Доказательство в случаях $UT(n, K) tilde.eq UT(m, S)$ и
 $Lambda(R) tilde.eq Lambda(R')$ приведено в
-[@bib:l2012-model-KuzucuogluLevchuk2004], а в случае $J(R) tilde.eq J(R')$
-модифицируется из доказательства теоремы 2.1 из
+[@bib:l2012-model-KuzucuogluLevchuk2004; теорема
+@th:l2004-finitary-finite-chain-isomorphisms при $n>4$], а в случае
+$J(R) tilde.eq J(R')$ модифицируется из доказательства теоремы 2.1 из
 [@bib:l2012-model-LevchukMinakova2010] (см.
 @th:l2008-model-elementary-equivalence).
 
@@ -61,9 +63,9 @@ $Lambda(R) tilde.eq Lambda(R')$ приведено в
 #remark[
   Описание изоморфизмов $Lambda(R) arrow.l.r Lambda(R')$ и
   $UT(n, K) arrow.l.r UT(m, S)$ при $n=m=4$ известно
-  [@bib:l2012-model-Levchuk1983; @bib:l2012-model-KuzucuogluLevchuk2004].
-  Неизвестно однако, останется ли теорема
-  @th:l2012-model-idempotent-isomorphisms справедливой для $n=4$, если
+  [@bib:l2012-model-Levchuk1983; @bib:l2012-model-KuzucuogluLevchuk2004;
+  замечание @rem:l2004-finitary-small-ranks]. Неизвестно однако, останется ли
+  теорема @th:l2012-model-idempotent-isomorphisms справедливой для $n=4$, если
   #source(78, printed: 78)
   снять ограничение на $K$? Как показала Е. В. Минакова
   [@bib:l2012-model-Minakova2008], теорема @th:l2012-model-niltriangular-rings

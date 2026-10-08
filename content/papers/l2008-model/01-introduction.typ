@@ -54,8 +54,10 @@ $Lambda lr((R))$. В [@bib:l2008-model-Levchuk1983] описана взаимо�
 автоморфизмов $Aut G lr((R))$ и $Aut Lambda lr((R))$ при $n != 3$; когда
 $n = 3$, описание дано при условии коммутативности колец коэффициентов, а также
 в случае кольца $K$ без делителей нуля. Изоморфизмы при тех же ограничениях
-рассмотрены в [@bib:l2008-model-KuzucuogluLevchuk2004]. См. теоремы
-@th:l1983-main-automorphisms, @th:l1983-rank-four и @th:l1983-rank-three.
+рассмотрены в [@bib:l2008-model-KuzucuogluLevchuk2004;
+@th:l2004-finitary-main[основная теорема]; замечание
+@rem:l2004-finitary-small-ranks]. См. теоремы @th:l1983-main-automorphisms,
+@th:l1983-rank-four и @th:l1983-rank-three.
 
 Элементарная эквивалентность $UT lr((n,K)) equiv UT lr((n,S))$, согласно О. В.
 Белеградеку [@bib:l2008-model-Belegradek1999], переносится на кольца

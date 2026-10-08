@@ -20,8 +20,9 @@
 #bib-item[#bib-description("Gibbs1970")] <bib:l2008-model-Gibbs1970>
 #bib-item[#bib-description("Hodges1993")] <bib:l2008-model-Hodges1993>
 #bib-item[#bib-description(
-  "KuzucuogluLevchuk2004",
-)] <bib:l2008-model-KuzucuogluLevchuk2004>
+    "KuzucuogluLevchuk2004",
+  ) В сборнике: с. @ch:l2004-finitary.
+] <bib:l2008-model-KuzucuogluLevchuk2004>
 #bib-item[#bib-description("Rose1978")] <bib:l2008-model-Rose1978>
 #bib-item[#bib-description("Videla1988")] <bib:l2008-model-Videla1988>
 #bib-item[#bib-description("Videla1990")] <bib:l2008-model-Videla1990>

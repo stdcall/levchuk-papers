@@ -31,9 +31,12 @@
 
 #bib-item[#bib-description("Kourovka2007")] <bib:l2013-ideals-Kourovka2007>
 
-#bib-item[#bib-description("Kuzucuoglu2000")] <bib:l2013-ideals-Kuzucuoglu2000>
+#bib-item[#bib-description("Kuzucuoglu2000") В сборнике: с. @ch:l2000-ideals.
+] <bib:l2013-ideals-Kuzucuoglu2000>
 
-#bib-item[#bib-description("Kuzucuoglu2001")] <bib:l2013-ideals-Kuzucuoglu2001>
+#bib-item[#bib-description("Kuzucuoglu2001") В сборнике: с.
+  @ch:l2001-automorphisms.
+] <bib:l2013-ideals-Kuzucuoglu2001>
 
 #bib-item[#bib-description("Levchuk1974")
   В сборнике: с. @ch:l1974.

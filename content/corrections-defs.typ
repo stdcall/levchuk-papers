@@ -18,9 +18,21 @@
 #import "papers/l2018-malcev/defs.typ" as l2018-malcev
 
 #import "papers/l2012-model/defs.typ" as l2012-model
+#import "papers/l2004-finitary/defs.typ" as l2004-finitary
+#import "papers/l2016-hypercentral/defs.typ" as l2016-hypercentral
+#import "papers/l2020-nonassoc/defs.typ" as l2020-nonassoc
+
+#import "papers/l2000-ideals/defs.typ" as l2000-ideals
+
+#import "papers/l2001-automorphisms/defs.typ" as l2001-automorphisms
 
 #let articles = json("../articles.json")
 #let scopes = (
+  l2001-automorphisms: dictionary(l2001-automorphisms),
+  l2000-ideals: dictionary(l2000-ideals),
+  l2004-finitary: dictionary(l2004-finitary),
+  l2016-hypercentral: dictionary(l2016-hypercentral),
+  l2020-nonassoc: dictionary(l2020-nonassoc),
   l2012-model: dictionary(l2012-model),
   l2018-malcev: dictionary(l2018-malcev),
   l2008-model: dictionary(l2008-model),

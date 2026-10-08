@@ -134,8 +134,9 @@ $
 ] <th:l2018-malcev-isomorphisms>
 #remark[
   Хорошо известны тесные структурные связи кольца Ли $N Phi(K)$ и унипотентной
-  группы $U Phi(K)$. Так, в силу [@bib:l2018-malcev-Kuzucuoglu2004], когда $Phi$
-  типа $A_n$ $(n>2)$, имеем
+  группы $U Phi(K)$. Так, в силу [@bib:l2018-malcev-Kuzucuoglu2004; теорема
+  @th:l2004-finitary-finite-chain-isomorphisms при $n>3$; замечание
+  @rem:l2004-finitary-small-ranks], когда $Phi$ типа $A_n$ $(n>2)$, имеем
   $
     U Phi(K) tilde.eq U Phi'(S) <==> N Phi(K) tilde.eq N Phi'(S).
   $

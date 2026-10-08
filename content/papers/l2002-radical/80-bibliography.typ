@@ -15,7 +15,8 @@
 #bib-item[#bib-description(
   "Suleimanova2000a",
 )] <bib:l2002-radical-Suleimanova2000a>
-#bib-item[#bib-description("Kuzucuoglu2000")] <bib:l2002-radical-Kuzucuoglu2000>
+#bib-item[#bib-description("Kuzucuoglu2000") В сборнике: с. @ch:l2000-ideals.
+] <bib:l2002-radical-Kuzucuoglu2000>
 #bib-item[#bib-description("Kourovka1992")] <bib:l2002-radical-Kourovka1992>
 #bib-item[#bib-description(
   "Suleimanova2000b",

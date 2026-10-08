@@ -19,6 +19,7 @@
 #bib-item[#bib-description("Levchuk2018")
   В сборнике: с. @ch:l2018-enveloping.
 ] <bib:l2022-graph-Levchuk2018>
-#bib-item[#bib-description("Levchuk2020")] <bib:l2022-graph-Levchuk2020>
+#bib-item[#bib-description("Levchuk2020") В сборнике: с. @ch:l2020-nonassoc.
+] <bib:l2022-graph-Levchuk2020>
 #bib-item[#bib-description("Egorychev2023")] <bib:l2022-graph-Egorychev2023>
 #bib-item[#bib-description("Seligman1959")] <bib:l2022-graph-Seligman1959>

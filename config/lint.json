@@ -95,18 +95,13 @@
       "[@bib:l2018-enveloping-Carter1972, Предложение~4.2.2]": "Предложение книги Картера1972."
     },
     "content/papers/l2018-enveloping/02-automorphisms.typ": {
-      "[@bib:l2018-enveloping-Kuzucuoglu2001, Lemma~1.1]": "Лемма цитируемой статьи Кузуджуоглу–Левчука2001, пока не включённой в сборник.",
       "[@bib:l2018-enveloping-Carter1972, §~7.1]": "Раздел книги Картера1972."
     },
     "content/papers/l2002-radical/01-introduction.typ": {
-      "[@bib:l2002-radical-Kuzucuoglu2000, пример 1.1]": "Пример цитируемой статьи Кузуджуоглу–Левчука2000.",
-      "6.19 с комментарием Е.~И.~Хухро и вопрос 10.19 из": "Номера вопросов Коуровской тетради1992.",
-      "[@bib:l2002-radical-Kuzucuoglu2000, предложение 2.5]": "Предложение цитируемой статьи Кузуджуоглу–Левчука2000."
+      "6.19 с комментарием Е.~И.~Хухро и вопрос 10.19 из": "Номера вопросов Коуровской тетради1992."
     },
     "content/papers/l2002-radical/02-boundaries.typ": {
-      "[@bib:l2002-radical-Kuzucuoglu2000, теорема 2.2]": "Теорема цитируемой статьи Кузуджуоглу–Левчука2000.",
-      "[@bib:l2002-radical-Kourovka1992, вопрос 10.19]": "Номер вопроса Коуровской тетради1992.",
-      "[@bib:l2002-radical-Kuzucuoglu2000, пример 1.1]": "Пример цитируемой статьи Кузуджуоглу–Левчука2000."
+      "[@bib:l2002-radical-Kourovka1992, вопрос 10.19]": "Номер вопроса Коуровской тетради1992."
     },
     "content/papers/l2022-graph/01-preliminary.typ": {
       "[@bib:l2022-graph-Carter1972, Sec. 4.2]": "Параграф цитируемой книги Картера1972.",
@@ -181,9 +176,7 @@
       "@bib:l2013-ideals-Egorychev1989, Theorem~2.1.2": "Теорема 2.1.2 цитируемой книги Егорычева.",
       "@bib:l2013-ideals-Carter1972, §~4.4": "Параграф 4.4 цитируемой книги Картера."
     },
-    "content/papers/l2013-ideals/02-ideals.typ": {
-      "@bib:l2013-ideals-Kuzucuoglu2000, Theorem~2.2": "Теорема 2.2 первичной статьи Kuzucuoğlu–Levchuk2000."
-    },
+    "content/papers/l2013-ideals/02-ideals.typ": {},
     "content/papers/l2013-ideals/03-paths.typ": {
       "@bib:l2013-ideals-Egorychev1989, Theorem~2.1.2": "Теорема 2.1.2 цитируемой книги Егорычева."
     },
@@ -246,9 +239,7 @@
       "[@bib:l2005-sylow-Kourovka1992, Question 10.19]": "Вопрос10.19 Коуровской тетради1992."
     },
     "content/papers/l2005-sylow/02-strongly-maximal.typ": {
-      "[@bib:l2005-sylow-Kourovka1992, Question 10.19]": "Вопрос10.19 Коуровской тетради1992.",
-      "[@bib:l2005-sylow-Kuzucuoglu2000, Proposition 2.5]": "Предложение2.5 цитируемой статьи Kuzucuoglu–Levchuk2000.",
-      "[@bib:l2005-sylow-Kuzucuoglu2000, § 2]": "Раздел2 цитируемой статьи Kuzucuoglu–Levchuk2000."
+      "[@bib:l2005-sylow-Kourovka1992, Question 10.19]": "Вопрос10.19 Коуровской тетради1992."
     },
     "content/papers/l2005-sylow/03-intersections.typ": {
       "Question 5.14 in the Kourovka Notebook": "Вопрос5.14 Коуровской тетради1992.",
@@ -288,6 +279,64 @@
     },
     "content/papers/l2018-malcev/04-correspondence.typ": {
       "[@bib:l2018-malcev-ChangKeisler1977, теорема 6.1.15]": "Теорема об изоморфизме из цитируемой книги Чанга–Кейслера."
+    },
+    "content/papers/l2020-nonassoc/01-introduction.typ": {
+      "[@bib:l2020-nonassoc-Kaplansky1974, гл.~1, §~1, пример~(b)]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Chevalley1955;\n@bib:l2020-nonassoc-Carter1972, разд.~4.2]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2020-nonassoc/02-exact.typ": {
+      "[@bib:l2020-nonassoc-Carter1972,\n  разд.~11.2.1]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Carter1972, предложение~3.6.1]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Chevalley1955; @bib:l2020-nonassoc-Carter1972,\nразд.~4.4]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Carter1972, предложение~4.2.2]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2020-nonassoc/03-type-a.typ": {
+      "[@bib:l2020-nonassoc-Kaplansky1974, гл.~1, §~1, пример~(a)]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Carter1972, 11.2.1]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2020-nonassoc/04-existence.typ": {
+      "предложения~12.2.3 в [@bib:l2020-nonassoc-Carter1972]": "Указатель места в цитируемом внешнем издании.",
+      "[@bib:l2020-nonassoc-Khodyunya2018, теорема~1.1]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2004-finitary/01-introduction.typ": {},
+    "content/papers/l2004-finitary/02-central-series.typ": {},
+    "content/papers/l2004-finitary/03-isomorphisms.typ": {
+      "Exercise 17 in [@bib:l2004-finitary-Hungerford1974, p. 122]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2004-finitary/04-main-proof.typ": {
+      "[@bib:l2004-finitary-Hahn1984, Sect. 3.7]": "Указатель места в цитируемом внешнем издании."
+    },
+    "content/papers/l2016-hypercentral/01-introduction.typ": {
+      "[@bib:l2016-hypercentral-Carter1972, § 4.3]": "Параграф цитируемой книги Картера.",
+      "(1.5)": "Номер проблемы в цитируемом обзоре Кондратьева1986."
+    },
+    "content/papers/l2016-hypercentral/02-automorphisms.typ": {
+      "[@bib:l2016-hypercentral-Carter1972, § 4.2]": "Параграф цитируемой книги Картера.",
+      "[@bib:l2016-hypercentral-Carter1972, § 7.1]": "Параграф цитируемой книги Картера.",
+      "[@bib:l2016-hypercentral-Carter1972, Предложения 12.2.2,\n12.2.3]": "Два предложения цитируемой книги Картера."
+    },
+    "content/papers/l2000-ideals/01-introduction.typ": {
+      "[@bib:l2000-ideals-Kourovka1992, question~10.19]": "External problem number in the cited edition of the Kourovka Notebook.",
+      "question~6.19": "External Kourovka Notebook problem, cited together with its commentary."
+    },
+    "content/papers/l2000-ideals/02-structural.typ": {
+      "[@bib:l2000-ideals-Kourovka1992, question~10.19]": "External problem number in the cited edition of the Kourovka Notebook.",
+      "question~6.19": "External Kourovka Notebook problem, cited together with its commentary."
+    },
+    "content/papers/l2001-automorphisms/04-structure.typ": {
+      "Perlis [@bib:l2001-automorphisms-Dubish1951, Theorem 5-7] for arbitrary field": "External cited work locator; retain original edition numbering.",
+      "$K$ and $J=0$. See also [@bib:l2001-automorphisms-Levchuk1975, Corollary 1]. If": "External cited work locator; retain original edition numbering."
+    },
+    "content/papers/l2001-automorphisms/02-fundamental.typ": {
+      "  @bib:l2001-automorphisms-Kolesnikov1999, Theorem 3]).": "External cited work locator; retain original edition numbering.",
+      "  [@bib:l2001-automorphisms-Kargapolov1979, 16.1.2;": "External cited work locator; retain original edition numbering."
+    },
+    "content/papers/l2001-automorphisms/01-introduction.typ": {
+      "[@bib:l2001-automorphisms-Dubish1951, Theorem 5-7]. It is easy to verify that": "External cited work locator; retain original edition numbering.",
+      "and so the problem (1.5) of [@bib:l2001-automorphisms-Kondratyev1986] on": "External cited work locator; retain original edition numbering.",
+      "12.42] is still open. Let $M_n lr((J))$ be the ring of all $n times n$ matrices": "External cited work locator; retain original edition numbering.",
+      "By [@bib:l2001-automorphisms-Kargapolov1979, 11.3.3] Sylow $p$-subgroups of the": "External cited work locator; retain original edition numbering.",
+      "Question 10.19; @bib:l2001-automorphisms-Kuzucuoglu2000].": "External cited work locator; retain original edition numbering."
     }
   },
   "local_markup": {
@@ -317,6 +366,18 @@
     },
     "content/papers/l2018-malcev/00-main.typ": {
       "#show: article-style.with(language: \"ru\")": "Общий помощник задаёт язык статьи и область действия переносов; локальных правил вёрстки нет."
+    },
+    "content/papers/l2004-finitary/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык статьи."
+    },
+    "content/papers/l2016-hypercentral/00-main.typ": {
+      "#show: article-style.with(language: \"ru\")": "Общий помощник задаёт язык статьи и переносы, без локальных правил вёрстки."
+    },
+    "content/papers/l2000-ideals/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Standard collection wrapper selects the original article language."
+    },
+    "content/papers/l2001-automorphisms/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "English article-style language, same shared helper used by existing English articles."
     }
   }
 }

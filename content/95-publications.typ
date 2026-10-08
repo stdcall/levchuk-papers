@@ -454,6 +454,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2000-ideals.
 ] <bib:pub-Kuzucuoglu2000MatrixIdealsEn>
 
 #bib-item[
@@ -475,6 +476,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2001-automorphisms.
 ] <bib:pub-Kuzucuoglu2001RadicalAutomorphismsEn>
 
 #bib-item[
@@ -596,6 +598,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2004-finitary.
 ] <bib:pub-Kuzucuoglu2004FinitaryIsomorphismsEn>
 
 #bib-item[
@@ -987,6 +990,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2016-hypercentral.
 ] <bib:pub-Levchuk2016HypercentralAutomorphismsRu>
 
 #bib-item[
@@ -1082,6 +1086,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2020-nonassoc.
 ] <bib:pub-Levchuk2020NonassociativeEnvelopingRu>
 
 #bib-item[
