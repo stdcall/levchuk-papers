@@ -4,12 +4,12 @@
 <sec:l2000-ideals-structural>
 
 Recall that an ideal $H$ of the associative ring $R$ is called quasi-regular, if
-$H$ is a group with respect to the adjoint multiplication $a circle b=a+b+a b$,
+$H$ is a group with respect to the adjoint multiplication $a compose b=a+b+a b$,
 cf. [@bib:l2000-ideals-Hungerford1974]. A ring
 #source(4, printed: "3505")
-$R$ is called a radical (Jacobson) ring, if $(R,circle)$ is a group (adjoint
+$R$ is called a radical (Jacobson) ring, if $(R,compose)$ is a group (adjoint
 group), that is, for each element $a in R$ there exists an element $a' in R$
-such that $a circle a'=a' circle a=0$. If $a$ is a nilpotent element, then
+such that $a compose a'=a' compose a=0$. If $a$ is a nilpotent element, then
 $a'=-a+a^2-a^3+dots$. On the other hand, every associative ring $R$ is also
 associated Lie ring $(R,+,ast)$, where $ast$ is the associated Lie
 multiplication $a ast b=a b-b a$. It is clear that each ideal of the radical
@@ -41,7 +41,7 @@ were constructed in [@bib:l2000-ideals-Levchuk1987]. On the other hand, we have
   monomorphism between the adjoint group of the ring $R$ and $GL_n lr((K))$.
   Assume $H=pi^(-1) lr((pi(R) inter SL_n lr((K))))$. It is clear that $H$ is a
   normal subgroup of the adjoint group of $R$. If $a e_11+b e_22 in H$, then
-  $1=(1+a)(1+b)=1+a circle b$ and $b=a'$. Thus
+  $1=(1+a)(1+b)=1+a compose b$ and $b=a'$. Thus
   $a(e_11-e_22)=a e_12 ast e_21 in H$ $(a in J)$ holds only when $a'=-a$ and
   hence $a^2=0$. Therefore, if the ideal $J$ contains an element $x$ satisfying
   $x^2!=0$, then the normal subgroup $H$ of the adjoint group of the ring $R$ is
@@ -56,7 +56,7 @@ two conditions are equivalent:
 
 #enum(
   numbering: "(i)",
-  [$H$ is a normal subgroup of adjoint group $(R,circle)$;],
+  [$H$ is a normal subgroup of adjoint group $(R,compose)$;],
   [#source(5, printed: "3506")
     $H$ is an ideal of the groupoid $(R,ast)$.],
 )

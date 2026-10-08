@@ -384,11 +384,11 @@ $H$. The following theorem holds.
 #source(9, printed: 106) Let us consider the idea of the proof.
 
 Using the representation $pi$ from Section @sec:l2012-extremal-en-preliminaries
-of $U$ we define a frame of a subset $pi(H)$ in $(N G(K),circle)$ by the rule
+of $U$ we define a frame of a subset $pi(H)$ in $(N G(K),compose)$ by the rule
 $cal(F)(pi(H)) := pi(cal(F)(H))$. The concept of frame and the representation
 $pi$ allow us to apply linear methods, cf. [@bib:l2012-extremal-en-Levchuk1992,
 @bib:l2012-extremal-en-Levchuk1990, @bib:l2012-extremal-en-Levchuk2008,
-@bib:l2012-extremal-en-Levchuk2009]. The multiplication $circle$ and the
+@bib:l2012-extremal-en-Levchuk2009]. The multiplication $compose$ and the
 addition on the frame $cal(F)(pi(H))$ coincide modulo
 $sum_(r in cal(L)(H)) pi(Q(r))$. Also, we may consider an arbitrary frame in the
 module $N G(K)$ as a submodule. When $G = Phi$, we get

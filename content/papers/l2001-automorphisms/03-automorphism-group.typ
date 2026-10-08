@@ -92,7 +92,7 @@ Let $R=R_n lr((K,J))$. We require the following lemmas.
   is placed in the left ideal $R e_(t t)$ of the ring $R$ and $alpha_t^2=0$. By
   @eq:l2001-automorphisms-adjoint-conjugation we get
   $
-    alpha'_t circle e_(i+1,i)^phi circle alpha_t=
+    alpha'_t compose e_(i+1,i)^phi compose alpha_t=
     e_(i+1,i)^phi-alpha_t e_(i+1,i)^phi+
     (e-alpha_t)e_(i+1,i)^phi alpha_t
     in e_(i+1,i)^phi-alpha_t e_(i+1,i)^phi+R e_(t t).
@@ -105,11 +105,11 @@ Let $R=R_n lr((K,J))$. We require the following lemmas.
     =sum_(j=1)^n (e_(21)^phi-e_(21))d_j e_(1 j),
   $
   $
-    (alpha'_2 circle e_(21)^phi circle alpha_2)e_(11)=e_(21)^phi e_(11)
+    (alpha'_2 compose e_(21)^phi compose alpha_2)e_(11)=e_(21)^phi e_(11)
     -(e_(21)^phi-e_(21))e_(11)=e_(21).
   $
   Consequently, the first column of the matrix
-  $alpha'_2 circle e_(21)^phi circle alpha_2$ is equal to the second column of
+  $alpha'_2 compose e_(21)^phi compose alpha_2$ is equal to the second column of
   the identity matrix. Suppose that $1<i<n$ and each #source(
     7,
     printed: 479,
@@ -117,7 +117,7 @@ Let $R=R_n lr((K,J))$. We require the following lemmas.
   adjoint conjugation of the element $alpha_(i+1)$ does not change the $t$th
   column of such a matrix since the $t$th column of $alpha_(i+1)e_(t+1,t)^phi$
   is zero. On the other hand, the $i$th column of the matrix
-  $(alpha'_(i+1) circle e_(i+1,i)^phi circle alpha_(i+1))-e_(i+1,i)$
+  $(alpha'_(i+1) compose e_(i+1,i)^phi compose alpha_(i+1))-e_(i+1,i)$
   is also zero. Thus, without loss of generality we may assume that the $i$th
   column of each matrix $e_(i+1,i)^phi-e_(i+1,i)$ $(1<=i<n)$ is zero.
 
@@ -132,8 +132,8 @@ Let $R=R_n lr((K,J))$. We require the following lemmas.
   $b_(i+1)$ is the $(i+1,1)$-coefficient of the matrix $e_(i+1,i)^phi$. By
   @eq:l2001-automorphisms-adjoint-conjugation we obtain
   $
-    alpha'_1 circle e_(21) circle alpha_1=e_(21), quad
-    alpha'_1 circle e_(i+1,i)^phi circle alpha_1=
+    alpha'_1 compose e_(21) compose alpha_1=e_(21), quad
+    alpha'_1 compose e_(i+1,i)^phi compose alpha_1=
     e_(i+1,i)^phi+e_(i+1,i)^phi alpha_1=e_(i+1,i)^phi-b_(i+1)e_(i+1,1)
   $
   for $1<i<n$. Therefore, without loss of generality we may assume that the

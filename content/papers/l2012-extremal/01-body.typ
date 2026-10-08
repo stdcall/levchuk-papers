@@ -213,11 +213,11 @@ ${e_r | r in Phi^+}$. Полагая
 $ pi(gamma) = sum_(r in Phi^+) gamma_r e_r quad (gamma in U Phi(K)), $
 
 $
-  alpha circle beta = pi(pi^(-1)(alpha) pi^(-1)(beta)) quad (alpha, beta in N
+  alpha compose beta = pi(pi^(-1)(alpha) pi^(-1)(beta)) quad (alpha, beta in N
     Phi(K)),
 $
 
-мы определяем _присоединённую группу_ $(N Phi(K), circle)$, изоморфную группе
+мы определяем _присоединённую группу_ $(N Phi(K), compose)$, изоморфную группе
 $U Phi(K)$. В [@bib:l2012-extremal-Levchuk1990, @bib:l2012-extremal-Levchuk2009]
 группа $U G(K)$, где $G = twisted(m, Phi)$, $p(Phi) = 1$, также представлена
 присоединённой группой естественного $K_sigma$-модуля $N G(K)$.

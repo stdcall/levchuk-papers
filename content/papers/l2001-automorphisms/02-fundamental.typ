@@ -36,27 +36,27 @@ $Ann R=lr({alpha in R | alpha R=R alpha=0})$.
   are equalities. The lemma is proved.
 ]
 
-For an arbitrary associative ring $R$ the adjoint multiplication $circle$ and
+For an arbitrary associative ring $R$ the adjoint multiplication $compose$ and
 the associated Lie multiplication $*$ are defined as
 $
-  alpha circle beta=alpha+beta+alpha beta, quad
+  alpha compose beta=alpha+beta+alpha beta, quad
   alpha*beta=alpha beta-beta alpha.
 $
 An element $alpha in R$ is called quasi-regular if there exists an element
-$alpha' in R$ such that $alpha circle alpha'=alpha' circle alpha=0$. For
+$alpha' in R$ such that $alpha compose alpha'=alpha' compose alpha=0$. For
 instance, the quasi-inverse of a nilpotent element $-alpha$ is defined as
 $(-alpha)'=alpha+alpha^2+alpha^3+dots$. The adjoint conjugation of $R$ by a
 quasi-regular element
-$ alpha' circle y circle alpha=y+y*alpha+alpha'(y*alpha), quad y in R, $
+$ alpha' compose y compose alpha=y+y*alpha+alpha'(y*alpha), quad y in R, $
 <eq:l2001-automorphisms-adjoint-conjugation>
 gives an “inner” automorphism of the ring $R$. It coincides with ordinary
 conjugation of $R$ by the element $e+alpha$ when the ring $R$ contains identity
-$e$. A ring $R$ is called radical if $(R,circle)$ is a group. Each element
+$e$. A ring $R$ is called radical if $(R,compose)$ is a group. Each element
 $alpha$ of any radical ring $R$ determines an inner automorphism as in
 @eq:l2001-automorphisms-adjoint-conjugation.
 
 Let $R$ be the ring $R_n lr((K,J))$. It is a radical ring if and only if $J$ is
-a quasi-regular ideal of $K$; i.e., $(J,circle)$ is a group. The conjugation
+a quasi-regular ideal of $K$; i.e., $(J,compose)$ is a group. The conjugation
 $delta^(-1)alpha delta$ $(alpha in R)$ by an arbitrary invertible diagonal
 $n times n$ matrix $delta$ over $K$ determines an automorphism of $R$ which is
 called “diagonal.” An automorphism $theta$ of the ring $K$ determines an

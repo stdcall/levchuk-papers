@@ -15,13 +15,13 @@ ${k in Gamma | i<=k<=j}$, by $p$ and $q$, the first and the last element of
 $Gamma$ (if they exist), respectively. For $Gamma$-matrices $lr(‖a_(i j)‖)$ with
 $i,j in Gamma$ we use the standard matrix notation.
 
-Recall that the adjoint multiplication $circle$ and the associated Lie
+Recall that the adjoint multiplication $compose$ and the associated Lie
 multiplication $ast$ of an arbitrary associative ring are defined by
-$alpha circle beta=alpha+beta+alpha beta$ and
+$alpha compose beta=alpha+beta+alpha beta$ and
 $alpha ast beta=alpha beta-beta alpha$, respectively. Let $R=NT(Gamma, K)$ and
 $Lambda(R)$ be the associated Lie ring of $R$. Since the ring $R$ is locally
 nilpotent, $(e-beta)^(-1)=e+beta+beta^2+beta^3+dots$ for all $beta in R$. Thus,
-$(R,circle)$ is a group (the adjoint group of $R$) which we denote by $G(R)$.
+$(R,compose)$ is a group (the adjoint group of $R$) which we denote by $G(R)$.
 The adjoint conjugation by an element $-beta$ of $R$ coincides with ordinary
 conjugation
 $
