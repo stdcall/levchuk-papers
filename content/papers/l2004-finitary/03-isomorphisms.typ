@@ -94,7 +94,7 @@ $
   and, therefore, $psi$ is additive on $N_(i j) lr((S))$. Consequently, $psi$
   preserves the relations
   $
-    x e_(i j) circle y e_(i j)=x e_(i j)+y e_(i j)=(x+y)e_(i j)
+    x e_(i j) compose y e_(i j)=x e_(i j)+y e_(i j)=(x+y)e_(i j)
     quad (i,j in Gamma,x,y in S)
   $
   of $R_S$. Choose arbitrary matrices $alpha in N_(i j) lr((S))$ and

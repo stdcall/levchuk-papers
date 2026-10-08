@@ -39,8 +39,8 @@ $ zeta^((l)):Lambda^((l)) lr((K,J)) arrow B $
     D inter A(K,J) tilde.eq K^("#")/(K^("#") inter C(K)),
   $
   $
-    F tilde.eq (R,circle)/C(R), quad
-    F inter D tilde.eq (sum_(i=1)^n J e_(i i),circle)/((J inter C(K))e);
+    F tilde.eq (R,compose)/C(R), quad
+    F inter D tilde.eq (sum_(i=1)^n J e_(i i),compose)/((J inter C(K))e);
   $
 
   (iii) the subgroup $B$ is a direct product of subgroups $B'$,
@@ -56,8 +56,8 @@ $ zeta^((l)):Lambda^((l)) lr((K,J)) arrow B $
 #source(10, printed: 482)
 #proof[
   (i) The subgroup $F$ is normal in $Aut R$ since
-  $Aut R subset.eq Aut(R, circle)$ and $F ⊴ Aut(R, circle)$. It is easy to show
-  that $D ⊴ D A(K,J)$. Similarly, normalizers in $Aut R$ of subgroups
+  $Aut R subset.eq Aut(R, compose)$ and $F ⊴ Aut(R, compose)$. It is easy to
+  show that $D ⊴ D A(K,J)$. Similarly, normalizers in $Aut R$ of subgroups
   $zeta_i lr((Lambda(K, J)))$, $1<=i<n$, and $B'$ contain $D$ and $A(K,J)$. By
   @eq:l2001-automorphisms-annihilator-map subgroups $zeta_i lr((Lambda(K, J)))$
   and $B'$ generate $B$ so $B F$ is a normal subgroup of series
@@ -78,7 +78,7 @@ $ zeta^((l)):Lambda^((l)) lr((K,J)) arrow B $
   the adjoint group of it and contains $C(R)$. The inverse inclusion is also
   true since any matrix $alpha$ in the center of $R$ satisfies
   $alpha*(K e_(i+1,i))=alpha*(J e_(1 n))=0$, $1<=i<n$. Thus, the center of the
-  adjoint group is equal to $C(R)$ and $F tilde.eq (R,circle)/C(R)$.
+  adjoint group is equal to $C(R)$ and $F tilde.eq (R,compose)/C(R)$.
 
   The intersection $D inter A(K,J)$ coincides with the set of all conjugations
   of $R$ by matrices from $K^("#") e$. In fact, if $theta in D inter A(K,J)$ and
@@ -87,7 +87,7 @@ $ zeta^((l)):Lambda^((l)) lr((K,J)) arrow B $
   pairwise coincide because $e_(i+1,i)^theta=e_(i+1,i)$, $1<=i<n$. The
   centralizer of $R$ in $D_n lr((K))$ coincides with $(K^("#") inter C(K))e$. It
   gives required isomorphisms of $D$ and $D inter A(K,J)$. Also, we get
-  $F inter D tilde.eq (C(R)+(R inter (D_n lr((K))-e)),circle)/C(R)$. Since
+  $F inter D tilde.eq (C(R)+(R inter (D_n lr((K))-e)),compose)/C(R)$. Since
   $C(R) inter R inter (D_n lr((K))-e)=C(R) inter (D_n lr((K))-e)
   =(J inter C(K))e$ we obtain the required isomorphism of $F inter D$.
 
@@ -108,7 +108,7 @@ $ zeta^((l)):Lambda^((l)) lr((K,J)) arrow B $
   and $mu$ are $K$-module endomorphisms of the left and right $K$-module $J$,
   respectively. By @eq:l2001-automorphisms-adjoint-conjugation we get
   $
-    (-x e_(n 1)) circle (a e_(1 n))^chi circle x e_(n 1)
+    (-x e_(n 1)) compose (a e_(1 n))^chi compose x e_(n 1)
     in a e_(1 n)+(a^lambda+a x)e_(11)+(a^mu-x a)e_(n n)+K e_(n 1)
   $
   for all $x in K$. The equation $a^mu-x a=0$ is solvable in $K$ because

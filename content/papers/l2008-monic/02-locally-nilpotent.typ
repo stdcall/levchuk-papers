@@ -7,8 +7,8 @@
 Firstly, we consider standard automorphisms of certain locally nilpotent rings
 and groups. Recall that a Lie ring $Lambda(R) := (R,+,ast)$ with the Lie product
 $alpha ast beta = alpha beta - beta alpha$ and, also, a Jordan ring
-$J(R) := (R,+,circle)$ with the Jordan product
-$alpha circle beta = alpha beta + beta alpha$ are associated to every
+$J(R) := (R,+,compose)$ with the Jordan product
+$alpha compose beta = alpha beta + beta alpha$ are associated to every
 associative ring $R$. The map $x arrow.r 1+x$ of any radical ring $R$ is an
 isomorphism of the adjoint group $G(R)$. For the automorphism groups it isn’t
 difficult to verify the following equalities:
@@ -136,7 +136,7 @@ $|Gamma| = 3,4$, in particular, for any commutative ring of coefficients.
   automorphisms of $R$. Let $p,q in Gamma$ and let there exist the direct
   successor $k$ of $p$ (i.e., the first element of the subset
   ${j in Gamma | p < j}$) and the direct successor $m$ of $k$ in $Gamma$. Choose
-  an element $c in K$ with $c(K circle K) = 0$; this is equivalent to the
+  an element $c in K$ with $c(K compose K) = 0$; this is equivalent to the
   restrictions $2c = 0$ and $c(K ast K) = 0$. Then the map
   $x e_(k p) arrow.r (e_(k p)+c e_(q k))x$, $x in K$ (other elementary matrices
   $x e_(u v)$ are fixed) and, analogously, the map

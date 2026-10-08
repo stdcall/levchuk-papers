@@ -233,14 +233,15 @@ _r-projection_ of $gamma$. Putting
 
 $
   pi(gamma) := sum_(r in Phi^+) gamma_r e_r quad (gamma in U Phi(K)),
-  quad alpha circle beta := pi(pi^(-1)(alpha) pi^(-1)(beta))
+  quad alpha compose beta := pi(pi^(-1)(alpha) pi^(-1)(beta))
   quad (alpha,beta in N Phi(K)),
 $
 
-we define an adjoint group $(N Phi(K),circle)$, which is isomorphic to the group
-$U Phi(K)$. Similar representation of $U twisted(m, Phi)(K)$ for $p(Phi) = 1$ as
-an adjoint group of certain $K_sigma$-module $N twisted(m, Phi)(K)$ is used in
-[@bib:l2012-extremal-en-Levchuk1990] and [@bib:l2012-extremal-en-Levchuk2009].
+we define an adjoint group $(N Phi(K),compose)$, which is isomorphic to the
+group $U Phi(K)$. Similar representation of $U twisted(m, Phi)(K)$ for
+$p(Phi) = 1$ as an adjoint group of certain $K_sigma$-module
+$N twisted(m, Phi)(K)$ is used in [@bib:l2012-extremal-en-Levchuk1990] and
+[@bib:l2012-extremal-en-Levchuk2009].
 
 The set of r-projections of all elements in a subset $H subset.eq U G(K)$ is
 called an _r-projection_ of $H$. If an s-projection of $gamma in H$ is the
