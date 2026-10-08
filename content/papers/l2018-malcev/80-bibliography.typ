@@ -22,14 +22,16 @@
 #bib-item[#bib-description("Levchuk2012Model") В сборнике:
   с.~@ch:l2012-model.] <bib:l2018-malcev-Levchuk2012Model>
 #source(10, printed: 144)
-#bib-item[#bib-description("Kuzucuoglu2004")] <bib:l2018-malcev-Kuzucuoglu2004>
+#bib-item[#bib-description("Kuzucuoglu2004") В сборнике: с. @ch:l2004-finitary.
+] <bib:l2018-malcev-Kuzucuoglu2004>
 #bib-item[#bib-description("Levchuk2012Extremal") В сборнике:
   с.~@ch:l2012-extremal-en.] <bib:l2018-malcev-Levchuk2012Extremal>
 #bib-item[#bib-description("Levchuk1990Chevalley") В сборнике:
   с.~@ch:l1990-chevalley.] <bib:l2018-malcev-Levchuk1990Chevalley>
 #bib-item[#bib-description("Levchuk1990Small") В сборнике:
   с.~@ch:l1990-small.] <bib:l2018-malcev-Levchuk1990Small>
-#bib-item[#bib-description("Levchuk2016")] <bib:l2018-malcev-Levchuk2016>
+#bib-item[#bib-description("Levchuk2016") В сборнике: с. @ch:l2016-hypercentral.
+] <bib:l2018-malcev-Levchuk2016>
 #bib-item[#bib-description("Gibbs1970")] <bib:l2018-malcev-Gibbs1970>
 #bib-item[#bib-description("Cao2007")] <bib:l2018-malcev-Cao2007>
 #bib-item[#bib-description("Serre1966")] <bib:l2018-malcev-Serre1966>

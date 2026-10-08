@@ -41,7 +41,8 @@ $NT(n, K)$ нижних нильтреугольных $n times n$ матриц 
 алгебра Ли представляет собой алгебру $N Phi(K)$ типа $A_(n-1)$ с базой Шевалле
 ${e_r | r in Phi^+,e_r=e_(i j)}$ после соответствующей нумерации корней
 $r=r_(i j)$. Изоморфизмы колец Ли $N Phi(K)$ в этом случае известны (см.
-[@bib:l2018-malcev-Kuzucuoglu2004]).
+[@bib:l2018-malcev-Kuzucuoglu2004; @th:l2004-finitary-main[основная теорема];
+замечание @rem:l2004-finitary-small-ranks]).
 
 Алгебры Ли $N Phi(K)$ типов $B_n$, $C_n$ и $D_n$ заданы в
 [@bib:l2018-malcev-Levchuk1990Chevalley] также в базе из «матричных единиц»
@@ -214,8 +215,9 @@ $
 $ <eq:l2018-malcev-d4-automorphism>
 Для простых симметричных корней $r$ и $overline(r)!=r$
 $(overline(overline(r))=r)$ системы корней $Phi$ типа $D_n lr((n>=4))$ согласно
-[@bib:l2018-malcev-Levchuk2016] определено изоморфное вложение $tilde(" ")$
-подгруппы
+[@bib:l2018-malcev-Levchuk2016; лемма
+@lem:l2016-hypercentral-symmetric-root-subgroup] определено изоморфное вложение
+$tilde(" ")$ подгруппы
 $
   S={alpha=lr(‖a_(u v)‖) in SL(2, K):2a_(1 1)a_(1 2)=2a_(2 1)a_(2 2)=0}
 $
@@ -252,9 +254,11 @@ $U Phi(K)$ при $K=6K$; аналогичный автоморфизм алге
 [@bib:l2018-malcev-Cao2007].
 
 Подгруппу автоморфизмов алгебры Ли $N Phi(K)$, которую порождают выделенные в
-[@bib:l2018-malcev-Levchuk2016] гиперцентральные автоморфизмы высоты $>1$,
-обозначаем через $V(Phi,K)$. Так, каждому элементу $t in A_2$ в
-[@bib:l2018-malcev-Levchuk2016] сопоставлены гиперцентральные автоморфизмы
+[@bib:l2018-malcev-Levchuk2016; § @sec:l2016-hypercentral-automorphisms]
+гиперцентральные автоморфизмы высоты $>1$, обозначаем через $V(Phi,K)$. Так,
+каждому элементу $t in A_2$ в [@bib:l2018-malcev-Levchuk2016;
+@eq:l2016-hypercentral-height-five, @eq:l2016-hypercentral-short-height-five и
+@eq:l2016-hypercentral-two-parameter] сопоставлены гиперцентральные автоморфизмы
 $
   alpha=lr(‖a_(u v)‖) arrow.r alpha+t(
     a_(n,n-1)e_(n-2,-n+3)+a_(n,n-2)e_(n-1,-n+3)
@@ -266,7 +270,7 @@ $
   alpha arrow.r alpha+t(a_(n,n-1)e_(n-2,0)+a_(n,n-2)e_(n-1,0)),
 $
 $
-  chi_t:alpha arrow.r alpha+sum_(k=2)^(n-1) a_(k,-1)t e_(k 0)
+  chi_t:alpha arrow.r alpha+sum_(k=2)^n a_(k,-1)t e_(k 0)
 $
 алгебры Ли $N B_n lr((K)) (n>=4)$ высоты $<=3$ и $<=n-1$ соответственно по лемме
 @lem:l2018-malcev-hypercenters. #theorem[
@@ -277,7 +281,9 @@ $
   автоморфизм вида @eq:l2018-malcev-d4-automorphism при $n=4$.
 ] <th:l2018-malcev-automorphisms>
 #proof[
-  В [@bib:l2018-malcev-Levchuk2016] доказана порождаемость группы $A$
+  В [@bib:l2018-malcev-Levchuk2016; теоремы
+  @th:l2016-hypercentral-b-automorphisms и
+  @th:l2016-hypercentral-d-automorphisms] доказана порождаемость группы $A$
   автоморфизмов кольца Ли $N Phi(K)$ классического типа гиперцентральными
   автоморфизмами высоты $m>1$, выделенными в $V(Phi,K)$, и стандартными
   автоморфизмами. Нам требуется уточнить утверждение о порождаемости. Пусть
@@ -299,8 +305,9 @@ $
   стандартных автоморфизмов. Тем самым, требуемое уточнение установлено.
 ]
 #remark[
-  Описание в [@bib:l2018-malcev-Levchuk2016] подгруппы $V(Phi,K)$ для
-  классических типов показывает, что идеал $T_(1 0)$ кольца Ли $N B_n lr((K))$
+  Описание в [@bib:l2018-malcev-Levchuk2016; §
+  @sec:l2016-hypercentral-automorphisms] подгруппы $V(Phi,K)$ для классических
+  типов показывает, что идеал $T_(1 0)$ кольца Ли $N B_n lr((K))$
   характеристичен при $n>4$, а в кольце Ли $N C_n lr((K)) (n>4)$ идеал $T_(i v)$
   при $i<n$ характеристический. Идеалы $T_(n,n-1)$, $T_(n,n-2)$, $T_(n,n-3)$
   являются $V(Phi,K)$-инвариантными по модулю $T_(n-2,-n+3)$ в кольцах Ли

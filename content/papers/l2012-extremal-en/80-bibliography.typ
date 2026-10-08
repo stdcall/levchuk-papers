@@ -16,11 +16,13 @@
   "Kondratyev1986",
 )] <bib:l2012-extremal-en-Kondratyev1986>
 #bib-item[#bib-description(
-  "Kuzucuoglu2001",
-)] <bib:l2012-extremal-en-Kuzucuoglu2001>
+    "Kuzucuoglu2001",
+  ) В сборнике: с. @ch:l2001-automorphisms.
+] <bib:l2012-extremal-en-Kuzucuoglu2001>
 #bib-item[#bib-description(
-  "Kuzucuoglu2004",
-)] <bib:l2012-extremal-en-Kuzucuoglu2004>
+    "Kuzucuoglu2004",
+  ) В сборнике: с. @ch:l2004-finitary.
+] <bib:l2012-extremal-en-Kuzucuoglu2004>
 #bib-item[#bib-description("Levchuk1976")
   В сборнике: с. @ch:l1976.
 ] <bib:l2012-extremal-en-Levchuk1976>

@@ -11,7 +11,8 @@
 ] <lem:l2018-enveloping-lie-automorphisms>
 
 #source(3, printed: "рукопись 3")_Аннуляторные автоморфизмы_ колец выявляет (см.
-[@bib:l2018-enveloping-Kuzucuoglu2001, Lemma~1.1])
+[@bib:l2018-enveloping-Kuzucuoglu2001,
+Lemma~@lem:l2001-automorphisms-annihilator])
 
 #lemma[
   Пусть $zeta$ — аддитивное отображение произвольного кольца $R$ в аннулятор
@@ -79,9 +80,10 @@ $
 Ограничения корневых автоморфизмов $x_r lr((t))$ ($r in Phi^+$, $t in K$) на
 алгебре Ли $N Phi(K)$ порождают подгруппу $Jc$ ее _внутренних автоморфизмов_.
 
-Согласно [@bib:l2018-enveloping-Levchuk2016], для простых симметричных корней
-$r$ и $overline(r)!=r$ ($overline(overline(r))=r$) системы $Phi$ типа $D_n$
-($n>=4$) определено изоморфное вложение $∼$ подгруппы
+Согласно [@bib:l2018-enveloping-Levchuk2016; лемма
+@lem:l2016-hypercentral-symmetric-root-subgroup], для простых симметричных
+корней $r$ и $overline(r)!=r$ ($overline(overline(r))=r$) системы $Phi$ типа
+$D_n$ ($n>=4$) определено изоморфное вложение $∼$ подгруппы
 $
   S={A=lr(||a_(u v)||) in SL(2, K):2a_(11)a_(12)=2a_(21)a_(22)=0}
 $ <eq:l2018-enveloping-symmetric-root-subgroup>
@@ -107,8 +109,9 @@ $
 
 Группа автоморфизмов кольца Ли $N Phi(K)$ и группа $Aut R$ для типов $B_n$,
 $C_n$ и $D_n$ действуют одинаково по модулю $R^2$ при $n>4$, учитывая описание
-$Aut N Phi(K)$ в [@bib:l2018-enveloping-Levchuk2016] и леммы
-@lem:l2018-enveloping-lie-automorphisms,
+$Aut N Phi(K)$ в [@bib:l2018-enveloping-Levchuk2016; теоремы
+@th:l2016-hypercentral-b-automorphisms и @th:l2016-hypercentral-d-automorphisms]
+и леммы @lem:l2018-enveloping-lie-automorphisms,
 @lem:l2018-enveloping-standard-automorphisms. В частности, группа $Aut R$ типа
 $D_n$ при $n>4$ действует по модулю $R^2$ как произведение $Dc Ah(K)St$.
 
@@ -160,9 +163,10 @@ $
 ] <th:l2018-enveloping-d4-automorphisms>
 
 В группе автоморфизмов алгебр Ли $N Phi(K)$ классических типов в
-[@bib:l2018-enveloping-Levchuk2016] выявлена подгруппа $V(Phi)$ гиперцентральных
-автоморфизмов высоты $>1$ (вместе с тождественным). Положим
-$V_R lr((Phi))=V(Phi) inter Aut R$ и $Jc_R=Jc inter Aut R$.
+[@bib:l2018-enveloping-Levchuk2016; § @sec:l2016-hypercentral-automorphisms]
+выявлена подгруппа $V(Phi)$ гиперцентральных автоморфизмов высоты $>1$ (вместе с
+тождественным). Положим $V_R lr((Phi))=V(Phi) inter Aut R$ и
+$Jc_R=Jc inter Aut R$.
 
 #theorem[
   Группа автоморфизмов обертывающего кольца $R$ алгебры Ли $N Phi(K)$

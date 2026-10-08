@@ -455,5 +455,117 @@
     "passages": [
       "lem:l2012-model-unit-adjunction"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2020/ExactEnvelope.lean",
+    "declarations": [
+      "LevchukPapers.L2020.ExactEnvelope.zero_bilinear",
+      "LevchukPapers.L2020.ExactEnvelope.field_bilinear",
+      "LevchukPapers.L2020.ExactEnvelope.zero_associative",
+      "LevchukPapers.L2020.ExactEnvelope.field_associative",
+      "LevchukPapers.L2020.ExactEnvelope.zero_commutator",
+      "LevchukPapers.L2020.ExactEnvelope.field_commutator",
+      "LevchukPapers.L2020.ExactEnvelope.not_linearly_multiplicatively_isomorphic",
+      "LevchukPapers.L2020.ExactEnvelope.reverse_not_linearly_multiplicatively_isomorphic"
+    ],
+    "book": "Предложение 1: одномерный контрпример к подсчёту всех точных обертывающих.",
+    "limitations": "Произвольное поле. Нулевая и обычная мультипликации на одномерном пространстве билинейны, ассоциативны, имеют нулевой коммутатор и не изоморфны как алгебры. Классификация всех обертывающих и подсчёт классов изоморфизма не формализованы.",
+    "passages": [
+      "prop:l2020-nonassoc-envelope-count"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2020/MiddleCocycle.lean",
+    "declarations": [
+      "LevchukPapers.L2020.MiddleCocycle.matrix_injective",
+      "LevchukPapers.L2020.MiddleCocycle.matrix_product",
+      "LevchukPapers.L2020.MiddleCocycle.deformed_bilinear",
+      "LevchukPapers.L2020.MiddleCocycle.deformed_associative",
+      "LevchukPapers.L2020.MiddleCocycle.same_commutator",
+      "LevchukPapers.L2020.MiddleCocycle.ordinary_square_zero_count",
+      "LevchukPapers.L2020.MiddleCocycle.deformed_square_zero_count",
+      "LevchukPapers.L2020.MiddleCocycle.not_additively_multiplicatively_isomorphic",
+      "LevchukPapers.L2020.MiddleCocycle.not_oppositely_isomorphic"
+    ],
+    "book": "Теорема 1: контрпример к исходной неограниченной единственности.",
+    "limitations": "Для произвольного коммутативного кольца проверены матричная реализация NT(4), билинейность и ассоциативность центральной деформации и равенство коммутаторов. Над GF(2) доказаны числа элементов с квадратом ноль 28 и 20 и отсутствие аддитивного мультипликативного изоморфизма, включая противоположное произведение. Общая классификация и индуктивный шаг второй части теоремы не формализованы.",
+    "passages": [
+      "th:l2020-nonassoc-associative-uniqueness"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2004Finitary/Peirce.lean",
+    "declarations": [
+      "LevchukPapers.L2004Finitary.decomposition_idempotent",
+      "LevchukPapers.L2004Finitary.fixed_points_range",
+      "LevchukPapers.L2004Finitary.left_fixed_points_range",
+      "LevchukPapers.L2004Finitary.complementary_idempotent",
+      "LevchukPapers.L2004Finitary.peirce_sets",
+      "LevchukPapers.L2004Finitary.central_of_equal_one_sided_ideals"
+    ],
+    "book": "Лемма 3.2: односторонние пирсовы разложения.",
+    "limitations": "Вся лемма 3.2 доказана для произвольного ассоциативного кольца с единицей, включая некоммутативное: четыре односторонних идеала, идемпотент и его центральность при Kf=fK. Общая классификация изоморфизмов не формализована.",
+    "passages": [
+      "lem:l2004-finitary-peirce-decomposition"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2016Hypercentral/Automorphisms.lean",
+    "declarations": [
+      "Levchuk2016Hypercentral.central_multiplier_square",
+      "Levchuk2016Hypercentral.preserves_bracket",
+      "Levchuk2016Hypercentral.linearity",
+      "Levchuk2016Hypercentral.all_root_images",
+      "Levchuk2016Hypercentral.parameter_faithful",
+      "Levchuk2016Hypercentral.left_inverse",
+      "Levchuk2016Hypercentral.right_inverse",
+      "Levchuk2016Hypercentral.automorphism",
+      "Levchuk2016Hypercentral.matrix_bracket",
+      "Levchuk2016Hypercentral.matrix_injective"
+    ],
+    "book": "Лемма 3: действие подгруппы SL₂ на шести корневых координатах D₃=A₃.",
+    "limitations": "Произвольное коммутативное кольцо с единицей; ad−bc=1 и 2ab=2cd=0. Доказаны линейность, сохранение полной скобки, корневые образы, двусторонние обратные, верность параметров и инъективная 4×4 матричная реализация. Общая классификация Dₙ, групповой закон правого действия и максимальная гиперцентральная высота не формализованы.",
+    "passages": [
+      "eq:l2016-hypercentral-symmetric-root-map",
+      "lem:l2016-hypercentral-symmetric-root-subgroup"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2000Ideals/DeterminantKernel.lean",
+    "declarations": [
+      "LevchukPapers.L2000Ideals.adjoint_matrix_hom",
+      "LevchukPapers.L2000Ideals.upper_det",
+      "LevchukPapers.L2000Ideals.upper_inverse",
+      "LevchukPapers.L2000Ideals.commutator_matrix",
+      "LevchukPapers.L2000Ideals.commutator_det",
+      "LevchukPapers.L2000Ideals.commutator_outside_kernel",
+      "LevchukPapers.L2000Ideals.determinant_kernel_conjugation"
+    ],
+    "book": "Пример 1.1 статьи 2000 года: детерминантное ядро и его отличие от лиева идеала.",
+    "limitations": "Произвольное коммутативное кольцо с единицей; настоящие матрицы 2×2, сохранение присоединённого умножения, обратимость верхнего элементарного элемента, детерминант коммутатора и инвариантность ядра при сопряжении. Вложение блока при n≥2 — обычный матричный аргумент. Классификации теорем 2.2 и 3.1 не формализованы.",
+    "passages": [
+      "exm:l2000-ideals-determinant-kernel"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2001Automorphisms/Annihilator.lean",
+    "declarations": [
+      "Levchuk2001Automorphisms.preserves_add",
+      "Levchuk2001Automorphisms.preserves_mul",
+      "Levchuk2001Automorphisms.preserves_adjoint",
+      "Levchuk2001Automorphisms.preserves_bracket",
+      "Levchuk2001Automorphisms.left_inverse",
+      "Levchuk2001Automorphisms.right_inverse",
+      "Levchuk2001Automorphisms.automorphism",
+      "Levchuk2001Automorphisms.matrix_mul",
+      "Levchuk2001Automorphisms.matrix_add",
+      "Levchuk2001Automorphisms.matrix_injective"
+    ],
+    "book": "Лемма 1.1 и формула (2) статьи 2001 года: аннуляторные автоморфизмы NT(3,K).",
+    "limitations": "Произвольное кольцо с единицей, включая некоммутативное; n=3, J=0, произвольные аддитивные отображения gamma и delta. Сохранение суммы, произведения, присоединённого умножения и скобки, обе обратные, настоящие матрицы 3×3. Общие классификации теорем 2.1 и 3.1 не формализованы.",
+    "passages": [
+      "lem:l2001-automorphisms-annihilator",
+      "eq:l2001-automorphisms-annihilator-map"
+    ]
   }
 ]

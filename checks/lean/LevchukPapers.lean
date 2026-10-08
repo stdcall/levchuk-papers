@@ -29,3 +29,9 @@ import LevchukPapers.L2005Sylow.PowerSeriesUnits
 import LevchukPapers.L2018Malcev.ACFCounterexample
 import LevchukPapers.L2008Model.JordanNT5
 import LevchukPapers.L2012Model.UnitExtensions
+import LevchukPapers.L2020.ExactEnvelope
+import LevchukPapers.L2020.MiddleCocycle
+import LevchukPapers.L2004Finitary.Peirce
+import LevchukPapers.L2016Hypercentral.Automorphisms
+import LevchukPapers.L2000Ideals.DeterminantKernel
+import LevchukPapers.L2001Automorphisms.Annihilator

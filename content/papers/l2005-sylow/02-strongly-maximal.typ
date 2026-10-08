@@ -17,9 +17,11 @@ We use an ideal $J$ of $K$ with certain specific properties. If $J$ coincides
 with a two-sided or one-sided annihilator of $J^t$ in $K$ for an integer $t>=0$
 (with $J^0=K$), then the structure of the automorphism group $Aut R$ coinciding
 with $Aut G(R) inter Aut Lambda(R)$, has been described in
-[@bib:l2005-sylow-Kuzucuoglu2001].
+[@bib:l2005-sylow-Kuzucuoglu2001; Theorem @th:l2001-automorphisms-main and
+Theorem @th:l2001-automorphisms-structure].
 
-By [@bib:l2005-sylow-Kuzucuoglu2000], an ideal $J$ of a commutative ring $K$ is
+By [@bib:l2005-sylow-Kuzucuoglu2000; Definition
+@def:l2000-ideals-strongly-maximal], an ideal $J$ of a commutative ring $K$ is
 called a _strongly maximal ideal_ if, for any $J$-submodule $T$ of $K$, every
 ideal of $K$ which is between $T$ and $J T$ is equal to $T$ or $J T$. Consider
 the following generalization for noncommutative cases.
@@ -31,8 +33,9 @@ the following generalization for noncommutative cases.
 ] <def:l2005-sylow-strongly-maximal>
 
 We note that ideals of the ring $R=R_n lr((K,J))$
-[@bib:l2005-sylow-Kuzucuoglu2000] and of the associated Lie ring $Lambda(R)$ and
-also normal subgroups of the adjoint group $G(R)$
+[@bib:l2005-sylow-Kuzucuoglu2000; Theorem
+@th:l2000-ideals-boundary-classification] and of the associated Lie ring
+$Lambda(R)$ and also normal subgroups of the adjoint group $G(R)$
 [@bib:l2005-sylow-Levchuk2002Radical] have been
 #source(4, printed: 228)
 described for the case of a strongly maximal ideal $J$ of a commutative ring
@@ -40,12 +43,14 @@ $K$. The case of zero ideal $J$ of a division ring $K$ had been studied in
 [@bib:l2005-sylow-Levchuk1992]. Also, G. Suleimanova investigates other
 noncommutative cases.
 
-By [@bib:l2005-sylow-Kuzucuoglu2000, Proposition 2.5], maximal ideals of the
-rings $Z$ and $Z_m$ are strongly maximal. It is clear that every strongly
-maximal ideal of a ring $K$ (not coinciding with $K$) is maximal. However, the
-inverse is not true. For instance, in the ring $Z[x]$ of polynomials in one
-indeterminate $x$ over $Z$, the ideal $p Z+x Z[x]$ for an arbitrary prime $p$ is
-maximal but it is not strongly maximal [@bib:l2005-sylow-Kuzucuoglu2000, § 2].
+By [@bib:l2005-sylow-Kuzucuoglu2000, Proposition
+@prop:l2000-ideals-strongly-maximal-examples], maximal ideals of the rings $Z$
+and $Z_m$ are strongly maximal. It is clear that every strongly maximal ideal of
+a ring $K$ (not coinciding with $K$) is maximal. However, the inverse is not
+true. For instance, in the ring $Z[x]$ of polynomials in one indeterminate $x$
+over $Z$, the ideal $p Z+x Z[x]$ for an arbitrary prime $p$ is maximal but it is
+not strongly maximal [@bib:l2005-sylow-Kuzucuoglu2000, Example
+@exm:l2000-ideals-polynomial-maximal].
 
 Let $R$ be an arbitrary (associative) ring with the identity. We now consider
 certain ideals of the ring $R[x]$ of polynomials and the ring $R[[x]]$ of formal

@@ -7,8 +7,11 @@
 #bib-item[#bib-description("Kabanov1979")] <bib:l2005-sylow-Kabanov1979>
 #bib-item[#bib-description("Kabanov1976")] <bib:l2005-sylow-Kabanov1976>
 #bib-item[#bib-description("Kourovka1992")] <bib:l2005-sylow-Kourovka1992>
-#bib-item[#bib-description("Kuzucuoglu2000")] <bib:l2005-sylow-Kuzucuoglu2000>
-#bib-item[#bib-description("Kuzucuoglu2001")] <bib:l2005-sylow-Kuzucuoglu2001>
+#bib-item[#bib-description("Kuzucuoglu2000") В сборнике: с. @ch:l2000-ideals.
+] <bib:l2005-sylow-Kuzucuoglu2000>
+#bib-item[#bib-description("Kuzucuoglu2001") В сборнике: с.
+  @ch:l2001-automorphisms.
+] <bib:l2005-sylow-Kuzucuoglu2001>
 #source(8, printed: 232)
 #bib-item[#bib-description("Levchuk1983")
   Original: p.~@ch:l1983; Theorem @th:l1983-main-automorphisms and Theorem

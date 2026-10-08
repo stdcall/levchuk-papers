@@ -18,16 +18,20 @@
 #include "papers/l1976/00-main.typ"
 #include "papers/l1983/00-main.typ"
 #include "papers/l1987-rings/00-main.typ"
+#include "papers/l2000-ideals/00-main.typ"
+#include "papers/l2001-automorphisms/00-main.typ"
 #include "papers/l2002-radical/00-main.typ"
+#include "papers/l2004-finitary/00-main.typ"
 #include "papers/l2005-sylow/00-main.typ"
 #include "papers/l2008-monic/00-main.typ"
 #include "papers/l2011-local/00-main.typ"
 
 #part-title[
-  Параболические подгруппы и автоморфизмы групп Шевалле]
+  Группы и алгебры Шевалле: подгруппы и автоморфизмы]
 #include "papers/l1982-parabolic/00-main.typ"
 #include "papers/l1990-small/00-main.typ"
 #include "papers/l1990-chevalley/00-main.typ"
+#include "papers/l2016-hypercentral/00-main.typ"
 
 #part-title[
   Абелевы подгруппы унипотентных групп]
@@ -43,6 +47,7 @@
 #include "papers/l2015-niltriangular/00-main.typ"
 #include "papers/l2018-enveloping/00-main.typ"
 #include "papers/l2019-nonfinitary/00-main.typ"
+#include "papers/l2020-nonassoc/00-main.typ"
 #include "papers/l2022-graph/00-main.typ"
 
 #part-title[

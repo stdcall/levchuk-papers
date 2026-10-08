@@ -44,11 +44,13 @@
   В сборнике: с. @ch:l2008-monic.
 ] <bib:l2012-extremal-Gupta2008>
 #bib-item[#bib-description(
-  "Kuzucuoglu2001",
-)] <bib:l2012-extremal-Kuzucuoglu2001>
+    "Kuzucuoglu2001",
+  ) В сборнике: с. @ch:l2001-automorphisms.
+] <bib:l2012-extremal-Kuzucuoglu2001>
 #bib-item[#bib-description(
-  "Kuzucuoglu2004",
-)] <bib:l2012-extremal-Kuzucuoglu2004>
+    "Kuzucuoglu2004",
+  ) В сборнике: с. @ch:l2004-finitary.
+] <bib:l2012-extremal-Kuzucuoglu2004>
 #bib-item[#bib-description("Levchuk1992")] <bib:l2012-extremal-Levchuk1992>
 #bib-item[#bib-description("Levchuk2007")] <bib:l2012-extremal-Levchuk2007>
 #bib-item[#bib-description("Parker1997")] <bib:l2012-extremal-Parker1997>

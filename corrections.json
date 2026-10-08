@@ -1028,7 +1028,7 @@
       "original": "Так, в конечной группе $upright(\"SL\")(n,K)$ нет нормальных больших циклических подгрупп, хотя её центр — большая нормальная циклическая подгруппа.",
       "corrected": "Так, в конечной группе $upright(\"SL\")(3,upright(\"GF\")(2))$ нет нормальных больших циклических подгрупп, хотя её центр — большая нормальная циклическая подгруппа.",
       "reason": "Неограниченная исходная фраза неверна для $upright(\"SL\")(2,upright(\"GF\")(2))$: нормальная $C_3$ имеет максимальный циклический порядок3, а центр порядка1 не имеет максимального порядка среди нормальных циклических. Общая иллюстрация заменена конкретным примером с тем же авторским смыслом.",
-      "verified_by": "Sage small_cyclic_counterexample.py: полный перебор 6 и 168 матриц SL(2,GF(2)) и SL(3,GF(2)), всех 79 циклических подгрупп последней; единственная нормальная циклическая подгруппа в SL(3,GF(2)) есть1, центр1, максимальный циклический порядок7. 103 совокупных точных утверждения, 361 проверенное сопряжение для SL(3,GF(2)); достаточен один свидетель ненормальности каждой нетривиальной циклической подгруппы."
+      "verified_by": "Sage small_cyclic_counterexample.py: полный перебор 6 и 168 матриц SL(2,GF(2)) и SL(3,GF(2)), всех 79 циклических подгрупп последней; единственная нормальная циклическая подгруппа в SL(3,GF(2)) есть1, центр1, максимальный циклический порядок7. 103 совокупных точных утверждения, 361 проверенное сопряжение для SL(3,GF(2)); для каждой нетривиальной циклической подгруппы найдено сопряжение, не сохраняющее эту подгруппу."
     },
     {
       "id": "l2012-extremal-first-angle-domain",
@@ -4149,6 +4149,466 @@
       "corrected": "$UT(n,K) tilde.eq UT(m,S)$",
       "reason": "Второе кольцо определено как $NT(m,S)$; одинаковый индекс $n$ исключает $m$ из группового условия и допускает ложное заключение $m=n$. Восстановлен индекс второго кольца.",
       "verified_by": "Журнальный оригинал2012, с.77; цитируемая статья Кузуджуоглу–Левчука2004, с.170 и177. Для K=S=𝔽₂,n=5,m=6 напечатанная первая изоморфность тождественна, а m=n ложно."
+    },
+    {
+      "id": "l2020-nonassoc-C001",
+      "printed_page": 93,
+      "section": "1",
+      "place": "Таблица умножения, действие элемента Картана",
+      "original": "$h_s ast e_r=frac(2(r,s),(r,r)) e_r$",
+      "corrected": "$h_s ast e_r=frac(2(r,s),(s,s)) e_r$",
+      "reason": "Знаменатель определяется ко-корнем $h_s$. В типе $C_2$ при $r=(1,-1)$ и $s=(0,2)$ коэффициент равен $-1$, а исходная формула даёт $-2$.",
+      "verified_by": "checks/sage/L2020/check_scope.py: матричный коммутатор C₂ над ℚ и четыре выбора знаков; checks/lean/LevchukPapers/L2020/ExactEnvelope.lean: два неизоморфных одномерных точных обертывающих над произвольным полем."
+    },
+    {
+      "id": "l2020-nonassoc-C002",
+      "printed_page": 92,
+      "section": "Введение",
+      "place": "Абзац о числе обертывающих",
+      "original": "Число всех точных обертывающих алгебры Ли $N Phi(K)$ равно $2^(|Phi^+ without Pi|)$.",
+      "corrected": "Число способов выбора знаков структурных констант для экстраспециальных пар равно $2^(|Phi^+ without Pi|)$.",
+      "reason": "Доказательство считает независимые способы выбора знаков. Уже в типе $A_1$ нулевая и обычная мультипликации на поле дают неизоморфные точные обертывающие. В типе $C_2$ над $GF(2)$ четыре выбора знаков дают две таблицы произведений.",
+      "verified_by": "checks/sage/L2020/check_scope.py: матричный коммутатор C₂ над ℚ и четыре выбора знаков; checks/lean/LevchukPapers/L2020/ExactEnvelope.lean: два неизоморфных одномерных точных обертывающих над произвольным полем."
+    },
+    {
+      "id": "l2020-nonassoc-C003",
+      "printed_page": 93,
+      "section": "1",
+      "place": "Предложение 1 и фраза перед ним",
+      "original": "Число всех точных обертывающих алгебры Ли $N Phi(K)$ равно $2^(|Phi^+ without Pi|)$.",
+      "corrected": "Число способов выбора знаков структурных констант для экстраспециальных пар равно $2^(|Phi^+ without Pi|)$.",
+      "reason": "Выбор знаков определяет построенную таблицу, но различные выборы не обязаны давать различные таблицы над полем характеристики 2. Также определение точной обертывающей допускает алгебры вне построения леммы 3.",
+      "verified_by": "checks/sage/L2020/check_scope.py: матричный коммутатор C₂ над ℚ и четыре выбора знаков; checks/lean/LevchukPapers/L2020/ExactEnvelope.lean: два неизоморфных одномерных точных обертывающих над произвольным полем."
+    },
+    {
+      "id": "l2020-nonassoc-C004",
+      "printed_page": 95,
+      "section": "2",
+      "place": "Абзац перед леммой 7",
+      "original": "Число всех точных обертывающих алгебры Ли $N Phi(K)$ типа $A_n$ равно $2^binom(n,2)$.",
+      "corrected": "Число способов выбора знаков структурных констант для экстраспециальных пар типа $A_n$ равно $2^binom(n,2)$.",
+      "reason": "Уточнение согласовано с предложением 1: считаются выборы знаков, а не все обертывающие или их классы изоморфизма.",
+      "verified_by": "checks/sage/L2020/check_scope.py: матричный коммутатор C₂ над ℚ и четыре выбора знаков; checks/lean/LevchukPapers/L2020/ExactEnvelope.lean: два неизоморфных одномерных точных обертывающих над произвольным полем."
+    },
+    {
+      "id": "l2020-nonassoc-C005",
+      "printed_page": 91,
+      "section": "Аннотация",
+      "place": "Утверждение об ассоциативной обертывающей",
+      "original": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$ единственна с точностью до перехода к противоположной алгебре.",
+      "corrected": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$, построенная по лемме 3, единственна с точностью до перехода к противоположной алгебре.",
+      "reason": "На $NT(4,GF(2))$ произведение $X star Y=X Y+X_32 Y_32 E_41$ ассоциативно и имеет обычный коммутатор. Число элементов с квадратом ноль равно 20, тогда как в обычной и противоположной алгебрах оно равно 28. Поэтому исходная общая единственность неверна уже при $n=4$. Ограничение не заменяет отсутствующее обоснование общего индуктивного перехода второй части.",
+      "verified_by": "checks/lean/LevchukPapers/L2020/MiddleCocycle.lean: ассоциативная центральная деформация с тем же коммутатором, точные числа 28 и 20 над GF(2) и отсутствие изоморфизма; checks/sage/L2020/check_middle_cocycle.py."
+    },
+    {
+      "id": "l2020-nonassoc-C006",
+      "printed_page": 92,
+      "section": "Введение",
+      "place": "Последний абзац",
+      "original": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$ единственна с точностью до перехода к противоположной алгебре.",
+      "corrected": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$, построенная по лемме 3, единственна с точностью до перехода к противоположной алгебре.",
+      "reason": "На $NT(4,GF(2))$ произведение $X star Y=X Y+X_32 Y_32 E_41$ ассоциативно и имеет обычный коммутатор. Число элементов с квадратом ноль равно 20, тогда как в обычной и противоположной алгебрах оно равно 28. Поэтому исходная общая единственность неверна уже при $n=4$. Ограничение не заменяет отсутствующее обоснование общего индуктивного перехода второй части.",
+      "verified_by": "checks/lean/LevchukPapers/L2020/MiddleCocycle.lean: ассоциативная центральная деформация с тем же коммутатором, точные числа 28 и 20 над GF(2) и отсутствие изоморфизма; checks/sage/L2020/check_middle_cocycle.py."
+    },
+    {
+      "id": "l2020-nonassoc-C007",
+      "printed_page": 96,
+      "section": "2",
+      "place": "Теорема 1",
+      "original": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$ единственна с точностью до перехода к противоположной алгебре.",
+      "corrected": "Ассоциативная точная обертывающая алгебра $R$ алгебры Ли $N Phi(K)$ типа $A_(n-1)$ $(n>3)$, построенная по лемме 3, единственна с точностью до перехода к противоположной алгебре.",
+      "reason": "На $NT(4,GF(2))$ произведение $X star Y=X Y+X_32 Y_32 E_41$ ассоциативно и имеет обычный коммутатор. Число элементов с квадратом ноль равно 20, тогда как в обычной и противоположной алгебрах оно равно 28. Поэтому исходная общая единственность неверна уже при $n=4$. Ограничение не заменяет отсутствующее обоснование общего индуктивного перехода второй части.",
+      "verified_by": "checks/lean/LevchukPapers/L2020/MiddleCocycle.lean: ассоциативная центральная деформация с тем же коммутатором, точные числа 28 и 20 над GF(2) и отсутствие изоморфизма; checks/sage/L2020/check_middle_cocycle.py."
+    },
+    {
+      "id": "l2020-nonassoc-C008",
+      "printed_page": 97,
+      "section": "2",
+      "place": "Доказательство теоремы 1, объединение подсистем",
+      "original": "$Phi_l union Phi_r$",
+      "corrected": "$Phi_1 union Phi_n$",
+      "reason": "До этой строки определены подсистемы $Phi_1$ и $Phi_n$, полученные удалением первого и последнего простых корней. Обозначения $Phi_l$ и $Phi_r$ здесь не введены.",
+      "verified_by": "Определения подсистем и обозначения в соседних строках доказательства; графы систем корней в §§ 2–3."
+    },
+    {
+      "id": "l2020-nonassoc-C009",
+      "printed_page": 98,
+      "section": "3",
+      "place": "Доказательство леммы 9, симметричные простые корни",
+      "original": "$a$ и $overline(a)$; далее используется $b$.",
+      "corrected": "$a$ и $b=overline(a)$.",
+      "reason": "Символ $b$ в следующих произведениях обозначает второй симметричный корень, но исходное обозначение его не вводит.",
+      "verified_by": "Определения подсистем и обозначения в соседних строках доказательства; графы систем корней в §§ 2–3."
+    },
+    {
+      "id": "l2020-nonassoc-C010",
+      "printed_page": 98,
+      "section": "3",
+      "place": "Последняя строка доказательства леммы 9",
+      "original": "Подграф типа $D_4$ в графе типа $D_n$.",
+      "corrected": "Подграф типа $D_4$ в графе типа $E_n$.",
+      "reason": "Абзац доказывает утверждение для $E_n$ $(n=6,7,8)$ посредством содержащегося в нём подграфа типа $D_4$.",
+      "verified_by": "Определения подсистем и обозначения в соседних строках доказательства; графы систем корней в §§ 2–3."
+    },
+    {
+      "id": "l2020-nonassoc-C011",
+      "printed_page": 98,
+      "section": "Литература",
+      "place": "Ссылка [3], название",
+      "original": "Sur certain groups simples",
+      "corrected": "Sur certains groupes simples",
+      "reason": "Восстановлено французское название по первичной журнальной записи.",
+      "verified_by": "Первичная журнальная запись Tohoku Mathematical Journal 7:1–2 (1955), DOI10.2748/tmj/1178245104."
+    },
+    {
+      "id": "l2020-nonassoc-C012",
+      "printed_page": 98,
+      "section": "Литература",
+      "place": "Ссылка [5], имя автора",
+      "original": "Dubish",
+      "corrected": "Dubisch",
+      "reason": "Первичная журнальная запись указывает Roy Dubisch.",
+      "verified_by": "Первичная запись JSTOR, American Journal of Mathematics 73:2 (1951), 439–452, DOI10.2307/2372186; https://www.jstor.org/stable/2372186."
+    },
+    {
+      "id": "l2020-nonassoc-C013",
+      "printed_page": 98,
+      "section": "Литература",
+      "place": "Ссылка [5], номер выпуска",
+      "original": "73, № 3",
+      "corrected": "73, № 2",
+      "reason": "Статья опубликована в выпуске 2, апрель 1951, с.439–452. Английский повтор библиографии в самом источнике также указывает выпуск 2.",
+      "verified_by": "Первичная запись JSTOR, American Journal of Mathematics 73:2 (1951), 439–452, DOI10.2307/2372186; https://www.jstor.org/stable/2372186."
+    },
+    {
+      "id": "l2004-finitary-C001",
+      "printed_page": 173,
+      "section": "§ 2",
+      "place": "Proof of Lemma 2.2, formula for the diagonal ideal",
+      "original": "$N_(i i)=N_L union N_T$",
+      "corrected": "$N_(i i)=N_L+N_T$",
+      "reason": "Объединение этих двух идеалов не замкнуто относительно сложения. Здесь требуется их аддитивная сумма.",
+      "verified_by": "При $Gamma={1,dots,5}$ и $i=3$ элемент $E_(31)+E_(53)$ принадлежит сумме идеалов, но не их объединению. checks/sage/L2004/audit.py."
+    },
+    {
+      "id": "l2004-finitary-C002",
+      "printed_page": 176,
+      "section": "§ 2",
+      "place": "Proof of Lemma 2.6, cubic root image",
+      "original": "$x e_(m p) arrow.r c x e_(m p)+c x e_(q k)+c x^2 e_(q p)$",
+      "corrected": "$x e_(m p) arrow.r x e_(m p)+c x e_(q k)+c x^2 e_(q p)$",
+      "reason": "При $c=0$ исходный образ уничтожает ненулевую корневую подгруппу вместо тождественного отображения. Ведущий коэффициент должен оставаться $x$.",
+      "verified_by": "При $c=0$ отображение должно быть тождественным. В $NT(5,K)$ символически проверены кубическое отображение и обратное к нему; остатки кратны $2c$ и $c(x^2-x)(y^2-y)$. Условие $c[K,K]=0$ позволяет переставлять коэффициенты после $c$. checks/sage/L2004/audit.py."
+    },
+    {
+      "id": "l2004-finitary-C003",
+      "printed_page": 176,
+      "section": "§ 2",
+      "place": "Example 2.8, description of the underlying chain",
+      "original": "rational or real integers",
+      "corrected": "rational or real numbers",
+      "reason": "Для целых полуинтервалы могут быть изоморфны. Для рациональных или действительных чисел первый полуинтервал имеет первый элемент без последнего, а второй — последний без первого.",
+      "verified_by": "Первые и последние элементы указанных полуинтервалов над $QQ$ и $RR$. Для целых чисел $[1,5)$ и $(1,5]$ изоморфны посредством $x arrow x+1$. checks/sage/L2004/audit.py."
+    },
+    {
+      "id": "l2004-finitary-C004",
+      "printed_page": 178,
+      "section": "§ 3",
+      "place": "Lemma 3.3, equation (6), three power indices",
+      "original": "$C(R^(n-j))=(C(R^(n-j)) inter R^2)+C(R^(n-j-1))+N_(j+1,j)+N_(j',j'-1)$",
+      "corrected": "$C(R^j)=(C(R^j) inter R^2)+C(R^(j-1))+N_(j+1,j)+N_(j',j'-1)$",
+      "reason": "Три показателя должны согласовываться с $C(R^j)=N_(j',j)$. Указанное разложение отделяет два крайних простых корня от меньшего центральизатора.",
+      "verified_by": "Формула $C(R^k)=lr(chevron.l E_(u v):u>=n+1-k,v<=k chevron.r)$ и разложение по клеткам при $n-j<=j<n$. В Sage проверены все центральизаторы для $n=3,dots,8$; исходное равенство неверно уже при $n=5$, $j=3$. checks/sage/L2004/audit.py."
+    },
+    {
+      "id": "l2004-finitary-C005",
+      "printed_page": 178,
+      "section": "§ 3",
+      "place": "Proof of Theorem 3.1, second intersection projection",
+      "original": "$H^((i)) inter K e_(n m')=K f_m e_(n m')$",
+      "corrected": "$H^((i)) inter K e_(n m')=K f_i e_(n m')$",
+      "reason": "Здесь рассматриваются оба $i=m,n-m$. Коэффициент $f_i$ определён в фиксированной клетке $(m+1,m)$, а $f_(n-m)=1-f_m$; индекс $m$ подходит только при $i=m$.",
+      "verified_by": "Обе проекции стандартного идемпотентного изоморфизма проверены над $bb(F)_2 times bb(F)_2$ при $f=(1,0)$ для обоих $i$, всех $m>m prime$ и $n=6,7,8$. Первая формула с $f_(n-i)$ не изменена. checks/sage/L2004/audit.py."
+    },
+    {
+      "id": "l2004-finitary-C006",
+      "printed_page": 181,
+      "section": "References",
+      "place": "Reference 16, pages of the explicitly Russian article",
+      "original": "519–537",
+      "corrected": "419–437",
+      "reason": "Для названного русского оригинала неверно указаны страницы. Перевод также имеет другой диапазон, 334–349.",
+      "verified_by": "Первичная карточка MathNet smj1300: Сиб. матем. журн.43:2(2002),419–437; Siberian Math.J.43:2(2002),334–349. https://www.mathnet.ru/rus/smj1300"
+    },
+    {
+      "id": "l2004-finitary-C007",
+      "printed_page": 180,
+      "section": "References",
+      "place": "Reference 2, title spelling",
+      "original": "Isomorphims",
+      "corrected": "Isomorphisms",
+      "reason": "В названии пропущена буква s.",
+      "verified_by": "Первичная карточка MathNet vmumm3495: Golubchik–Mikhalev,1983,№3,61–72; точное английское название Isomorphisms of the general linear group over an associative ring."
+    },
+    {
+      "id": "l2004-finitary-C008",
+      "printed_page": 181,
+      "section": "References",
+      "place": "Reference 17, title spelling",
+      "original": "in Chine",
+      "corrected": "in China",
+      "reason": "Исправлена английская форма названия страны в заглавии.",
+      "verified_by": "Заглавие указанной главы и книги Group Theory in China; издательские координаты Kluwer,1996,41–56 сохранены."
+    },
+    {
+      "id": "l2004-finitary-C009",
+      "printed_page": 181,
+      "section": "References",
+      "place": "Reference 20, title spelling",
+      "original": "Classicial",
+      "corrected": "Classical",
+      "reason": "Исправлена опечатка английского слова в заглавии.",
+      "verified_by": "Контекст названия Isomorphisms of Classical Groups over Integral Rings; сведения редактора,Москва,Мир,1980 сохранены."
+    },
+    {
+      "id": "l2004-finitary-C010",
+      "printed_page": 181,
+      "section": "References",
+      "place": "Reference 24, journal spelling",
+      "original": "Chines",
+      "corrected": "Chinese",
+      "reason": "В английском названии журнала пропущена буква e.",
+      "verified_by": "Название Chinese Science Bulletin; год1989,том34,№3,190–192 сохранены."
+    },
+    {
+      "id": "l2004-finitary-C011",
+      "printed_page": 181,
+      "section": "References",
+      "place": "Reference 25, distinction between series volume and book part",
+      "original": "London Math. Soc. Lecture Note Ser. 2 (1995)",
+      "corrected": "London Math. Soc. Lecture Note Ser. 212, Groups ’93 Galway/St Andrews, Part 2 (1995)",
+      "reason": "Число 2 обозначает часть сборника, а не том серии. В библиографической записи различены том212 и часть2.",
+      "verified_by": "Печатная библиография автора Zelmanov в On Lie rings of torsion groups, Bull.Math.Sci.(2017), ссылка9: серия212,567–585; DOI10.1007/s13373-016-0085-2. Страницы567–585 не изменены; вторичные ссылки с концом586 не приняты."
+    },
+    {
+      "id": "l2016-hypercentral-C001",
+      "printed_page": 469,
+      "section": "Введение",
+      "place": "Теорема 1, пункт 3",
+      "original": "$Phi$ типа $B_n$",
+      "corrected": "$Phi$ типа $B_n$ $(n>2)$",
+      "reason": "При $Phi=B_2$, $K=bb(F)_2$ автоморфизм $e_(21) arrow e_(21)+e_(2,-1)$ центральный и внешний; поэтому $chi=1$, а не $2n-4=0$.",
+      "verified_by": "Независимая проверка матричных скобок и всей внутренней группы над F₂; checks/sage/L2016/check_b2.py."
+    },
+    {
+      "id": "l2016-hypercentral-C002",
+      "printed_page": 472,
+      "section": "2",
+      "place": "Перед формулой (2)",
+      "original": "$x_r lr((f/2))$",
+      "corrected": "$x_r lr((-f/2))$",
+      "reason": "Определение $ad(e)y=[y,e]$ и равенство $[e_(n 0),e_(i 0)]=2e_(n,-i)$ дают знак минус при параметре $f/2$; формула (2) имеет знак плюс.",
+      "verified_by": "Определение ad(e)y=[y,e] и лемма 4; checks/sage/L2016/check_repairs.py: действительные матричные скобки."
+    },
+    {
+      "id": "l2016-hypercentral-C003",
+      "printed_page": 472,
+      "section": "2",
+      "place": "Формула (4)",
+      "original": "$alpha arrow alpha+t a_(n-1,n-2)e_(n,-n+3)$",
+      "corrected": "$alpha arrow alpha+t(a_(n-1,n-2)e_(n,-n+3)+a_(n-1,n-3)e_(n,-n+2))$",
+      "reason": "Первое слагаемое отдельно не сохраняет скобку $[e_(n-2,n-3),e_(n-1,n-2)]$. Добавленное слагаемое компенсирует дефект; оставшийся дефект кратен $2t$ и исчезает при $2t=0$.",
+      "verified_by": "Интегральная матричная проверка всех пар корней Bₙ, n=5–8, D²=0 и перестановочности образов; checks/sage/L2016/check_repairs.py."
+    },
+    {
+      "id": "l2016-hypercentral-C004",
+      "printed_page": 472,
+      "section": "2",
+      "place": "Формула (8)",
+      "original": "$alpha arrow alpha+sum_(k=2)^(n-1)a_(k,-1)(t e_(k 0)+d e_(n,-k))$",
+      "corrected": "$alpha arrow alpha+sum_(k=2)^(n-1)a_(k,-1)(t e_(k 0)+d e_(n,-k))+t a_(n,-1)e_(n 0)$",
+      "reason": "Отсутствующий крайний член необходим для сохранения скобок с корнем $e_(n k)$. При $2t=2d=0$ полный оператор имеет нулевой квадрат, а дефекты скобки кратны 2.",
+      "verified_by": "Все пары интегральных корневых матриц Bₙ, n=5–8; checks/sage/L2016/check_repairs.py."
+    },
+    {
+      "id": "l2016-hypercentral-C005",
+      "printed_page": 474,
+      "section": "2",
+      "place": "Лемма 5, первое раскрытое произведение",
+      "original": "$x y e_(n,-i+1)^((i+1)) e_(n,-i)$",
+      "corrected": "$x y_(n,-i+1)^((i+1)) e_(n,-i)$",
+      "reason": "Множитель является координатой образа, а не базисным элементом; обозначение $e_(n,-i+1)^((i+1))$ не определено.",
+      "verified_by": "Раскрытие произведения по лемме 4 и определению координат образа."
+    },
+    {
+      "id": "l2016-hypercentral-C006",
+      "printed_page": 474,
+      "section": "2",
+      "place": "Лемма 5, промежуточное включение",
+      "original": "$K e_(n,n-1)$",
+      "corrected": "$K e_(n,-n+1)$",
+      "reason": "Центральная координата имеет отрицательный второй индекс. Центральный автоморфизм $e_(21) arrow e_(21)+e_(n,-n+1)$ удовлетворяет нормировке и исключает напечатанное включение.",
+      "verified_by": "Матричные корни Dₙ и центр, лемма 4."
+    },
+    {
+      "id": "l2016-hypercentral-C007",
+      "printed_page": 474,
+      "section": "2",
+      "place": "Лемма 5, раскрытие образа $x e_(n,n-2)$",
+      "original": "$1_(n-1,-n+2)^((n-1))e_(n,-n+2)$",
+      "corrected": "$x 1_(n-1,-n+2)^((n-1))e_(n,-n+2)$",
+      "reason": "Скаляр $x$ возникает из первого множителя скобки. Без него правая часть может быть ненулевой при $x=0$.",
+      "verified_by": "Билинейность скобки и подстановка x=0; нормированный автоморфизм (9)."
+    },
+    {
+      "id": "l2016-hypercentral-C008",
+      "printed_page": 476,
+      "section": "3",
+      "place": "Классы нильпотентности в доказательстве",
+      "original": "$h(Phi)-2$ при $2K!=0$; $h(Phi)-4$ при $2K=0$",
+      "corrected": "При $n>4$: $h(Phi)-1$ при $2K!=0$; $h(Phi)-3$ при $2K=0$",
+      "reason": "Последний ненулевой член нижнего центрального ряда в лемме 6 имеет индекс $h-1$ или $h-3$. Значения высоты гиперцентральных автоморфизмов остаются $h-2$ и $h-4$.",
+      "verified_by": "Лемма 6 и точные центральные ряды B₂–B₇ над F₂/F₃; checks/sage/L2016/check_roots.py."
+    },
+    {
+      "id": "l2016-hypercentral-C009",
+      "printed_page": 475,
+      "section": "2",
+      "place": "Лемма 6, диапазон ранга",
+      "original": "Центральные ряды кольца Ли $N B_n lr((K))$",
+      "corrected": "Центральные ряды кольца Ли $N B_n lr((K))$ при $n>2$",
+      "reason": "При $n=2$, $K=bb(F)_2$ первая и третья формулы дают одновременно $Gamma_2=K e_(20)$ и $Gamma_2=0$. Формула для $Z_1$ включает нецентральный $e_(21)$.",
+      "verified_by": "Независимая матричная проверка B₂/F₂; исключение только опровергнутого ранга. Конечные B₃–B₇ не заменяют общего доказательства."
+    },
+    {
+      "id": "l2016-hypercentral-C010",
+      "printed_page": 476,
+      "section": "Литература",
+      "place": "[12], заглавие",
+      "original": "$chi_1$-categoricity",
+      "corrected": "$aleph_1$-categoricity",
+      "reason": "Заглавие первичной публикации содержит $aleph_1$.",
+      "verified_by": "Первичная карточка Cambridge, DOI 10.2307/2272823."
+    },
+    {
+      "id": "l2016-hypercentral-C011",
+      "printed_page": 476,
+      "section": "Литература",
+      "place": "[13], заглавие",
+      "original": "Model theory of strictly upper triangular matrix ring",
+      "corrected": "Model theory of strictly upper triangular matrix rings",
+      "reason": "В первичном заглавии rings стоит во множественном числе.",
+      "verified_by": "Первичная карточка Cambridge, DOI 10.2307/2273414."
+    },
+    {
+      "id": "l2016-hypercentral-C012",
+      "printed_page": 476,
+      "section": "Литература",
+      "place": "[19], координаты",
+      "original": "2011, том 6, 71–80",
+      "corrected": "2012, том 6, 75–84",
+      "reason": "Полный первичный том и оглавление дают 2012 год и страницы 75–84.",
+      "verified_by": "Математический форум, том 6: фактические страницы 75–84."
+    },
+    {
+      "id": "l2016-hypercentral-C013",
+      "printed_page": 477,
+      "section": "Литература",
+      "place": "[21], заглавие и журнал",
+      "original": "Automorphisms of certain nilpotent algebras over commutative rings. J. Algebra",
+      "corrected": "Automorphisms of certain nilpotent Lie algebras over commutative rings. Internat. J. Algebra Comput.",
+      "reason": "Первичная публикация содержит слово Lie и опубликована в другом журнале.",
+      "verified_by": "Первичные DOI/Crossref 10.1142/S021819670700372X, 17:3, 527–555."
+    },
+    {
+      "id": "l2016-hypercentral-C014",
+      "printed_page": 477,
+      "section": "Литература",
+      "place": "[22], том",
+      "original": "8:3",
+      "corrected": "13",
+      "reason": "В первичной публикации 2015 года указан том 13.",
+      "verified_by": "Первичная карточка MathNet iigum235, 41–55."
+    },
+    {
+      "id": "l2016-hypercentral-C015",
+      "printed_page": 477,
+      "section": "Литература",
+      "place": "[24], страницы",
+      "original": "439–452",
+      "corrected": "20–34",
+      "reason": "Первичная статья имеет страницы 20–34.",
+      "verified_by": "Первичные ACM/Crossref 10.1145/511988.511991, 35:2."
+    },
+    {
+      "id": "l2018-malcev-C015",
+      "printed_page": 140,
+      "section": "2",
+      "place": "Отображение $chi_t$",
+      "original": "$alpha arrow alpha+sum_(k=2)^(n-1)a_(k,-1)t e_(k 0)$",
+      "corrected": "$alpha arrow alpha+sum_(k=2)^n a_(k,-1)t e_(k 0)$",
+      "reason": "Крайний член $t a_(n,-1)e_(n 0)$ необходим для сохранения скобок с $e_(n k)$. При $2t=0$ полный оператор имеет нулевой квадрат, а его дефекты скобки и скобки образов кратны 2.",
+      "verified_by": "Матричная скобка [e_(n 2),e_(2,-1)]=e_(n,-1) требует полного крайнего члена. checks/sage/L2016/check_repairs.py: все пары интегральных корневых матриц B₅–B₈; нулевой квадрат оператора и дефекты, кратные 2t."
+    },
+    {
+      "id": "l2000-ideals-C001",
+      "printed_page": "3504–3505",
+      "section": "§ 1",
+      "place": "Example 1.1 and its introduction",
+      "original": "$R=R_n lr((K,J))$",
+      "corrected": "$R=R_n lr((K,J))$, $n>=2$",
+      "reason": "При $n=1$, $K=ZZ slash 8 ZZ$, $J=(2)$ исходные условия выполнены, но $H={0}$ является лиевым идеалом. Для $n>=2$ авторский аргумент корректен: $a e_(1 2)$ имеет единичный присоединённый детерминант, а детерминант $1+[a e_(1 2),e_(2 1)]$ равен $1-a^2$.",
+      "verified_by": "Общий аргумент для настоящих матриц 2×2 над произвольным коммутативным кольцом: checks/lean/LevchukPapers/L2000Ideals/DeterminantKernel.lean. Для n≥2 используется вложение блока 2×2 с единичным дополнением. Контрпример над Z/8 и случай n=1: checks/sage/L2000/ideals.py."
+    },
+    {
+      "id": "l2000-ideals-C002",
+      "printed_page": "3504, 3512",
+      "section": "Introduction · References",
+      "place": "Author surname in the introduction and reference [1]",
+      "original": "R. Dubish",
+      "corrected": "R. Dubisch",
+      "reason": "В первичной карточке статьи фамилия автора — Dubisch.",
+      "verified_by": "Первичная запись JSTOR, DOI 10.2307/2372186: Roy Dubisch, Sam Perlis, American Journal of Mathematics 73:2 (1951), 439–452. https://www.jstor.org/stable/2372186."
+    },
+    {
+      "id": "l2000-ideals-C003",
+      "printed_page": "3512",
+      "section": "References",
+      "place": "Reference [3], journal subdivision",
+      "original": "Trans. Roy. Soc. Canada (1)",
+      "corrected": "Trans. Roy. Soc. Canada Sect. III (3)",
+      "reason": "Указана третья серия и математическая секция III, а не подразделение (1). Том 49, год 1955 и страницы 31–38 сохранены.",
+      "verified_by": "Библиографии X. Du, The Centers of a Radical Ring, Canadian Mathematical Bulletin 35 (1992), 174–179, ссылка 1; N. Jacobson, Structure of Rings, AMS Colloquium Publications 37, Jennings [2]: Sect. III (3), 49 (1955), 31–38."
+    },
+    {
+      "id": "l2000-ideals-C004",
+      "printed_page": "3513",
+      "section": "References",
+      "place": "Reference [8], English edition title and journal",
+      "original": "Some locally nilpotent rings and their adjoint groups, Math. Zametki, 42:5 (1987), 848–853",
+      "corrected": "Some locally nilpotent rings and their adjoined groups, Math. Notes Acad. Sci. USSR, 42:5 (1987), 848–853",
+      "reason": "Напечатанные страницы 848–853 относятся к английскому переводу. Русский оригинал в «Математических заметках» имеет страницы 631–641. Сохранены цитируемые английские страницы; название и журнал приведены по первичной карточке перевода.",
+      "verified_by": "Первичные карточки MathNet mzm5027 и Springer, DOI 10.1007/BF01137426: русский оригинал 42:5 (1987), 631–641; перевод 42:5 (1987), 848–853. https://www.mathnet.ru/rus/mzm5027; https://link.springer.com/article/10.1007/BF01137426."
+    },
+    {
+      "id": "l2001-automorphisms-C001",
+      "printed_page": 476,
+      "section": "1",
+      "place": "Lemma 1.3, right annihilator",
+      "original": "last $(n-t)$ rows",
+      "corrected": "last $t$ rows",
+      "reason": "For $k=s n+t$, columns $u<=n-t$ of $R^k$ generate $J^s$; the last $t$ columns generate $J^(s+1)$. Matrix units isolate the corresponding rows of the right annihilator. For $K=bb(F)_2$, $J=0$, $n=3$, $k=1$, the printed condition admits $e_(21)$ although $e_(32)e_(21)=e_(31)!=0$.",
+      "verified_by": "Вывод из леммы 1.2 над произвольным ассоциативным кольцом с единицей; матричный контрпример и 220 конечных случаев степеней и односторонних аннуляторов: checks/sage/L2001/check_exact.py."
+    },
+    {
+      "id": "l2001-automorphisms-C002",
+      "printed_page": 485,
+      "section": "References",
+      "place": "Reference [1]; also the Introduction and the paragraph following Proposition 3.3",
+      "original": "R. Dubish",
+      "corrected": "R. Dubisch",
+      "reason": "The primary journal record names Roy Dubisch as the coauthor of On total nilpotent algebras, American Journal of Mathematics 73(2) (1951), 439–452, DOI 10.2307/2372186.",
+      "verified_by": "Первичная запись JSTOR, DOI 10.2307/2372186: Roy Dubisch, Sam Perlis, American Journal of Mathematics 73:2 (1951), 439–452. https://www.jstor.org/stable/2372186."
     }
   ]
 }
