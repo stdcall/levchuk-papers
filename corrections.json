@@ -4818,7 +4818,7 @@
       "original": "For $G = twisted(3, D_4)$, $maximal = {U_3}$.",
       "corrected": "The original assertion is retained with an editorial caveat: the characteristic-2 list is incomplete.",
       "reason": "The authors' later complete rank-two classification includes additional triality families in characteristic 2 and an additional small-field case when $|K_sigma| = 2$.",
-      "verified_by": "Levchuk and Suleimanova, Journal of Algebra 349 (2012), 98–116, Theorem 4.2(d), printed p. 104; original page image independently inspected."
+      "verified_by": "Levchuk–Suleimanova, J.Algebra349(2012),98–116, Theorem4.2(d), p104; complete characteristic-2 families."
     },
     {
       "id": "l2008-normal-N002",
@@ -4828,7 +4828,7 @@
       "original": "The listed families exhaust $maximal$, including $T(p_42) + K(p_43 + c q_43)$ for all $c in K$ in characteristic 2.",
       "corrected": "The original families are retained with an editorial caveat identifying the invalid nonzero mixed K-line for fields of order greater than 2 and directing readers to the later complete characteristic-2 lists.",
       "reason": "The later proof shows that a maximal Abelian normal subgroup having both corners $p_43$ and $q_43$ has corner projections of order 2. A nonzero mixed K-line has projections of order $|K|$, so the printed family is invalid for $|K| > 2$. The later classification also supplies omitted characteristic-2 twisted-E6 families and the correct largest normal Abelian lists.",
-      "verified_by": "Levchuk and Suleimanova, Journal of Algebra 349 (2012), 98–116, Theorem 5.1 and proof, printed pp. 111–112; Theorem 6.1. Original pp. 111–112 independently inspected; native theorem labels checked."
+      "verified_by": "Levchuk–Suleimanova, J.Algebra349(2012),98–116, Theorem5.1 and proof, pp111–112; Theorem6.1 and proof, pp113–115."
     },
     {
       "id": "l2009-model-N001",
@@ -4839,6 +4839,16 @@
       "corrected": "Утверждение сохранено с примечанием о пробеле в доказательстве необходимости.",
       "reason": "Изоморфные ультрастепени дают центральные идемпотенты в ультрастепенях. Их перенос в исходные кольца с совпадением полных теорий двух компонент приведённым рассуждением не обоснован; достаточность от этого шага не зависит.",
       "verified_by": "Chang–Keisler, Model Theory (1973), Theorem6.1.15; proof of Theorem7 (2009); analogous proof of the main theorem in Levchuk (2008), Section3."
+    },
+    {
+      "id": "l1992-chevalley-C006",
+      "printed_page": 228,
+      "section": "l1992-chevalley · § 1",
+      "place": "ссылка перед теоремой 1",
+      "original": "Merzlyakov’s theorem [3]",
+      "corrected": "Merzlyakov’s theorem [21]",
+      "reason": "Ссылка 3 ведёт к статье Адо, а сформулированный здесь аналог относится к теореме Мерзлякова, изложенной в предшествующих абзацах со ссылкой 21.",
+      "verified_by": "Merzlyakov, Commutants of linear groups and carpets of ideals, Dokl.Akad.NaukSSSR155(1964),1009–1012; surrounding paragraphs of Section1 (1992)."
     }
   ]
 }

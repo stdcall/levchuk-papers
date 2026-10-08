@@ -111,7 +111,6 @@
       "[@bib:l2022-graph-Egorychev2023, Lemma 3.6]": "Лемма цитируемой статьи2023."
     },
     "content/papers/l2012-extremal-en/01-body.typ": {
-      "@th:l2012-extremal-en-abelian-normal and @th:l2012-extremal-en-f4-e6-maximal of the present paper and [@bib:l2012-extremal-en-Levchuk2008, Theorem 5] (for the classical types) describe all maximal abelian normal subgroups in $U$.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "generalization of A. I. Mal’tsev’s method [@bib:l2012-extremal-en-Malcev1945], E. P. Vdovin [@bib:l2012-extremal-en-Vdovin2001, Table 4] determined the orders of large abelian subgroups of $U$.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "$cal(P)$-subgroup_. Theorem @th:l2012-extremal-en-large-normal-abelian and [@bib:l2012-extremal-en-Levchuk2009, Table 2] (for the classical types) give the list of all large normal abelian subgroups in the finite groups $U$. Using the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "large abelian subgroups in $U$ which were found in [@bib:l2012-extremal-en-Vdovin2001, Table 4], cf. Remark in Section @sec:l2012-extremal-en-large-subgroups.": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
@@ -132,17 +131,13 @@
     },
     "content/papers/l2012-extremal-en/02-body.typ": {
       "396–397] gives some extremal subgroups with three simple corners (see also [@bib:l2012-extremal-en-Parker1997, Theorem 1.3]). By [@bib:l2012-extremal-en-Parker1998, Theorem 1.2], if $U twisted(2, D_4)(K)$ has": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
-      "@sec:l2012-extremal-en-rank-two–@sec:l2012-extremal-en-f4-e6 and [@bib:l2012-extremal-en-Levchuk2008, Theorem 5] (for the classical types) gives also a description of extremal subgroups and hence a new solution to the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "of the subfield $K_sigma$ is non-zero (see also   [@bib:l2012-extremal-en-Parker1998, Lemma 2.3]), and hence   $K_sigma = K^(1+sigma+sigma^2)$. Since $K_sigma inter K^(1+sigma) = 2K_sigma$,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "@bib:l2012-extremal-en-Steinberg1967] and [@bib:l2012-extremal-en-Levchuk2009,   Theorem 2]) show that   $[x_r lr((u)),x_s lr((v))] = x_(r+s) lr((plus.minus eta)) mod Q(r+s)$ for": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
-      "[@bib:l2012-extremal-en-Suleimanova2008E]. By [@bib:l2012-extremal-en-Levchuk2008, Theorems 3 and 5], for $U$ of type $D_n$ and $twisted(2, D_n)$ there exists a normal subgroup $M$ such that the height of": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
-      "@th:l2012-extremal-en-parker-rowley and [@bib:l2012-extremal-en-Levchuk2008,   Theorem 5]). ]": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "$A subset.not 〈 X_r | r in G^+, r != p 〉$ (see also [@bib:l2012-extremal-en-Carter1972, § 8.1]). For the purpose of application to the revision of the classification of finite simple groups and etc., C. Parker": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "(see [@bib:l2012-extremal-en-Carter1972, 13.6.4 (vii)] and   [@bib:l2012-extremal-en-Steinberg1967]). The subgroups $(0,0,F)$, $(0,F,K)$,": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "In [@bib:l2012-extremal-en-Carter1972, 13.6.4 (vi)], $U twisted(2, B_2)(K)$ is   represented as": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена."
     },
     "content/papers/l2012-extremal-en/03-body.typ": {
-      "If $p_43$ and $q_43$ are corners in $M$ then they are connected. By   [@bib:l2012-extremal-en-Levchuk2008, Theorem 5], the projections on these   corners have order 2. Thus, $M inter B$ is a maximal abelian normal subgroup": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "Further, we use the notion of a _regular ordering_ of roots, which agrees with the height function on roots [@bib:l2012-extremal-en-Carter1972, Lemma 5.3.1]. Taking into account the representation $zeta$ in Section": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "quotient, since earlier coordinates cancel in the regular ordering of     [@bib:l2012-extremal-en-Carter1972, Lemma 5.3.1 and Theorem 5.3.3].]] <lem:l2012-extremal-en-first-corner-order>": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
       "note that for every finite group $G$ of Lie type the authors have the proof of the following theorem. (See also [@bib:l2012-extremal-en-Levchuk2009, Theorem 4] for the classical types [@bib:l2012-extremal-en-Suleimanova2010], and the": "Номер результата, таблицы или раздела внешней авторской публикации; библиографическая ссылка в контексте сохранена.",
@@ -337,6 +332,50 @@
       "12.42] is still open. Let $M_n lr((J))$ be the ring of all $n times n$ matrices": "External cited work locator; retain original edition numbering.",
       "By [@bib:l2001-automorphisms-Kargapolov1979, 11.3.3] Sylow $p$-subgroups of the": "External cited work locator; retain original edition numbering.",
       "Question 10.19; @bib:l2001-automorphisms-Kuzucuoglu2000].": "External cited work locator; retain original edition numbering."
+    },
+    "content/papers/l1992-chevalley/01-normal.typ": {
+      "question 6.34 [@bib:l1992-chevalley-Kourovka1980]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "problem 1.5 [@bib:l1992-chevalley-Kondratyev1986]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Kargapolov1982, 16.1.2]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Kourovka1980, question 6.34]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Steinberg1967, § 3]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l1992-chevalley/02-twisted.typ": {
+      "[@bib:l1992-chevalley-Steinberg1967, § 11, Theorem 32 and Remark]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l1992-chevalley/03-carpets.typ": {
+      "proposition 2.3 [@bib:l1992-chevalley-AbeSuzuki1976]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Kourovka1980, question 7.28]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "question 7.28 [@bib:l1992-chevalley-Kourovka1980]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l1992-chevalley/04-automorphisms.typ": {
+      "problem 1.5 [@bib:l1992-chevalley-Kondratyev1986]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Kargapolov1982, 16.1]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l1992-chevalley/05-unitriangular.typ": {
+      "[@bib:l1992-chevalley-Kourovka1980, question 6.19 together with comment], and 10.19": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l1992-chevalley/06-ideals.typ": {
+      "[@bib:l1992-chevalley-Steinberg1967, Lemma 17]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l1992-chevalley-Carter1972, Sect. 4.4]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l2008-normal/01-normal.typ": {
+      "[@bib:l2008-normal-Carter1972, 13.6.4]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2008-normal-Carter1972, 5.3.3]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l2008-normal/02-abelian.typ": {
+      "Lemma 3 from [@bib:l2008-normal-Levchuk2002]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l2008-normal/03-corollaries.typ": {
+      "[@bib:l2008-normal-Kondratyev1986, Problem 1.6]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2008-normal-Parker1997, Theorem 1.3]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2008-normal-Parker1998, Theorem 1.2]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
+    },
+    "content/papers/l2009-model/04-elementary-equivalence.typ": {
+      "[@bib:l2009-model-Belegradek1999, Propositions 1.23.5 and 1.23.6]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2009-model-ChangKeisler1973, Theorem 6.1.15]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2009-model-Belegradek1999] in the proof of Proposition 2.2.8": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена.",
+      "[@bib:l2009-model-ChangKeisler1973, Theorem 6.3.4]": "Локатор внешнего цитируемого издания; его авторская нумерация сохранена."
     }
   },
   "local_markup": {
@@ -378,6 +417,15 @@
     },
     "content/papers/l2001-automorphisms/00-main.typ": {
       "#show: article-style.with(language: \"en\")": "English article-style language, same shared helper used by existing English articles."
+    },
+    "content/papers/l1992-chevalley/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык статьи и переносы, без локальных правил вёрстки."
+    },
+    "content/papers/l2008-normal/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык статьи и переносы, без локальных правил вёрстки."
+    },
+    "content/papers/l2009-model/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык статьи и переносы, без локальных правил вёрстки."
     }
   }
 }

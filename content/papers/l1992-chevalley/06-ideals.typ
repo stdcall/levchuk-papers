@@ -4,7 +4,7 @@
 R. Dubisch and S. Perlis [@bib:l1992-chevalley-Dubisch1951] were found an
 evident description of ideals of $NT_n lr((K))$ algebra over a field $K$. Ideals
 of associated Lie ring conform a more spread class, however they permit a
-similar description [@bib:l1992-chevalley-LevchukConnections], I; by Theorem
+similar description [@bib:l1992-chevalley-LevchukConnections1976], I; by Theorem
 @th:l1992-chevalley-unitriangular-normal-lie this is equivalent to description
 of normal subgroups of adjoint group. By analogic methods we can investigate a
 normal structure of unipotent subgroup $U Phi(K)$ in Chevalley group of type

@@ -53,8 +53,9 @@ As usually, we distinguish the standard automorphisms of group $UG(K)$. They are
 products of its inner, ring, diagonal, central (acting trivially by center
 modulus), graph and, more generally, idempotent-graph automorphisms;
 [@bib:l1992-chevalley-Gibbs1970] and at $G = A_n$
-[@bib:l1992-chevalley-Levchuk1975], [@bib:l1992-chevalley-LevchukConnections].
-Now automorphism of arbitrary group (or ring) we
+[@bib:l1992-chevalley-Levchuk1975],
+[@bib:l1992-chevalley-LevchukConnections1976]. Now automorphism of arbitrary
+group (or ring) we
 #source(8, printed: 234)
 call as hypercentral of height $m >= 0$, if it acts trivially by modulus of
 $m$-th hypercenter (see [@bib:l1992-chevalley-Kargapolov1982, 16.1]) and is not

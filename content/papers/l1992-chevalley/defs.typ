@@ -24,3 +24,4 @@
 #let ND = math.upright("ND")
 #let NG = math.upright("NG")
 #let UG = math.upright("UG")
+#let carpet = math.cal("A")

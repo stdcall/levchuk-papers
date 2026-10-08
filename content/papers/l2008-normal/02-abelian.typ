@@ -87,13 +87,14 @@ for the twisted types and $F = K$ otherwise.
   subgroups $T_(1,-1) + a K_sigma e_(n 0)$ and in a group of type
   $twisted(2, A_(2n-1))$, by the subgroup $T_(1,-1)$; for $2K = 0$, the subgroup
   $T_(2,-2) + b K_sigma e_(n,-1)
-  + b K_sigma(e_(n 1) + a e_(n,-1))$ $(a, b in K^*)$ is added; and for $2K = K$
-  and $G = C_n$, $maximal = {T_(1,-1)}$. For the other groups $U$ of classical
-  type, $maximal$ consists of $T_(2,-1)$ and $T_(2,-1)^tau$ for $G = D_n$ and of
-  the subgroups $T_(n j) + T_(1,-j-1)$ $(0 <= j < n)$, where $j != n-2$ or
-  $G = C_n$, and $T_(n,i-1) + T_(1,-i-1) + F(e_(n i) + a e_(n-1,-i))$, where
-  $1 <= i <= n-2$; for $2K = 0$, it also #source(3, printed: 286) includes the
-  following subgroups (below, $a, b, d in K^*$ and $c in K$):
+  + b K_sigma lr((e_(n 1) + a e_(n,-1)))$ $(a, b in K^*)$ is added; and for
+  $2K = K$ and $G = C_n$, $maximal = {T_(1,-1)}$. For the other groups $U$ of
+  classical type, $maximal$ consists of $T_(2,-1)$ and $T_(2,-1)^tau$ for
+  $G = D_n$ and of the subgroups $T_(n j) + T_(1,-j-1)$ $(0 <= j < n)$, where
+  $j != n-2$ or $G = C_n$, and
+  $T_(n,i-1) + T_(1,-i-1) + F(e_(n i) + a e_(n-1,-i))$, where $1 <= i <= n-2$;
+  for $2K = 0$, it also #source(3, printed: 286) includes the following
+  subgroups (below, $a, b, d in K^*$ and $c in K$):
 
   (a) $angle.l a e_(n,n-1) + d e_(n-1,-n+1) angle.r + T_(n,n-2)$,
   $angle.l a e_(n,n-1) + b e_(n-2,-n+3) + d e_(n-1,-n+1) angle.r
@@ -114,9 +115,10 @@ for the twisted types and $F = K$ otherwise.
 
   (b) $T_(2,-1) + a sum_(u=1)^n K_sigma e_(u 0)$ for the type
   $twisted(2, D_(n+1))$,
-  $K_sigma(e_32 + a e_10 + e_(2,-1))
-  + K_sigma(e_31 + a e_20 + e_(2,-1))
-  + {a x e_30 + a bar(a) lr((x + bar(x))) e_(2,-1) | x in K} + T_(3,-1)$
+  $K_sigma lr((e_32 + a e_10 + e_(2,-1)))
+  + K_sigma lr((e_31 + a e_20 + e_(2,-1)))
+  + {a x e_30 + a overline(a) lr((x + overline(x))) e_(2,-1) | x in K}
+  + T_(3,-1)$
   in $N twisted(2, D_4) lr((4))$, the subgroups
   $T_(3,-2) + sum_(u=2)^n K(e_(u 1) + a e_(u,-1))$ together with their images
   for $n = 4$ under the graph automorphism of order $3$ for $G = D_n$, and
@@ -136,8 +138,9 @@ for the twisted types and $F = K$ otherwise.
   $K(e_(n 1) + c e_(n,-1))
   + K(e_(n-1,1) + a e_(n 1) + c e_(n-1,-1)) + T_(3,-2)$ for $G = D_n$; and, for
   the type $twisted(2, D_(n+1))$, the subgroups
-  $T_(2,-1) + a K_sigma e_(n 0) + a K_sigma(e_(n-1,0) + b e_(n 0))$
-  (where $b notin K_sigma$) and $K_sigma(e_(n 1) + a e_(n-1,0) + g e_(n-1,-1))
-  + {a x e_(n 0) + a bar(a) lr((x + bar(x))) e_(n-1,-1) | x in K}
+  $T_(2,-1) + a K_sigma e_(n 0) + a K_sigma lr((e_(n-1,0) + b e_(n 0)))$
+  (where $b notin K_sigma$) and
+  $K_sigma lr((e_(n 1) + a e_(n-1,0) + g e_(n-1,-1)))
+  + {a x e_(n 0) + a overline(a) lr((x + overline(x))) e_(n-1,-1) | x in K}
   + T_(n,-1) + T_(3,-2)$ where $g = 0$ for $N twisted(2, D_4) lr((4))$.
 ] <th:l2008-normal-classical-maximal>

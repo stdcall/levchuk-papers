@@ -20,7 +20,7 @@ Analogic result for $p$-groups at $p > 2$ is following from results by M. V.
 Khoroshevsky [@bib:l1992-chevalley-Khoroshevsky1971].
 
 We investigate group $UT_n lr((K))$ [@bib:l1992-chevalley-Levchuk1975,
-@bib:l1992-chevalley-LevchukConnections] as an adjoint group (in respect to
+@bib:l1992-chevalley-LevchukConnections1976] as an adjoint group (in respect to
 multiplying $a compose b = a+b+a b$) of ring $NT_n lr((K))$ of niltriangular
 $n times n$ matrices over $K$ with zeros on and over the main diagonal.
 Structural ties of adjoint group and associated Lie ring play an important part.
@@ -45,8 +45,8 @@ Note that assumption $1 in K$ in Theorem
 @th:l1992-chevalley-unitriangular-normal-lie might be substantiated by a more
 weak requirement of generating the ring $K$ by subset ${x y | x,y in K}$; as the
 example shows, it is impossible to remove the last demand. See also
-[@bib:l1992-chevalley-Kourovka, question 6.19 together with comment], and 10.19
-one.
+[@bib:l1992-chevalley-Kourovka1980, question 6.19 together with comment], and
+10.19 one.
 
 I. D. Ado [@bib:l1992-chevalley-Ado1943] pointed out an example of $p$-group
 coinciding with the derived group, having used (in another terminology) an
@@ -73,7 +73,7 @@ automorphisms and an evident hypercentral one of height $<= 3$
 [@bib:l1992-chevalley-Levchuk1987].
 
 A case of finite chain $Gamma$ is mostly investigated. Namely in
-[@bib:l1992-chevalley-Levchuk1975, @bib:l1992-chevalley-LevchukConnections]
+[@bib:l1992-chevalley-Levchuk1975, @bib:l1992-chevalley-LevchukConnections1976]
 automorphisms of ring $NT_n lr((K))$ over an arbitrary
 #source(11, printed: 237)
 (associative) ring $K$ with unit have been described. Description of

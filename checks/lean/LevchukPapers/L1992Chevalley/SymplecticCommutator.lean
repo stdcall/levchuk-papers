@@ -41,9 +41,11 @@ def longRoot {R : Type*} [CommRing R] (t : R) : Matrix (Fin 4) (Fin 4) R :=
   1 + t • C
 
 theorem root_basis_products {R : Type*} [CommRing R] :
-    (A : Matrix (Fin 4) (Fin 4) R) * A = 0 ∧ B * B = 0 ∧
-      A * B = C ∧ B * A = -C ∧ A * C = 0 ∧ C * A = 0 ∧
-      B * C = 0 ∧ C * B = 0 := by
+    A (R := R) * A (R := R) = 0 ∧ B (R := R) * B (R := R) = 0 ∧
+      A (R := R) * B (R := R) = C (R := R) ∧
+      B (R := R) * A (R := R) = -C (R := R) ∧
+      A (R := R) * C (R := R) = 0 ∧ C (R := R) * A (R := R) = 0 ∧
+      B (R := R) * C (R := R) = 0 ∧ C (R := R) * B (R := R) = 0 := by
   refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩
   all_goals
     ext i j
@@ -54,28 +56,38 @@ theorem rootX_mul {R : Type*} [CommRing R] (x y : R) :
     rootX x * rootX y = rootX (x + y) := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [rootX, A, Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
+    simp [rootX, A, Matrix.mul_apply, Fin.sum_univ_succ,
+      Matrix.one_apply] <;> ring
 
 theorem rootY_mul {R : Type*} [CommRing R] (x y : R) :
     rootY x * rootY y = rootY (x + y) := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [rootY, B, Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
+    simp [rootY, B, Matrix.mul_apply, Fin.sum_univ_succ,
+      Matrix.one_apply] <;> ring
 
 theorem rootX_inverse {R : Type*} [CommRing R] (x : R) :
     rootX (-x) * rootX x = 1 ∧ rootX x * rootX (-x) = 1 := by
-  constructor <;> simp [rootX_mul, rootX]
+  constructor
+  · rw [rootX_mul, neg_add_cancel]
+    simp only [rootX, zero_smul, add_zero]
+  · rw [rootX_mul, add_neg_cancel]
+    simp only [rootX, zero_smul, add_zero]
 
 theorem rootY_inverse {R : Type*} [CommRing R] (y : R) :
     rootY (-y) * rootY y = 1 ∧ rootY y * rootY (-y) = 1 := by
-  constructor <;> simp [rootY_mul, rootY]
+  constructor
+  · rw [rootY_mul, neg_add_cancel]
+    simp only [rootY, zero_smul, add_zero]
+  · rw [rootY_mul, add_neg_cancel]
+    simp only [rootY, zero_smul, add_zero]
 
 theorem symplectic_commutator {R : Type*} [CommRing R] (x y : R) :
     rootX (-x) * rootY (-y) * rootX x * rootY y = longRoot (2 * x * y) := by
   ext i j
   fin_cases i <;> fin_cases j <;>
     simp [rootX, rootY, longRoot, A, B, C,
-      Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
+      Matrix.mul_apply, Fin.sum_univ_succ, Matrix.one_apply] <;> ring
 
 end LevchukPapers.L1992Chevalley
 

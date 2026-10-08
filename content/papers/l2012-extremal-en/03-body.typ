@@ -242,9 +242,10 @@ The main theorem of this section is the following one.
   $
 
   If $p_43$ and $q_43$ are corners in $M$ then they are connected. By
-  [@bib:l2012-extremal-en-Levchuk2008, Theorem 5], the projections on these
-  corners have order 2. Thus, $M inter B$ is a maximal abelian normal subgroup
-  in $B$, and $M$ is the subgroup @eq:l2012-extremal-en-f4-binary-pair.
+  [@bib:l2012-extremal-en-Levchuk2008, Theorem
+  @th:l2008-normal-classical-maximal], the projections on these corners have
+  order 2. Thus, $M inter B$ is a maximal abelian normal subgroup in $B$, and
+  $M$ is the subgroup @eq:l2012-extremal-en-f4-binary-pair.
 
   The other cases for the non-zero $p_43$-projection or $q_43$-projection give
   one of the subgroups $T(p_(3,-2))$, $T(q_(3,-2)) X_(p_43) X_(p_42) X_(p_41)$

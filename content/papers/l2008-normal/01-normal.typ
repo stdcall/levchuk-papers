@@ -13,21 +13,21 @@ references therein. The maximal Abelian normal subgroups are listed. In
 Section~@sec:l2008-normal-corollaries, corollaries are given.
 
 === Normal structure <sec:l2008-normal-structure>
-The group $U twisted(m, Phi)(K)$ is the centralizer in $U Phi(K)$ of the “twist”
-automorphism $upright(sigma)$, being the composition of a graph automorphism
-$tau$ and an automorphism $sigma: t arrow bar(t)$ of the field $K$ satisfying
-the conditions $p(Phi) sigma^m = 1$ and $sigma != 1$, where
+The group $U twisted(m, Phi) lr((K))$ is the centralizer in $U Phi(K)$ of the
+“twist” automorphism $upright(sigma)$, being the composition of a graph
+automorphism $tau$ and an automorphism $sigma: t arrow overline(t)$ of the field
+$K$ satisfying the conditions $p(Phi) sigma^m = 1$ and $sigma != 1$, where
 $p(Phi) = max {(r, r)/(s, s) | r, s in Phi}$. For $p(Phi) = 1$, we have
-$tau(X_r) = X_(bar(r))$ for a substitution $bar("–")$ of order $m = 2$ or $3$ on
+$tau(X_r) = X_(overline(r))$ for a substitution $"–"$ of order $m = 2$ or $3$ on
 the root system $Phi$ which is extendable to a homomorphism $zeta$ of the root
 lattice [@bib:l2008-normal-Carter1972]. If $m = 2$ and $Phi$ is of type
 $D_(n+1)$, $A_(2n-1)$, $A_(2n)$, or $E_6$, or if $(m, Phi) = (3, D_4)$, then
 $zeta(Phi)$ is a root system of type $B_n$, $C_n$, $B C_n$, $F_4$, or $G_2$,
-respectively. We associate sets of roots with $bar("–")$-orbits in $Phi$. A
-class $S = {r, bar(r), r + bar(r)}$ of type $A_2$ corresponds to the subgroup
-$x_({r + bar(r)}) lr((ker(1 + sigma)))$ and a fixed system $X_({r, bar(r)})$ of
-coset representatives of the $S$th root subgroup described in
-[@bib:l2008-normal-Carter1972, 13.6.4].
+respectively. We associate sets of roots with $"–"$-orbits in $Phi$. A class
+$S = {r, overline(r), r + overline(r)}$ of type $A_2$ corresponds to the
+subgroup $x_({r + overline(r)}) lr((ker(1 + sigma)))$ and a fixed system
+$X_({r, overline(r)})$ of coset representatives of the $S$th root subgroup
+described in [@bib:l2008-normal-Carter1972, 13.6.4].
 
 For $r in G$, let ${r}^+$ denote the set of $s in G^+$ for which the
 coefficients in the linear expression of $s-r$ in the base $Pi(G)$ are
@@ -100,23 +100,24 @@ $N G(K)$, we use the same terminology as for $U G(K)$.
   one of conditions (A), (B), or (C) (respectively, (C′)) holds; the last
   conditions are
 
-  (C) $r$ and $bar(r)$ are $p$-connected corners in $H$ and there exist simple
-  roots $p_j = bar(p)_j$ and roots $r_j = r+p_1+p_2+dots+p_j$, where $p_1 = p$,
-  $1 <= j <= t$, and $t > 1$, for which the $(r, bar(r))$-projection and the
-  $(r_j, bar(r)_j)$-projections with $j < t-1$ in $H$ generate a submodule
-  $K(a, b)$ in the $K$-module $(K, K)$; the $(r_(t-1), bar(r)_(t-1))$-projection
-  equals $K(a, b)$ or $H$ contains a corner $!= bar(r)_(t-1)$, $p_t$-connected
-  with $r_(t-1)$; and
+  (C) $r$ and $overline(r)$ are $p$-connected corners in $H$ and there exist
+  simple roots $p_j = overline(p)_j$ and roots $r_j = r+p_1+p_2+dots+p_j$, where
+  $p_1 = p$, $1 <= j <= t$, and $t > 1$, for which the
+  $(r, overline(r))$-projection and the $(r_j, overline(r)_j)$-projections with
+  $j < t-1$ in $H$ generate a submodule $K(a, b)$ in the $K$-module $(K, K)$;
+  the $(r_(t-1), overline(r)_(t-1))$-projection equals $K(a, b)$ or $H$ contains
+  a corner $!= overline(r)_(t-1)$, $p_t$-connected with $r_(t-1)$; and
   $
-    Q(r_t, bar(r)_t, r+bar(r)+p) + frame([[H, X_p], X_r])
-    + frame([[H, X_p], X_(bar(r))]) + frame([H, X_(p_t)])
-    + sum_(j=2)^t K(a e_(r_j) + b e_(bar(r)_j)) subset.eq H
+    Q(r_t, overline(r)_t, r+overline(r)+p) + frame([[H, X_p], X_r])
+    + frame([[H, X_p], X_(overline(r))]) + frame([H, X_(p_t)])
+    + sum_(j=2)^t K(a e_(r_j) + b e_(overline(r)_j)) subset.eq H
   $
-  and either $frame([H, X_p]) + T(r+bar(r)+p) subset.eq H$ or $|H_r| = 2$, the
-  corner $r$ is simple and $p$-connected to the corner $s = bar(s)$, and
+  and either $frame([H, X_p]) + T(r+overline(r)+p) subset.eq H$ or $|H_r| = 2$,
+  the corner $r$ is simple and $p$-connected to the corner $s = overline(s)$,
+  and
   $
-    H supset.eq K{a e_(r+p) + b e_(bar(r)+p) - a b e_(r+bar(r)+p)
-      - c e_(s+p) | a in H_r^*, b in H_(bar(r))^*, c in H_s^*};
+    H supset.eq K{a e_(r+p) + b e_(overline(r)+p) - a b e_(r+overline(r)+p)
+      - c e_(s+p) | a in H_r^*, b in H_(overline(r))^*, c in H_s^*};
   $
 
   (C′) there exist classes $r_j = r+p_1+p_2+dots+p_j$ of type $A_1 times A_1$,
@@ -132,8 +133,8 @@ $N G(K)$, we use the same terminology as for $U G(K)$.
   $frame([H, X_p]) + T(2r+p) subset.eq H$ or $|H_r| = 2$ and the corner $r$ is
   simple and $p$-connected with a corner $s$ such that
   $
-    {(c bar(x) + x bar(c)) e_(2r+p) - x e_(r+s+p) | x in K}
-    + K_sigma(c e_(r+p) + c bar(c) f e_(2r+p) - e_(s+p)) subset.eq H
+    {(c overline(x) + x overline(c)) e_(2r+p) - x e_(r+s+p) | x in K}
+    + K_sigma lr((c e_(r+p) + c overline(c) f e_(2r+p) - e_(s+p))) subset.eq H
   $
   for $c in H_r^*$ and $f in H_s^*$.
 ] <th:l2008-normal-orthogonal>

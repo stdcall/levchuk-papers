@@ -6,11 +6,15 @@
 #bib-item[#bib-description("Malcev1960")] <bib:l2009-model-Malcev1960>
 #bib-item[#bib-description("Videla1988")] <bib:l2009-model-Videla1988>
 #bib-item[#bib-description("Levchuk1975")] <bib:l2009-model-Levchuk1975>
-#bib-item[#bib-description("Levchuk1983") In this collection, p.
-  @ch:l1983.] <bib:l2009-model-Levchuk1983>
+#bib-item[#bib-description("Levchuk1983")
+  In this collection: p.~@ch:l1983; Theorems @th:l1983-main-automorphisms,
+  @th:l1983-rank-four, and @th:l1983-rank-three.
+] <bib:l2009-model-Levchuk1983>
 #bib-item[#bib-description("Rose1978")] <bib:l2009-model-Rose1978>
-#bib-item[#bib-description("Levchuk1987") In this collection, p.
-  @ch:l1987-rings.] <bib:l2009-model-Levchuk1987>
+#bib-item[#bib-description("Levchuk1987")
+  In this collection: p.~@ch:l1987-rings; Theorem @th:l1987-rings-automorphisms
+  and the hypercentral automorphisms in §~@sec:l1987-rings-automorphism-types.
+] <bib:l2009-model-Levchuk1987>
 #bib-item[#bib-description("KuzucuogluLevchuk2004") See
   @th:l2004-finitary-main[the main theorem] and
   @rem:l2004-finitary-small-ranks.] <bib:l2009-model-KuzucuogluLevchuk2004>

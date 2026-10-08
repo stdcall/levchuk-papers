@@ -25,23 +25,29 @@
 #bib-item[#bib-description(
   "Kondratyev1986",
 )] <bib:l1992-chevalley-Kondratyev1986>
-#bib-item[#bib-description("Kourovka")] <bib:l1992-chevalley-Kourovka>
+#bib-item[#bib-description("Kourovka1980")] <bib:l1992-chevalley-Kourovka1980>
 #source(16, printed: 242)
 #bib-item[#bib-description(
   "Levchuk1975",
 )] <bib:l1992-chevalley-Levchuk1975>
-#bib-item[#bib-description(
-  "LevchukConnections",
-)] <bib:l1992-chevalley-LevchukConnections>
-#bib-item[#bib-description(
-  "Levchuk1982",
-)] <bib:l1992-chevalley-Levchuk1982>
+#bib-item[#bib-description("LevchukConnections1976")
+  In this collection: I, p.~@ch:l1976, Theorems
+  @th:l1976-normal-lie-correspondence and @th:l1976-lie-ideals; II,
+  p.~@ch:l1983, Theorems @th:l1983-main-automorphisms, @th:l1983-rank-four, and
+  @th:l1983-rank-three, and Corollary @cor:l1983-finite-orders.
+] <bib:l1992-chevalley-LevchukConnections1976>
+#bib-item[#bib-description("Levchuk1982")
+  In this collection: p.~@ch:l1982-parabolic; the elementary-carpet criterion in
+  Lemma @lem:l1982-parabolic-elementary-carpet-criterion.
+] <bib:l1992-chevalley-Levchuk1982>
 #bib-item[#bib-description(
   "Levchuk1983Roots",
 )] <bib:l1992-chevalley-Levchuk1983Roots>
-#bib-item[#bib-description(
-  "Levchuk1987",
-)] <bib:l1992-chevalley-Levchuk1987>
+#bib-item[#bib-description("Levchuk1987")
+  In this collection: p.~@ch:l1987-rings; Theorems @th:l1987-rings-normal-lie,
+  @th:l1987-rings-maximal-abelian, and @th:l1987-rings-automorphisms; the
+  hypercentral automorphisms in §~@sec:l1987-rings-automorphism-types.
+] <bib:l1992-chevalley-Levchuk1987>
 #bib-item[#bib-description("Malcev1949")] <bib:l1992-chevalley-Malcev1949>
 #bib-item[#bib-description("McLain1954")] <bib:l1992-chevalley-McLain1954>
 #bib-item[#bib-description(
