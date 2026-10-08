@@ -22,7 +22,7 @@ group $U Phi(K)$ onto $N Phi(K)$ one in respect to operation
 $alpha compose beta = pi(pi^(-1) lr((alpha)) pi^(-1) lr((beta)))$. It turns to
 be, that class of ideals of Lie ring $N Phi(K)$ over the field
 $K = 2K = p(Phi) ! K$ coincides with a class of normal subgroups of group
-$angle.l N Phi(K), compose angle.r$.
+$chevron.l N Phi(K), compose chevron.r$.
 
 Let us give a description of ideals of Lie ring $N Phi(K)$ for some types of
 $Phi$. For a root $r in Phi$ we denote as $Q(r)$ the subalgebra with basis
@@ -92,7 +92,7 @@ $G = B_Gamma$ lies in subalgebra $NB_(Gamma_1) lr((K))$, where $Gamma_1$ is
 finite subchain of $Gamma$. Therefore a group operation $compose$ on $N Phi(K)$
 naturally transferred onto $NG(K)$, $G = B_Gamma,C_Gamma,D_Gamma$ too, in the
 case of arbitrary chain $Gamma$. Main relations in the group
-$angle.l NG(K), compose angle.r$ are composed of those
+$chevron.l NG(K), compose chevron.r$ are composed of those
 $x e_(i m) compose y e_(i m) = (x+y)e_(i m)$ $(x,y in K)$, and also the
 following commutator relations obtained by transferring the commutator Chevalley
 formula:
@@ -123,7 +123,7 @@ $
   Let $K$ is field of characteristic $!= 2$, $Gamma$ is an arbitrary chain. Then
   the class of all ideals of Lie ring $NG(K)$, $G = B_Gamma,C_Gamma,D_Gamma$,
   coincides with class of all normal subgroups of group
-  $angle.l NG(K), compose angle.r$.
+  $chevron.l NG(K), compose chevron.r$.
 ] <th:l1992-chevalley-infinite-classical-normal-lie>
 
 It can be shown that statement of Theorem

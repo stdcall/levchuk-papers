@@ -13,7 +13,7 @@ quasiregular ideal.
 
 The subgroups of Theorem @th:l1992-chevalley-normal-commutators have an analogic
 decomposition too, and also every subgroup
-$E(carpet) = angle.l x_r lr((A_r)) | r in Phi angle.r$ of Chevalley group
+$E(carpet) = chevron.l x_r lr((A_r)) | r in Phi chevron.r$ of Chevalley group
 $Phi(K)$, for which $carpet = {A_r | r in Phi}$ is an elementary carpet of
 ideals of type $Phi$ over $K$ (see definition in
 #source(6, printed: 232)

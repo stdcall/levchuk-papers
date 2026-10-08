@@ -55,8 +55,9 @@ to central derivations.
 The $Gamma$-matrices $x e_(i j)$ (where $x in K$, $i,j in Gamma$, and $i>j$)
 under ordinary addition and multiplication additively generate the ring
 $NT lr((Gamma,K))$. We set $[i,j]={k in Gamma | i<=k<=j}$. We write
-$j triangle.l i$ if $i$ is the first element of the subset ${k in Gamma | k>j}$.
-The hypercenters are described by the following lemma. #lemma[
+$j triangle.stroked.l i$ if $i$ is the first element of the subset
+${k in Gamma | k>j}$. The hypercenters are described by the following lemma.
+#lemma[
   The center of the ring $R=NT lr((Gamma,K))$ coincides with the annihilator and
   is nonzero only for $p,q in Gamma$. If $p,q in Gamma$, then in the ring $R$
   and the associated Lie and Jordan rings, the $m$th hypercenters are
@@ -91,25 +92,27 @@ analogue. #theorem[
   Any Lie or Jordan derivation of the ring $R=NT lr((Gamma,K))$ is trivial
   modulo $HC_3 lr((R))$. A nontrivial Lie (or Jordan) derivation exists if and
   only if $HC_1 lr((R)) != HC_2 lr((R))$ and either there exists an
-  $i triangle.l q$ and the right annihilator of $K*K$ (respectively, of
-  $K compose K$) in $K$ is nonzero or $p triangle.l i$ and the left annihilator
-  is nonzero.
+  $i triangle.stroked.l q$ and the right annihilator of $K*K$ (respectively, of
+  $K compose K$) in $K$ is nonzero or $p triangle.stroked.l i$ and the left
+  annihilator is nonzero.
 ] <th:l2009-model-lie-jordan-derivations>
 
 To describe $Der Lambda lr((R))$ and $Der J lr((R))$, we find the Lie and Jordan
 hypercentral derivations of height $>1$ in the ring $R$. For $p,q in Gamma$ and
 $a,c in K$, consider the endomorphisms of the additive group $R^+$ defined by
 $
-  sigma_a: x e_(i p) arrow a x e_(q i), quad p triangle.l i<q,
-  quad sigma'_c: x e_(q j) arrow x c e_(j p), quad p<j triangle.l q,
+  sigma_a: x e_(i p) arrow a x e_(q i), quad p triangle.stroked.l i<q,
+  quad sigma'_c: x e_(q j) arrow x c e_(j p), quad p<j triangle.stroked.l q,
 $
 $
   delta_a: x e_(i p) arrow a x e_(q m), quad
-  x e_(m p) arrow a x e_(q i), quad p triangle.l i triangle.l m<q,
+  x e_(m p) arrow a x e_(q i), quad
+  p triangle.stroked.l i triangle.stroked.l m<q,
 $
 $
   delta'_c: x e_(q j) arrow x c e_(h p), quad
-  x e_(q h) arrow x c e_(j p), quad p<h triangle.l j triangle.l q,
+  x e_(q h) arrow x c e_(j p), quad
+  p<h triangle.stroked.l j triangle.stroked.l q,
   quad x in K
 $
 (the images of the remaining generating elements $x e_(u v)$ are set to zero).

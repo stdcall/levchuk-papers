@@ -8,8 +8,8 @@ self-centralizing) normal Abelian subgroups is known for the type $A_n$
 $U_1 supset U_2 supset dots$ from [@bib:l2008-normal-Carter1972], the notations
 $p_(i v)$ and $q_(i v)$ for roots from systems of types $F_4$ and
 $twisted(2, E_6)$, the representation
-$U twisted(2, F_4) lr((K)) = angle.l R_(i v) lr((y)) | 1 <= |v| < i <= 4,
-y in K angle.r$ from [@bib:l2008-normal-Levchuk1990], Lemma 3 from
+$U twisted(2, F_4) lr((K)) = chevron.l R_(i v) lr((y)) | 1 <= |v| < i <= 4,
+y in K chevron.r$ from [@bib:l2008-normal-Levchuk1990], Lemma 3 from
 [@bib:l2008-normal-Levchuk2002] on a hypercenter incident to all normal
 subgroups, and the notation $K e_r = K_r$ for root subgroups.
 
@@ -19,14 +19,15 @@ subgroups, and the notation $K e_r = K_r$ for root subgroups.
   (a) if $G = G_2$ and $2K = 0$ and $|K| > 2$, then $maximal$ consists of the
   subgroups $U_4 {x_(a+b) lr((t u)) x_(2a+b) lr((t v)) | t in K}$, where
   $u, v in K$ and $(u, v) != (0, 0)$; for $|K| = 2$, it consists of the
-  subgroups $U_4 angle.l x_a lr((1)) x_(2a+b) lr((1)),
-  x_(a+b) lr((1)) x_(2a+b) lr((1)) angle.r$, $U_3$, and $X_(a+b) U_4$, where $a$
-  and $b$ are simple roots and $|a| < |b|$;
+  subgroups $U_4 chevron.l x_a lr((1)) x_(2a+b) lr((1)),
+  x_(a+b) lr((1)) x_(2a+b) lr((1)) chevron.r$, $U_3$, and $X_(a+b) U_4$, where
+  $a$ and $b$ are simple roots and $|a| < |b|$;
 
   (b) if $G = twisted(2, B_2)$, then
-  $maximal = {U_2 angle.l alpha angle.r | alpha in U without U_2}$; if $3K = 0$
-  and $G = G_2$ or $twisted(2, G_2)$, then $maximal = {U_2}$; and if either
-  $6K = K$ and $G = G_2$ or $G = twisted(3, D_4)$, then $maximal = {U_3}$;
+  $maximal = {U_2 chevron.l alpha chevron.r | alpha in U without U_2}$; if
+  $3K = 0$ and $G = G_2$ or $twisted(2, G_2)$, then $maximal = {U_2}$; and if
+  either $6K = K$ and $G = G_2$ or $G = twisted(3, D_4)$, then
+  $maximal = {U_3}$;
 
   (c) for type $E_m$, $maximal$ contains $T(alpha_1)$ and $T(alpha_6)$ for
   $m = 6$, $T(alpha_7)$ for $m = 7$, and
@@ -37,7 +38,7 @@ subgroups, and the notation $K e_r = K_r$ for root subgroups.
 
   (d) for type $twisted(2, F_4)$,
   $maximal = {U_5 {R_(3,-2) lr((t)) R_42 lr((t u)) | t in K}
-    quad (u in K), U_5 R_42 lr((K)) angle.l R_43 lr((v)) angle.r
+    quad (u in K), U_5 R_42 lr((K)) chevron.l R_43 lr((v)) chevron.r
     quad (v in K^*)}$.#ed-note[
     For $G = twisted(3, D_4)$ in characteristic $2$, the list in (b) is
     incomplete. The additional families, including the case $|K_sigma| = 2$, are
@@ -96,8 +97,8 @@ for the twisted types and $F = K$ otherwise.
   for $2K = 0$, it also #source(3, printed: 286) includes the following
   subgroups (below, $a, b, d in K^*$ and $c in K$):
 
-  (a) $angle.l a e_(n,n-1) + d e_(n-1,-n+1) angle.r + T_(n,n-2)$,
-  $angle.l a e_(n,n-1) + b e_(n-2,-n+3) + d e_(n-1,-n+1) angle.r
+  (a) $chevron.l a e_(n,n-1) + d e_(n-1,-n+1) chevron.r + T_(n,n-2)$,
+  $chevron.l a e_(n,n-1) + b e_(n-2,-n+3) + d e_(n-1,-n+1) chevron.r
   + K(a e_(n,n-2) + b e_(n-1,-n+3))
   + K(a e_(n,n-3) + b e_(n-1,-n+2)) + T_(n,n-4)$,
   $T_(n,n-4) + K(e_(n,n-1) + b e_(n-2,-n+3))

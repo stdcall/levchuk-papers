@@ -5,8 +5,8 @@
 #article-introduction[Introduction] <sec:l2008-normal-introduction>
 #source(1, printed: 284)
 The uniform normal structure of the unipotent subgroup
-$U G(K) = angle.l X_r | r in G^+ angle.r$ of the Chevalley group over a field
-$K$ of type $G$ associated with a root system $Phi$ or of twisted type
+$U G(K) = chevron.l X_r | r in G^+ chevron.r$ of the Chevalley group over a
+field $K$ of type $G$ associated with a root system $Phi$ or of twisted type
 $G = twisted(m, Phi)$ is described; for special cases, see
 [@bib:l2008-normal-Levchuk1992, @bib:l2008-normal-Suleimanova2002] and
 references therein. The maximal Abelian normal subgroups are listed. In
@@ -34,8 +34,8 @@ coefficients in the linear expression of $s-r$ in the base $Pi(G)$ are
 nonnegative. We say that $S subset.eq Phi^+$ is 2-normal if $i s + j t in S$
 whenever $s in S$, $t, s+t, i s+j t in Phi^+$; and the constant $C_(i j, s t)$
 $(i, j > 0)$ in the Chevalley commutator formula is odd. We set
-$T(r) = angle.l X_s | s in {r}^+ angle.r$ and, for $L subset G^+$,
-$Q(L) = angle.l X_s | s in union_(r in L) {r}^+ without L angle.r$; changing
+$T(r) = chevron.l X_s | s in {r}^+ chevron.r$ and, for $L subset G^+$,
+$Q(L) = chevron.l X_s | s in union_(r in L) {r}^+ without L chevron.r$; changing
 ${r}^+$ by the 2-normal closure ${r}_2^+$ of the root $r$ in $Phi^+$ in these
 expressions, we obtain $T{r}$ and $Q{L}$. We say that
 $corners(H) = {r_1, r_2, dots, r_m}$ is the set of corners in

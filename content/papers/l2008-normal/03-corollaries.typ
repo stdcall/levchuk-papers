@@ -37,18 +37,19 @@ following corollary.
   $T(q_43) + T(p_41) + K(p_(3,-2) + c p_42)$, $T(p_42) + K q_43$, and
   $T(p_(4,-1)) + K p_43 + K p_42 + K p_41 + K(q_(3,-2) + c q_42)$;
 
-  (f) $angle.l R_43 lr((d)) angle.r R_42 lr((K)) U_5$ for $G = twisted(2, F_4)$,
-  $U_2 angle.l alpha angle.r$, where $alpha notin U_2$, for the groups
-  $U twisted(2, B_2) lr((K))$ and $U C_2 lr((2))$;
-  $U_2 angle.l K alpha angle.r$, where $alpha notin U_2$, for the type $A_2$;
-  and the subgroups $T_(1,-1)$ and $T_21$ if $G = C_2$, $2K = 0$, and $|K| > 2$;
+  (f) $chevron.l R_43 lr((d)) chevron.r R_42 lr((K)) U_5$ for
+  $G = twisted(2, F_4)$, $U_2 chevron.l alpha chevron.r$, where
+  $alpha notin U_2$, for the groups $U twisted(2, B_2) lr((K))$ and
+  $U C_2 lr((2))$; $U_2 chevron.l K alpha chevron.r$, where $alpha notin U_2$,
+  for the type $A_2$; and the subgroups $T_(1,-1)$ and $T_21$ if $G = C_2$,
+  $2K = 0$, and $|K| > 2$;
 
   (g) $U_3$ for the types $twisted(3, D_4)$ and, if $6K = K$, $G_2$; $U_2$ if
   $3K = 0$ for the types $twisted(2, G_2)$ and $G_2$; the subgroups
   ${x_(a+b) lr((t)) x_(2a+b) lr((t c)) | t in K} U_4$ and $U_3$ for the type
   $G_2$ provided that $2K = 0$ and $|K| > 2$; and, finally, the subgroup
-  $angle.l x_a lr((1)) x_(2a+b) lr((1)),
-  x_(a+b) lr((1)) x_(2a+b) lr((1)) angle.r U_4$ in $U G_2 lr((2))$.
+  $chevron.l x_a lr((1)) x_(2a+b) lr((1)),
+  x_(a+b) lr((1)) x_(2a+b) lr((1)) chevron.r U_4$ in $U G_2 lr((2))$.
 ] <cor:l2008-normal-largest>
 
 For the purposes of CFSG revision, Parker and Rowley
@@ -78,8 +79,8 @@ unique if exists) by $0$. We define modules $N G(K)$ of types $G = C_Gamma$,
 $D_Gamma$ (for $Gamma' inter Gamma = emptyset$), $B_Gamma$,
 $twisted(2, D_Gamma)$, and $twisted(2, A_(tilde(Gamma)))$ and their adjoint
 groups by the generators $x e_(i v)$, where $i in Gamma$ and $v in tilde(Gamma)$
-(in particular, $N twisted(2, A_(tilde(Gamma))) lr((K)) = angle.l K e_(i v),
-ker(1 + sigma) e_(i i') | i, v in tilde(Gamma), i' < v < i angle.r$) and
+(in particular, $N twisted(2, A_(tilde(Gamma))) lr((K)) = chevron.l K e_(i v),
+ker(1 + sigma) e_(i i') | i, v in tilde(Gamma), i' < v < i chevron.r$) and
 defining relations locally preserving the structure of the same type. The
 theorems of Sections~@sec:l2008-normal-structure and @sec:l2008-normal-abelian
 are transferred as for the type $A_Gamma$ in the description of automorphisms of

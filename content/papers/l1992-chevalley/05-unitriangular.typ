@@ -60,7 +60,7 @@ evident description of maximal Abelian ideals of Lie ring $NT_Gamma lr((K))$ has
 a success [@bib:l1992-chevalley-Levchuk1987]. Also using Theorem
 @th:l1992-chevalley-unitriangular-normal-lie, we obtain automorphic images of
 maximal Abelian ideals
-$angle.l x e_(i j) | x in K, j in S, i in Gamma without S angle.r$ for every
+$chevron.l x e_(i j) | x in K, j in S, i in Gamma without S chevron.r$ for every
 possible segments $S$ of chain $Gamma$. This conforms a basic ground for
 description of automorphisms.
 
