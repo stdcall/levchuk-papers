@@ -32,7 +32,7 @@ $i, j in Gamma$. Если $Gamma$ и $Gamma'$ содержат общий эле
 единствен. Его обозначаем через 0 (или $0'$), а через $N B_Gamma lr((K))$~—
 $K$-модуль с базисом
 $ {e_(i m) | i in Gamma, m in tilde(Gamma), i' < m < i}. $
-При $Gamma' sect Gamma = emptyset$ обозначим $K$-модуль с такой же записью
+При $Gamma' inter Gamma = emptyset$ обозначим $K$-модуль с такой же записью
 базиса через $N D_Gamma lr((K))$, а $K$-модуль с базисом
 ${e_(i m) | i in Gamma, m in tilde(Gamma), i' <= m < i}$~— через
 $N C_Gamma lr((K))$. Умножение $*$ определяет произведения базисных элементов:
@@ -51,7 +51,7 @@ $
 #lemma[
   $K$-модули $N G(K)$ типа $G = B_Gamma$, $C_Gamma$ или $D_Gamma$ с умножением
   $*$ являются алгебрами Ли. Для конечной цепи $Gamma$ с условиями
-  $|Gamma without (Gamma' sect Gamma)| = n$ алгебра $N G(K)$ изоморфна лиевой
+  $|Gamma without (Gamma' inter Gamma)| = n$ алгебра $N G(K)$ изоморфна лиевой
   алгебре, соответственно, $N B_n lr((K))$, $N C_n lr((K))$ или $N D_n lr((K))$.
 ] <lem:l2009-finitary-classical-lie-algebras>
 
@@ -60,7 +60,7 @@ $
   $N B_Gamma lr((K))$ лежит в подмодуле того же типа $N B_(Gamma_1) lr((K))$ для
   подходящей конечной подцепи $Gamma_1$ в $Gamma$, то достаточно доказать второе
   утверждение леммы. Заметим, что любая конечная #source(5, printed: 137) цепь
-  $Gamma$ с условиями $|Gamma without (Gamma' sect Gamma)| = n$ и $i' <= j$
+  $Gamma$ с условиями $|Gamma without (Gamma' inter Gamma)| = n$ и $i' <= j$
   $(i, j in Gamma)$ изоморфна цепи целых чисел ${0, 1, 2, dots, n}$ или
   ${1, 2, dots, n}$ с антиизометрией $i' = -i$ в обоих случаях.
 
