@@ -86,7 +86,7 @@ case.
 
 #example[
   Let $h$ is a Coxeter number of root system $Phi$, $ht r$ — a height of root
-  $r$, $ht 0 = 0$. Function $f(r,k) = -floor((ht r-k)/h)$ ($floor()$ — an
+  $r$, $ht 0 = 0$. Function $f(r,k) = -floor((ht r-k)/h)$ ($floor("")$ — an
   integer part of quantity) satisfies the conditions F1)–F3). A pair $k,m >= 1$
   is peculiar for it, partially when $h > 2$ and the numbers $k+m$ are divisible
   by $h$; for arbitrary peculiar pair $k,m$ the number $k+m$ is always divisible

@@ -4768,7 +4768,7 @@
       "original": "Dokl.Akad.NaukSSSR16,756–760(1975)",
       "corrected": "Soviet Math.Dokl.16(3),756–760(1975)",
       "reason": "Русское название журнала было соединено с томом и страницами перевода.",
-      "verified_by": "Publications catalogue: Levchuk1975AutomorphismsEn; русский оригинал Dokl.Akad.NaukSSSR222(6),1270–1273."
+      "verified_by": "Levchuk1975AutomorphismsEn; русский оригинал: Докл. АН СССР 222(6), 1279–1282, MathNet dan39100."
     },
     {
       "id": "l2009-model-C008",
@@ -4849,6 +4849,26 @@
       "corrected": "Merzlyakov’s theorem [21]",
       "reason": "Ссылка 3 ведёт к статье Адо, а сформулированный здесь аналог относится к теореме Мерзлякова, изложенной в предшествующих абзацах со ссылкой 21.",
       "verified_by": "Merzlyakov, Commutants of linear groups and carpets of ideals, Dokl.Akad.NaukSSSR155(1964),1009–1012; surrounding paragraphs of Section1 (1992)."
+    },
+    {
+      "id": "l1992-chevalley-C007",
+      "printed_page": 241,
+      "section": "References",
+      "place": "Levchuk Connections, bibliography entry15",
+      "original": "Algebra and Logic15(5),558–578; Siberian Math. J.24(4),64–80",
+      "corrected": "Algebra i Logika15(5),558–578; Sibirsk. Mat. Zh.24(4),64–80 (Russian editions)",
+      "reason": "The journal, coordinates and language must describe the same publication edition.",
+      "verified_by": "Levchuk1976UnitriangularIRu and Levchuk1983UnitriangularIIRu; MathNet al1527 and smj6738."
+    },
+    {
+      "id": "l1992-chevalley-C008",
+      "printed_page": 241,
+      "section": "References",
+      "place": "Levchuk Roots1983, bibliography entry17",
+      "original": "Algebra and Logic22(5),504–517",
+      "corrected": "Algebra i Logika22(5),504–517 (Russian edition)",
+      "reason": "The journal, coordinates and language must describe the same publication edition.",
+      "verified_by": "Levchuk1983RootGeneratorsRu, MathNet al1828; English translation Algebra and Logic22(5),362–371."
     }
   ]
 }
