@@ -606,6 +606,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2005-sylow.
 ] <bib:pub-Levchuk2005SylowFinitaryEn>
 
 #bib-item[

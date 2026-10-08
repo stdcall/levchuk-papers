@@ -43,7 +43,9 @@
   В сборнике: с. @ch:l1990-small и @ch:l1990-chevalley.
 ] <bib:l2013-ideals-Levchuk1990>
 
-#bib-item[#bib-description("Levchuk2005")] <bib:l2013-ideals-Levchuk2005>
+#bib-item[#bib-description("Levchuk2005")
+  В сборнике: с. @ch:l2005-sylow.
+] <bib:l2013-ideals-Levchuk2005>
 
 #bib-item[#bib-description("Levchuk2006")] <bib:l2013-ideals-Levchuk2006>
 
