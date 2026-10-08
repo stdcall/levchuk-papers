@@ -33,8 +33,8 @@
     }
     if line == "}" {
       assert(
-        "title" in entry and "author" in entry,
-        message: "A bibliography record requires author and title",
+        "title" in entry,
+        message: "A bibliography record requires a title: " + key,
       )
       records.insert(key, entry)
       entry = none
