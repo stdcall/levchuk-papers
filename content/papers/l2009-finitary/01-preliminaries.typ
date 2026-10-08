@@ -1,4 +1,4 @@
-#import "../../main-defs.typ": source, twisted
+#import "../../main-defs.typ": char, source, twisted
 #import "../../collection.typ": article-introduction
 #import "defs.typ": *
 

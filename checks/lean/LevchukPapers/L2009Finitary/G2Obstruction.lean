@@ -1,7 +1,8 @@
 import Mathlib.Data.Int.Basic
-import Mathlib.LinearAlgebra.Basic
-import Mathlib.Data.Matrix.Notation
-import Mathlib.Tactic.Omega
+import Mathlib.Algebra.Module.LinearMap.Defs
+import Mathlib.Algebra.Module.Pi
+import Mathlib.LinearAlgebra.Matrix.Notation
+import Lean.Elab.Tactic.Omega
 
 /- Final root-lattice step in Proposition 1. Coordinates are in the simple
 root basis (a,b), a short and b long. An additive lattice map w has columns
@@ -18,11 +19,11 @@ def longRoot : Fin 2 → Int := ![0, 1]
 is needed. The roots are a, b, 2a+b, 3a+b, 3a+2b in the source basis. -/
 theorem g2_lattice_map_obstruction
     (w : Module.End Int (Fin 2 → Int))
-    (ha : w shortRoot = 2 • shortRoot + longRoot)
-    (hfirst : w (3 • shortRoot + longRoot) = 3 • shortRoot + longRoot ∨
-              w (3 • shortRoot + longRoot) = 3 • shortRoot + 2 • longRoot)
-    (hsecond : w (3 • shortRoot + 2 • longRoot) = 3 • shortRoot + longRoot ∨
-               w (3 • shortRoot + 2 • longRoot) = 3 • shortRoot + 2 • longRoot) :
+    (ha : w shortRoot = (2 : Int) • shortRoot + longRoot)
+    (hfirst : w ((3 : Int) • shortRoot + longRoot) = (3 : Int) • shortRoot + longRoot ∨
+              w ((3 : Int) • shortRoot + longRoot) = (3 : Int) • shortRoot + (2 : Int) • longRoot)
+    (hsecond : w ((3 : Int) • shortRoot + (2 : Int) • longRoot) = (3 : Int) • shortRoot + longRoot ∨
+               w ((3 : Int) • shortRoot + (2 : Int) • longRoot) = (3 : Int) • shortRoot + (2 : Int) • longRoot) :
     False := by
   have h₁ : 6 + w longRoot 0 = 3 := by
     rcases hfirst with h | h

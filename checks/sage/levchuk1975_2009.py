@@ -20,12 +20,13 @@ def check(value):
 
 # GF4 has just two additive bijections fixing 1, and both are multiplicative.
 E = GF(4, 'a'); a = E.gen()
+V, from_V, to_V = E.vector_space(basis=[E(1), a], map=True)
 fixed = []
 for image in E:
     if image in (E(0), E(1)):
         continue
     def f(t):
-        v = t.vector()
+        v = to_V(t)
         return E(v[0]) + E(v[1])*image
     check(f(E(1)) == 1)
     check(len({f(t) for t in E}) == 4)
@@ -40,7 +41,7 @@ for first in E:
         if second in (E(0), first):
             continue
         def additive(t):
-            v = t.vector()
+            v = to_V(t)
             return E(v[0])*first + E(v[1])*second
         check(any(all(additive(t) == first*t**power for t in E)
                   for power in (1,2)))

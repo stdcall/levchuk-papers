@@ -1,5 +1,5 @@
 #import "../../collection.typ": paper-abstract, paper-keywords
-#import "../../main-defs.typ": source
+#import "../../main-defs.typ": char, source
 #import "defs.typ": Aut
 #source(1, printed: 133)
 #paper-abstract[
