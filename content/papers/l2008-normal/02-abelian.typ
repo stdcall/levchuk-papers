@@ -140,7 +140,7 @@ for the twisted types and $F = K$ otherwise.
   + K(e_(n-1,1) + a e_(n 1) + c e_(n-1,-1)) + T_(3,-2)$ for $G = D_n$; and, for
   the type $twisted(2, D_(n+1))$, the subgroups
   $T_(2,-1) + a K_sigma e_(n 0) + a K_sigma lr((e_(n-1,0) + b e_(n 0)))$
-  (where $b notin K_sigma$) and
+  (where $b in.not K_sigma$) and
   $K_sigma lr((e_(n 1) + a e_(n-1,0) + g e_(n-1,-1)))
   + {a x e_(n 0) + a overline(a) lr((x + overline(x))) e_(n-1,-1) | x in K}
   + T_(n,-1) + T_(3,-2)$ where $g = 0$ for $N twisted(2, D_4) lr((4))$.

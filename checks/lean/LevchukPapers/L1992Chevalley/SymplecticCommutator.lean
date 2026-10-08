@@ -86,8 +86,9 @@ theorem symplectic_commutator {R : Type*} [CommRing R] (x y : R) :
     rootX (-x) * rootY (-y) * rootX x * rootY y = longRoot (2 * x * y) := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    (simp [rootX, rootY, longRoot, A, B, C,
-      Matrix.mul_apply, Fin.sum_univ_succ, Matrix.one_apply]; ring)
+    simp [rootX, rootY, longRoot, A, B, C,
+      Matrix.mul_apply, Fin.sum_univ_succ, Matrix.one_apply]
+  all_goals ring
 
 end LevchukPapers.L1992Chevalley
 

@@ -39,8 +39,8 @@ following corollary.
 
   (f) $chevron.l R_43 lr((d)) chevron.r R_42 lr((K)) U_5$ for
   $G = twisted(2, F_4)$, $U_2 chevron.l alpha chevron.r$, where
-  $alpha notin U_2$, for the groups $U twisted(2, B_2) lr((K))$ and
-  $U C_2 lr((2))$; $U_2 chevron.l K alpha chevron.r$, where $alpha notin U_2$,
+  $alpha in.not U_2$, for the groups $U twisted(2, B_2) lr((K))$ and
+  $U C_2 lr((2))$; $U_2 chevron.l K alpha chevron.r$, where $alpha in.not U_2$,
   for the type $A_2$; and the subgroups $T_(1,-1)$ and $T_21$ if $G = C_2$,
   $2K = 0$, and $|K| > 2$;
 
