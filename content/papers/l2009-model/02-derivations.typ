@@ -136,14 +136,14 @@ $
   $
     Der J lr((R))=cases(
       DD_2+DD'_2+DD_3+DD'_3+Der R & |Gamma|>3,
-      DD_2+DD'_2+Der R & |Gamma|=3;
-    )
+      DD_2+DD'_2+Der R & |Gamma|=3,
+    ) ";"
   $
   $
     Der Lambda lr((R))=cases(
       tilde(DD)_2+tilde(DD)'_2+DD_3+DD'_3+Der R & |Gamma|>3,
-      tilde(DD)_2+tilde(DD)'_2+Der R & |Gamma|=3.
-    )
+      tilde(DD)_2+tilde(DD)'_2+Der R & |Gamma|=3,
+    ) "."
   $
 ] <th:l2009-model-derivation-decomposition>
 Special cases of Theorem @th:l2009-model-derivation-decomposition were proved by
