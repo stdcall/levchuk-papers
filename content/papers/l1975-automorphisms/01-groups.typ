@@ -143,7 +143,7 @@ t_(n,n - 1) lr((x))$, $x in K$, для каждого преобразовани
   $
     op("Aut") UT(n, K) = cases(
       (((J Z U) ⋊ AutK) ⋊ D) ⋊ lr(⟨tau⟩) & "при" op("char") K != 2,
-      (((J Z) ⋊ AutK) ⋊ D) ⋊ lr(⟨tau⟩) & "при" op("char") K = 2, K != GF(2),
+      (((J Z) ⋊ AutK) ⋊ D) ⋊ lr(⟨tau⟩) & "при" op("char") K = 2\, K != GF(2),
       ((J Z) ⋊ lr(⟨eta(1), eta'(1)⟩)) ⋊ lr(⟨tau⟩) & "при" K = GF(2),
     )
   $
