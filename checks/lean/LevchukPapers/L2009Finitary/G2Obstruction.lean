@@ -40,8 +40,8 @@ theorem g2_lattice_map_obstruction
   omega
 
 theorem g2_root_obstruction (p q r s : Int)
-    (ha₁ : p = 2) (ha₂ : r = 1)
-    (hfirst : (3*p+q = 3 ∧ 3*r+s = 1) ∨
+    (ha₁ : p = 2) (_ha₂ : r = 1)
+    (_hfirst : (3*p+q = 3 ∧ 3*r+s = 1) ∨
               (3*p+q = 3 ∧ 3*r+s = 2))
     (hsecond : (3*p+2*q = 3 ∧ 3*r+2*s = 1) ∨
                (3*p+2*q = 3 ∧ 3*r+2*s = 2)) : False := by

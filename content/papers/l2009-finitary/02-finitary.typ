@@ -173,8 +173,8 @@ $
   $
     G = B_Gamma, D_Gamma, twisted(2, D_Gamma): quad
     [x e_(j v), y e_(i v')] = cases(
-      x y e_(i j') & i > j comma v != 0,
-      0 & i = j,
+      x y e_(i j') & quad i > j comma v != 0,
+      0 & quad i = j,
     )
   $
   $

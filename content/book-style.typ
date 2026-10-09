@@ -288,6 +288,12 @@
   )
   set enum(numbering: "1)")
   show table: it => block(width: 100%, breakable: false, align(center, it))
+  show <tab:l2009-finitary-large-normal-abelian>: it => {
+    show table: set text(size: 9pt)
+    show table: set par(leading: 0.3em)
+    set table(inset: 2pt)
+    it
+  }
   show regex("т\\. е\\."): [т.~е.]
   show regex("т\\. д\\."): [т.~д.]
   show regex("т\\. п\\."): [т.~п.]
