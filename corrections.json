@@ -4908,7 +4908,7 @@
       "original": "$q$ — не простое число",
       "corrected": "$q$ — не простое число и $q != 4$",
       "reason": "В $GF(4)$ лишь два аддитивных автоморфизма фиксируют единицу: тождественный и возведение в квадрат; оба являются автоморфизмами поля. Для $q=p^d$, $d>1$, число аддитивных автоморфизмов, фиксирующих единицу, равно $product_(k=1)^(d-1)(p^d-p^k)$ и превосходит $d$, кроме случая $p=d=2$.",
-      "verified_by": "checks/sage/levchuk1975_2009.py: gf4_additive_exception; стабилизатор ненулевого вектора в GL(d,p)."
+      "verified_by": "checks/sage/levchuk1975_2009.py: GF4_fix_one_additive_automorphisms; стабилизатор ненулевого вектора в GL(d,p)."
     },
     {
       "id": "l1975-automorphisms-C005",
@@ -4918,7 +4918,7 @@
       "original": "1201–1220",
       "corrected": "1202–1220",
       "reason": "Начальная страница статьи «Подгруппы унитреугольной группы» — 1202.",
-      "verified_by": "Левчук1974, Сиб. матем. журн.15:6, с.1202–1220."
+      "verified_by": "Левчук1974, Изв. АН СССР. Сер. матем.38:6, с.1202–1220."
     },
     {
       "id": "l2009-finitary-C001",
@@ -4948,7 +4948,7 @@
       "original": "$T_(1,-1)+K(e_(i 0)+a_(i+1)e_(i+1,0)+dots+a_n e_(n 0))$",
       "corrected": "$T_(1,-1)+a K_sigma lr((e_(i 0)+a_(i+1)e_(i+1,0)+dots+a_n e_(n 0)))$",
       "reason": "При тождественном сопряжении правая часть должна совпадать с $M_i=T_(1,-1)+a K_sigma e_(i 0)$. Напечатанный коэффициент $K$ увеличивает скалярную прямую в $q$ раз.",
-      "verified_by": "Wong1982, Abelian unipotent subgroups of finite unitary and symplectic groups, теоремы3(b),4(b), с.341–342. checks/sage/levchuk1975_2009.py: unitary_rank_one и unitary_quotient_lines."
+      "verified_by": "Wong1982, Abelian unipotent subgroups of finite unitary and symplectic groups, теоремы3(b),4(b), с.341–342. checks/sage/levchuk1975_2009.py: SU3 и T10_real_lines."
     },
     {
       "id": "l2009-finitary-C004",
