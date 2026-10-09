@@ -64,7 +64,8 @@ $U$ are described as large normal abelian ones. The following lemma follows from
   the group $U twisted(3, D_4)(8)$ where
   $a(U) = 2^6$.] <cor:l2013-thompson-orders>
 
-Due to [@bib:l2013-thompson-Levchuk2009, Theorem 2], the group $U$ of type $G_2$
+Due to [@bib:l2013-thompson-Levchuk2009,
+Theorem~@th:l2009-finitary-defining-relations], the group $U$ of type $G_2$
 satisfies the following isomorphisms: $U slash U_3 approx U A_2(K)$ and
 $U slash U_4 approx U B_2(K)$. The following lemma is well known for the group
 $U A_2(K) approx UT(3, K)$.
@@ -92,7 +93,8 @@ $U A_2(K) approx UT(3, K)$.
       lr((t'')),x_a lr((1))] = x_(2a+b) lr((2t''+t-t^2)).
   $
   (The signs of the structural constants are chosen according to
-  [@bib:l2013-thompson-Levchuk2009, Theorem 2].) If $2K = 0$ then $t^2-t = 0$
+  [@bib:l2013-thompson-Levchuk2009,
+  Theorem~@th:l2009-finitary-defining-relations].) If $2K = 0$ then $t^2-t = 0$
   and $beta in ⟨ gamma ⟩ Z$. When $2K = K$ we have $t'' = (t^2-t) slash 2$ and
   hence $A$ is the first subgroup in @eq:l2013-thompson-b2-maximal.
 ]

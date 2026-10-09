@@ -28,7 +28,8 @@
   ) В сборнике: с. @ch:l2001-automorphisms.
 ] <bib:l2004-finitary-Kuzucuoglu2001>
 #source(13, printed: 181)
-#bib-item[#bib-description("Levchuk1975")] <bib:l2004-finitary-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") Original:
+  @ch:l1975-automorphisms.] <bib:l2004-finitary-Levchuk1975>
 #bib-item[#bib-description("Levchuk1976") В сборнике:
   с.~@ch:l1976.] <bib:l2004-finitary-Levchuk1976>
 #bib-item[#bib-description("Levchuk1983") В сборнике:

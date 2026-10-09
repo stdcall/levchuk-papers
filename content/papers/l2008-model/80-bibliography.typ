@@ -6,7 +6,8 @@
 #bib-item[#bib-description(
   "ChangKeisler1977",
 )] <bib:l2008-model-ChangKeisler1977>
-#bib-item[#bib-description("Levchuk1975")] <bib:l2008-model-Levchuk1975>
+#bib-item[#bib-description("Levchuk1975") В сборнике: с.
+  @ch:l1975-automorphisms.] <bib:l2008-model-Levchuk1975>
 #bib-item[#bib-description("Levchuk1983") См.
   @ch:l1983.] <bib:l2008-model-Levchuk1983>
 #bib-item[#bib-description("Malcev1960")] <bib:l2008-model-Malcev1960>

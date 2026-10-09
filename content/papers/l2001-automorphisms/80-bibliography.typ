@@ -23,8 +23,8 @@
   In this collection: @ch:l2000-ideals.]
 <bib:l2001-automorphisms-Kuzucuoglu2000>
 #bib-item[#bib-description(
-  "Levchuk1975",
-)] <bib:l2001-automorphisms-Levchuk1975>
+    "Levchuk1975",
+  ) Original: @ch:l1975-automorphisms.] <bib:l2001-automorphisms-Levchuk1975>
 #bib-item[#bib-description("Levchuk1983")
   Original: @ch:l1983.]
 <bib:l2001-automorphisms-Levchuk1983>

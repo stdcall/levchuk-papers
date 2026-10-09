@@ -39,8 +39,8 @@
   В сборнике: с. @ch:l1992-chevalley.
 ] <bib:l2015-niltriangular-Levchuk1992>
 #bib-item[#bib-description(
-  "Levchuk2009",
-)] <bib:l2015-niltriangular-Levchuk2009>
+    "Levchuk2009",
+  ) В сборнике: с. @ch:l2009-finitary.] <bib:l2015-niltriangular-Levchuk2009>
 #bib-item[#bib-description(
   "Slowik2013",
 )] <bib:l2015-niltriangular-Slowik2013>

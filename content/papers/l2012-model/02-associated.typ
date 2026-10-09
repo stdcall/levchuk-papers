@@ -12,8 +12,10 @@ $ Aut R=Aut G(R) inter Aut J(R)=Aut G(R) inter Aut Lambda(R). $
 автоморфизмы и — когда либо $n>3$, либо $n=3$ и
 #source(77, printed: 77)
 кольцо $K$ коммутативное или без делителей нуля — также $Aut Lambda(R)$ описаны
-в [@bib:l2012-model-Levchuk1975] и [@bib:l2012-model-Levchuk1983, теоремы
-@th:l1983-main-automorphisms и @th:l1983-rank-four]; описание $Aut J(R)$, см.
+в [@bib:l2012-model-Levchuk1975,
+теорема~@th:l1975-automorphisms-ring-decomposition] и
+[@bib:l2012-model-Levchuk1983, теоремы @th:l1983-main-automorphisms и
+@th:l1983-rank-four]; описание $Aut J(R)$, см.
 [@bib:l2012-model-LevchukMinakova2009; @bib:l2012-model-LevchukMinakova2010].
 
 Схема [@bib:l2012-model-Levchuk1983] переносится в

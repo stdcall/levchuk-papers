@@ -520,9 +520,10 @@ Thus, $a(U) = b(U)$ holds for all $U$. We arrived at the following
 Now it is easy to show that if all normal large abelian subgroups in a finite
 group $U$ are extremal then all large abelian subgroups in $U$ are normal. We
 note that for every finite group $G$ of Lie type the authors have the proof of
-the following theorem. (See also [@bib:l2012-extremal-en-Levchuk2009, Theorem 4]
-for the classical types [@bib:l2012-extremal-en-Suleimanova2010], and the
-question in [@bib:l2012-extremal-en-Gupta2008, § 1].)
+the following theorem. (See also [@bib:l2012-extremal-en-Levchuk2009,
+Theorem~@th:l2009-finitary-large-abelian-conjugacy] for the classical types
+[@bib:l2012-extremal-en-Suleimanova2010], and the question in
+[@bib:l2012-extremal-en-Gupta2008, § 1].)
 
 #theorem[In every finite group $U$, either each large abelian subgroup is
   $G$-conjugate to a normal subgroup in $U$ or $G$ is of type $G_2$,

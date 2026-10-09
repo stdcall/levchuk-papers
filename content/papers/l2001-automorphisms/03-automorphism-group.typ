@@ -28,7 +28,8 @@ Let $R=R_n lr((K,J))$. We require the following lemmas.
   $K$-ring, and annihilator automorphisms of $NT_n lr((K))$.
 ] <lem:l2001-automorphisms-niltriangular>
 #proof[
-  See [@bib:l2001-automorphisms-Levchuk1975;
+  See [@bib:l2001-automorphisms-Levchuk1975,
+  Theorem~@th:l1975-automorphisms-ring-decomposition;
   @bib:l2001-automorphisms-Levchuk1983, Theorem~@th:l1983-main-automorphisms].
 ]
 #lemma[

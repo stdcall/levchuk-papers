@@ -3,15 +3,16 @@
 
 #heading(level: 3, numbering: none)[Список литературы]
 
-#bib-item[#bib-description("Levchuk1990") В сборнике: с. а
+#bib-item[#bib-description("Levchuk1990") В сборнике: с.
   @ch:l1990-chevalley.] <bib:l2019-nonfinitary-Levchuk1990>
-#bib-item[#bib-description("Levchuk2015") В сборнике: с. а
+#bib-item[#bib-description("Levchuk2015") В сборнике: с.
   @ch:l2015-niltriangular.] <bib:l2019-nonfinitary-Levchuk2015>
-#bib-item[#bib-description("Levchuk1987") В сборнике: с. а
+#bib-item[#bib-description("Levchuk1987") В сборнике: с.
   @ch:l1987-rings.] <bib:l2019-nonfinitary-Levchuk1987>
-#bib-item[#bib-description("Levchuk1983") В сборнике: с. а
+#bib-item[#bib-description("Levchuk1983") В сборнике: с.
   @ch:l1983.] <bib:l2019-nonfinitary-Levchuk1983>
-#bib-item[#bib-description("Levchuk2009")] <bib:l2019-nonfinitary-Levchuk2009>
+#bib-item[#bib-description("Levchuk2009") В сборнике: с.
+  @ch:l2009-finitary.] <bib:l2019-nonfinitary-Levchuk2009>
 #bib-item[#bib-description(
   "Merzlyakov1994",
 )] <bib:l2019-nonfinitary-Merzlyakov1994>

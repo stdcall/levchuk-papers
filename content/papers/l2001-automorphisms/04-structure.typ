@@ -237,8 +237,9 @@ of the algebra $R_n lr((K,J))$.
 
 Note that the description of $A_(upright("mod"))$ was found by Dubisch and
 Perlis [@bib:l2001-automorphisms-Dubish1951, Theorem 5-7] for arbitrary field
-$K$ and $J=0$. See also [@bib:l2001-automorphisms-Levchuk1975, Corollary 1]. If
-$K=Z_(p^m)$, then $A_(upright("mod"))=Aut R_n lr((K,J))$. Therefore, #corollary[
+$K$ and $J=0$. See also [@bib:l2001-automorphisms-Levchuk1975,
+Corollary~@cor:l1975-automorphisms-domain]. If $K=Z_(p^m)$, then
+$A_(upright("mod"))=Aut R_n lr((K,J))$. Therefore, #corollary[
   Let $K=Z_(p^m)$ and $d$ be an arbitrary divisor of $m$ such that $1<=d<m$. If
   $J=(p^d)$, then $abs(Aut R_2 lr((K,J)))=(p^m-p^(m-1)) dot p^(2m)$ and
   $

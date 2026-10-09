@@ -103,7 +103,8 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk1975NilpotentAutomorphismsEn.
+  В сборнике: с. @ch:l1975-automorphisms. Перевод:
+  @bib:pub-Levchuk1975NilpotentAutomorphismsEn.
 ] <bib:pub-Levchuk1975NilpotentAutomorphismsRu>
 
 #bib-item[
@@ -808,7 +809,8 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk2009FinitaryChevalleyEn.
+  В сборнике: с. @ch:l2009-finitary. Перевод:
+  @bib:pub-Levchuk2009FinitaryChevalleyEn.
 ] <bib:pub-Levchuk2009FinitaryChevalleyRu>
 
 #bib-item[

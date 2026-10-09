@@ -73,9 +73,10 @@ of large abelian subgroups of $U$.
 Given a group-theoretic property $cal(P)$, we recall that every
 $cal(P)$-subgroup of largest order in a finite group is a _large
 $cal(P)$-subgroup_. Theorem @th:l2012-extremal-en-large-normal-abelian and
-[@bib:l2012-extremal-en-Levchuk2009, Table 2] (for the classical types) give the
-list of all large normal abelian subgroups in the finite groups $U$. Using the
-approach of [@bib:l2012-extremal-en-Malcev1945] and
+[@bib:l2012-extremal-en-Levchuk2009,
+Table~@tab:l2009-finitary-large-normal-abelian] (for the classical types) give
+the list of all large normal abelian subgroups in the finite groups $U$. Using
+the approach of [@bib:l2012-extremal-en-Malcev1945] and
 [@bib:l2012-extremal-en-Vdovin2001] we show that the identical list gives the
 normal large abelian subgroups (Theorem
 @th:l2012-extremal-en-normal-large-order). (In general, there exists a large
@@ -216,9 +217,11 @@ the subalgebra in $cal(L)_K$ with the basis ${e_r | r in Phi^+}$. The Lie
 products $e_r ast e_s = c_(r s) e_(r+s)$ ($c_(r s) = 0$ for $r+s in.not Phi$)
 define the structure constants of Chevalley basis in $N Phi(K)$. Chevalley’s
 commutator formula gives $[X_r,X_s] = x_(r+s) lr((c_(r s) K)) mod Q(r+s)$. Using
-also relations from [@bib:l2012-extremal-en-Levchuk1990, § 4 (I)] and
-[@bib:l2012-extremal-en-Levchuk2009, Theorem 2] for the twisted groups, we
-easily get
+also relations from [@bib:l2012-extremal-en-Levchuk1990,
+§~@sec:l1990-small-f4-automorphisms (I)] and
+[@bib:l2012-extremal-en-Levchuk2009,
+Theorem~@th:l2009-finitary-defining-relations] for the twisted groups, we easily
+get
 
 #lemma[Let $U = U G(K)$ and $r,s,r+s in G^+$. Then either
   $[X_r,X_s] = X_(r+s) mod Q(r+s)$ or $G = Phi$, $c_(r s) K = 0 = p(Phi)! K$,

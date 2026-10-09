@@ -7,7 +7,7 @@
 #let zero-section-numbering(..numbers) = []
 #let introduction-section-numbering(..numbers) = []
 #let formula-skips = (:)
-#let formula-tags = (:)
+#let formula-tags = ("eq:l1975-automorphisms-presentation": "A")
 #let family-depth = (
   th: 0,
   lem: 0,

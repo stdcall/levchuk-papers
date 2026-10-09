@@ -9,7 +9,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -90,11 +90,27 @@ jobs:
           leanchecker-args: '--fresh LevchukPapers'
       - name: Check declaration axioms
         run: python3 checks/lean/check_axioms.py
+  sage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Exact checks for the 1975 and 2009 articles
+        run: |
+          docker run --rm --network none --read-only --cpus 2 --memory 4g \
+            --tmpfs /tmp --env DOT_SAGE=/tmp/sage \
+            --env MPLCONFIGDIR=/tmp/matplotlib --env XDG_CACHE_HOME=/tmp/cache \
+            --mount type=bind,source="$PWD",target=/work,readonly \
+            --entrypoint sage \
+            sagemath/sagemath@sha256:4f5589eb6c565949a006f8665de2876b8414410daf5ac554f4434a15d4f3d528 \
+            -python /work/checks/sage/levchuk1975_2009.py
   release:
     # Every commit on main is released: tag YYYY-MM-DD.N (build date in UTC
     # and build number), the PDFs and their SHA256SUMS.
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [check, lean]
+    needs: [check, lean, sage]
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:

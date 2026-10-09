@@ -53,7 +53,8 @@ As usually, we distinguish the standard automorphisms of group $UG(K)$. They are
 products of its inner, ring, diagonal, central (acting trivially by center
 modulus), graph and, more generally, idempotent-graph automorphisms;
 [@bib:l1992-chevalley-Gibbs1970] and at $G = A_n$
-[@bib:l1992-chevalley-Levchuk1975],
+[@bib:l1992-chevalley-Levchuk1975,
+Theorem~@th:l1975-automorphisms-decomposition],
 [@bib:l1992-chevalley-LevchukConnections1976]. Now automorphism of arbitrary
 group (or ring) we
 #source(8, printed: 234)

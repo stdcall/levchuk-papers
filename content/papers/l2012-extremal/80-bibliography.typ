@@ -25,7 +25,8 @@
 ] <bib:l2012-extremal-Levchuk2002>
 #bib-item[#bib-description("Levchuk2008") Перевод: с.
   @ch:l2008-normal.] <bib:l2012-extremal-Levchuk2008>
-#bib-item[#bib-description("Levchuk2009")] <bib:l2012-extremal-Levchuk2009>
+#bib-item[#bib-description("Levchuk2009") В сборнике: с.
+  @ch:l2009-finitary.] <bib:l2012-extremal-Levchuk2009>
 #bib-item[#bib-description("Malcev1945")] <bib:l2012-extremal-Malcev1945>
 #bib-item[#bib-description(
   "Martynova1994",
