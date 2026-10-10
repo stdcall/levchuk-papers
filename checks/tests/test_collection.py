@@ -177,6 +177,46 @@ class Collection(unittest.TestCase):
                 self.assertTrue(any(it['page'] == 0 for it in links))
                 self.assertTrue(any(it['page'] == 1 for it in links))
 
+    def test_native_tables_and_figures_restart_after_another_article_changes(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-figures-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            for extra, expected in ((False, 1), (True, 2)):
+                driver = (
+                    '#import "content/book-style.typ": book-style\n'
+                    '#import "content/collection.typ": article-begin\n'
+                    '#show: book-style\n'
+                    '#article-begin("probe-a")\n'
+                    '== Статья A <ch:probe-a>\n'
+                    + ('#figure(table([Extra]), caption: [Extra table])\n'
+                       if extra else '')
+                    + '#figure(table([A]), caption: [Table A]) <tab:probe-a>\n'
+                    '#figure(rect[Diagram A], caption: [Figure A]) <fig:probe-a>\n'
+                    '#article-begin("probe-b")\n'
+                    '== Статья B <ch:probe-b>\n'
+                    '#figure(table([B]), caption: [Table B]) <tab:probe-b>\n'
+                    '#figure(rect[Diagram B], caption: [Figure B]) <fig:probe-b>\n'
+                    'Номера: @tab:probe-a; @fig:probe-a; @tab:probe-b; @fig:probe-b.\n')
+                (root / 'figures.typ').write_text(driver)
+                result = subprocess.run([
+                    'typst', 'compile', '--root', str(root), '--ignore-system-fonts',
+                    '--font-path', str(root / 'assets/fonts'),
+                    str(root / 'figures.typ'), str(root / 'figures.pdf'),
+                ], capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual(result.stderr, '')
+                with pymupdf.open(root / 'figures.pdf') as doc:
+                    text = ' '.join(' '.join(page.get_text().split()) for page in doc)
+                    self.assertIn(f'Номера: {expected}; 1; 1; 1.', text)
+                    links = [link for page in doc for link in page.get_links()
+                             if link.get('kind') == pymupdf.LINK_GOTO]
+                    self.assertTrue(any(link.get('page') == 0 for link in links))
+                    self.assertTrue(any(link.get('page') == 1 for link in links))
+
     def test_shared_section_numbers_do_not_leak_to_next_article(self):
         with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-section-') as tmp:
             root = Path(tmp)
