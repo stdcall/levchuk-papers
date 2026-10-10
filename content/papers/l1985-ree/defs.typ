@@ -1,0 +1,5 @@
+#let Re = math.upright("Re")
+#let Sz = math.upright("Sz")
+#let PSL = math.upright("PSL")
+#let PSU = math.upright("PSU")
+#let tr = math.op("tr")

@@ -11,6 +11,37 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class FormulaLayout(unittest.TestCase):
+    def test_long_union_retains_all_sets_inside_the_margins(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-union-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            (root / 'sample.typ').write_text(
+                '#import "content/book-style.typ": book-style\n'
+                '#show: book-style\n'
+                '$ H^* = K(1,1,1) union K(3,3,3) union K(7,7,7) '
+                'union K(6,6,6) union K(7,7,6) union K(12,12,7) '
+                'union K(15,15,5). $\n')
+            result = subprocess.run([
+                'typst', 'compile', '--root', str(root), '--ignore-system-fonts',
+                '--font-path', str(root / 'assets/fonts'),
+                str(root / 'sample.typ'), str(root / 'sample.pdf')
+            ], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(result.stderr, '')
+            with pymupdf.open(root / 'sample.pdf') as doc:
+                text = ''.join(page.get_text() for page in doc)
+                self.assertEqual(text.count('∪'), 6)
+                self.assertEqual(text.count('K'), 7)
+                for page in doc:
+                    for block in page.get_text('dict')['blocks']:
+                        for line in block.get('lines', []):
+                            self.assertGreaterEqual(line['bbox'][0], 55)
+                            self.assertLessEqual(line['bbox'][2], page.rect.width - 55)
+
     def test_statement_intro_stays_with_its_first_display(self):
         with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-statement-') as tmp:
             root = Path(tmp)

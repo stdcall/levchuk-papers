@@ -30,6 +30,7 @@
 #part-title[
   Группы и алгебры Шевалле: подгруппы и автоморфизмы]
 #include "papers/l1982-parabolic/00-main.typ"
+#include "papers/l1985-ree/00-main.typ"
 #include "papers/l1990-small/00-main.typ"
 #include "papers/l1990-chevalley/00-main.typ"
 #include "papers/l1992-chevalley/00-main.typ"
@@ -60,5 +61,10 @@
 #include "papers/l2009-model/00-main.typ"
 #include "papers/l2012-model/00-main.typ"
 #include "papers/l2018-malcev/00-main.typ"
+
+#part-title[
+  Квазиполя и проективные плоскости трансляций]
+#include "papers/l2017-quasifields/00-main.typ"
+#include "papers/l2019-nearfields/00-main.typ"
 
 #include "95-publications.typ"

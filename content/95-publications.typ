@@ -237,7 +237,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk1985ReeGroupsEn.
+  В сборнике: с. @ch:l1985-ree. Перевод: @bib:pub-Levchuk1985ReeGroupsEn.
 ] <bib:pub-Levchuk1985ReeGroupsRu>
 
 #bib-item[
@@ -1026,6 +1026,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2017-quasifields.
 ] <bib:pub-Levchuk2017QuasifieldTranslationPlanesEn>
 
 #bib-item[
@@ -1091,6 +1092,7 @@
     related-dois: false,
     backlinks: false,
   )
+  В сборнике: с. @ch:l2019-nearfields.
 ] <bib:pub-Kravtsova2019NearFieldsRu>
 
 #bib-item[
