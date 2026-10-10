@@ -1,6 +1,9 @@
 #import "defs.typ": *
 #import "../../main-defs.typ": source, twisted
 #import "../../statements.typ": repeated-statement
+#import "../../collection.typ": article-introduction
+
+#article-introduction[Введение]
 
 #source(1, printed: 26)
 В статье описаны (теорема~@th:l1985-ree-maximal) классы сопряженных максимальных
