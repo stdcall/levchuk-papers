@@ -3,6 +3,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import tempfile
+import unicodedata
 import unittest
 
 import pymupdf
@@ -33,7 +34,8 @@ class FormulaLayout(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual(result.stderr, '')
             with pymupdf.open(root / 'sample.pdf') as doc:
-                text = ''.join(page.get_text() for page in doc)
+                text = unicodedata.normalize(
+                    'NFKC', ''.join(page.get_text() for page in doc))
                 self.assertEqual(text.count('∪'), 6)
                 self.assertEqual(text.count('K'), 7)
                 for page in doc:
