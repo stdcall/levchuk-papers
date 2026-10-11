@@ -30,9 +30,15 @@
 #import "papers/l2009-model/defs.typ" as l2009-model
 #import "papers/l1975-automorphisms/defs.typ" as l1975-automorphisms
 #import "papers/l2009-finitary/defs.typ" as l2009-finitary
+#import "papers/l1985-ree/defs.typ" as l1985-ree
+#import "papers/l2017-quasifields/defs.typ" as l2017-quasifields
+#import "papers/l2019-nearfields/02-subfields.typ": DF
 
 #let articles = json("../articles.json")
 #let scopes = (
+  l1985-ree: dictionary(l1985-ree),
+  l2017-quasifields: dictionary(l2017-quasifields),
+  l2019-nearfields: (DF: DF),
   l1975-automorphisms: dictionary(l1975-automorphisms),
   l2009-finitary: dictionary(l2009-finitary),
   l1992-chevalley: dictionary(l1992-chevalley),

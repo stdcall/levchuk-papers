@@ -178,7 +178,8 @@
         )
         or (
           child.has("text")
-            and child.text in ("+", "-", "−", "=", "∘", "·", "⋅", "→", "↦")
+            and child.text
+              in ("+", "-", "−", "=", "∘", "·", "⋅", "→", "↦", "∪", "∩")
         )
     )
     if separator and chunk.len() > 0 {

@@ -609,5 +609,39 @@
     "passages": [
       "eq:l2009-finitary-weyl-long-root-obstruction"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1985Ree/Approximation.lean",
+    "declarations": [
+      "LevchukPapers.L1985Ree.separating_composition"
+    ],
+    "book": "Шаг транзитивности аппроксимации перед леммой 9 статьи 1985 года.",
+    "limitations": "Композиция двух разделяющих семейств групповых гомоморфизмов снова разделяет неединичные элементы. Сюръективность, конструкция гомоморфизмов групп Ри, леммы 7–10 и теорема 3 целиком не формализованы.",
+    "passages": [
+      "pass:l1985-ree-transitivity"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2017Quasifields/Cyclic.lean",
+    "declarations": [
+      "LevchukPapers.L2017Quasifields.cyclic_commutative",
+      "LevchukPapers.L2017Quasifields.left_distributivity"
+    ],
+    "book": "Алгебраические шаги леммы 8 статьи 2017 года.",
+    "limitations": "Однопорождённый моноид коммутативен; коммутативность вместе с правой дистрибутивностью даёт левую дистрибутивность. Ассоциативность мультипликативной группы почти-поля предполагается. Классификация конечных квазиполей, связанная геометрия и другие леммы не формализованы.",
+    "passages": [
+      "lem:l2017-quasifields-one-generated-nearfield"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L2019Nearfields/Arithmetic.lean",
+    "declarations": [
+      "LevchukPapers.L2019Nearfields.quotient_order_divides_exponent"
+    ],
+    "book": "Необходимость условия n | zs в теореме 4 статьи 2019 года.",
+    "limitations": "Для группового гомоморфизма f, f(a)=1 и orderOf(f(b))=n из (a^k b^s)^z=1 выводится n | sz. Структура циклического фактора предполагается явно. Классификация почти-полей, порядок определяющего представления и теорема 4 целиком не формализованы.",
+    "passages": [
+      "th:l2019-nearfields-spectrum"
+    ]
   }
 ]

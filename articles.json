@@ -65,6 +65,11 @@
     "theme": "chevalley-automorphisms"
   },
   {
+    "id": "l1985-ree",
+    "publication": "Levchuk1985ReeGroupsRu",
+    "theme": "chevalley-automorphisms"
+  },
+  {
     "id": "l1990-small",
     "publication": "Levchuk1990SmallRankAutomorphismsRu",
     "theme": "chevalley-automorphisms"
@@ -168,5 +173,15 @@
     "id": "l2018-malcev",
     "publication": "Zotov2018MalcevCorrespondenceRu",
     "theme": "model-theory"
+  },
+  {
+    "id": "l2017-quasifields",
+    "publication": "Levchuk2017QuasifieldTranslationPlanesEn",
+    "theme": "quasifields"
+  },
+  {
+    "id": "l2019-nearfields",
+    "publication": "Kravtsova2019NearFieldsRu",
+    "theme": "quasifields"
   }
 ]

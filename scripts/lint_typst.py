@@ -322,7 +322,8 @@ LABEL_FORMS = {prefix: NAME for prefix in (
 LABEL_FORMS |= {
     # Bibliography keys: surname of the first author and year, a/b/c for
     # one author and year (Borel1956, Dynkin1952a); references.bib.
-    'bib': r'(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?[A-Z][A-Za-z]*[0-9]{4}[A-Za-z0-9]*',
+    'bib': (r'(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?[A-Z][A-Za-z]*'
+            r'(?:[0-9]{4}[A-Za-z0-9]*|NoDate)'),
     # The shared labels: every index mark carries <index-mark>
     # (main-defs.typ), every record of a numbered object <numbered>
     # (numbering.typ).

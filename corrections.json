@@ -5009,6 +5009,196 @@
       "corrected": "$T_(2,-1)+a sum_(u=1)^3 K_sigma e_(u 0), M_2, T_(3 2)$",
       "reason": "Пропущена нормальная абелева подгруппа $T_(3 2)$ порядка $2^6$. Её корневой носитель состоит из всей третьей строки; произведения корневых элементов этой строки нулевые, а носитель замкнут вверх.",
       "verified_by": "Wong1982, Abelian unipotent subgroups of finite orthogonal groups, теоремаII(b), с.242; определения, с.225. Корневые соотношения теоремы2 статьи2009."
+    },
+    {
+      "id": "l1985-ree-C001",
+      "printed_page": 34,
+      "section": "l1985-ree · § 2. Максимальные подгруппы группы Ри",
+      "place": "доказательство леммы 6, разложение порядка группы",
+      "original": "$|Re(q)| = 2^3 3^3 |A_0| |A_1| |A_2| |A_3|$",
+      "corrected": "$|Re(q)| = 2^3 q^3 |A_0| |A_1| |A_2| |A_3|$",
+      "reason": "Из приведённых порядков четырёх подгрупп следует $8 product_(i=0)^3 |A_i| = (q-1)(q^3+1)$. Порядок группы Ри равен $q^3(q-1)(q^3+1)$, поэтому множитель должен быть $q^3$. В английском переводе на с. 22 повторена та же опечатка.",
+      "verified_by": "checks/sage/ree1985.py: символьное целочисленное тождество и q=27,243,2187; pass:l1985-ree-order-factorization."
+    },
+    {
+      "id": "l1985-ree-C002",
+      "printed_page": 40,
+      "section": "l1985-ree · Литература",
+      "place": "запись 10",
+      "original": "G. SEITS",
+      "corrected": "G. Seitz",
+      "reason": "Исправлена фамилия автора статьи Subgroups of finite groups of Lie type.",
+      "verified_by": "https://doi.org/10.1090/S1061-0022-08-01036-4, список литературы; Gary M. Seitz, J. Algebra 61:1 (1979), 16–27, DOI 10.1016/0021-8693(79)90302-8."
+    },
+    {
+      "id": "l2017-quasifields-C001",
+      "printed_page": 689,
+      "section": "l2017-quasifields · § 2. Some remarks and questions",
+      "place": "определение 1, условие 4",
+      "original": "$x,y,z in S$",
+      "corrected": "$x,y,z in Q$",
+      "reason": "В определении введено множество $Q$; обозначение $S$ в этом месте не определено.",
+      "verified_by": "def:l2017-quasifields-right-quasifield; определение 1, условия 1–4."
+    },
+    {
+      "id": "l2017-quasifields-C002",
+      "printed_page": 689,
+      "section": "l2017-quasifields · § 2. Some remarks and questions",
+      "place": "замечание 1",
+      "original": "$a x = b x + c$",
+      "corrected": "$x a = x b + c$",
+      "reason": "При принятой правой дистрибутивности напечатанное уравнение равносильно $(a-b)x=c$ и уже однозначно разрешимо по свойству мультипликативной петли. Дополнительная аксиома квазиполя относится к уравнению $x a=x b+c$.",
+      "verified_by": "rem:l2017-quasifields-weak-quasifield; T. G. Ostrom, Transitivities in projective planes, 1957, § 2, условия 2,5,6; DOI 10.4153/CJM-1957-046-8."
+    },
+    {
+      "id": "l2017-quasifields-C003",
+      "printed_page": 690,
+      "section": "l2017-quasifields · § 3. Semifields of order 16",
+      "place": "теорема 3, список противоположных полуполей",
+      "original": "Повторное $V_6$ в шестой позиции; $T_21$ в последнем списке.",
+      "corrected": "$V_16$ в шестой позиции; $T_24$ в последнем списке.",
+      "reason": "Таблица 1 задаёт пару $V_15$ и $V_16$. Исправленный список противоположных полуполей содержит каждый индекс от 1 до 18 ровно один раз. Семья $T_24$ указана в начале теоремы и в таблице 1.",
+      "verified_by": "th:l2017-quasifields-order16-isomorphism; tab:l2017-quasifields-order16; checks/sage/quasifields2017.py."
+    },
+    {
+      "id": "l2017-quasifields-C004",
+      "printed_page": 691,
+      "section": "l2017-quasifields · § 4. Projective translation planes and its coordinatizing quasifields",
+      "place": "определение плоскости трансляций",
+      "original": "acts transitively on points of affine plane $pi without l$",
+      "corrected": "acts transitively on the affine points of each line through $P$ distinct from $l$",
+      "reason": "Группа перспективностей с фиксированным центром $P$ сохраняет каждую прямую через $P$. Её орбита не может содержать точки разных таких прямых. Определение требует транзитивности на аффинных точках каждой прямой данного направления.",
+      "verified_by": "pass:l2017-quasifields-translation-plane; T. G. Ostrom, Transitivities in projective planes, 1957, с. 389, определение p–L transitivity; DOI 10.4153/CJM-1957-046-8."
+    },
+    {
+      "id": "l2017-quasifields-C005",
+      "printed_page": 692,
+      "section": "l2017-quasifields · § 4. Projective translation planes and its coordinatizing quasifields",
+      "place": "отображение, задающее spread set",
+      "original": "an bijective map from linear space $W$ to ring $M(n,F)$",
+      "corrected": "an injective map from linear space $W$ to ring $M(n,F)$",
+      "reason": "Отображение параметризует образ $R$, а не всё матричное кольцо. При конечном поле из $q$ элементов мощность $W$ равна $q^n$, а мощность $M(n,F)$ равна $q^(n^2)$; при $n>1$ они различны. Кроме того, матричное кольцо содержит ненулевые вырожденные матрицы, запрещённые условием на $R$.",
+      "verified_by": "pass:l2017-quasifields-spread-map; G. P. Nagy, Linear groups as right multiplication groups of quasifields, arXiv:1210.1652, § 2; J. Sib. Fed. Univ. Math. Phys. 15:3 (2022), с. 379."
+    },
+    {
+      "id": "l2017-quasifields-C006",
+      "printed_page": 697,
+      "section": "l2017-quasifields · References",
+      "place": "записи 8 и 9",
+      "original": "Wene: 41, 791–803 (1991). Rúa: 22, 223–233 (2004).",
+      "corrected": "Wene: 41, 222–233 (1991). Rúa: 32(2), 793–803 (2004).",
+      "reason": "Координаты уточнены по издательским записям обеих статей.",
+      "verified_by": "https://doi.org/10.1007/BF02227457; https://doi.org/10.1081/AGB-120027930."
+    },
+    {
+      "id": "l2017-quasifields-C007",
+      "printed_page": 697,
+      "section": "l2017-quasifields · References",
+      "place": "запись 14",
+      "original": "Proc. Steklov Inst. Math. Mech.",
+      "corrected": "Тр. ИММ УрО РАН, 21:3 (2015), 197–212.",
+      "reason": "Указано действительное издание цитируемой статьи Левчука и Штуккерта о полуполях малых чётных порядков.",
+      "verified_by": "https://www.mathnet.ru/rus/timm1213"
+    },
+    {
+      "id": "l2017-quasifields-C008",
+      "printed_page": 698,
+      "section": "l2017-quasifields · References",
+      "place": "запись 24",
+      "original": "144–159",
+      "corrected": "141–159",
+      "reason": "Исправлена начальная страница статьи Штуккерта.",
+      "verified_by": "https://www.mathnet.ru/eng/iigum/v7/p141"
+    },
+    {
+      "id": "l2017-quasifields-C009",
+      "printed_page": 698,
+      "section": "l2017-quasifields · References",
+      "place": "запись 32",
+      "original": "Russian Math. (Iz. VUZ) 60(9), 10–25 (2016).",
+      "corrected": "Russian Math. 60(9), 7–22 (2016).",
+      "reason": "Страницы русского оригинала заменены страницами процитированного английского перевода.",
+      "verified_by": "https://doi.org/10.3103/S1066369X16090024"
+    },
+    {
+      "id": "l2017-quasifields-C010",
+      "printed_page": 698,
+      "section": "l2017-quasifields · References",
+      "place": "запись 39",
+      "original": "W. S. M. Gagola",
+      "corrected": "S. M. Gagola III",
+      "reason": "Исправлено имя автора.",
+      "verified_by": "https://doi.org/10.1016/j.jalgebra.2010.02.042; Crossref publisher record."
+    },
+    {
+      "id": "l2017-quasifields-C011",
+      "printed_page": 698,
+      "section": "l2017-quasifields · References",
+      "place": "запись 21",
+      "original": "The Kourovka Notebook, 15th ed. (1992).",
+      "corrected": "Коуровская тетрадь. Нерешенные вопросы теории групп, 12-е изд. (1992).",
+      "reason": "Сохранён процитированный год. Издание 1992 года является двенадцатым; пятнадцатое издание вышло в 2002 году.",
+      "verified_by": "НЭБ, запись ГПНТБ России 000219_000026_RU_ГПНТБ России_IBIS_0000182249; V. D. Mazurov, E. I. Khukhro, The Kourovka Notebook, 15th ed., 2002, ISBN 5943560602."
+    },
+    {
+      "id": "l2019-nearfields-C001",
+      "printed_page": 110,
+      "section": "l2019-nearfields · § 2. Подполя конечного почти-поля",
+      "place": "определение класса почти-полей Диксона",
+      "original": "$q=p^l$, $l>1$",
+      "corrected": "$q=p^l$, $l>=1$",
+      "reason": "Степень над простым полем может быть равна 1. Напечатанное ограничение исключает собственные примеры статьи $DF(3,2)$, $DF(5,2)$ и $DF(7,2)$, а также случай $z=1$ леммы 2.",
+      "verified_by": "pass:l2019-nearfields-dickson-class; лемма 2, примеры 3,4; checks/sage/nearfields2019.py."
+    },
+    {
+      "id": "l2019-nearfields-C002",
+      "printed_page": 111,
+      "section": "l2019-nearfields · § 2. Подполя конечного почти-поля",
+      "place": "формула (2.3) и два последующих абзаца",
+      "original": "$h_(i+1)/h_i$",
+      "corrected": "$h_i/h_(i+1)$",
+      "reason": "В строго убывающей цепи $H_i$ порядки равны $p^(h_i)$, поэтому целый простой индекс определяется отношением $h_i/h_(i+1)$. Первая часть теоремы даёт $h_(i+1)=h_i/p_j$. Исправлены три вхождения обратного отношения.",
+      "verified_by": "eq:l2019-nearfields-descending-chain; checks/sage/nearfields2019.py: 146 допустимых ограниченных случаев."
+    },
+    {
+      "id": "l2019-nearfields-C003",
+      "printed_page": 113,
+      "section": "l2019-nearfields · § 3. Мультипликативная группа и автоморфизмы конечного почти-поля",
+      "place": "перед леммой 4",
+      "original": "цикличность фактор-группы $Q^* \"/\" Z(Q^*)$",
+      "corrected": "цикличность фактор-группы $Q^* \"/\" ⟨a⟩$",
+      "reason": "Нормальная циклическая подгруппа $⟨a⟩$ и циклический фактор по ней дают метацикличность. Фактор по центру не обязан быть циклическим: для $DF(5,2)$ он неабелев и имеет порядок 6.",
+      "verified_by": "lem:l2019-nearfields-metacyclic; checks/sage/nearfields2019.py: точная модель DF(5,2), проверка центра и неабелевости фактора."
+    },
+    {
+      "id": "l2019-nearfields-C004",
+      "printed_page": 114,
+      "section": "l2019-nearfields · § 3. Мультипликативная группа и автоморфизмы конечного почти-поля",
+      "place": "формула (3.2)",
+      "original": "$m divides lr((k(q^(z s)-1)/(q^s-1)+z s t/n))$",
+      "corrected": "$n divides z s$ и $m divides lr((k(q^(z s)-1)/(q^s-1)+z s t/n))$",
+      "reason": "Добавлено необходимое условие, уже выведенное в доказательстве из нулевого остатка при делении $z s$ на $n$. Без него при $DF(7,2)$, $m=24$, $t=4$, $k=22$, $s=z=1$ исходная делимость выполнена, хотя элемент $a^22 b$ имеет порядок 4. Исправленная формула проверена для всех элементов $DF(5,2)$ и $DF(7,2)$.",
+      "verified_by": "eq:l2019-nearfields-spectrum-condition; checks/sage/nearfields2019.py; LevchukPapers.L2019Nearfields.quotient_order_divides_exponent в Lean."
+    },
+    {
+      "id": "l2019-nearfields-C005",
+      "printed_page": 115,
+      "section": "l2019-nearfields · Литература",
+      "place": "запись 11",
+      "original": "C. Betrh",
+      "corrected": "G. Betsch",
+      "reason": "Исправлено имя редактора сборника трудов по почти-кольцам.",
+      "verified_by": "https://www.algebra.uni-linz.ac.at/Nearrings/nrbibl.pdf; https://doi.org/10.1016/S0304-0208(08)72282-5"
+    },
+    {
+      "id": "l2019-nearfields-C006",
+      "printed_page": 115,
+      "section": "l2019-nearfields · Литература",
+      "place": "запись 14",
+      "original": "DOI 10.1017/S0004972700043914",
+      "corrected": "DOI 10.1007/BF02941292",
+      "reason": "Первый DOI относится к автореферату Данч 1974 года в Bull. Austral. Math. Soc. Правильный DOI относится к процитированной статье Locally finite near-fields, Abh. Math. Semin. Univ. Hambg. 48 (1979), 89–107.",
+      "verified_by": "https://abhandlungen.math.uni-hamburg.de/en/archiv.php?vol=48; https://doi.org/10.1007/BF02941292; https://doi.org/10.1017/S0004972700043914"
     }
   ]
 }

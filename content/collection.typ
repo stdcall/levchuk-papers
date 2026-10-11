@@ -45,6 +45,9 @@
   }
   section-examples.update(0)
   counter("numbered:theorem-cor").update(0)
+  for kind in (table, image, raw) {
+    counter(figure.where(kind: kind)).update(0)
+  }
   editorial-note-counter.update(0)
   counter(footnote).update(0)
 }
