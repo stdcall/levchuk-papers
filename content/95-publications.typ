@@ -171,7 +171,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk1983DicksonEn.
+  В сборнике: с. @ch:l1983-dickson. Перевод: @bib:pub-Levchuk1983DicksonEn.
 ] <bib:pub-Levchuk1983DicksonRu>
 
 #bib-item[
@@ -193,7 +193,7 @@
     related-dois: false,
     backlinks: false,
   )
-  Перевод: @bib:pub-Levchuk1983RootGeneratorsEn.
+  В сборнике: с. @ch:l1983-root. Перевод: @bib:pub-Levchuk1983RootGeneratorsEn.
 ] <bib:pub-Levchuk1983RootGeneratorsRu>
 
 #bib-item[

@@ -47,8 +47,9 @@
   "Belegradek1999",
 )] <bib:l2016-hypercentral-Belegradek1999>
 #bib-item[#bib-description(
-  "Levchuk2009",
-)] <bib:l2016-hypercentral-Levchuk2009>
+    "Levchuk2009",
+  ) Перевод в сборнике: с.~@ch:l2009-model.
+] <bib:l2016-hypercentral-Levchuk2009>
 #bib-item[#bib-description(
   "Videla1990",
 )] <bib:l2016-hypercentral-Videla1990>

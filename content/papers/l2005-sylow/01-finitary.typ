@@ -38,13 +38,14 @@ the “adjoint” group of $N Phi(K)$ with respect to a certain operation $compo
 by [@bib:l2005-sylow-Levchuk1990]. It turns to be that the ideals of Lie ring
 $N Phi(K)$ and only they are normal subgroups of the group $(N Phi(K), compose)$
 for a field $K = 2K$ with $K = 3K$ at $Phi = G_2$; all ideals are also described
-in [@bib:l2005-sylow-Levchuk1992]. Similarly, the normal structure of unipotent
-subgroups $U G(K)$ of the twisted group of any Lie type $G$ (see Section
-@sec:l2005-sylow-intersections) are described in [@bib:l2005-sylow-Levchuk1999,
-@bib:l2005-sylow-Suleimanova2000] and
-[@bib:l2005-sylow-Levchuk2002Hypercentral]. Note that if $K = Z_(p^m)$ and $J$
-is a maximal ideal of $K$, then the product of $U Phi(K)$ and of the congruence
-subgroup by $J$-level is a Sylow $p$-subgroup of the Chevalley group $Phi(K)$.
+in [@bib:l2005-sylow-Levchuk1992, Section~@sec:l1992-chevalley-ideals].
+Similarly, the normal structure of unipotent subgroups $U G(K)$ of the twisted
+group of any Lie type $G$ (see Section @sec:l2005-sylow-intersections) are
+described in [@bib:l2005-sylow-Levchuk1999, @bib:l2005-sylow-Suleimanova2000]
+and [@bib:l2005-sylow-Levchuk2002Hypercentral]. Note that if $K = Z_(p^m)$ and
+$J$ is a maximal ideal of $K$, then the product of $U Phi(K)$ and of the
+congruence subgroup by $J$-level is a Sylow $p$-subgroup of the Chevalley group
+$Phi(K)$.
 #source(2, printed: 226)
 The question concerning a description of its automorphisms
 [@bib:l2005-sylow-Kourovka1992, Question 12.42] is still open.

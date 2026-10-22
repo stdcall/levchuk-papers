@@ -38,7 +38,8 @@ $U$ and its associated Lie ring, cf. [@bib:l2012-extremal-en-Levchuk1976,
 @bib:l2012-extremal-en-Levchuk1992, @bib:l2012-extremal-en-Kuzucuoglu2001,
 @bib:l2012-extremal-en-Kuzucuoglu2004, @bib:l2012-extremal-en-Levchuk2009].
 
-The theorems announced in [@bib:l2012-extremal-en-Levchuk2008] and Theorems
+The theorems announced in [@bib:l2012-extremal-en-Levchuk2008,
+Section~@sec:l2008-normal-structure] and Theorems
 @th:l2012-extremal-en-frame-normal and @th:l2012-extremal-en-classical-normal
 about the normal structure use the concept of corners of subsets in $U$ (for
 notation see Section @sec:l2012-extremal-en-preliminaries). Thus, the _extremal
@@ -245,7 +246,7 @@ we define an adjoint group $(N Phi(K),compose)$, which is isomorphic to the
 group $U Phi(K)$. Similar representation of $U twisted(m, Phi)(K)$ for
 $p(Phi) = 1$ as an adjoint group of certain $K_sigma$-module
 $N twisted(m, Phi)(K)$ is used in [@bib:l2012-extremal-en-Levchuk1990] and
-[@bib:l2012-extremal-en-Levchuk2009].
+[@bib:l2012-extremal-en-Levchuk2009, Section~@sec:l2009-finitary-finitary].
 
 The set of r-projections of all elements in a subset $H subset.eq U G(K)$ is
 called an _r-projection_ of $H$. If an s-projection of $gamma in H$ is the

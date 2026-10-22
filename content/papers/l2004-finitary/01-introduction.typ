@@ -34,7 +34,8 @@ $alpha arrow.r e+alpha$ ($alpha in R$) for the identity $Gamma$-matrix $e$ is a
 well-known isomorphism between them.) Automorphisms of $G(R)$ and those of the
 associated Lie ring $Lambda(R)$ or $R$ are described if either
 $|Gamma|<infinity$ or $K$ is arbitrary ring with no zero-divisors, see
-[@bib:l2004-finitary-Levchuk1975; @bib:l2004-finitary-Levchuk1983;
+[@bib:l2004-finitary-Levchuk1975, Theorems~@th:l1975-automorphisms-decomposition
+and @th:l1975-automorphisms-ring-decomposition; @bib:l2004-finitary-Levchuk1983;
 @bib:l2004-finitary-Levchuk1987]. In Remark
 @rem:l2004-finitary-standard-isomorphism we define a standard isomorphism of
 $G(R)$ (similarly, $Lambda(R)$) as a product of some main isomorphisms. Let $f$
@@ -49,16 +50,16 @@ $
   quad (x in K,i,j in Gamma,i>j)
 $ <eq:l2004-finitary-idempotent-isomorphism>
 for any anti-automorphism $'$ of the chain $Gamma$, see
-[@bib:l2004-finitary-Levchuk1975] and [@bib:l2004-finitary-Levchuk1983]. Rings
-$K$ and $S$ are called idempotent isomorphic, if there exists some idempotent
-isomorphism between them. Evidently, every ring isomorphism $theta:K arrow.r S$
-and chain isomorphism (or isometry) $':Gamma arrow.r Omega$ induce,
-respectively, a ‘$S$-ring isomorphism’ $x e_(i j) arrow.r x^theta e_(i j)$ and
-‘$Omega$-chain isomorphism’ $x e_(i j) arrow.r x e_(i' j')$
-$(x in K,i,j in Gamma,i>j)$ of the ring $R$. Also, the opposite isomorphism, a
-central (which acts like the identity, modulo the center), hypercentral of
-height $<=3$ and triangular automorphisms of $G(R)$ (resp. $Lambda(R)$) will be
-use in the paper. We now formulate the main result.
+[@bib:l2004-finitary-Levchuk1975, Section~@sec:l1975-automorphisms-groups] and
+[@bib:l2004-finitary-Levchuk1983]. Rings $K$ and $S$ are called idempotent
+isomorphic, if there exists some idempotent isomorphism between them. Evidently,
+every ring isomorphism $theta:K arrow.r S$ and chain isomorphism (or isometry)
+$':Gamma arrow.r Omega$ induce, respectively, a ‘$S$-ring isomorphism’
+$x e_(i j) arrow.r x^theta e_(i j)$ and ‘$Omega$-chain isomorphism’
+$x e_(i j) arrow.r x e_(i' j')$ $(x in K,i,j in Gamma,i>j)$ of the ring $R$.
+Also, the opposite isomorphism, a central (which acts like the identity, modulo
+the center), hypercentral of height $<=3$ and triangular automorphisms of $G(R)$
+(resp. $Lambda(R)$) will be use in the paper. We now formulate the main result.
 
 #common.theorem-like("Main theorem", "th", none, false)[
   Let $K$ and $S$ be associative rings with identities, $Gamma$ and $Omega$ be
@@ -108,8 +109,8 @@ by using close structural connections between $G(R)$ and $Lambda(R)$, see also
 [@bib:l2004-finitary-Levchuk1976], [@bib:l2004-finitary-Kuzucuoglu2000, §
 @sec:l2000-ideals-structural] and [@bib:l2004-finitary-Zelmanov1995]. Methods
 and results of [@bib:l2004-finitary-Levchuk1983] were extended to all Chevalley
-groups in [@bib:l2004-finitary-Levchuk1990; @bib:l2004-finitary-Levchuk1992] and
-to certain radical matrix rings in [@bib:l2004-finitary-Kuzucuoglu2001;
-@bib:l2004-finitary-Levchuk2002]. In the present paper this approach is also
-used to investigate of isomorphisms of $G(R)$ and $Lambda(R)$ for
-$R=NT(Gamma, K)$.
+groups in [@bib:l2004-finitary-Levchuk1990; @bib:l2004-finitary-Levchuk1992,
+Section~@sec:l1992-chevalley-automorphisms] and to certain radical matrix rings
+in [@bib:l2004-finitary-Kuzucuoglu2001; @bib:l2004-finitary-Levchuk2002]. In the
+present paper this approach is also used to investigate of isomorphisms of
+$G(R)$ and $Lambda(R)$ for $R=NT(Gamma, K)$.

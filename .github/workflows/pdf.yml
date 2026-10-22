@@ -99,14 +99,25 @@ jobs:
           persist-credentials: false
       - name: Exact checks for group, quasifield and nearfield articles
         run: |
-          for article in levchuk1975_2009 ree1985 quasifields2017 nearfields2019; do
+          for script in checks/sage/levchuk1975_2009.py checks/sage/ree1985.py \
+            checks/sage/quasifields2017.py checks/sage/nearfields2019.py \
+            checks/sage/l1983-root/*.py checks/sage/l1983-dickson/*.py; do
           docker run --rm --network none --read-only --cpus 2 --memory 4g \
             --tmpfs /tmp --env DOT_SAGE=/tmp/sage \
             --env MPLCONFIGDIR=/tmp/matplotlib --env XDG_CACHE_HOME=/tmp/cache \
             --mount type=bind,source="$PWD",target=/work,readonly \
             --entrypoint sage \
             sagemath/sagemath@sha256:4f5589eb6c565949a006f8665de2876b8414410daf5ac554f4434a15d4f3d528 \
-            -python "/work/checks/sage/$article.py"
+            -python "/work/$script"
+          done
+          for script in checks/gap/l1983-root/*.g checks/gap/l1983-dickson/*.g; do
+          docker run --rm --network none --read-only --cpus 2 --memory 4g \
+            --tmpfs /tmp --env DOT_SAGE=/tmp/sage \
+            --env MPLCONFIGDIR=/tmp/matplotlib --env XDG_CACHE_HOME=/tmp/cache \
+            --mount type=bind,source="$PWD",target=/work,readonly \
+            --entrypoint sage \
+            sagemath/sagemath@sha256:4f5589eb6c565949a006f8665de2876b8414410daf5ac554f4434a15d4f3d528 \
+            --gap -q -b --quitonbreak "/work/$script"
           done
   release:
     # Every commit on main is released: tag YYYY-MM-DD.N (build date in UTC

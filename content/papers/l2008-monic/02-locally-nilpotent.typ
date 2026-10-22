@@ -19,10 +19,11 @@ Usually all automorphisms of $R$ are considered as standard automorphisms for
 the adjoint group and associated rings. Every inner automorphism of the adjoint
 group gives an inner automorphism of the ring $R$.
 
-By [@bib:l2008-monic-Levchuk1992], an automorphism of a ring or group is called
-_hypercentral of height $m$_ (or _central_ for $m <= 1$), if it acts like the
-identity, modulo the m-th hypercenter and even up to multiplication by inner
-automorphisms such $m$ is the least.
+By [@bib:l2008-monic-Levchuk1992,
+@pass:l1992-chevalley-hypercentral-definition[definition]], an automorphism of a
+ring or group is called _hypercentral of height $m$_ (or _central_ for
+$m <= 1$), if it acts like the identity, modulo the m-th hypercenter and even up
+to multiplication by inner automorphisms such $m$ is the least.
 
 Let $K$ be an associative ring with identity. Choose a chain (or linearly
 ordered set) $Gamma$ by an order relation $<=$. A niltriangular $Gamma$-matrix
@@ -161,7 +162,13 @@ fields [@bib:l2008-monic-Kondratyev1986, Problem (1.5)] has been solved in the
 
 #theorem[Every automorphism of the unipotent subgroup $U G(K)$ of Lie rank
   $>= 3$ over an arbitrary field $K$ is a product of some standard and
-  hypercentral of height $<= 5$ automorphisms.]
+  hypercentral of height $<= 5$ automorphisms.#ed-note[The cited
+    Theorem~@th:l1992-chevalley-high-rank-automorphisms assumes Lie rank $>4$
+    and gives the bound $m<=n-1$ for types $B_n,C_n$, and $m<=5$ for the other
+    types. Its following paragraph exhibits automorphisms of $U C_n lr((K))$ of
+    height $n-1$ in characteristic 2
+    (@pass:l1992-chevalley-characteristic-two-shear[the explicit construction]).
+    Thus that theorem does not establish the uniform bound stated here.]]
 <th:l2008-monic-unipotent-automorphisms>
 
 For the unipotent group of the classical types
@@ -172,7 +179,9 @@ $ B_Gamma, C_Gamma, D_Gamma, twisted(2, A_Gamma), twisted(2, D_Gamma), $
 <eq:l2008-monic-finitary-types>
 
 respectively, with an arbitrary chain $Gamma$ have been investigated, see
-[@bib:l2008-monic-Levchuk1992], [@bib:l2008-monic-LevchukSuleimanova2008] etc.
+[@bib:l2008-monic-Levchuk1992, Section~@sec:l1992-chevalley-ideals],
+[@bib:l2008-monic-LevchukSuleimanova2008, Section~@sec:l2008-normal-corollaries]
+etc.
 
 #hypothesis[Does Theorem~@th:l2008-monic-unipotent-automorphisms hold for the
   finitary unipotent group $U G(K)$ of types @eq:l2008-monic-finitary-types with
@@ -184,14 +193,15 @@ by using the description of maximal abelian ideals of associated rings. There
 exist close structural connections of normal subgroups of $U G(K)$ and ideals of
 the associated Lie ring. The normal structure and maximal abelian normal
 subgroups of $U G(K)$ are described in a uniform form by V. Levchuk and G.
-Suleimanova [@bib:l2008-monic-LevchukSuleimanova2008]. Also, the last
-description allows one to find the large (or the highest order) abelian
+Suleimanova [@bib:l2008-monic-LevchukSuleimanova2008,
+Sections~@sec:l2008-normal-structure and @sec:l2008-normal-abelian]. Also, the
+last description allows one to find the large (or the highest order) abelian
 subgroups of $U G(K)$ over finite fields in explicit form, see A. S.
 Kondratyev’s question [@bib:l2008-monic-Kondratyev1986, Problem (1.6)]. We
 obtain all large abelian normal subgroups of $U G(K)$ directly from
-[@bib:l2008-monic-LevchukSuleimanova2008]. As it was recently shown by G.
-Suleimanova, there exist large abelian subgroups of some groups $U G(K)$ which
-are not conjugated in the Chevalley group $G(K)$ with a normal subgroup of
-$U G(K)$. Therefore it is natural to investigate the question of description of
-all such exceptional cases.
+[@bib:l2008-monic-LevchukSuleimanova2008, Corollary~@cor:l2008-normal-largest].
+As it was recently shown by G. Suleimanova, there exist large abelian subgroups
+of some groups $U G(K)$ which are not conjugated in the Chevalley group $G(K)$
+with a normal subgroup of $U G(K)$. Therefore it is natural to investigate the
+question of description of all such exceptional cases.
 <pass:l2008-monic-exceptional-large-question>

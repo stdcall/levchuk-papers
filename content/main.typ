@@ -30,6 +30,8 @@
 #part-title[
   Группы и алгебры Шевалле: подгруппы и автоморфизмы]
 #include "papers/l1982-parabolic/00-main.typ"
+#include "papers/l1983-dickson/00-main.typ"
+#include "papers/l1983-root/00-main.typ"
 #include "papers/l1985-ree/00-main.typ"
 #include "papers/l1990-small/00-main.typ"
 #include "papers/l1990-chevalley/00-main.typ"

@@ -17,8 +17,9 @@
 #bib-item[#bib-description("Levchuk1983ConnectionsII") В сборнике:
   @ch:l1983.] <bib:l2011-local-Levchuk1983ConnectionsII>
 #bib-item[#bib-description(
-  "Levchuk2009ElementaryEquivalence",
-)] <bib:l2011-local-Levchuk2009ElementaryEquivalence>
+    "Levchuk2009ElementaryEquivalence",
+  ) Перевод в сборнике: с.~@ch:l2009-model.
+] <bib:l2011-local-Levchuk2009ElementaryEquivalence>
 #bib-item[#bib-description(
   "Serre1969LieAlgebras",
 )] <bib:l2011-local-Serre1969LieAlgebras>

@@ -154,6 +154,51 @@ class FormulaLayout(unittest.TestCase):
                             self.assertLessEqual(line['bbox'][2], page.rect.width - 55)
 
 
+    def test_root_function_products_wrap_without_losing_factors_or_tag_clearance(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-root-product-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            (root / 'sample.typ').write_text(
+                '#import "content/book-style.typ": book-style\n'
+                '#show: book-style\n'
+                '$ [x_a lr((u)), x_(a+b) lr((v))] = '
+                'x_(2a+b) lr((plus.minus (u overline(v)+overline(u)v))) times '
+                'x_(3a+b) lr((plus.minus (u overline(u)overline(overline(v)) '
+                '+overline(u)overline(overline(u))v '
+                '+overline(overline(u))u overline(v)))) '
+                'x_(3a+2b) lr((plus.minus (u overline(v)overline(overline(v)) '
+                '+overline(u)overline(overline(v))v '
+                '+overline(overline(u))v overline(v)))). $ '
+                '<eq:root-product>\n')
+            result = subprocess.run([
+                'typst', 'compile', '--root', str(root), '--ignore-system-fonts',
+                '--font-path', str(root / 'assets/fonts'),
+                str(root / 'sample.typ'), str(root / 'sample.pdf')
+            ], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(result.stderr, '')
+            with pymupdf.open(root / 'sample.pdf') as doc:
+                self.assertEqual(len(doc), 1)
+                text = doc[0].get_text()
+                self.assertEqual(text.count('𝑥'), 5, text)
+                spans = [span for block in doc[0].get_text('dict')['blocks']
+                         for line in block.get('lines', [])
+                         for span in line['spans']]
+                for span in spans:
+                    self.assertGreaterEqual(span['bbox'][0], 55)
+                    self.assertLessEqual(span['bbox'][2], doc[0].rect.width - 55)
+                tag = next(span for span in spans if span['text'] == '(1)')
+                for span in spans:
+                    if 'STIX' not in span['font']:
+                        continue
+                    if (span['bbox'][1] < tag['bbox'][3]
+                            and span['bbox'][3] > tag['bbox'][1]):
+                        self.assertLessEqual(span['bbox'][2] + 4, tag['bbox'][0])
+
     def test_equation_body_leaves_room_for_its_actual_number(self):
         with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-number-gap-') as tmp:
             root = Path(tmp)

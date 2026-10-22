@@ -19,17 +19,21 @@ arbitrary associative ring $K$ with identity automorphism groups of #source(
   2,
   printed: 474,
 )$NT_n lr((K))$, $G(NT_n lr((K)))$ and $Lambda(NT_n lr((K)))$ were described in
-[@bib:l2001-automorphisms-Levchuk1975; @bib:l2001-automorphisms-Levchuk1983,
-Theorem~@th:l1983-main-automorphisms]; see surveys in
-[@bib:l2001-automorphisms-Hahn1984], [@bib:l2001-automorphisms-Merzlyakov1978].
-This result was extended to all Chevalley groups in
-[@bib:l2001-automorphisms-Levchuk1990], [@bib:l2001-automorphisms-Levchuk1992]
-and so the problem (1.5) of [@bib:l2001-automorphisms-Kondratyev1986] on
-unipotent subgroups of Chevalley groups was solved. On the other hand, the
-question of description of automorphisms of Sylow $p$-subgroups of Chevalley
-groups over $Z_(p^m)$ for $m>1$ [@bib:l2001-automorphisms-Kourovka1992, Question
-12.42] is still open. Let $M_n lr((J))$ be the ring of all $n times n$ matrices
-over an ideal $J$ of $K$ and
+[@bib:l2001-automorphisms-Levchuk1975,
+Theorems~@th:l1975-automorphisms-decomposition and
+@th:l1975-automorphisms-ring-decomposition;
+@bib:l2001-automorphisms-Levchuk1983, Theorem~@th:l1983-main-automorphisms]; see
+surveys in [@bib:l2001-automorphisms-Hahn1984],
+[@bib:l2001-automorphisms-Merzlyakov1978]. This result was extended to all
+Chevalley groups in [@bib:l2001-automorphisms-Levchuk1990],
+[@bib:l2001-automorphisms-Levchuk1992,
+Section~@sec:l1992-chevalley-automorphisms] and so the problem (1.5) of
+[@bib:l2001-automorphisms-Kondratyev1986] on unipotent subgroups of Chevalley
+groups was solved. On the other hand, the question of description of
+automorphisms of Sylow $p$-subgroups of Chevalley groups over $Z_(p^m)$ for
+$m>1$ [@bib:l2001-automorphisms-Kourovka1992, Question 12.42] is still open. Let
+$M_n lr((J))$ be the ring of all $n times n$ matrices over an ideal $J$ of $K$
+and
 $ R_n lr((K,J)) := NT_n lr((K))+M_n lr((J)). $
 By [@bib:l2001-automorphisms-Kargapolov1979, 11.3.3] Sylow $p$-subgroups of the
 group $GL_n lr((Z_(p^m)))$ are isomorphic to the adjoint group of the ring

@@ -85,9 +85,10 @@ the chain $Gamma$ is dense.
 ]
 Consider hypercentral automorphisms of $G(R)$ and $Lambda(R)$. Let $m$ be a
 positive integer and $m$th hypercenter does not coincide with $R$. According to
-[@bib:l2004-finitary-Levchuk1990; @bib:l2004-finitary-Levchuk1992], an
-automorphism is called hypercentral of height $<=m$ if it acts like the
-identity, modulo the $m$th hypercenter. By [@bib:l2004-finitary-Levchuk1983;
+[@bib:l2004-finitary-Levchuk1990; @bib:l2004-finitary-Levchuk1992,
+@pass:l1992-chevalley-hypercentral-definition[definition]], an automorphism is
+called hypercentral of height $<=m$ if it acts like the identity, modulo the
+$m$th hypercenter. By [@bib:l2004-finitary-Levchuk1983;
 @bib:l2004-finitary-Levchuk1987], in the conditions of Main Theorem on $K$ and
 $Gamma$, every hypercentral automorphism of $Lambda(R)$ is a product of certain
 inner and central automorphisms and the following automorphisms:

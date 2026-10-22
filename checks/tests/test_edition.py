@@ -10,6 +10,18 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class Edition(unittest.TestCase):
+    def test_corrections_choose_the_longest_matching_article_id(self):
+        driver = ('#import "/content/corrections-defs.typ": correction-article\n'
+                  '#metadata(("l1983-C001", "l1983-root-C001").map('
+                  'id => correction-article(id).id))\n')
+        result = subprocess.run([
+            'typst', 'query', '--root', str(ROOT),
+            '--ignore-system-fonts', '--font-path', str(ROOT / 'assets/fonts'),
+            '-', 'metadata', '--field', 'value',
+        ], input=driver, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(result.stdout), [['l1983', 'l1983-root']])
+
     def test_correction_fields_compile_individually(self):
         entries = json.loads((ROOT / 'corrections.json').read_text())['entries']
         ids = [entry['id'] for entry in entries]

@@ -166,10 +166,27 @@
   let chunks = ()
   let chunk = ()
   let has-grouped-factor = body.children.any(grouped-factor)
-  for child in body.children {
+  let previous = none
+  for (index, child) in body.children.enumerate() {
+    let following = body
+      .children
+      .slice(index + 1)
+      .find(
+        it => it.func() != [ ].func(),
+      )
+    // Keep an indexed function and its argument together, while allowing
+    // a product of complete calls to continue on the next line.
+    let call-boundary = (
+      child.func() == math.attach
+        and previous != none
+        and previous.func() == math.lr
+        and following != none
+        and following.func() == math.lr
+    )
     let separator = (
       child.func() == h
         or large-operator(child)
+        or call-boundary
         or (
           has-grouped-factor
             and (
@@ -179,7 +196,7 @@
         or (
           child.has("text")
             and child.text
-              in ("+", "-", "−", "=", "∘", "·", "⋅", "→", "↦", "∪", "∩")
+              in ("+", "-", "−", "=", "×", "∘", "·", "⋅", "→", "↦", "∪", "∩")
         )
     )
     if separator and chunk.len() > 0 {
@@ -187,6 +204,7 @@
       chunk = ()
     }
     chunk.push(child)
+    if child.func() != [ ].func() { previous = child }
     if (
       child.func() == linebreak
         or (

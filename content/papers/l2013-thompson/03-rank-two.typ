@@ -37,9 +37,10 @@ We now prove the following theorem.
 
 The proof of the theorem is based on a number of lemmas.
 
-In [@bib:l2013-thompson-Levchuk2008, @bib:l2013-thompson-Levchuk2012Normal,
-@bib:l2013-thompson-Levchuk2012Extremal], the normal large abelian subgroups of
-$U$ are described as large normal abelian ones. The following lemma follows from
+In [@bib:l2013-thompson-Levchuk2008, Corollary~@cor:l2008-normal-largest;
+@bib:l2013-thompson-Levchuk2012Normal, @bib:l2013-thompson-Levchuk2012Extremal],
+the normal large abelian subgroups of $U$ are described as large normal abelian
+ones. The following lemma follows from
 [@bib:l2013-thompson-Levchuk2012Extremal].
 
 #lemma[If the group $U$ is of type $G_2$ then the set $Ac_N lr((U))$ consists of
@@ -64,11 +65,14 @@ $U$ are described as large normal abelian ones. The following lemma follows from
   the group $U twisted(3, D_4)(8)$ where
   $a(U) = 2^6$.] <cor:l2013-thompson-orders>
 
-Due to [@bib:l2013-thompson-Levchuk2009,
-Theorem~@th:l2009-finitary-defining-relations], the group $U$ of type $G_2$
+Due to [@bib:l2013-thompson-Levchuk2009, Theorem~2], the group $U$ of type $G_2$
 satisfies the following isomorphisms: $U slash U_3 approx U A_2(K)$ and
-$U slash U_4 approx U B_2(K)$. The following lemma is well known for the group
-$U A_2(K) approx UT(3, K)$.
+$U slash U_4 approx U B_2(K)$.
+#ed-note[The cited Theorem 2 concerns classical types. Both isomorphisms for
+  $G_2$ are stated explicitly in the proof of
+  Lemma~@lem:l1990-small-g2-central-series [@bib:l2013-thompson-Levchuk1990,
+  part I].]
+The following lemma is well known for the group $U A_2(K) approx UT(3, K)$.
 
 #lemma[Let $A$ be a maximal abelian subgroup and $Z$ be the center of the group
   $U Phi(K)$. Then $A = lr({x_a lr((t)) x_b lr((c t)) | t in K}) Z$ ($c in K$)

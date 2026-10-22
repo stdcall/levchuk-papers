@@ -73,8 +73,10 @@ automorphisms and an evident hypercentral one of height $<= 3$
 [@bib:l1992-chevalley-Levchuk1987].
 
 A case of finite chain $Gamma$ is mostly investigated. Namely in
-[@bib:l1992-chevalley-Levchuk1975, @bib:l1992-chevalley-LevchukConnections1976]
-automorphisms of ring $NT_n lr((K))$ over an arbitrary
+[@bib:l1992-chevalley-Levchuk1975,
+Theorem~@th:l1975-automorphisms-ring-decomposition;
+@bib:l1992-chevalley-LevchukConnections1976] automorphisms of ring
+$NT_n lr((K))$ over an arbitrary
 #source(11, printed: 237)
 (associative) ring $K$ with unit have been described. Description of
 automorphisms of adjoint group and those of associated Lie ring have been also

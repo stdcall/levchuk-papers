@@ -8,9 +8,10 @@ The uniform normal structure of the unipotent subgroup
 $U G(K) = chevron.l X_r | r in G^+ chevron.r$ of the Chevalley group over a
 field $K$ of type $G$ associated with a root system $Phi$ or of twisted type
 $G = twisted(m, Phi)$ is described; for special cases, see
-[@bib:l2008-normal-Levchuk1992, @bib:l2008-normal-Suleimanova2002] and
-references therein. The maximal Abelian normal subgroups are listed. In
-Section~@sec:l2008-normal-corollaries, corollaries are given.
+[@bib:l2008-normal-Levchuk1992, Section~@sec:l1992-chevalley-ideals;
+@bib:l2008-normal-Suleimanova2002] and references therein. The maximal Abelian
+normal subgroups are listed. In Section~@sec:l2008-normal-corollaries,
+corollaries are given.
 
 === Normal structure <sec:l2008-normal-structure>
 The group $U twisted(m, Phi) lr((K))$ is the centralizer in $U Phi(K)$ of the

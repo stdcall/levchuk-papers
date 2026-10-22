@@ -44,7 +44,9 @@
     family-counter(family).update(0)
   }
   section-examples.update(0)
-  counter("numbered:theorem-cor").update(0)
+  for parent in ("th", "lem") {
+    counter("numbered:" + parent + "-cor").update(0)
+  }
   for kind in (table, image, raw) {
     counter(figure.where(kind: kind)).update(0)
   }

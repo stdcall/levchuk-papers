@@ -381,7 +381,8 @@ We have to prove the inequality $a(U) <= b(U)$, where $a(U)$ (and $b(U)$) is the
 largest order of all (respectively, normal) abelian subgroups in $U$. This fact
 is well known for the groups of Lie type of #source(17, printed: 114) rank 1 or
 of classical type, [@bib:l2012-extremal-en-Kondratyev1986] and
-[@bib:l2012-extremal-en-Levchuk2009]. Theorem
+[@bib:l2012-extremal-en-Levchuk2009,
+Table~@tab:l2009-finitary-large-normal-abelian]. Theorem
 @th:l2012-extremal-en-large-normal-abelian explicitly gives the number $b(U)$
 for every $U$ of exceptional Lie type.
 

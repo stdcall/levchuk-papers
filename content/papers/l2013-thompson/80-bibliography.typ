@@ -11,7 +11,9 @@
 )] <bib:l2013-thompson-Vdovin2001Maximal>
 #bib-item[#bib-description("Vdovin2001")] <bib:l2013-thompson-Vdovin2001>
 #source(11, printed: 73)
-#bib-item[#bib-description("Levchuk2008")] <bib:l2013-thompson-Levchuk2008>
+#bib-item[#bib-description("Levchuk2008")
+  In this collection: p.~@ch:l2008-normal.
+] <bib:l2013-thompson-Levchuk2008>
 #bib-item[#bib-description("Levchuk2009") Original:
   @ch:l2009-finitary.] <bib:l2013-thompson-Levchuk2009>
 #bib-item[#bib-description("Levchuk2012Normal")

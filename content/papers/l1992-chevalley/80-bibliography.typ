@@ -41,8 +41,10 @@
   Lemma @lem:l1982-parabolic-elementary-carpet-criterion.
 ] <bib:l1992-chevalley-Levchuk1982>
 #bib-item[#bib-description(
-  "Levchuk1983Roots",
-)] <bib:l1992-chevalley-Levchuk1983Roots>
+    "Levchuk1983Roots",
+  ) In this collection: p.~@ch:l1983-root; the elementary-carpet criterion in
+  §~@sec:l1983-root-main-results.
+] <bib:l1992-chevalley-Levchuk1983Roots>
 #bib-item[#bib-description("Levchuk1987")
   In this collection: p.~@ch:l1987-rings; Theorems @th:l1987-rings-normal-lie,
   @th:l1987-rings-maximal-abelian, and @th:l1987-rings-automorphisms; the

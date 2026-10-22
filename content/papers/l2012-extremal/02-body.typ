@@ -67,10 +67,11 @@ $s, r+s in G^+$ и $[H, X_s] != X_(r+s) mod Q(r+s)$, то либо $G = Phi$ и
 
 #source(6, printed: 160) Более сложное нормальное строение имеют группы $U$ типа
 $D_n$ и $twisted(2, D_n)$ [@bib:l2012-extremal-Levchuk2008,
-@bib:l2012-extremal-Suleimanova2008, @bib:l2012-extremal-Suleimanova2008E]. Для
-них существуют максимальные абелевы нормальные подгруппы $M$, такие что вес
-коммутаторов $[dots [[M, U], U] dots, U]$, не порождаемых корневыми подгруппами,
-неограничено растёт вместе с $n$ [@bib:l2012-extremal-Levchuk2008, теоремы
+теорема~@th:l2008-normal-orthogonal; @bib:l2012-extremal-Suleimanova2008,
+@bib:l2012-extremal-Suleimanova2008E]. Для них существуют максимальные абелевы
+нормальные подгруппы $M$, такие что вес коммутаторов
+$[dots [[M, U], U] dots, U]$, не порождаемых корневыми подгруппами, неограничено
+растёт вместе с $n$ [@bib:l2012-extremal-Levchuk2008, теоремы
 @th:l2008-normal-orthogonal и @th:l2008-normal-classical-maximal]. Однако
 справедлива следующая теорема.
 

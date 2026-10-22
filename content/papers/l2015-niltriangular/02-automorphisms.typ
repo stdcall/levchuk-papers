@@ -33,9 +33,11 @@ $
 Используем также
 
 #definition[
-  [@bib:l2015-niltriangular-Levchuk1992]. Автоморфизм группы или кольца Ли
-  называют _гиперцентральным_ высоты $m$, если он является внешним по модулю
-  $(m-1)$-го гиперцентра и тождественным по модулю $m$-го гиперцентра.
+  [@bib:l2015-niltriangular-Levchuk1992,
+  @pass:l1992-chevalley-hypercentral-definition[определение]]. Автоморфизм
+  группы или кольца Ли называют _гиперцентральным_ высоты $m$, если он является
+  внешним по модулю $(m-1)$-го гиперцентра и тождественным по модулю $m$-го
+  гиперцентра.
 ] <def:l2015-niltriangular-hypercentral>
 
 Заметим, что в алгебрах Ли $N Phi(K)$ классических типов $B_n$, $D_n$ и $C_n$
@@ -151,10 +153,12 @@ $
 гиперцентральных автоморфизмов в этих случаях $<=3$.
 
 Остаются неизученными автоморфизмы введенных в
-[@bib:l2015-niltriangular-Levchuk1992] финитарных обобщений колец Ли $N Phi(K)$
-типов $B_Gamma$, $C_Gamma$ и $D_Gamma$ с произвольной цепью $Gamma$. Для их
-описания эффективно использовать методы [@bib:l2015-niltriangular-Levchuk1987] и
-[@bib:l2015-niltriangular-Levchuk2009], см. также
-[@bib:l2015-niltriangular-Gorchakov1978], [@bib:l2015-niltriangular-Levchuk1992,
-теорема 10], [@bib:l2015-niltriangular-Levchuk1990Normal] и
+[@bib:l2015-niltriangular-Levchuk1992, §~@sec:l1992-chevalley-ideals] финитарных
+обобщений колец Ли $N Phi(K)$ типов $B_Gamma$, $C_Gamma$ и $D_Gamma$ с
+произвольной цепью $Gamma$. Для их описания эффективно использовать методы
+[@bib:l2015-niltriangular-Levchuk1987] и [@bib:l2015-niltriangular-Levchuk2009],
+см. также [@bib:l2015-niltriangular-Gorchakov1978],
+[@bib:l2015-niltriangular-Levchuk1992,
+теорема~@th:l1992-chevalley-infinite-classical-normal-lie],
+[@bib:l2015-niltriangular-Levchuk1990Normal] и
 [@bib:l2015-niltriangular-Martynova1994].

@@ -28,8 +28,9 @@
 #bib-item[#bib-description("Levchuk1983") В сборнике:
   с.~@ch:l1983.] <bib:l2012-model-Levchuk1983>
 #bib-item[#bib-description(
-  "LevchukMinakova2009",
-)] <bib:l2012-model-LevchukMinakova2009>
+    "LevchukMinakova2009",
+  ) Перевод в сборнике: с.~@ch:l2009-model.
+] <bib:l2012-model-LevchukMinakova2009>
 #bib-item[#bib-description(
     "LevchukMinakova2010",
   ) Оригинал в сборнике:

@@ -142,13 +142,14 @@ $H_sigma lr((K))$ группы $twisted(n, Phi)_sigma lr((K))$ при $rho(Phi)=
   $A supset U^- lr((K))$ и коммутативное кольцо $K$ полулокально (или
   $A subset H^L lr((K)) U(K)$), то подгруппа $A$ совпадает с произведением
   элементарно ковровой подгруппы группы $Phi(K)$ на $A inter H^L lr((K))$ и
-  абнормальна в $(A inter H^L lr((K))) Phi(K)$ (соответственно в
+  абнормальна в любой её надгруппе $Gamma$, для которой
+  $Gamma inter H^L lr((K))=A inter H^L lr((K))$ (соответственно в
   $U(K)(A inter H^L lr((K)))$). Аналогично подгруппа $A$ группы
   $twisted(n, Phi)_sigma^L lr((K))$, $rho(Phi)=1$, $Phi!=A_(2k)$, содержащая
   ${h(chi) in H_sigma^L lr((K)) | chi(L) subset T}$, совпадает с произведением
   элементарно ковровой подгруппы группы $twisted(n, Phi)_sigma lr((K))$ на
-  $A inter H_sigma^L lr((K))$ и абнормальна в
-  $(A inter H_sigma^L lr((K))) twisted(n, Phi)_sigma lr((K))$ (либо в
+  $A inter H_sigma^L lr((K))$ и абнормальна в любой её надгруппе $Gamma$, для
+  которой $Gamma inter H_sigma^L lr((K))=A inter H_sigma^L lr((K))$ (либо в
   $U_sigma lr((K))(A inter H_sigma^L lr((K)))$), если
   $A supset U_sigma^- lr((K))$ и коммутативное кольцо $K$ полулокально
   (соответственно $A subset U_sigma lr((K)) H_sigma^L lr((K))$), а подгруппа $T$

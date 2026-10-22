@@ -55,8 +55,10 @@ modulus), graph and, more generally, idempotent-graph automorphisms;
 [@bib:l1992-chevalley-Gibbs1970] and at $G = A_n$
 [@bib:l1992-chevalley-Levchuk1975,
 Theorem~@th:l1975-automorphisms-decomposition],
-[@bib:l1992-chevalley-LevchukConnections1976]. Now automorphism of arbitrary
-group (or ring) we
+[@bib:l1992-chevalley-LevchukConnections1976]. #metadata((
+  kind: "passage",
+)) <pass:l1992-chevalley-hypercentral-definition>
+Now automorphism of arbitrary group (or ring) we
 #source(8, printed: 234)
 call as hypercentral of height $m >= 0$, if it acts trivially by modulus of
 $m$-th hypercenter (see [@bib:l1992-chevalley-Kargapolov1982, 16.1]) and is not
@@ -77,6 +79,7 @@ automorphisms are standard. Description of automorphisms of groups $U Phi(K)$ of
 types $Phi = A_n$ $(n > 1)$, $C_n$ $(n > 2)$, $D_n$ $(n >= 4)$, $E_n$
 $(n = 6,7,8)$ has been found for arbitrary commutative ring with unit.
 
+#metadata((kind: "passage")) <pass:l1992-chevalley-characteristic-two-shear>
 One cannot improve the estimation of quantity $m$ in Theorem
 @th:l1992-chevalley-high-rank-automorphisms. In particular, group
 $U C_n lr((K))$, $n > 2$, over the perfect ring $K$ of characteristic 2 always

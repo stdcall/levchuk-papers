@@ -17,8 +17,10 @@ $NT lr((n,K))$ with $n>2$ and transferred there the elementary equivalence as
 $NT lr((n,K)) equiv NT lr((m,S)) <==> n=m$, and $K equiv S$, for nonzero
 coefficient rings $K$ and $S$, on the basis of the Mal’tsev correspondence and
 the description of the automorphisms of the ring $NT lr((n,K))$ given in
-[@bib:l2009-model-Levchuk1975, @bib:l2009-model-Levchuk1983]. (The case of
-coefficient fields was considered in, e.g., [@bib:l2009-model-Rose1978].)
+[@bib:l2009-model-Levchuk1975,
+Theorem~@th:l1975-automorphisms-ring-decomposition;
+@bib:l2009-model-Levchuk1983]. (The case of coefficient fields was considered
+in, e.g., [@bib:l2009-model-Rose1978].)
 
 The mapping $alpha arrow e+alpha$ of the ring $R=NT lr((Gamma,K))$ is an
 isomorphism of its adjoint group, which is isomorphic to the unitriangular group
