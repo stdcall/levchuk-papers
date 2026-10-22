@@ -65,9 +65,11 @@
   l2013-thompson: dictionary(l2013-thompson),
   l2019-nonfinitary: dictionary(l2019-nonfinitary),
 )
-#let correction-article(id) = articles.find(it => id.starts-with(
-  it.id + "-",
-))
+#let correction-article(id) = {
+  articles
+    .sorted(key: it => -it.id.len())
+    .find(it => id.starts-with(it.id + "-"))
+}
 #let correction-markup(id, field) = {
   let article = correction-article(id)
   assert(article != none, message: "Correction does not name an article")

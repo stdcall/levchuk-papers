@@ -75,10 +75,10 @@
 ) = {
   if not numbered { return none }
   if tag != none { return (tag,) }
-  if parent == "th" {
+  if parent != none {
     return (
-      ..object-number("th", location),
-      counter("numbered:theorem-cor").at(location).first(),
+      ..object-number(parent, location),
+      counter("numbered:" + parent + "-cor").at(location).first(),
     )
   }
   if prime != none {

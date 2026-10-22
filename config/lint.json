@@ -428,6 +428,19 @@
     },
     "content/papers/l2019-nearfields/03-multiplicative.typ": {
       "[@bib:l2019-nearfields-Hall1962, лемма 20.7.К3]": "Локатор внешнего цитируемого издания; авторская нумерация сохранена."
+    },
+    "content/papers/l1983-root/01-introduction.typ": {
+      "7.28": "Номер вопроса в Коуровской тетради, 7-е издание (1980)."
+    },
+    "content/papers/l1983-root/02-preliminaries.typ": {
+      "7.28": "Номер вопроса в Коуровской тетради, 7-е издание (1980)."
+    },
+    "content/papers/l1983-root/03-carpets.typ": {
+      "7.28": "Номер вопроса в Коуровской тетради, 7-е издание (1980).",
+      "[@bib:l1983-root-BorelTits1967, §8.3]": "Параграф русского перевода Borel–Tits1967."
+    },
+    "content/papers/l1983-root/05-main-results.typ": {
+      "7.28": "Номер вопроса в Коуровской тетради, 7-е издание (1980)."
     }
   },
   "local_markup": {

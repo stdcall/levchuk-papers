@@ -210,8 +210,8 @@
 #let theorem-like(kind, family, title, numbered, body) = {
   let head = {
     if numbered { family-counter(family).step() }
-    if family == "th" and numbered {
-      counter("numbered:theorem-cor").update(0)
+    if family in ("th", "lem") and numbered {
+      counter("numbered:" + family + "-cor").update(0)
     }
     context {
       set text(style: "normal")
@@ -245,16 +245,18 @@
   numbered,
   body,
 )
-#let theorem-corollary(body) = {
-  counter("numbered:theorem-cor").step()
+#let dependent-corollary(parent, body) = {
+  counter("numbered:" + parent + "-cor").step()
   let head = context {
     set text(style: "normal")
-    record("cor", parent: "th")
-    let number = object-number("cor", here(), parent: "th")
+    record("cor", parent: parent)
+    let number = object-number("cor", here(), parent: parent)
     strong[Следствие #number.map(str).join("."). ]
   }
   statement-text("cor", prepend-heading(body, head))
 }
+#let theorem-corollary(body) = dependent-corollary("th", body)
+#let lemma-corollary(body) = dependent-corollary("lem", body)
 #let remark(title: none, numbered: true, body) = theorem-like(
   "Замечание",
   "rem",

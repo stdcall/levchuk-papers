@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[2]
 
 class Collection(unittest.TestCase):
     def build(self, root, extra=False, sectioned=False, grouped=False, conditions=False,
-              prefixed=False, introduction=False, introduction_number=0):
+              prefixed=False, introduction=False, introduction_number=0,
+              lemma_corollaries=False):
         driver = (
             '#import "content/book-style.typ": book-style\n'
             '#import "content/collection.typ": article-begin\n'
@@ -34,6 +35,30 @@ class Collection(unittest.TestCase):
             'Ссылка A: теорема @th:probe-a; '
             'следствие @cor:probe-a-second; [@bib:probe-a-Probe2000].\n'
             'Ссылка B: теорема @th:probe-b; [@bib:probe-b-Probe2000].\n')
+        if lemma_corollaries:
+            driver = (
+                '#import "content/book-style.typ": book-style\n'
+                '#import "content/collection.typ": article-begin\n'
+                '#import "content/statements.typ": *\n'
+                '#show: book-style\n'
+                '#article-begin("probe-a")\n'
+                '== Статья A <ch:probe-a>\n'
+                + ('#lemma[Вставленная лемма.] <lem:probe-extra>\n'
+                   if extra else '')
+                + '#theorem[Теорема.] <th:probe-a>\n'
+                '#lemma[Первая лемма.] <lem:probe-first>\n'
+                '#lemma[Вторая лемма.] <lem:probe-second>\n'
+                '#lemma[Третья лемма.] <lem:probe-third>\n'
+                '#lemma-corollary[Первое следствие.] <cor:probe-first>\n'
+                '#lemma-corollary[Второе следствие.] <cor:probe-second>\n'
+                '#lemma[Следующая лемма.] <lem:probe-next>\n'
+                '#lemma-corollary[Новое следствие.] <cor:probe-next>\n'
+                '#article-begin("probe-b")\n'
+                '== Статья B <ch:probe-b>\n'
+                '#lemma[Лемма другой статьи.] <lem:probe-b>\n'
+                '#lemma-corollary[Следствие.] <cor:probe-b>\n'
+                'Номера: @cor:probe-first; @cor:probe-second; '
+                '@cor:probe-next; @cor:probe-b.\n')
         if sectioned:
             driver = (
                 '#import "content/book-style.typ": book-style\n'
@@ -174,6 +199,25 @@ class Collection(unittest.TestCase):
                 self.assertEqual(numbers, [[expected, 1], [expected, 2]])
                 bibliography = [it['number'] for it in values if it['family'] == 'bib']
                 self.assertEqual(bibliography, [[1], [1]])
+                self.assertTrue(any(it['page'] == 0 for it in links))
+                self.assertTrue(any(it['page'] == 1 for it in links))
+
+    def test_lemma_corollaries_follow_their_lemma_and_restart_in_next_article(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-lemma-cor-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            for extra, parent in ((False, 3), (True, 4)):
+                text, links, values = self.build(
+                    root, extra=extra, lemma_corollaries=True)
+                self.assertIn(
+                    f'Номера: {parent}.1; {parent}.2; {parent + 1}.1; 1.1.', text)
+                numbers = [it['number'] for it in values if it['family'] == 'cor']
+                self.assertEqual(
+                    numbers, [[parent, 1], [parent, 2], [parent + 1, 1], [1, 1]])
                 self.assertTrue(any(it['page'] == 0 for it in links))
                 self.assertTrue(any(it['page'] == 1 for it in links))
 

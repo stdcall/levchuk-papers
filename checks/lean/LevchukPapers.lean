@@ -9,6 +9,10 @@ import LevchukPapers.L1974.Adjoint
 import LevchukPapers.L1982.NormalBasis
 import LevchukPapers.L1983.Algebra
 import LevchukPapers.L1983.RankThree
+import LevchukPapers.L1983Root.ExceptionalB2
+import LevchukPapers.L1983Root.Carpets
+import LevchukPapers.L1983Root.FactorExtraction
+import LevchukPapers.L1983Root.Periodic
 import LevchukPapers.L1987.Local
 import LevchukPapers.L2018.Annihilator
 import LevchukPapers.L2012.Local

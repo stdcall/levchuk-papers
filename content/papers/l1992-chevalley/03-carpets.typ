@@ -23,15 +23,15 @@ $(r in Phi)$ are quasiregular ideals.
 Elementary carpet $carpet$ of type $Phi$ of additive subgroups of ring $K$ is
 called as permissible, if
 $ E(carpet) inter x_r lr((K)) = x_r lr((A_r)), quad r in Phi. $
-The following theorem (see [@bib:l1992-chevalley-Levchuk1983Roots]) solves
-partially the question: which conditions onto elementary carpet (in terms of its
-elements) are necessary and sufficient for its permissibility? (See question
-7.28 [@bib:l1992-chevalley-Kourovka1980]; see also
-[@bib:l1992-chevalley-Suzuki1976], [@bib:l1992-chevalley-Levchuk1982] and the
-references therein.) Note that for arbitrary carpet $carpet$ of type $Phi$ over
-a field the set $Sigma(carpet) = {r in Phi | A_r A_(-r) != 0}$ is either empty
-or a joining of pairly orthogonal indecomposable quasilocked root subsystems
-$Sigma_1, Sigma_2, dots, Sigma_m$.
+The following theorem (see [@bib:l1992-chevalley-Levchuk1983Roots,
+§~@sec:l1983-root-main-results]) solves partially the question: which conditions
+onto elementary carpet (in terms of its elements) are necessary and sufficient
+for its permissibility? (See question 7.28 [@bib:l1992-chevalley-Kourovka1980];
+see also [@bib:l1992-chevalley-Suzuki1976], [@bib:l1992-chevalley-Levchuk1982]
+and the references therein.) Note that for arbitrary carpet $carpet$ of type
+$Phi$ over a field the set $Sigma(carpet) = {r in Phi | A_r A_(-r) != 0}$ is
+either empty or a joining of pairly orthogonal indecomposable quasilocked root
+subsystems $Sigma_1, Sigma_2, dots, Sigma_m$.
 
 #theorem[
   For permissibility of elementary carpet $carpet$ of type $Phi$ of additive
