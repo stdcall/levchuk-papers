@@ -65,12 +65,12 @@ angles in $U D_4 lr((K))$ with $2K = 0$ that are described in
 corresponding subgroup in $U twisted(2, D_4) lr((K))$ from
 [@bib:l2008-normal-Parker1998, Theorem 1.2] is Abelian for $|K| = 4$.
 
-According to [@bib:l2008-normal-Levchuk1992], classes of normal subgroups and
-Lie ideals coincide in $N Phi(K)$ with $p(Phi)! K = K$, except for the types
-$D_n$ and $E_n$ in the case of $2K = 0$. By Theorem~@th:l2008-normal-orthogonal,
-the normal subgroups containing no frames $frame([H, X_p])$, and only such
-groups, are not ideals in the Lie ring $N D_n lr((K))$ (such $p = p_32$ is
-unique).
+According to [@bib:l2008-normal-Levchuk1992,
+Section~@sec:l1992-chevalley-ideals], classes of normal subgroups and Lie ideals
+coincide in $N Phi(K)$ with $p(Phi)! K = K$, except for the types $D_n$ and
+$E_n$ in the case of $2K = 0$. By Theorem~@th:l2008-normal-orthogonal, the
+normal subgroups containing no frames $frame([H, X_p])$, and only such groups,
+are not ideals in the Lie ring $N D_n lr((K))$ (such $p = p_32$ is unique).
 
 Let $Gamma$ be a chain with an anti-isometry $prime$. We define a chain
 $tilde(Gamma) = Gamma' union Gamma$ by setting $i'' = i$ and $i' <= j$ for all

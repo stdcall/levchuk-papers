@@ -12,11 +12,11 @@ $ Aut R=Aut G(R) inter Aut J(R)=Aut G(R) inter Aut Lambda(R). $
 автоморфизмы и — когда либо $n>3$, либо $n=3$ и
 #source(77, printed: 77)
 кольцо $K$ коммутативное или без делителей нуля — также $Aut Lambda(R)$ описаны
-в [@bib:l2012-model-Levchuk1975,
-теорема~@th:l1975-automorphisms-ring-decomposition] и
-[@bib:l2012-model-Levchuk1983, теоремы @th:l1983-main-automorphisms и
+в [@bib:l2012-model-Levchuk1975, теорема~@th:l1975-automorphisms-decomposition]
+и [@bib:l2012-model-Levchuk1983, теоремы @th:l1983-main-automorphisms и
 @th:l1983-rank-four]; описание $Aut J(R)$, см.
-[@bib:l2012-model-LevchukMinakova2009; @bib:l2012-model-LevchukMinakova2010].
+[@bib:l2012-model-LevchukMinakova2009, §~@sec:l2009-model-isomorphisms;
+@bib:l2012-model-LevchukMinakova2010].
 
 Схема [@bib:l2012-model-Levchuk1983] переносится в
 [@bib:l2012-model-KuzucuogluLevchuk2004; @th:l2004-finitary-main[основная
@@ -51,8 +51,9 @@ $J(R) tilde.eq J(R')$ модифицируется из доказательст
 
 Связь элементарной эквивалентности ассоциированных колец, а также присоединенных
 групп с элементарными свойствами основных колец выявляет (см.
-[@bib:l2012-model-LevchukMinakova2009; @bib:l2012-model-LevchukMinakova2010])
-#theorem[
+[@bib:l2012-model-LevchukMinakova2009,
+теорема~@th:l2009-model-elementary-equivalence;
+@bib:l2012-model-LevchukMinakova2010]) #theorem[
   В условиях теоремы @th:l2012-model-idempotent-isomorphisms хотя бы одна из
   элементарных эквивалентностей
   $

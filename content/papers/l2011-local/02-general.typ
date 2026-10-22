@@ -16,7 +16,8 @@
   кольца.] <lem:l2011-local-triviality-generators>
 
 Тесную связь эндоморфизмов и дифференцирований выявляет (см.
-[@bib:l2011-local-Levchuk2009ElementaryEquivalence, лемма 1])
+[@bib:l2011-local-Levchuk2009ElementaryEquivalence,
+лемма~@lem:l2009-model-square-zero-derivation])
 
 #lemma[Эндоморфизм $zeta$ аддитивной группы $R^+$ при $zeta(R)^2=0$ есть
   дифференцирование кольца $R$ тогда и только тогда, когда эндоморфизмом кольца

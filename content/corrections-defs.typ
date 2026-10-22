@@ -3,6 +3,7 @@
 #import "papers/l1976/defs.typ" as l1976
 #import "papers/l1982-parabolic/defs.typ" as l1982
 #import "papers/l1983/defs.typ" as l1983
+#import "papers/l1983-dickson/defs.typ" as l1983-dickson
 #import "papers/l2012-extremal/defs.typ" as l2012
 #import "papers/l2018-enveloping/defs.typ" as l2018
 #import "papers/l2013-ideals/defs.typ" as l2013
@@ -57,6 +58,7 @@
   l1976: dictionary(l1976),
   l1982-parabolic: dictionary(l1982),
   l1983: dictionary(l1983),
+  l1983-dickson: dictionary(l1983-dickson),
   l2012-extremal: dictionary(l2012),
   l2018-enveloping: dictionary(l2018),
   l2013-ideals: dictionary(l2013),

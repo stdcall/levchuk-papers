@@ -258,8 +258,9 @@ $Aut R$ of an arbitrary associative ring $R$ has a normal subgroup $M$ of all
 “monic” automorphisms of $R$ which induce the identity map into quotient-ring
 $R^k/R^(k+1)$ for all positive integers $k$. Let $R=R_n lr((K,J))$, $n>2$.
 Clearly $M supset.eq B F$. If $J=0$, then $M inter D=1$ (see
-[@bib:l2001-automorphisms-Dubish1951], [@bib:l2001-automorphisms-Levchuk1975])
-and even the group $Aut R$ is equal to the semidirect product of subgroups $M$
-and $D A(K,J)$ [@bib:l2001-automorphisms-Levchuk1975]. However, the intersection
-$M inter D$ is nontrivial for each nonzero quasi-regular ideal $J$ by Theorem
-@th:l2001-automorphisms-structure(ii).
+[@bib:l2001-automorphisms-Dubish1951], [@bib:l2001-automorphisms-Levchuk1975,
+Section~@sec:l1975-automorphisms-rings]) and even the group $Aut R$ is equal to
+the semidirect product of subgroups $M$ and $D A(K,J)$
+[@bib:l2001-automorphisms-Levchuk1975, Section~@sec:l1975-automorphisms-rings].
+However, the intersection $M inter D$ is nontrivial for each nonzero
+quasi-regular ideal $J$ by Theorem @th:l2001-automorphisms-structure(ii).

@@ -32,29 +32,32 @@ $U = U_1 supset U_2 supset dots$ [@bib:l2012-extremal-Spitznagel1968,
 @bib:l2012-extremal-Spitznagel1969]. Для #source(2, printed: 156) произвольного
 поля $K$ они описаны в [@bib:l2012-extremal-Levchuk1990] вместе с решением
 проблемы (1.5) из обзора [@bib:l2012-extremal-Kondratyev1986] (обобщения см. в
-[@bib:l2012-extremal-Levchuk2009, @bib:l2012-extremal-Kuzucuoglu2001,
-@bib:l2012-extremal-Kuzucuoglu2004]). Нормальные подгруппы группы $U$ тесно
-связаны с идеалами ассоциированного кольца Ли [@bib:l2012-extremal-Levchuk2002,
-@bib:l2012-extremal-Martynova1994, @bib:l2012-extremal-Suleimanova2002,
-@bib:l2012-extremal-Levchuk1992]. В [@bib:l2012-extremal-Levchuk1990]
-используется и описание из [@bib:l2012-extremal-Levchuk1976, теорема
+[@bib:l2012-extremal-Levchuk2009, теорема~@th:l2009-finitary-automorphisms;
+@bib:l2012-extremal-Kuzucuoglu2001, @bib:l2012-extremal-Kuzucuoglu2004]).
+Нормальные подгруппы группы $U$ тесно связаны с идеалами ассоциированного кольца
+Ли [@bib:l2012-extremal-Levchuk2002, @bib:l2012-extremal-Martynova1994,
+@bib:l2012-extremal-Suleimanova2002, @bib:l2012-extremal-Levchuk1992,
+§~@sec:l1992-chevalley-ideals]. В [@bib:l2012-extremal-Levchuk1990] используется
+и описание из [@bib:l2012-extremal-Levchuk1976, теорема
 @th:l1976-maximal-abelian] максимальных абелевых нормальных подгрупп
 унитреугольных групп $UT(n, K)$.
 
 Теоремы @th:l2012-extremal-classical-normal, @th:l2012-extremal-frame-normal,
 @th:l2012-extremal-abelian-normal о нормальном строении групп $U$ в разделе
-@sec:l2012-extremal-normal-structure и [@bib:l2012-extremal-Levchuk2008]
-опираются на понятие углов и фрейма подмножества в $U$. В разделе
-@sec:l2012-extremal-exceptional-abelian описаны максимальные абелевы нормальные
-подгруппы в $U$. К. Паркер и П. Раули [@bib:l2012-extremal-Parker1997] называют
-абелеву нормальную подгруппу $A$ в $U$ _экстремальной_, если $A subset.not U_2$,
-т. е., согласно [@bib:l2012-extremal-Levchuk2008], существует простой угол в
-$A$. С целью применения в ревизии классификации конечных простых групп и к
-симплектическим амальгамам [@bib:l2012-extremal-Parker2002] они выявляют в
-[@bib:l2012-extremal-Parker1997–@bib:l2012-extremal-Parker2002] группы $U$ с
-экстремальной подгруппой и возможные простые углы таких подгрупп. Как следствие
-основных теорем раздела @sec:l2012-extremal-exceptional-abelian и
-[@bib:l2012-extremal-Levchuk2008] получаем новое решение задачи Паркера—Раули;
+@sec:l2012-extremal-normal-structure и [@bib:l2012-extremal-Levchuk2008,
+§~@sec:l2008-normal-structure] опираются на понятие углов и фрейма подмножества
+в $U$. В разделе @sec:l2012-extremal-exceptional-abelian описаны максимальные
+абелевы нормальные подгруппы в $U$. К. Паркер и П. Раули
+[@bib:l2012-extremal-Parker1997] называют абелеву нормальную подгруппу $A$ в $U$
+_экстремальной_, если $A subset.not U_2$, т. е., согласно
+[@bib:l2012-extremal-Levchuk2008, §~@sec:l2008-normal-corollaries], существует
+простой угол в $A$. С целью применения в ревизии классификации конечных простых
+групп и к симплектическим амальгамам [@bib:l2012-extremal-Parker2002] они
+выявляют в [@bib:l2012-extremal-Parker1997–@bib:l2012-extremal-Parker2002]
+группы $U$ с экстремальной подгруппой и возможные простые углы таких подгрупп.
+Как следствие основных теорем раздела @sec:l2012-extremal-exceptional-abelian и
+[@bib:l2012-extremal-Levchuk2008, теорема @th:l2008-normal-classical-maximal;
+§~@sec:l2008-normal-corollaries] получаем новое решение задачи Паркера—Раули;
 для групп $U$ типа $D_4$ и $twisted(2, D_4)$ известное решение уточняется
 теоремой @th:l2012-extremal-parker-rowley.
 
@@ -68,15 +71,15 @@ $cal(P)$-подгруппой_.
 
 Список больших нормальных абелевых подгрупп в $U$ (теорема
 @th:l2012-extremal-large-normal-abelian) дают основные теоремы раздела
-@sec:l2012-extremal-exceptional-abelian и [@bib:l2012-extremal-Levchuk2008]. Тот
-же список составляют нормальные большие абелевы подгруппы в $U$ по лемме
-@lem:l2012-extremal-normal-large-order; её мы получаем, используя метод А. И.
-Мальцева [@bib:l2012-extremal-Malcev1945], развивавшийся Е. П. Вдовиным
-[@bib:l2012-extremal-Vdovin2001]. (Большая нормальная $cal(P)$-подгруппа
-конечной группы не обязана быть большой $cal(P)$-подгруппой, как показывают
-примеры.) Это позволяет уточнить порядки из [@bib:l2012-extremal-Vdovin2001,
-таблица 4] больших абелевых подгрупп в $U$ (см. замечание
-@rem:l2012-extremal-orders).
+@sec:l2012-extremal-exceptional-abelian и [@bib:l2012-extremal-Levchuk2008,
+следствие~@cor:l2008-normal-largest]. Тот же список составляют нормальные
+большие абелевы подгруппы в $U$ по лемме @lem:l2012-extremal-normal-large-order;
+её мы получаем, используя метод А. И. Мальцева [@bib:l2012-extremal-Malcev1945],
+развивавшийся Е. П. Вдовиным [@bib:l2012-extremal-Vdovin2001]. (Большая
+нормальная $cal(P)$-подгруппа конечной группы не обязана быть большой
+$cal(P)$-подгруппой, как показывают примеры.) Это позволяет уточнить порядки из
+[@bib:l2012-extremal-Vdovin2001, таблица 4] больших абелевых подгрупп в $U$ (см.
+замечание @rem:l2012-extremal-orders).
 
 В теоремах @th:l2012-extremal-classical-conjugacy и
 @th:l2012-extremal-f4-conjugacy авторы исследуют вопрос (см.
@@ -218,6 +221,7 @@ $
 $
 
 мы определяем _присоединённую группу_ $(N Phi(K), compose)$, изоморфную группе
-$U Phi(K)$. В [@bib:l2012-extremal-Levchuk1990, @bib:l2012-extremal-Levchuk2009]
-группа $U G(K)$, где $G = twisted(m, Phi)$, $p(Phi) = 1$, также представлена
-присоединённой группой естественного $K_sigma$-модуля $N G(K)$.
+$U Phi(K)$. В [@bib:l2012-extremal-Levchuk1990; @bib:l2012-extremal-Levchuk2009,
+§~@sec:l2009-finitary-finitary] группа $U G(K)$, где $G = twisted(m, Phi)$,
+$p(Phi) = 1$, также представлена присоединённой группой естественного
+$K_sigma$-модуля $N G(K)$.

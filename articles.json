@@ -65,6 +65,11 @@
     "theme": "chevalley-automorphisms"
   },
   {
+    "id": "l1983-dickson",
+    "publication": "Levchuk1983DicksonRu",
+    "theme": "chevalley-automorphisms"
+  },
+  {
     "id": "l1983-root",
     "publication": "Levchuk1983RootGeneratorsRu",
     "theme": "chevalley-automorphisms"

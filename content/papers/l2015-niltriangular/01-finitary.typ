@@ -103,12 +103,13 @@ $N Phi(K)$ показана там же для типа $D_4$; другие сл
 $ -i<v<i<=n, quad 1<=abs(v)<i<=n, quad -i<=v<i<=n, quad v!=0. $
 <eq:l2015-niltriangular-classical-indices>
 
-Это естественно приводит [@bib:l2015-niltriangular-Levchuk1992] к финитарным
-обобщениям алгебр $N Phi(K)$ типа $B_Gamma$, $C_Gamma$ и $D_Gamma$ групп $U$
-классических типов, вопросам перенесения теоремы
-@th:l2015-niltriangular-normal-lie-correspondence и описания автоморфизмов.
-Автоморфизмы финитарных групп $U$ (включая скрученные) над полем изучены
-[@bib:l2015-niltriangular-Levchuk2009].
+Это естественно приводит [@bib:l2015-niltriangular-Levchuk1992,
+§~@sec:l1992-chevalley-ideals] к финитарным обобщениям алгебр $N Phi(K)$ типа
+$B_Gamma$, $C_Gamma$ и $D_Gamma$ групп $U$ классических типов, вопросам
+перенесения теоремы @th:l2015-niltriangular-normal-lie-correspondence и описания
+автоморфизмов. Автоморфизмы финитарных групп $U$ (включая скрученные) над полем
+изучены [@bib:l2015-niltriangular-Levchuk2009,
+теорема~@th:l2009-finitary-automorphisms].
 
 В § @sec:l2015-niltriangular-nonfinitary показывается, что все нильтреугольные
 $Gamma$-матрицы над $K$ образуют радикальное кольцо $GNT(Gamma, K)$, когда

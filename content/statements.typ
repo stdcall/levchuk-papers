@@ -277,6 +277,16 @@
   context [#record("rem")#body]
 }
 #let proof-head = [Доказательство.]
+#let property(body, alphabet: "АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ") = {
+  family-counter("property").step()
+  let head = context {
+    let index = object-number("property", here()).last()
+    let letter = alphabet.clusters().at(index - 1)
+    record("property", tag: letter)
+    strong[#letter) ]
+  }
+  statement-text("property", prepend-heading(body, head))
+}
 #let condition(body) = block({
   context {
     record("cond")

@@ -38,7 +38,7 @@
 
 Следующие вопросы структурного строения конечных полуполей и квазиполей
 исследовались в различных ситуациях уже давно и записаны в
-[@bib:l2019-nearfields-Levchuk2017].
+[@bib:l2019-nearfields-Levchuk2017, §~@sec:l2017-quasifields-questions].
 
 #enum(
   numbering: "(A)",

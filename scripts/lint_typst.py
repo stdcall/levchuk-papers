@@ -342,7 +342,7 @@ ENVIRONMENTS = {'problem': 'pr', 'theorem': 'th', 'lemma': 'lem',
                 'eg': 'exm', 'exercise': 'exc', 'table-section': 'tab',
                 'book-figure': 'fig', 'formula-item': 'eq', 'bib-item': 'bib',
                 'as-corollary': 'cor', 'as-problem': 'pr', 'remark': 'rem',
-                'remark-item': 'rem', 'definition': 'def',
+                'remark-item': 'rem', 'definition': 'def', 'property': 'prop',
                 'theorem-corollary': 'cor', 'condition': 'cond',
                 'primed-condition': 'cond'}
 # String wrappers of references that the chapter files used before native
@@ -945,7 +945,11 @@ def coverage_checks(data, static_labels, final):
         elif prefix == 'hint':
             fits = value.get('kind') == 'hint'
         else:
-            fits = value.get('family') == prefix
+            # Lettered properties and numbered propositions share prop labels,
+            # but retain independent counters and record families.
+            fits = (value.get('family') == prefix
+                    or (prefix == 'prop'
+                        and value.get('family') == 'property'))
         if not fits:
             add(f'<{name}> is on {value.get("family") or value.get("kind")} '
                 f'{value.get("number")}, not on an object of its family',

@@ -9,6 +9,9 @@ import LevchukPapers.L1974.Adjoint
 import LevchukPapers.L1982.NormalBasis
 import LevchukPapers.L1983.Algebra
 import LevchukPapers.L1983.RankThree
+import LevchukPapers.L1983Dickson.ProjectiveRigidity
+import LevchukPapers.L1983Dickson.TranscendentalWords
+import LevchukPapers.L1983Dickson.LeadingWords
 import LevchukPapers.L1983Root.ExceptionalB2
 import LevchukPapers.L1983Root.Carpets
 import LevchukPapers.L1983Root.FactorExtraction

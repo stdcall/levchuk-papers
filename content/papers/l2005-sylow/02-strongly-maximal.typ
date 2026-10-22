@@ -40,8 +40,8 @@ $Lambda(R)$ and also normal subgroups of the adjoint group $G(R)$
 #source(4, printed: 228)
 described for the case of a strongly maximal ideal $J$ of a commutative ring
 $K$. The case of zero ideal $J$ of a division ring $K$ had been studied in
-[@bib:l2005-sylow-Levchuk1992]. Also, G. Suleimanova investigates other
-noncommutative cases.
+[@bib:l2005-sylow-Levchuk1992, Section~@sec:l1992-chevalley-unitriangular].
+Also, G. Suleimanova investigates other noncommutative cases.
 
 By [@bib:l2005-sylow-Kuzucuoglu2000, Proposition
 @prop:l2000-ideals-strongly-maximal-examples], maximal ideals of the rings $Z$

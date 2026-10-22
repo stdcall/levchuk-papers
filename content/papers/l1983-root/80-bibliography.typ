@@ -7,9 +7,10 @@
 #bib-item[#bib-description("Levchuk1982")
   В сборнике: с. @ch:l1982-parabolic.
 ] <bib:l1983-root-Levchuk1982>
-#bib-item[#bib-description(
-  "Levchuk1983Dickson",
-)] <bib:l1983-root-Levchuk1983Dickson>
+#bib-item[#bib-description("Levchuk1983Dickson")
+  В сборнике: с. @ch:l1983-dickson; теорема @th:l1983-dickson-classification и
+  предложение @prop:l1983-dickson-transcendental-free-product.
+] <bib:l1983-root-Levchuk1983Dickson>
 #bib-item[#bib-description("Kourovka1980")] <bib:l1983-root-Kourovka1980>
 #bib-item[#bib-description("Nuzhin1981")] <bib:l1983-root-Nuzhin1981>
 #source(14, printed: 517)

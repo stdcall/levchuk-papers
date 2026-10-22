@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 class Collection(unittest.TestCase):
     def build(self, root, extra=False, sectioned=False, grouped=False, conditions=False,
               prefixed=False, introduction=False, introduction_number=0,
-              lemma_corollaries=False):
+              lemma_corollaries=False, properties=False):
         driver = (
             '#import "content/book-style.typ": book-style\n'
             '#import "content/collection.typ": article-begin\n'
@@ -59,6 +59,28 @@ class Collection(unittest.TestCase):
                 '#lemma-corollary[Следствие.] <cor:probe-b>\n'
                 'Номера: @cor:probe-first; @cor:probe-second; '
                 '@cor:probe-next; @cor:probe-b.\n')
+        if properties:
+            driver = (
+                '#import "content/book-style.typ": book-style\n'
+                '#import "content/collection.typ": article-begin\n'
+                '#import "content/statements.typ": *\n'
+                '#show: book-style\n'
+                '#article-begin("probe-a")\n'
+                '== Статья A <ch:probe-a>\n'
+                + ('#property[Вставленное свойство.] <prop:probe-extra>\n'
+                   if extra else '')
+                + '#property[Первое свойство.] <prop:probe-first>\n'
+                'Промежуточный абзац.\n'
+                '#theorem-like("Предложение", "prop", none, true)'
+                '[Предложение.] <prop:probe-proposition>\n'
+                '#property[Второе свойство.] <prop:probe-second>\n'
+                '#property[Третье свойство.] <prop:probe-third>\n'
+                '#article-begin("probe-b")\n'
+                '== Статья B <ch:probe-b>\n'
+                '#property[Свойство другой статьи.] <prop:probe-b>\n'
+                'Номера: @prop:probe-first; @prop:probe-second; '
+                '@prop:probe-third; @prop:probe-b. '
+                'Предложение @prop:probe-proposition.\n')
         if sectioned:
             driver = (
                 '#import "content/book-style.typ": book-style\n'
@@ -218,6 +240,23 @@ class Collection(unittest.TestCase):
                 numbers = [it['number'] for it in values if it['family'] == 'cor']
                 self.assertEqual(
                     numbers, [[parent, 1], [parent, 2], [parent + 1, 1], [1, 1]])
+                self.assertTrue(any(it['page'] == 0 for it in links))
+                self.assertTrue(any(it['page'] == 1 for it in links))
+
+    def test_properties_follow_insertions_without_changing_proposition_numbers(self):
+        with tempfile.TemporaryDirectory(dir='/tmp', prefix='levchuk-properties-') as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / 'content', root / 'content')
+            shutil.copytree(ROOT / 'assets/fonts', root / 'assets/fonts')
+            (root / 'references.bib').write_text('')
+            (root / 'articles.json').write_text('[]')
+            (root / 'publications.bib').write_text('')
+            for extra, letters in ((False, 'АБВ'), (True, 'БВГ')):
+                text, links, values = self.build(root, extra=extra, properties=True)
+                self.assertIn(f'Номера: {letters[0]}; {letters[1]}; {letters[2]}; А.', text)
+                self.assertIn('Предложение 1.', text)
+                numbers = [it['number'] for it in values if it['family'] == 'property']
+                self.assertEqual(numbers, [[x] for x in ('А' if extra else '') + letters + 'А'])
                 self.assertTrue(any(it['page'] == 0 for it in links))
                 self.assertTrue(any(it['page'] == 1 for it in links))
 

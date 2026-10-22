@@ -56,14 +56,16 @@ abelian subgroups of finite groups $U = U G(K)$ ($G = Phi$ or
 $G = twisted(m, Phi)$) and those of Thompson subgroups.
 
 Having described the maximal normal abelian subgroups of $U$, the authors
-([@bib:l2013-thompson-Levchuk2008, @bib:l2013-thompson-Levchuk2009,
+([@bib:l2013-thompson-Levchuk2008, Corollary~@cor:l2008-normal-largest;
+@bib:l2013-thompson-Levchuk2009, Table~@tab:l2009-finitary-large-normal-abelian;
 @bib:l2013-thompson-Levchuk2012Extremal]) also described the large normal
 abelian subgroups of finite groups $U$ by showing that they form the set
 $Ac_N lr((U))$. (In general, a large normal $P$-subgroup of a finite group is
 not a large $P$-subgroup.) It allows us
 [@bib:l2013-thompson-Levchuk2012Extremal] to complete (for types $G_2$,
 $twisted(3, D_4)$ and $twisted(2, E_6)$) the calculation of the orders $a(U)$.
-In [@bib:l2013-thompson-Levchuk2009] the problem (A) is reduced to the question:
+In [@bib:l2013-thompson-Levchuk2009, §~@sec:l2009-finitary-introduction] the
+problem (A) is reduced to the question:
 
 _Describe the groups $U$, in which every large abelian subgroup is
 $G(K)$-conjugate to a normal subgroup of $U$ and enumerate all the exceptional

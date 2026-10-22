@@ -17,7 +17,9 @@
   $V'=d V$, где $d$ — элемент из $K$, алгебраичный над $GF(2)$.
 ] <lem:l1983-root-periodic-rank-one>
 
-См. [@bib:l1983-root-Levchuk1983Dickson, теорема 1 и предложение 1].
+См. [@bib:l1983-root-Levchuk1983Dickson, теорема
+@th:l1983-dickson-classification и предложение
+@prop:l1983-dickson-transcendental-free-product].
 
 В применениях леммы~@lem:l1983-root-periodic-rank-one к группам Шевалле мы будем
 использовать известный гомоморфизм группы $SL_2 lr((K))$ на подгруппу

@@ -25,7 +25,8 @@ algebras or groups is specifying its standard automorphisms. In this paper we
 consider two typical cases when up to a multiplication by a standard
 automorphism every non-standard automorphism can be written as a monic or
 hypercentral automorphism which were introduced in
-[@bib:l2008-monic-Dubisch1951] and [@bib:l2008-monic-Levchuk1992].
+[@bib:l2008-monic-Dubisch1951] and [@bib:l2008-monic-Levchuk1992,
+@pass:l1992-chevalley-hypercentral-definition[definition]].
 
 An automorphism (similarly, an endomorphism) of a ring or algebra $R$ is said to
 be _monic_, if it induces the identity map on each factor $R^m/R^(m+1)$. The

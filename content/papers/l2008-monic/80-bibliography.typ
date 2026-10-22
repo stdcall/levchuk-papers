@@ -29,7 +29,9 @@
 #bib-item[#bib-description(
   "Kondratyev1986",
 )] <bib:l2008-monic-Kondratyev1986>
-#bib-item[#bib-description("LevchukSuleimanova2008")]
+#bib-item[#bib-description("LevchukSuleimanova2008")
+  In this collection: p.~@ch:l2008-normal.
+]
 <bib:l2008-monic-LevchukSuleimanova2008>
 #bib-item[#bib-description("Nagata1972")] <bib:l2008-monic-Nagata1972>
 #bib-item[#bib-description(

@@ -153,8 +153,7 @@
       "Theorem~9 [@bib:l2001-enumeration-Dubisch1951]": "External theorem in Dubisch–Perlis1951.",
       "[@bib:l2001-enumeration-Levchuk1976], §~2": "External section in Levchuk1976.",
       "(2.36) [@bib:l2001-enumeration-Egorychev1989]": "External formula in Egorychev’s book.",
-      "Theorem~2 [@bib:l2001-enumeration-Levchuk1976]": "External theorem in Levchuk1976.",
-      "Theorem~9 [@bib:l2001-enumeration-Levchuk1992]": "External theorem in Levchuk1992."
+      "Theorem~2 [@bib:l2001-enumeration-Levchuk1976]": "External theorem in Levchuk1976."
     },
     "content/papers/l2015-exceptional/01-introduction.typ": {
       "[@bib:l2015-exceptional-Egorychev1977, теорема 2.1.2]": "Теорема в цитируемом издании книги Егорычева."
@@ -207,7 +206,9 @@
       "Table 3": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор."
     },
     "content/papers/l2013-thompson/03-rank-two.typ": {
-      "Theorem 1": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор."
+      "Theorem 1": "Номер результата в явно указанном внешнем библиографическом источнике; сохранён авторский локатор.",
+      "[@bib:l2013-thompson-Levchuk2009, Theorem~2]": "Подтверждённый оригинальный локатор2009; его неприменимость к G2 и точное место1990 явно объяснены соседним редакционным примечанием.",
+      "The cited Theorem 2 concerns classical types.": "Номер исходной внешней цитаты в пояснении её несоответствия; не нативная ссылка на неприменимый результат."
     },
     "content/papers/l2019-nonfinitary/03-ideals.typ": {
       "[@bib:l2019-nonfinitary-Jacobson1962, § 1.3]": "Параграф книги Jacobson1962.",
@@ -441,6 +442,21 @@
     },
     "content/papers/l1983-root/05-main-results.typ": {
       "7.28": "Номер вопроса в Коуровской тетради, 7-е издание (1980)."
+    },
+    "content/papers/l1983-dickson/01-introduction.typ": {
+      "2.8.4": "Номер теоремы в цитируемой книге Горенстейна1968.",
+      "7.28": "Номер вопроса Коуровской тетради, 7-е издание1980."
+    },
+    "content/papers/l1983-dickson/02-projective-action.typ": {
+      "§239": "Параграф цитируемой книги Диксона1901."
+    },
+    "content/papers/l1983-dickson/03-finite-subgroups.typ": {
+      "11.2.3": "Номер теоремы в цитируемой книге Лэнга1979.",
+      "§251": "Параграф цитируемой книги Диксона1901."
+    },
+    "content/papers/l1983-dickson/06-consequences.typ": {
+      "2.8.4": "Номер теоремы в цитируемой книге Горенстейна1968.",
+      "7.28": "Номер вопроса Коуровской тетради, 7-е издание1980."
     }
   },
   "local_markup": {
@@ -501,6 +517,9 @@
     "content/papers/l2019-nearfields/04-lattice.typ": {
       "$2^#h$": "h — степень расширения, переменная данных решётки, а не функция отступа.",
       "$GF(2^#h)$": "h — степень расширения, переменная данных решётки, а не функция отступа."
+    },
+    "content/papers/l1983-dickson/03-finite-subgroups.typ": {
+      "#include \"04-finite-classification.typ\"": "Смысловое продолжение одного доказательства леммы8 в соседнем файле; его область #proof открывается в03 и закрывается после включения04. Правил геометрии или ручных отступов нет."
     }
   }
 }

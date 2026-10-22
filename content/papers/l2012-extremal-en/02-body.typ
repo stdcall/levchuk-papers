@@ -374,8 +374,8 @@ Let $U = U G(K)$ and $H subset.eq U$. Since
 $H subset.eq product_(s in cal(L)(H)) T(s)$, there exists a subset $cal(F)(H)$
 in $product_(s in cal(L)(H)) X_s$ such that
 $cal(F)(H) = H mod product_(s in cal(L)(H)) Q(s)$. As in
-[@bib:l2012-extremal-en-Levchuk2008], $cal(F)(H)$ is said to be a _frame_ of
-$H$. The following theorem holds.
+[@bib:l2012-extremal-en-Levchuk2008, Section~@sec:l2008-normal-structure],
+$cal(F)(H)$ is said to be a _frame_ of $H$. The following theorem holds.
 
 #theorem[Let $H$ be a subgroup in the group $U$ of classical type or of type
   $E_n$ over a field $K$. Assume that $2K = K$ or $U$ is of type $A_n$ or
@@ -527,11 +527,11 @@ ${r,r',r+p,r'+p,rho}$, respectively.
 Further, we use the elements $alpha(t)$ and $beta(t)$ from
 @eq:l2012-extremal-en-paired-corners and
 @eq:l2012-extremal-en-linked-three-corners. By
-[@bib:l2012-extremal-en-Levchuk2008], for $2K = 0$, $U D_n lr((K))$ has a unique
-maximal abelian normal subgroup $M_0$ possessing some simple corners $r$ and
-$r' = overline(r)$ with $alpha(1) in M_0$ and
-$hat(Psi)(M_0) = {r}^+ union {r'}^+$. For $n = 4$ and some $p,q in Pi(Phi)$,
-$M_0$ is of the shape
+[@bib:l2012-extremal-en-Levchuk2008, Theorem @th:l2008-normal-classical-maximal,
+(b)], for $2K = 0$, $U D_n lr((K))$ has a unique maximal abelian normal subgroup
+$M_0$ possessing some simple corners $r$ and $r' = overline(r)$ with
+$alpha(1) in M_0$ and $hat(Psi)(M_0) = {r}^+ union {r'}^+$. For $n = 4$ and some
+$p,q in Pi(Phi)$, $M_0$ is of the shape
 
 $
   alpha(K) beta(K) {x_(r+p+q) lr((t)) x_(r'+p+q) lr((t)) | t in K}
@@ -605,9 +605,10 @@ $ <eq:l2012-extremal-en-d4-paired-closure>
   $ r'+r+p = rho, quad X_p X_(hat(Psi)) tilde.eq UT(4, K). $
 
   In the other cases, for type $D_n$ and $|cal(L)(X_(hat(Psi)))| = 2$, we have
-  $X_(hat(Psi)) = T(r) T(overline(r))$ by [@bib:l2012-extremal-en-Levchuk2008].
-  Up to conjugation by a diagonal automorphism, the subgroup $M$ in $U$ is of
-  the shape @eq:l2012-extremal-en-d4-paired-closure if $U$ is of type $E_m$.
+  $X_(hat(Psi)) = T(r) T(overline(r))$ by [@bib:l2012-extremal-en-Levchuk2008,
+  Theorem @th:l2008-normal-classical-maximal, (b)]. Up to conjugation by a
+  diagonal automorphism, the subgroup $M$ in $U$ is of the shape
+  @eq:l2012-extremal-en-d4-paired-closure if $U$ is of type $E_m$.
 
   The case $|cal(L)(X_(hat(Psi)))| = 3$ is possible when $U$ is of type $E_m$
   and $D_n$. Then two of three corners $r_1,r_2,r_3$ in $M inter X_(hat(Psi))$

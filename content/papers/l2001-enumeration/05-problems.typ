@@ -25,11 +25,11 @@ $m$-length lines over the field $K$.
 
 Note that description of all ideals of Lie ring $N Phi lr((K))$ over the field
 $K$ has been obtained in [@bib:l2001-enumeration-Levchuk1976] for $Phi$ being of
-type $A_n$ and in [@bib:l2001-enumeration-Levchuk1992] when $K=2K$, $Phi$ is of
-type $B_n$, $C_n$ or $D_n$. Also there the bijective correspondence has been
-established between a class of all ideals of Lie ring $N Phi lr((K))$ for
-above-pointed cases and a class of all normal subgroups of group
-$U Phi lr((K))$. Naturally arises
+type $A_n$ and in [@bib:l2001-enumeration-Levchuk1992,
+Section~@sec:l1992-chevalley-ideals] when $K=2K$, $Phi$ is of type $B_n$, $C_n$
+or $D_n$. Also there the bijective correspondence has been established between a
+class of all ideals of Lie ring $N Phi lr((K))$ for above-pointed cases and a
+class of all normal subgroups of group $U Phi lr((K))$. Naturally arises
 
 #problem[
   Find the number of all ideals of a Lie algebra (ring) $N Phi lr((K))$ of
@@ -92,7 +92,8 @@ numbers $alpha(A_(n-1), q)$ and $alpha_(R)(A_(n-1),q)$.
 The number of ideals of a Lie ring (as well as Lie algebra) $N Phi lr((K))$ of
 classical type $Phi$ over $K=GF(q)$ can be represented analogously; a
 description of ideals for these cases is given by Theorem~2
-[@bib:l2001-enumeration-Levchuk1976] and Theorem~9
+[@bib:l2001-enumeration-Levchuk1976] and
+Theorem~@th:l1992-chevalley-classical-ideals
 [@bib:l2001-enumeration-Levchuk1992].
 
 Finally, let $K$ be an associative ring with identity, and let $R_(n)(K,J)$ be

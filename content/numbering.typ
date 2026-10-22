@@ -23,6 +23,7 @@
   def: 0,
   exc: 0,
   cond: 0,
+  property: 0,
 )
 #let place-key(location) = counter(heading).at(location)
 #let restart-counters(level) = context {

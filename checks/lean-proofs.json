@@ -706,5 +706,48 @@
       "sec:l1983-root-periodic",
       "sec:l1983-root-steinberg"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1983Dickson/ProjectiveRigidity.lean",
+    "declarations": [
+      "LevchukPapers.L1983Dickson.three_affine_fixed_points",
+      "LevchukPapers.L1983Dickson.infinity_two_fixed_points"
+    ],
+    "book": "Свойство Д и уравнение(2) статьи о теореме Диксона (1983).",
+    "limitations": "Над произвольным полем доказана скалярность матрицы с тремя попарно различными конечными фиксированными точками; отдельно обработаны бесконечность и две конечные точки. Детерминант не нужен для полиномиального вывода; связь с ненулевой скалярной матрицей PGL2 использует обратимость.",
+    "passages": [
+      "prop:l1983-dickson-three-point-stabilizer",
+      "eq:l1983-dickson-projective-fixed-point"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1983Dickson/TranscendentalWords.lean",
+    "declarations": [
+      "LevchukPapers.L1983Dickson.transcendental_evaluation_nonzero",
+      "LevchukPapers.L1983Dickson.polynomial_matrix_not_scalar"
+    ],
+    "book": "Шаг трансцендентной оценки в предложении1 статьи о теореме Диксона (1983).",
+    "limitations": "Общие леммы оценки ненулевого полинома и нескалярности матрицы с ненулевым внедиагональным полиномом. Ненулевость коэффициентов конкретных блочных слов доказана отдельно в LeadingWords.lean.",
+    "passages": [
+      "prop:l1983-dickson-transcendental-free-product"
+    ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/L1983Dickson/LeadingWords.lean",
+    "declarations": [
+      "LevchukPapers.L1983Dickson.col_mul",
+      "LevchukPapers.L1983Dickson.col_ne_zero",
+      "LevchukPapers.L1983Dickson.leadingCoeff_block",
+      "LevchukPapers.L1983Dickson.leadingCoeff_word",
+      "LevchukPapers.L1983Dickson.leading_lower_left_ne_zero",
+      "LevchukPapers.L1983Dickson.entryPoly_coeff",
+      "LevchukPapers.L1983Dickson.word_lower_left_polynomial_ne_zero",
+      "LevchukPapers.L1983Dickson.transcendental_word_lower_left"
+    ],
+    "book": "Общий старший коэффициент в доказательстве предложения1 статьи о теореме Диксона (1983).",
+    "limitations": "Для произвольного непустого списка блоков U(k)L(lX), k,l ненулевые элементы поля, доказаны правильный вид старшего коэффициента, ненулевой нижний левый полином и его ненулевая трансцендентная оценка. Полная нормальная форма свободного произведения и классификация периодических линейных групп не формализованы.",
+    "passages": [
+      "prop:l1983-dickson-transcendental-free-product"
+    ]
   }
 ]

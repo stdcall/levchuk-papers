@@ -53,9 +53,9 @@ theorem 2.1.2] and [@bib:l2001-enumeration-Tolasov1977].
 #source(2, printed: 21)For calculating the number $Lambda(Phi; K)$ at
 $char K != 2$ it is useful to see its connection with number $d(Phi; K)$, due to
 the known correspondence of normal subgroups and ideals, cf.
-[@bib:l2001-enumeration-Levchuk1976] and [@bib:l2001-enumeration-Levchuk1992].
-Exceptional cases are investigated in detail in the paper. Our main result is
-the following theorem.
+[@bib:l2001-enumeration-Levchuk1976] and [@bib:l2001-enumeration-Levchuk1992,
+Section~@sec:l1992-chevalley-ideals]. Exceptional cases are investigated in
+detail in the paper. Our main result is the following theorem.
 
 #theorem[
   The number $Lambda(Phi; K)$ of all $D$-invariant ideals of the algebra

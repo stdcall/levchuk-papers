@@ -51,5 +51,5 @@ $N Phi(K)$ типа $A_(n-1)$ изоморфна алгебре Ли, ассоц
 $NT(n, K)$ указывает при $n=3$ теорема @th:l2011-local-rank-three. Существенно
 используются известные описания автоморфизмов и дифференцирований алгебр и колец
 $NT(n, K)$, [@bib:l2011-local-Levchuk1983ConnectionsII],
-[@bib:l2011-local-Levchuk2009ElementaryEquivalence],
-[@bib:l2011-local-Levchuk2010Derivations].
+[@bib:l2011-local-Levchuk2009ElementaryEquivalence,
+§~@sec:l2009-model-derivations], [@bib:l2011-local-Levchuk2010Derivations].
