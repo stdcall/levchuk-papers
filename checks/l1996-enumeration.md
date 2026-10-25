@@ -65,10 +65,63 @@ All three declarations compile with Lean 4.35.0-rc2. The first uses no
 axioms; the other two use only the standard propext, Quot.sound, and
 (for the field statement) Classical.choice. There are no admitted proofs.
 
+`lean/LevchukPapers/Enumeration1996/C2Characteristic.lean` additionally
+formalizes the four root coordinates of the characteristic-two C₂ model.
+For an arbitrary commutative ring of characteristic two it proves
+associativity of the displayed coordinate multiplication, preservation
+of multiplication by the graph map, and that the square of that map
+is the coordinatewise Frobenius. It proves bijectivity over every finite
+field of characteristic two, deriving square-root existence from
+finiteness and reducedness. No fourth-power identity or perfectness
+conclusion is assumed. Finally C(1) belongs to the short central-root
+coordinate subset and its graph image does not. The six declarations
+compile with only the standard axioms and no admitted proofs.
+The Sage file additionally checks the multiplication law and the graph
+formula as polynomial matrix identities over
+GF(2)[s,t,u,v,S,T,U,V]. These two symbolic identities connect the Lean
+coordinate operation to the symplectic matrices in every characteristic-two
+specialization. This bridge is supplied by Sage rather than a Lean
+matrix construction. The formal file therefore
+checks the coordinate automorphism, not the general subgroup count.
+
 ## Textual and mathematical qualifications
 
+The characteristic-two branch of Theorem 1 is false at n=2, K=GF(4):
+it predicts 7 characteristic subgroups of U(C₂,GF(4)), whereas the
+explicit group of order 256 has exactly 3, of orders 1,16,256.
+`gap/l1996_enumeration/c2_characteristic.g` independently computes the
+complete list using GAP's `CharacteristicSubgroups` after an isomorphism
+to a pc group. This conclusion concerns this single field and rank;
+it is not a replacement formula for every characteristic-two field.
+
+The companion Sage file `sage/l1996_enumeration/c2_characteristic.py`
+constructs a maximal unipotent subgroup of the symplectic group in
+basis e₁,e₂,f₁,f₂. Put
+A=E₁₂+E₄₃, B=E₂₄, C=E₁₄+E₂₃, D=E₁₃ and write
+a(s)=I+sA, b(t)=I+tB, c(u)=I+uC, d(v)=I+vD. It verifies an automorphism
+on every ordered pair of the 256 elements, given on these generators by
+a(s)↦b(s²), b(t)↦a(t), c(u)↦d(u²), d(v)↦c(v).
+The subgroup c(GF(4)) is central and invariant under every symplectic
+diagonal torus element diag(λ,μ,λ⁻¹,μ⁻¹); the automorphism moves it
+to the distinct subgroup d(GF(4)). Thus a subgroup counted by the
+D-invariant enumeration need not be characteristic in this case.
+The final Sage counterexample run reports 67,117 exact checks, including
+the two polynomial matrix bridge identities.
+The seven-subgroup computation in Theorem 2 remains consistent: it is
+the transfer to the characteristic count that fails.
+
+Levchuk (1990), *Automorphisms of unipotent subgroups of groups of Lie
+type of small ranks*, §1 and §3, Remark 2 (p.151), explicitly
+includes graph automorphisms among standard automorphisms and discusses
+additional semigraphical automorphisms of UB₂ over GF(2) and GF(4).
+The later 2001 Theorem 2 repeats the erroneous characteristic-count
+branch; repetition does not repair this concrete counterexample.
+Both statements now restrict this branch to n>2. This excludes the
+counterexample; it does not supply a new count for rank two or a proof
+of every remaining field and rank.
+
 The later article *Enumeration in the Chevalley algebras*
-(2001), §2, Theorems 1–2, states the field hypothesis as order greater
+(2001), §2, Theorems 2–3, states the field hypothesis as order greater
 than two. It also explicitly supplies G=Cₙ in the characteristic-count
 case binom(2n,n)−1 and writes the twisted orthogonal index as ²Dₙ₊₁.
 These resolve the contradictory characteristic hypothesis, omitted type,
@@ -108,9 +161,14 @@ of Theorem 1, especially the twisted and small-field exceptions.
 
 ## Reproduction
 
-Run `sage -python checks/sage/l1996_enumeration/check.py` from the project
-root. The successful run on 2026-10-25 reports 956 checks. Compile the
-Lean file in the project's pinned mathlib environment and inspect the
-three `#print axioms` outputs. General classifications, convergence of
-the contour manipulations, and all-field twisted-group enumeration remain
+Run `sage -python checks/sage/l1996_enumeration/check.py` and
+`sage -python checks/sage/l1996_enumeration/c2_characteristic.py` from
+the project root. The successful runs on 2026-10-25 report 956 and
+67,117 checks. Run
+`gap -q -b --quitonbreak checks/gap/l1996_enumeration/c2_characteristic.g`
+to reproduce the three characteristic subgroups. Compile both Lean files
+in the project's
+pinned mathlib environment and inspect their nine `#print axioms` outputs.
+General classifications, convergence of the contour manipulations, and
+all-field twisted-group enumeration remain
 outside the machine-checked scope.

@@ -26,7 +26,7 @@ formulated as follows:
     C_n (n >= 2, 3K = 0, abs(K) > 3), "or"
     D_(n+1) (n > 3), "or" ""^2 D_(n+1) (n >= 3, abs(K) > 4);
   $
-  $ 4^(n-1) + binom(2n-1, n) quad "for" 2K = 0, G = B_n "or" C_n, n >= 2; $
+  $ 4^(n-1) + binom(2n-1, n) quad "for" 2K = 0, G = B_n "or" C_n, n > 2; $
   $ binom(2n, n) - 1 quad "for" G = C_n, 6K = K; $
   $ binom(2n, n) - 2 quad "for" G = C_n, n > 2 (abs(K) = 3). $
 ] <th:l1996-enumeration-characteristic-count>

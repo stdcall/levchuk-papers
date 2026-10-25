@@ -111,7 +111,8 @@ jobs:
             sagemath/sagemath@sha256:4f5589eb6c565949a006f8665de2876b8414410daf5ac554f4434a15d4f3d528 \
             -python "/work/$script"
           done
-          for script in checks/gap/l1983-root/*.g checks/gap/l1983-dickson/*.g; do
+          for script in checks/gap/l1983-root/*.g checks/gap/l1983-dickson/*.g \
+            checks/gap/l1996_enumeration/*.g; do
           docker run --rm --network none --read-only --cpus 2 --memory 4g \
             --tmpfs /tmp --env DOT_SAGE=/tmp/sage \
             --env MPLCONFIGDIR=/tmp/matplotlib --env XDG_CACHE_HOME=/tmp/cache \

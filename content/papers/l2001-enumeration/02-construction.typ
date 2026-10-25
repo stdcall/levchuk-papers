@@ -28,7 +28,7 @@ theorems are proved in [@bib:l2001-enumeration-Egorychev1993] and
   $
   $
     4^(n-1) + binom(2n - 1, n) quad "for" 2K = 0,
-    G = B_n "or" C_n, n >= 2;
+    G = B_n "or" C_n, n > 2;
   $
   $
     binom(2n, n) - 1 quad "for" G = C_n, 6K = K;

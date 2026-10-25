@@ -764,5 +764,22 @@
       "eq:l1996-enumeration-commutator",
       "pass:l1996-enumeration-inverse-branch"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/Enumeration1996/C2Characteristic.lean",
+    "declarations": [
+      "LevchukPapers.Enumeration1996.C2.graph_mul",
+      "LevchukPapers.Enumeration1996.C2.graph_square",
+      "LevchukPapers.Enumeration1996.C2.mul_assoc",
+      "LevchukPapers.Enumeration1996.C2.graph_moves_short_central",
+      "LevchukPapers.Enumeration1996.C2.square_injective",
+      "LevchukPapers.Enumeration1996.C2.graph_bijective"
+    ],
+    "book": "Теорема 1 (1996) и теорема 2 (2001), исключение C₂ в характеристике 2: графовый автоморфизм координатной модели.",
+    "limitations": "Формализованы координатное умножение, его ассоциативность, сохранение умножения графовым отображением, квадрат отображения как Фробениус, биективность над любым конечным полем характеристики 2 и несохранение короткой центральной корневой координаты. Соответствие матрицам Sp₄(GF(4)) проверено отдельно в Sage; полное число характеристических подгрупп вычислено отдельно в GAP.",
+    "passages": [
+      "th:l1996-enumeration-characteristic-count",
+      "th:l2001-enumeration-characteristic-count"
+    ]
   }
 ]
