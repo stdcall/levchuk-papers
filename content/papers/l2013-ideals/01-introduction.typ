@@ -32,16 +32,19 @@ $D$-invariant ideals and Lie ideals of the $K$-algebra $NT(n, K)$ of all
 niltriangular $n times n$ matrices, cf. [@bib:l2013-ideals-Dubisch1951].
 
 #source(2, printed: "1250140-2")In [@bib:l2013-ideals-Egorychev1996,
-@bib:l2013-ideals-Egorychev2001, @bib:l2013-ideals-Levchuk1990] the enumeration
-of characteristic subgroups of the unipotent subgroup of the classical linear
-groups and $D$-invariant ideals of the nil-radical in the Chevalley algebra over
-a field (see [@bib:l2013-ideals-Carter1972, §~4.4;
-@bib:l2013-ideals-Hurley1969]) are developed by enumeration in
-[@bib:l2013-ideals-Egorychev1989, @bib:l2013-ideals-Levchuk1974]. On the other
-hand, the number of symmetric forms and quadrics of the projective space over a
-local ring with nilpotent principal maximal ideal had been found in
-[@bib:l2013-ideals-Egorychev2008, @bib:l2013-ideals-Levchuk2006]. The simple
-formulas from [@bib:l2013-ideals-Egorychev1996, @bib:l2013-ideals-Egorychev2001,
+Theorems~@th:l1996-enumeration-characteristic-count
+and~@th:l1996-enumeration-normal-count; @bib:l2013-ideals-Egorychev2001,
+@bib:l2013-ideals-Levchuk1990] the enumeration of characteristic subgroups of
+the unipotent subgroup of the classical linear groups and $D$-invariant ideals
+of the nil-radical in the Chevalley algebra over a field (see
+[@bib:l2013-ideals-Carter1972, §~4.4; @bib:l2013-ideals-Hurley1969]) are
+developed by enumeration in [@bib:l2013-ideals-Egorychev1989,
+@bib:l2013-ideals-Levchuk1974]. On the other hand, the number of symmetric forms
+and quadrics of the projective space over a local ring with nilpotent principal
+maximal ideal had been found in [@bib:l2013-ideals-Egorychev2008,
+@bib:l2013-ideals-Levchuk2006]. The simple formulas from
+[@bib:l2013-ideals-Egorychev1996, Lemmas~@lem:l1996-enumeration-d-sum
+and~@lem:l1996-enumeration-c-sum; @bib:l2013-ideals-Egorychev2001,
 @bib:l2013-ideals-Egorychev2008, @bib:l2013-ideals-Gorchakov1972] are achieved
 using the integral representation method of combinatorial summation which is
 developed in [@bib:l2013-ideals-Egorychev1989].

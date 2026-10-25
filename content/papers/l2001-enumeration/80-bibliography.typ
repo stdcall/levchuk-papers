@@ -19,8 +19,9 @@
   "Egorychev1993",
 )] <bib:l2001-enumeration-Egorychev1993>
 #bib-item[#bib-description(
-  "Egorychev1996",
-)] <bib:l2001-enumeration-Egorychev1996>
+    "Egorychev1996",
+  ) В сборнике: с. @ch:l1996-enumeration.
+] <bib:l2001-enumeration-Egorychev1996>
 #bib-item[#bib-description(
   "Feller1967",
 )] <bib:l2001-enumeration-Feller1967>

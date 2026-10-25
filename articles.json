@@ -125,6 +125,11 @@
     "theme": "abelian-unipotent"
   },
   {
+    "id": "l1996-enumeration",
+    "publication": "Egorychev1996CharacteristicSubgroupsEn",
+    "theme": "niltriangular-ideals"
+  },
+  {
     "id": "l2001-enumeration",
     "publication": "Egorychev2001ChevalleyEnumerationEn",
     "theme": "niltriangular-ideals"

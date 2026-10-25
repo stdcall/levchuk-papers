@@ -457,6 +457,16 @@
     "content/papers/l1983-dickson/06-consequences.typ": {
       "2.8.4": "Номер теоремы в цитируемой книге Горенстейна1968.",
       "7.28": "Номер вопроса Коуровской тетради, 7-е издание1980."
+    },
+    "content/papers/l1996-enumeration/01-introduction.typ": {
+      "Theorem 2.1.2": "Номер теоремы в монографии Егорычева о комбинаторных суммах.",
+      "Section 4.4": "Параграф монографии Carter1972."
+    },
+    "content/papers/l1996-enumeration/03-combinatorics.typ": {
+      "Theorem~1": "Теорема цитируемой монографии Feller1967, а не текущей статьи."
+    },
+    "content/papers/l1996-enumeration/04-sums.typ": {
+      "Chapter~1": "Глава монографии Egorychev1984 о методе коэффициентов."
     }
   },
   "local_markup": {
@@ -520,6 +530,9 @@
     },
     "content/papers/l1983-dickson/03-finite-subgroups.typ": {
       "#include \"04-finite-classification.typ\"": "Смысловое продолжение одного доказательства леммы8 в соседнем файле; его область #proof открывается в03 и закрывается после включения04. Правил геометрии или ручных отступов нет."
+    },
+    "content/papers/l1996-enumeration/00-main.typ": {
+      "#show: article-style.with(language: \"en\")": "Общий помощник задаёт язык статьи и переносы, без локальных правил вёрстки."
     }
   }
 }

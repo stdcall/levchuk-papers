@@ -13,7 +13,9 @@
 
 #bib-item[#bib-description("Egorychev1989")] <bib:l2013-ideals-Egorychev1989>
 
-#bib-item[#bib-description("Egorychev1996")] <bib:l2013-ideals-Egorychev1996>
+#bib-item[#bib-description("Egorychev1996")
+  В сборнике: с. @ch:l1996-enumeration.
+] <bib:l2013-ideals-Egorychev1996>
 
 #bib-item[#bib-description("Egorychev2001")
   В сборнике: с. @ch:l2001-enumeration.

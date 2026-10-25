@@ -48,6 +48,7 @@
 
 #part-title[
   Идеалы нильтреугольных алгебр и задачи перечисления]
+#include "papers/l1996-enumeration/00-main.typ"
 #include "papers/l2001-enumeration/00-main.typ"
 #include "papers/l2013-ideals/00-main.typ"
 #include "papers/l2015-exceptional/00-main.typ"

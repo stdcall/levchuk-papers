@@ -27,6 +27,7 @@
 
 #import "papers/l2001-automorphisms/defs.typ" as l2001-automorphisms
 #import "papers/l1992-chevalley/defs.typ" as l1992-chevalley
+#import "papers/l1996-enumeration/defs.typ" as l1996-enumeration
 #import "papers/l2008-normal/defs.typ" as l2008-normal
 #import "papers/l2009-model/defs.typ" as l2009-model
 #import "papers/l1975-automorphisms/defs.typ" as l1975-automorphisms
@@ -37,6 +38,7 @@
 
 #let articles = json("../articles.json")
 #let scopes = (
+  l1996-enumeration: dictionary(l1996-enumeration),
   l1985-ree: dictionary(l1985-ree),
   l2017-quasifields: dictionary(l2017-quasifields),
   l2019-nearfields: (DF: DF),
