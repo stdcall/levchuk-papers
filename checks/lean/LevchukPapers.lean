@@ -23,6 +23,7 @@ import LevchukPapers.L2002.Radical
 import LevchukPapers.L2022.FixedSubalgebra
 import LevchukPapers.L2012.FirstCorners
 import LevchukPapers.L2001.Enumeration
+import LevchukPapers.Enumeration1996.Antichain
 import LevchukPapers.L2015.CoordinateFullness
 import LevchukPapers.L2013.CoupledIdeal
 import LevchukPapers.L2015.NiltriangularGraph

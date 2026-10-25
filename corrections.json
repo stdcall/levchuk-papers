@@ -5329,6 +5329,276 @@
       "corrected": "Сохранена авторская ссылка и добавлено примечание с точным местом обоих изоморфизмов в доказательстве леммы 1 работы 1990.",
       "reason": "Теорема 2 цитируемой работы 2009 года относится к классическим типам. Оба $G_2$-фактора прямо описаны в доказательстве леммы 1 статьи 1990 года о малых рангах; совпадают определение $U_i$ и условия на кольцо. Нативный переход добавлен к этому доказательству вместо ошибочного перехода на классическую теорему.",
       "verified_by": "Levchuk1990SmallRanksRu, лемма 1, доказательство, с.143–144; английский перевод с.98–99; Levchuk2009FinitaryRu, теорема 2, с.138; LevchukSuleimanova2013ThompsonEn, с.69. Оригиналы визуально сверены."
+    },
+    {
+      "id": "l1996-enumeration-C001",
+      "printed_page": 49,
+      "section": "l1996-enumeration · введение, теорема 1; с. 50, теорема 2",
+      "place": "введение, теорема 1; с. 50, теорема 2",
+      "original": "field of characteristic $>2$",
+      "corrected": "field of order $>2$",
+      "reason": "Формулировки включают характеристику 2. Требование относится к мощности поля.",
+      "verified_by": "Егорычев–Левчук, Enumeration in the Chevalley algebras (2001), § 2, теоремы 1–2."
+    },
+    {
+      "id": "l1996-enumeration-C002",
+      "printed_page": 49,
+      "section": "l1996-enumeration · теорема 1, первая строка",
+      "place": "теорема 1, первая строка",
+      "original": "$binom(n, floor(n/2)n)$",
+      "corrected": "$binom(n, floor(n/2))$",
+      "reason": "Лишняя буква в нижнем аргументе биномиального коэффициента.",
+      "verified_by": "Егорычев–Левчук, Enumeration in the Chevalley algebras (2001), § 2, теоремы 1–2."
+    },
+    {
+      "id": "l1996-enumeration-C003",
+      "printed_page": 49,
+      "section": "l1996-enumeration · теорема 1, предпоследний случай",
+      "place": "теорема 1, предпоследний случай",
+      "original": "$binom(2n,n)-1$ при $6K=K$",
+      "corrected": "$binom(2n,n)-1$ при $G=C_n$, $6K=K$",
+      "reason": "Утрачено ограничение на тип группы.",
+      "verified_by": "Егорычев–Левчук, Enumeration in the Chevalley algebras (2001), § 2, теоремы 1–2."
+    },
+    {
+      "id": "l1996-enumeration-C004",
+      "printed_page": 50,
+      "section": "l1996-enumeration · введение, ссылка [4, Section 4]",
+      "place": "введение, ссылка [4, Section 4]",
+      "original": "Section 4",
+      "corrected": "Section 3",
+      "reason": "Нормальные и характеристические подгруппы рассматриваются в § 3 цитируемой статьи.",
+      "verified_by": "Левчук, Подгруппы унитреугольной группы (1974), § 3."
+    },
+    {
+      "id": "l1996-enumeration-C005",
+      "printed_page": 50,
+      "section": "l1996-enumeration · теорема 2, скрученный ортогональный тип",
+      "place": "теорема 2, скрученный ортогональный тип",
+      "original": "$G=\"\"^2 D_n$",
+      "corrected": "$G=\"\"^2 D_(n+1)$",
+      "reason": "Индекс согласован с равенством на с. 52 и поздней формулировкой.",
+      "verified_by": "Егорычев–Левчук, Enumeration in the Chevalley algebras (2001), § 2, теоремы 1–2."
+    },
+    {
+      "id": "l1996-enumeration-C006",
+      "printed_page": 51,
+      "section": "l1996-enumeration · определение T и доказательство леммы 1; повторения на с. 52–53",
+      "place": "определение T и доказательство леммы 1; повторения на с. 52–53",
+      "original": "$s<=r_i$ в определении $T$; $r<=p$, $r ≰ p$; $r<=r_k$, $r+q<=r_k$; $r_k ≰ p$",
+      "corrected": "$r_i<=s$ в определении $T$; $p<=r$, $p ≰ r$; $r_k<=r$, $r_k<=r+q$; $p ≰ r_k$",
+      "reason": "При данном определении корневого порядка нормальное замыкание содержит корневые подгруппы с большими корнями. Согласованно обращены сравнения в определении, его повторениях, характеристике 2 и лемме 3.",
+      "verified_by": "Статья 2001 года, § 2, определение T и лемма 1; checks/sage/l1996_enumeration/check.py; LevchukPapers.Enumeration1996.antichain_upward_injective."
+    },
+    {
+      "id": "l1996-enumeration-C007",
+      "printed_page": 51,
+      "section": "l1996-enumeration · лемма 1 и её доказательство",
+      "place": "лемма 1 и её доказательство",
+      "original": "$abs(K)>2$, or $abs(K)>4$ for $G=\"\"^2 D_n$, or $2K=K$ for $G=B_n,C_n$",
+      "corrected": "$abs(K)>2$, с дополнительным условием $abs(K)>4$ для $G=\"\"^2 D_n$ и $2K=K$ для $G=B_n,C_n$.",
+      "reason": "Условия по типам должны выполняться совместно с условием на мощность. Буквальное «или» ошибочно включает характеристику 2 в обычное корневое описание типов B и C.",
+      "verified_by": "Статья 2001 года, § 2, лемма 1; исключительный случай леммы 3 настоящей статьи."
+    },
+    {
+      "id": "l1996-enumeration-C008",
+      "printed_page": 52,
+      "section": "l1996-enumeration · абзац после таблицы (1)",
+      "place": "абзац после таблицы (1)",
+      "original": "$T(r_1,dots,r_n)$",
+      "corrected": "$T(r_1,dots,r_m)$",
+      "reason": "Рассматривается введённая выше произвольная антицепь из m корней; тот же список повторён в конце абзаца.",
+      "verified_by": "Определение T и весь абзац после формулы (1)."
+    },
+    {
+      "id": "l1996-enumeration-C009",
+      "printed_page": 53,
+      "section": "l1996-enumeration · формула (2)",
+      "place": "формула (2)",
+      "original": "$[K e_(i v), K_(v,-v)]$",
+      "corrected": "$[K e_(i v), K e_(v,-v)]$",
+      "reason": "Второй аргумент коммутатора также является корневым подпространством; пропущен базисный вектор.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C010",
+      "printed_page": 53,
+      "section": "l1996-enumeration · абзац перед леммой 3",
+      "place": "абзац перед леммой 3",
+      "original": "subalgebra (2)",
+      "corrected": "subalgebra (3)",
+      "reason": "Формула (2) задаёт коммутатор; нужная подалгебра определена формулой (3).",
+      "verified_by": "Определения и формулы (2)–(3)."
+    },
+    {
+      "id": "l1996-enumeration-C011",
+      "printed_page": 53,
+      "section": "l1996-enumeration · замыкание H перед леммой 3",
+      "place": "замыкание H перед леммой 3",
+      "original": "$H$ содержит $e_(s+q)=e_q ast e_s$, $s+q<=r_k$",
+      "corrected": "$H$ содержит $e_(r+q)=e_q ast e_r$, $r_k<=r+q$",
+      "reason": "В абзаце фиксированы корни r и q; переменная s не связана. Сравнение согласовано с верхним замыканием.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C012",
+      "printed_page": 56,
+      "section": "l1996-enumeration · формула (10)",
+      "place": "формула (10)",
+      "original": "$d(A^2 A_(n-2),K)$; $d(A_(n-1)-d(A_(n-2),K))$",
+      "corrected": "$d(\"\"^2 A_(2n-2),K)$; $d(A_(n-1),K)-d(A_(n-2),K)$",
+      "reason": "Восстановлены те же внешние слагаемые, что в формуле (7), после подстановки (8)–(9).",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C013",
+      "printed_page": 56,
+      "section": "l1996-enumeration · начало § 3.2",
+      "place": "начало § 3.2",
+      "original": "Section 1",
+      "corrected": "Section 2",
+      "reason": "Комбинаторное описание и лемма 4 находятся в разделе 2.",
+      "verified_by": "Разделы 1–2 статьи."
+    },
+    {
+      "id": "l1996-enumeration-C014",
+      "printed_page": 56,
+      "section": "l1996-enumeration · двойная сумма в начале § 3.2",
+      "place": "двойная сумма в начале § 3.2",
+      "original": "$sum_(m=1)^n S(i,m,n)$",
+      "corrected": "$sum_(m=i)^n S(i,m,n)$",
+      "reason": "Допустимый диапазон m начинается с i, как в определении S и лемме 4.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C015",
+      "printed_page": 57,
+      "section": "l1996-enumeration · первый интеграл в доказательстве леммы 6",
+      "place": "первый интеграл в доказательстве леммы 6",
+      "original": "Контур $abs(y)=rho_1$; отсутствует дифференциал.",
+      "corrected": "Контур $abs(y)=rho_2$; добавлено $dif y$.",
+      "reason": "Восстановлен дифференциал; радиус согласован с двойными интегралами и остовом на с. 59.",
+      "verified_by": "Последовательность интегральных представлений на с. 57–59."
+    },
+    {
+      "id": "l1996-enumeration-C016",
+      "printed_page": 57,
+      "section": "l1996-enumeration · второе интегральное представление леммы 6",
+      "place": "второе интегральное представление леммы 6",
+      "original": "$abs(x)=rho_2$, $0<rho<1$",
+      "corrected": "$abs(x)=rho_1$, $0<rho_1<1$",
+      "reason": "Обозначение радиуса x-контура согласовано с последующими двойными интегралами.",
+      "verified_by": "Двойные интегралы и остов на с. 59."
+    },
+    {
+      "id": "l1996-enumeration-C017",
+      "printed_page": 58,
+      "section": "l1996-enumeration · предпоследний двойной интеграл",
+      "place": "предпоследний двойной интеграл",
+      "original": "$((1-x)^(-n-3)(1-2x)x^2)/(x^(n-2)(y-x(1-x)^(-1))(1-x(1+y)))$",
+      "corrected": "$((1-x)^(-n-3)(1-2x))/(x^(n-2)(y-x(1-x)^(-1))(1-x(1+y)))$",
+      "reason": "Множитель x² уже учтён при замене знаменателя xⁿ на xⁿ⁻²; повторный множитель удалён.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C018",
+      "printed_page": 59,
+      "section": "l1996-enumeration · формула (16)",
+      "place": "формула (16)",
+      "original": "$n/(2n-m) binom(2n-m,n-m)$, $rho_3>0$",
+      "corrected": "$m/(2n-m) binom(2n-m,n-m)$, $0<rho_3<1$",
+      "reason": "Числитель m следует из того же интеграла в лемме 6. Контур лежит внутри особой точки x=1, как в условиях на с. 60.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C019",
+      "printed_page": 60,
+      "section": "l1996-enumeration · определение остова γ",
+      "place": "определение остова γ",
+      "original": "$abs(z)=rho_1$, $abs(y)=rho_2$, $abs(z)=rho_3$",
+      "corrected": "$abs(z)=rho_1$, $abs(y)=rho_2$, $abs(x)=rho_3$",
+      "reason": "Третье равенство задаёт x-контур; исправлено повторение переменной z.",
+      "verified_by": "Формулы (14)–(16) и тройные интегралы."
+    },
+    {
+      "id": "l1996-enumeration-C020",
+      "printed_page": 60,
+      "section": "l1996-enumeration · два геометрических ряда перед (17)",
+      "place": "два геометрических ряда перед (17)",
+      "original": "Основание i-ряда $x(1+y)/z$, m-ряда $x(1+y)/y$.",
+      "corrected": "Основание i-ряда $x(1+y)/y$, m-ряда $x(1+y)/z$; соответственно исправлены знаменатели после суммирования.",
+      "reason": "После замены старого m на m+i степени y зависят от i, степени z — от m. Итоговая формула (17) изменения не требует.",
+      "verified_by": "checks/sage/l1996_enumeration/check.py; алгебраическое сравнение соседних выражений."
+    },
+    {
+      "id": "l1996-enumeration-C021",
+      "printed_page": 61,
+      "section": "l1996-enumeration · второй одномерный интеграл для J₁",
+      "place": "второй одномерный интеграл для J₁",
+      "original": "$abs(x)=rho_2$",
+      "corrected": "$abs(x)=rho_3$",
+      "reason": "Радиус x-контура в этом вычислении обозначен ρ₃; ρ₂ относится к y.",
+      "verified_by": "Остов γ на с. 60 и предыдущие интегралы."
+    },
+    {
+      "id": "l1996-enumeration-C022",
+      "printed_page": 61,
+      "section": "l1996-enumeration · обратная подстановка в доказательстве леммы 7",
+      "place": "обратная подстановка в доказательстве леммы 7",
+      "original": "$x=(1+sqrt(1-4w))/2$",
+      "corrected": "$x=(1-sqrt(1-4w))/2$",
+      "reason": "Нужна ветвь, переводящая 0 в 0. Напечатанная ветвь переводит 0 в 1.",
+      "verified_by": "Подстановка w=x(1−x); checks/sage/l1996_enumeration/check.py; LevchukPapers.Enumeration1996.substitution_discriminant (дискриминантное тождество, без аналитической части)."
+    },
+    {
+      "id": "l1996-enumeration-C023",
+      "printed_page": 62,
+      "section": "l1996-enumeration · литература, [1], английский перевод второй части",
+      "place": "литература, [1], английский перевод второй части",
+      "original": "211–223",
+      "corrected": "211–224",
+      "reason": "Уточнена последняя страница публикации.",
+      "verified_by": "Алгебра и логика / Algebra and Logic (1990), DOI 10.1007/BF01979936."
+    },
+    {
+      "id": "l1996-enumeration-C024",
+      "printed_page": 62,
+      "section": "l1996-enumeration · литература, [2]",
+      "place": "литература, [2]",
+      "original": "2nd ed., 1984",
+      "corrected": "2nd ed., 1989",
+      "reason": "1984 — год первого издания; второе издание вышло в 1989 году.",
+      "verified_by": "AMS, Translations of Mathematical Monographs 59; библиография статьи 2001 года."
+    },
+    {
+      "id": "l1996-enumeration-C025",
+      "printed_page": 62,
+      "section": "l1996-enumeration · литература, [5]",
+      "place": "литература, [5]",
+      "original": "227–241",
+      "corrected": "227–242",
+      "reason": "Уточнена последняя страница публикации.",
+      "verified_by": "Contemporary Mathematics 131, part 1; библиография статьи 2001 года."
+    },
+    {
+      "id": "l1996-enumeration-C026",
+      "printed_page": 62,
+      "section": "l1996-enumeration · литература, [8], перевод",
+      "place": "литература, [8], перевод",
+      "original": "Sov. Math., Dokl. (1993)",
+      "corrected": "Dokl. Math. 47(3), 464–467 (1993)",
+      "reason": "Уточнены название журнала, том, выпуск и страницы перевода.",
+      "verified_by": "Math-Net.Ru, dan5182, библиографическая запись перевода."
+    },
+    {
+      "id": "l1996-enumeration-C027",
+      "printed_page": 62,
+      "section": "l1996-enumeration · литература, [11], английское издание тома II",
+      "place": "литература, [11], английское издание тома II",
+      "original": "1966, 2nd ed.",
+      "corrected": "1966",
+      "reason": "В 1966 году вышло первое издание тома II; второе относится к 1971 году.",
+      "verified_by": "Выходные данные английских изданий тома II Феллера."
     }
   ]
 }

@@ -749,5 +749,20 @@
     "passages": [
       "prop:l1983-dickson-transcendental-free-product"
     ]
+  },
+  {
+    "file": "checks/lean/LevchukPapers/Enumeration1996/Antichain.lean",
+    "declarations": [
+      "LevchukPapers.Enumeration1996.antichain_upward_injective",
+      "LevchukPapers.Enumeration1996.substitution_discriminant",
+      "LevchukPapers.Enumeration1996.commutator_coefficient_determinant"
+    ],
+    "book": "Лемма1, формула(2), подстановка в доказательстве леммы7.",
+    "limitations": "Инъективность верхнего замыкания антицепей в произвольном частичном порядке; дискриминантное тождество над коммутативным кольцом; ненулевой детерминант двух коэффициентных векторов над полем при различных ненулевых параметрах. Классификация подгрупп, сами групповые коммутаторы и аналитическая подстановка не формализованы.",
+    "passages": [
+      "lem:l1996-enumeration-root-subgroups",
+      "eq:l1996-enumeration-commutator",
+      "pass:l1996-enumeration-inverse-branch"
+    ]
   }
 ]

@@ -44,7 +44,9 @@ estimates for the number of Sylow subgroups, the number of fixed-order subgroups
 in a finite $p$-group (G.~Frobenius, Ph.~Hall, et. al.) are well known. The
 numbers $c(Phi; K)$, $d(Phi; K)$ and ones for twisted types were found in
 [@bib:l2001-enumeration-Egorychev1993] and
-[@bib:l2001-enumeration-Egorychev1996] (cf. theorems
+[@bib:l2001-enumeration-Egorychev1996,
+Theorems~@th:l1996-enumeration-characteristic-count
+and~@th:l1996-enumeration-normal-count] (cf. theorems
 @th:l2001-enumeration-characteristic-count and
 @th:l2001-enumeration-normal-count in §~@sec:l2001-enumeration-construction
 below); the case $Phi = A_(n-1)$ see also [@bib:l2001-enumeration-Egorychev1989,

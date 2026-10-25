@@ -92,7 +92,8 @@
     if funding != none { footnote(funding) }
     linebreak()
     emph(rich-bib-text(venue))
-    [, #entry.year, #entry.volume]
+    [, #entry.year]
+    if "volume" in entry { [, #entry.volume] }
     if "number" in entry { [, № #entry.number] }
     [, ]
     entry.pages.replace("--", "–")

@@ -118,8 +118,8 @@ $p$ and $q$ with nonempty parts. We now obtain the following known Lemmas
 ] <lem:l2013-ideals-total-translated-paths>
 
 #source(7, printed: "1250140-7")We now apply the coefficients method of
-summation from [@bib:l2013-ideals-Egorychev1996] to the equality
-@eq:l2013-ideals-corner-sum.
+summation from [@bib:l2013-ideals-Egorychev1996, §~@sec:l1996-enumeration-sums]
+to the equality @eq:l2013-ideals-corner-sum.
 
 #lemma[
   Let $i,j,r in {1,dots,n}$. Then

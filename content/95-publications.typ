@@ -408,6 +408,17 @@
 
 #bib-item[
   #bib-description(
+    "Egorychev1996CharacteristicSubgroupsEn",
+    data: publications,
+    target: "bib:pub-Egorychev1996CharacteristicSubgroupsEn",
+    related-dois: false,
+    backlinks: false,
+  )
+  В сборнике: с. @ch:l1996-enumeration.
+] <bib:pub-Egorychev1996CharacteristicSubgroupsEn>
+
+#bib-item[
+  #bib-description(
     "Levchuk1996GeneralizedUnipotentRu",
     data: publications,
     target: "bib:pub-Levchuk1996GeneralizedUnipotentRu",
